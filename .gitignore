@@ -1,0 +1,13 @@
+# Exports de pages web Copilot sauvegardees localement
+projets/US13_portfolio/Microsoft Copilot _ votre assistant IA.html
+projets/US13_portfolio/Microsoft Copilot _ votre assistant IA_files/
+
+# Environnements virtuels Python
+.venv/
+venv/
+env/
+ENV/
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/*.lock
