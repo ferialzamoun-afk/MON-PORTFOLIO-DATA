@@ -28,6 +28,7 @@ Objectif : montrer ma capacité à analyser, structurer, visualiser et valoriser
 
 ## 🌐 Dashboards publics
 
+- Tableau de bord Optimisation des ventes d'une boutique : https://p6-dashboard-wdcn5o8grt39nqtim6mgym.streamlit.app/
 - SOC Monitoring : https://soc-data-anomaly-monitoring-of3oufewjpbvav6ekbs6wr.streamlit.app/
 - Détails US6 : [projets/US6_Optimisation_Bottleneck/README.md](projets/US6_Optimisation_Bottleneck/README.md)
 
