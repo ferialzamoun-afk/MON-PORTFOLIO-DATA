@@ -12,6 +12,7 @@ Ce projet unifie et nettoie les données pour fournir une vue fiable et facilite
 - Recommandations d actions
 
 ## Liens utiles
+- Dashboard P6 : https://p6-dashboard-wdcn5o8grt39nqtim6mgym.streamlit.app/
 - Code projet P6 : https://github.com/ferialzamoun-afk/OC-P6_Optimisation_des_donnees_dune_boutique_en_Python
 - Repo SOC monitoring : https://github.com/ferialzamoun-afk/soc-data-anomaly-monitoring
 - Dashboard public : https://soc-data-anomaly-monitoring-of3oufewjpbvav6ekbs6wr.streamlit.app/
