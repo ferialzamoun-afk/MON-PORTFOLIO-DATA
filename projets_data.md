@@ -14,7 +14,7 @@ Ce backlog regroupe l'ensemble des projets issus de ton fichier, organisés en *
 
 ### US8 — Analyse égalité femmes/hommes  
 **En tant que** analyste conformité, **je veux** analyser les indicateurs F/H **afin de** produire un reporting conforme RGPD.  
-**Compétences :** workflow KNIME  
+**Compétences :** workflow DBT  
 **Durée :** 2,5 semaines
 
 ### US9 — Analyse des ventes d'une librairie  
