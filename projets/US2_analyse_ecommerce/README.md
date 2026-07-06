@@ -26,4 +26,4 @@ Une entreprise e-commerce souhaite analyser ses ventes pour identifier les tenda
 
 Férial Zamoun  
 Formation Data Analyst - GRETA Promo 2025  
-Objectif : Alternance en Data avec orientation cybersécurité (Septembre 2026)
+Objectif : Alternance en Data 

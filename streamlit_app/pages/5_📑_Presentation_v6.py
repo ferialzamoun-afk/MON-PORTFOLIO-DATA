@@ -3,6 +3,11 @@ import os
 import glob
 import subprocess
 
+try:
+    from streamlit_pdf_viewer import pdf_viewer
+except ImportError:
+    pdf_viewer = None
+
 
 
 st.title("📑 Présentation du projet")
@@ -76,10 +81,14 @@ st.download_button(
 
 # Affichage du PDF
 st.subheader("Aperçu du document")
-import base64
-pdf_base64 = base64.b64encode(pdf_bytes).decode('utf-8')
-pdf_display = f'<iframe src="data:application/pdf;base64,{pdf_base64}" width="700" height="900" type="application/pdf"></iframe>'
-st.components.v1.html(pdf_display, height=900)
+if pdf_viewer is not None:
+    pdf_viewer(input=pdf_bytes, width="100%", height=900)
+else:
+    import base64
+    pdf_base64 = base64.b64encode(pdf_bytes).decode('utf-8')
+    pdf_display = f'<iframe src="data:application/pdf;base64,{pdf_base64}" width="700" height="900" type="application/pdf"></iframe>'
+    st.components.v1.html(pdf_display, height=900)
+    st.info("Installez 'streamlit-pdf-viewer' pour un affichage fiable des PDF volumineux.")
 
 st.write("Taille du PDF :", len(pdf_bytes), "octets")
 

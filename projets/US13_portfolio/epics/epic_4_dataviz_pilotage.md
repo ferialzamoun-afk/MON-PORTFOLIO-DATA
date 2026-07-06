@@ -1,6 +1,6 @@
 # EPIC 4 — DataViz & Pilotage
 
-Cet EPIC regroupe les projets orientés pilotage, reporting et tableaux de bord interactifs.
+En tant que chef de projet, je veux un tableau de bord dynamique afin de suivre l'avancement des projets.
 
 ---
 

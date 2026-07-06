@@ -24,4 +24,4 @@ Ce projet couvre des analyses basées sur SQL pour extraire, filtrer et consolid
 
 Férial Zamoun  
 Formation Data Analyst - GRETA Promo 2025  
-Objectif : Alternance en Data avec orientation cybersécurité (Septembre 2026)
+Objectif : Alternance en Data 

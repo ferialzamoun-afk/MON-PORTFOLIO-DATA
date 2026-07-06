@@ -13,10 +13,12 @@
 - Graphiques de synthèse
 - Conclusions
 
+## Liens utiles
+- Dépôt GitHub P12 : https://github.com/ferialzamoun-afk/P10
 ---
 
 ## 👩‍💻 Auteur
 
 Férial Zamoun  
 Formation Data Analyst - GRETA Promo 2025  
-Objectif : Alternance en Data avec orientation cybersécurité (Septembre 2026)
+Objectif : Alternance en Data 

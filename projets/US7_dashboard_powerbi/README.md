@@ -19,4 +19,4 @@ Création d un tableau de bord pour suivre des indicateurs business et faciliter
 
 Férial Zamoun  
 Formation Data Analyst - GRETA Promo 2025  
-Objectif : Alternance en Data avec orientation cybersécurité (Septembre 2026)
+Objectif : Alternance en Data 

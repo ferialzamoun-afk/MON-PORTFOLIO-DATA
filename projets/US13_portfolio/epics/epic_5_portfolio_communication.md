@@ -1,6 +1,6 @@
 # EPIC 5 — Portfolio & Communication
 
-Cet EPIC regroupe les projets liés à la valorisation professionnelle, la communication et la structuration du portfolio.
+En tant que professionnel de la data, je veux créer mon portfolio afin de valoriser mes compétences et projets.
 
 ---
 

@@ -23,4 +23,4 @@ Ce projet unifie et nettoie les données pour fournir une vue fiable et facilite
 
 Férial Zamoun  
 Formation Data Analyst - GRETA Promo 2025  
-Objectif : Alternance en Data avec orientation cybersécurité (Septembre 2026)
+Objectif : Alternance en Data 

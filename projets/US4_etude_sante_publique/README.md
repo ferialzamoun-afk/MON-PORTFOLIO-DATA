@@ -19,4 +19,4 @@ Analyse de données de santé publique pour comprendre des tendances populationn
 
 Férial Zamoun  
 Formation Data Analyst - GRETA Promo 2025  
-Objectif : Alternance en Data avec orientation cybersécurité (Septembre 2026)
+Objectif : Alternance en Data 

@@ -1,6 +1,6 @@
 # EPIC 1 — Analyse & Data Visualisation
 
-Cet EPIC regroupe les projets orientés analyse exploratoire, visualisation de données et storytelling. L’objectif est de produire des analyses claires, visuelles et exploitables pour la prise de décision.
+En tant que responsable e-commerce, je veux analyser les ventes afin d'identifier les tendances et optimiser les performances.
 
 ---
 

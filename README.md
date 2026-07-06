@@ -38,4 +38,4 @@ Objectif : montrer ma capacité à analyser, structurer, visualiser et valoriser
 
 Férial Zamoun  
 Formation Data Analyst - GRETA Promo 2025  
-Objectif : Alternance en Data avec orientation cybersécurité (Septembre 2026)
+Objectif : CDI ou poursuite en Alternance  Data \ IA

@@ -1,6 +1,6 @@
 # EPIC 2 — Programmation & Analyse avancée
 
-Cet EPIC regroupe les projets nécessitant une maîtrise approfondie de Python ou R, incluant analyses statistiques, modélisation et optimisation des données.
+En tant qu'analyste santé, je veux réaliser une étude de santé publique afin d'identifier des tendances et produire une analyse fiable.
 
 ---
 

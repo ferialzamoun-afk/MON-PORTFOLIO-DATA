@@ -1,6 +1,6 @@
 # EPIC 3 — SQL & Bases de données
 
-Cet EPIC regroupe les projets liés à la création, la gestion et l’exploitation de bases de données relationnelles.
+En tant qu'analyste, je veux requêter une base SQL afin d'extraire et analyser les données.
 
 ---
 
