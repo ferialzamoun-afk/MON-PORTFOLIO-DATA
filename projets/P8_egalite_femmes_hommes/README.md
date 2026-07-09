@@ -1,99 +1,105 @@
-# 📊 P8 - OpenClassrooms : Analyse comparée Étudiants vs INSEE
+# 📊 **P8 : Analyse Comparée Étudiants OpenClassrooms vs INSEE**
+**Analyse de la représentativité des étudiants par région, genre et groupe d’âge pour améliorer les stratégies de recrutement et d’inclusion.**
 
-> **Données à jour** | **Pipeline contrôlé** | **Exports automatisés** | **Reporting en temps réel**
+> **🔹 Données à jour**   **🔄 Pipeline contrôlé** | **📥 Exports automatisés** | **📈 Reporting en temps réel**
 
----
-
-## 🎯 Contexte & Objectifs
-
-### Contexte
-Ce projet analyse la **représentativité des étudiants OpenClassrooms** par rapport à la population française (données INSEE). L'objectif est d'identifier les **lacunes de couverture par région, genre et groupe d'âge** pour améliorer les stratégies de recrutement et d'inclusion.
-
-### Données source
-- 📚 **Étudiants OC** : Données de plateforme OpenClassrooms (2022-2025)
-- 🇫🇷 **INSEE** : Population française par région/genre/âge (2022-2025)
-- 🗺️ **Géographie** : Harmonisation région/département avec référentiel INSEE
-
-### Objectifs analytiques
-```
-1. Calculer le taux de pénétration OC par région
-2. Analyser les écarts de représentation par genre
-3. Identifier les groupes d'âge sous-représentés
-4. Produire des indicateurs de tendance annuels (2022-2025)
-5. Délivrer des exports CSV pour Power BI et reporting
-```
-
-**KPIs clés :**
-- % de femmes étudiants vs % femmes population INSEE
-- Ratio : nb étudiants / population totale par région
-- Écart de représentation par groupe d'âge (20-24, 25-29, ..., 60+)
+**📅 Date** : 03/2026 *(Dernière mise à jour : 24/03/2026 - v1.0)*
+**🏷️ Type** : Data Pipeline / dbt / Snowflake / CI/CD / Streamlit
+**🔗 Liens** :
+- [🔗 Dépôt GitHub](https://github.com/ferialzamoun-afk/P8)
+- [📄 Documentation Pipeline](https://github.com/ferialzamoun-afk/P8/blob/main/CSV_EXPORT_VALUE_CHAIN.md)
+- [📄 Guide Power BI](https://github.com/ferialzamoun-afk/P8/blob/main/.github/workflows/POWER_BI_SETUP.md)
+- [📄 Setup Manuel CI/CD](https://github.com/ferialzamoun-afk/P8/blob/main/.github/workflows/MANUAL_WORKFLOW_SETUP.md)
+- [📊 Artefacts GitHub Actions](https://github.com/ferialzamoun-afk/P8/actions) *(CSVs exportés)*
+- [📓 Notebook Exploratoire](https://nbviewer.org/github/ferialzamoun-afk/P8/blob/main/analyse_csv_p8.ipynb) *(Analyses complémentaires)*
 
 ---
 
-## 🏗️ Architecture & Méthodologie
+## **🎯 Contexte et Objectifs**
+*(Bloc RNCP37837BC04 : Piloter un projet data)*
 
-### Stack technique
-| Composant | Outil | Version |
-|-----------|------|---------|
-| **Data Pipeline** | dbt (transform) | 1.11.7 |
-| **Data Warehouse** | Snowflake | (Cloud/SaaS) |
-| **Orchestration** | GitHub Actions | (CI/CD) |
-| **Visualization** | Power BI / Streamlit | (En développement) |
-| **Stockage exports** | GitHub Artifacts | (90 jours) |
+> **Contexte** :
+> *"Projet réalisé pour **OpenClassrooms** dans le cadre d’une **analyse data-driven** visant à évaluer la **représentativité de ses étudiants** par rapport à la population française (données INSEE). L’objectif est d’**identifier les lacunes de couverture** (région, genre, âge) pour **ajuster les stratégies de recrutement** et **améliorer l’inclusion**."*
 
-### Modèle de données (3 couches)
+> **Objectifs Analytiques** :
+> 1. **Calculer le taux de pénétration** OpenClassrooms par région.
+> 2. **Analyser les écarts de représentation** par genre (vs INSEE).
+> 3. **Identifier les groupes d’âge sous-représentés** (20-24 ans, 25-29 ans, etc.).
+> 4. **Produire des indicateurs de tendance annuels** (2022-2025).
+> 5. **Délivrer des exports CSV** pour Power BI et reporting.
 
-```
+> **KPIs Clés** :
+> | **Indicateur** | **Description** | **Source** |
+> |---------------|----------------|------------|
+> | `% femmes étudiants` | Pourcentage de femmes parmi les étudiants OC | Données OC |
+> | `% femmes INSEE` | Pourcentage de femmes dans la population française | Données INSEE |
+> | **Ratio étudiants/population** | Nombre d’étudiants OC / population totale par région | OC + INSEE |
+> | **Écart par groupe d’âge** | Différence de représentation entre OC et INSEE | OC + INSEE |
+
+---
+
+## **🏗️ Architecture et Méthodologie**
+*(Blocs RNCP37837BC01, BC02, BC04)*
+
+### **📌 Stack Technique**
+ | **Composant** | **Outil** | **Version** | **Rôle** |
+ |---------------|-----------|-------------|----------|
+ | **Data Pipeline** | dbt | 1.11.7 | Transformation des données (SQL) |
+ | **Data Warehouse** | Snowflake | Cloud/SaaS | Stockage et requêtage |
+ | **Orchestration** | GitHub Actions | CI/CD | Automatisation du pipeline |
+ | **Visualisation** | Power BI / Streamlit | En développement | Dashboard interactif |
+ | **Stockage exports** | GitHub Artifacts | 90 jours | Fichiers CSV générés |
+
+---
+### **📌 Modèle de Données (3 Couches)**
+*(Bloc RNCP37837BC01 : Structurer et gérer la base de données)*
 ┌─────────────────────────────────────────┐
-│     MARTS (Tables d'export)             │
-│  ├─ fct_export_unifie (Analyse unifiée) │
-│  └─ (Dashboards Power BI)               │
+│          📊 MARTS (Tables d'export)         │
+│  ├─ fct_export_unifie.csv                │ ← 633 lignes (2022-2025)
+│  ├─ fct_profil_sociodem.csv               │ ← Profils sociodémographiques
+│  └─ fct_summary_analysis.csv              │ ← Synthèse des indicateurs
 └─────────────────┬───────────────────────┘
-                  │
+│
 ┌─────────────────────────────────────────┐
-│   INTERMEDIATE (Transformations)        │
-│  ├─ int_etudiants_insee_joined (FULL)   │
-│  └─ (Jointures complexes, dédupli)      │
+│      🔧 INTERMEDIATE (Transformations)     │
+│  └─ int_etudiants_insee_joined.sql        │ ← Jointure complète OC + INSEE
 └─────────────────┬───────────────────────┘
-                  │
+│
 ┌─────────────────────────────────────────┐
-│    STAGING (Nettoyage & enrichissement) │
-│  ├─ stg_etudiants (Harmonisation genres)│
-│  ├─ stg_insee_population (Agrégation)   │
-│  └─ (Filtres, transformations brutes)   │
+│        🧹 STAGING (Nettoyage)             │
+│  ├─ stg_etudiants.sql                     │ ← Données OC nettoyées
+│  └─ stg_insee_population.sql              │ ← Données INSEE agrégées
 └─────────────────┬───────────────────────┘
-                  │
+│
 ┌─────────────────────────────────────────┐
-│   SOURCES (Données brutes importées)    │
-│  ├─ raw_etudiants.csv                   │
-│  ├─ raw_insee_population.csv            │
-│  └─ raw_geo_ref.csv (Territoire)        │
+│         📥 SOURCES (Données brutes)        │
+│  ├─ raw_etudiants.csv                      │ ← Données OC 2022-2025
+│  ├─ raw_insee_population.csv               │ ← Données INSEE 2022-2025
+│  └─ raw_geo_ref.csv                        │ ← Référentiel géographique
 └─────────────────────────────────────────┘
-```
-
-### Processus dbt : 3 étapes principales
+---
+### **📌 Processus dbt (3 Étapes)**
+*(Bloc RNCP37837BC02 : Identifier, collecter et analyser les données)*
 
 #### **1️⃣ STAGING : Nettoyage & Harmonisation**
+**Objectif** : Préparer les données brutes pour les rendre **cohérentes et exploitables**.
+**Exemple de code** (`stg_etudiants.sql`) :
 ```sql
--- stg_etudiants.sql
 SELECT
   ANNÉE,
-  REGION,  -- Harmonisation accents/DOM-TOM
-  AGE_GROUP,  -- Normalisation "30 à 34 ans" → "30-34"
-  GENDER,  -- Mapping H/F → M/F
+  REGION,               -- Harmonisation accents/DOM-TOM
+  AGE_GROUP,            -- Normalisation "30 à 34 ans" → "30-34"
+  GENDER,               -- Mapping H/F → M/F
   COUNT(*) as nb_etudiants
 FROM raw_etudiants
-WHERE annee >= 2022  -- Filtrage period
+WHERE annee >= 2022    -- Filtrage période
 GROUP BY 1,2,3,4
-```
 
-**Résultat :** Données cohérentes, sans anomalies
+Résultat : Données propres, sans anomalies, prêtes pour les jointures.
 
----
-
-#### **2️⃣ INTERMEDIATE : Jointures & Agrégations**
-```sql
--- int_etudiants_insee_joined.sql
+2️⃣ INTERMEDIATE : Jointures & Agrégations
+Objectif : Fusionner les données OC et INSEE pour une analyse unifiée.
+Exemple de code (int_etudiants_insee_joined.sql) :
 WITH etudiants AS (
   SELECT ... FROM stg_etudiants
 ),
@@ -104,7 +110,7 @@ SELECT
   e.year, e.region, e.age_group, e.gender,
   e.nb_etudiants,
   i.population_insee,
-  CASE 
+  CASE
     WHEN e.year IS NOT NULL THEN 'matched'
     WHEN i.year IS NOT NULL THEN 'insee_only'
     ELSE 'students_only'
@@ -115,346 +121,246 @@ FULL OUTER JOIN insee_agg i
   AND e.region = i.region
   AND e.gender = i.gender
   AND e.age_group = i.age_group
-```
 
-**Résultat :** Vue unifiée student + INSEE prête pour calculs
+  Résultat : Vue unifiée OC + INSEE, prête pour les calculs d’indicateurs.
 
----
-
-#### **3️⃣ MARTS : Indicateurs & Export**
-```sql
--- fct_export_unifie.sql (TABLE MATÉRIALISÉE)
+3️⃣ MARTS : Indicateurs & Export
+Objectif : Calculer les KPIs et générer les exports pour Power BI/Streamlit.
+Exemple de code (fct_export_unifie.sql) :
 SELECT
   year, region, age_group, gender,
   nb_etudiants,
   population_insee,
   ROUND(100.0 * nb_etudiants / NULLIF(population_insee, 0), 2) as penetration_pct,
-  ROUND(
-    100.0 * COUNT(CASE WHEN gender='F' THEN 1 END) 
-      / NULLIF(COUNT(*), 0),
-    2
-  ) as pct_femmes_etu,
-  ROUND(
-    100.0 * COUNT(CASE WHEN gender='F' THEN 1 END) 
-      / NULLIF(SUM(population_insee), 0),
-    2
-  ) as pct_femmes_insee
-  -- Gap calcul pour analyste
+  ROUND(100.0 * COUNT(CASE WHEN gender='F' THEN 1 END) / NULLIF(COUNT(*), 0), 2) as pct_femmes_etu,
+  ROUND(100.0 * COUNT(CASE WHEN gender='F' THEN 1 END) / NULLIF(SUM(population_insee), 0), 2) as pct_femmes_insee
 FROM int_etudiants_insee_joined
 WHERE year BETWEEN 2022 AND 2025
 GROUP BY 1,2,3,4
 ORDER BY year DESC, region, age_group, gender
-```
 
-**Résultat :** **633 lignes** prêtes pour Power BI / export CSV
+Résultat : 633 lignes prêtes pour Power BI, Streamlit ou Excel.
 
----
+🔄 Pipeline CI/CD
+(Bloc RNCP37837BC04 : Piloter un projet data)
+📌 Déclenchement Automatique
+✅ Push sur main ou develop (dossier P8--DBT/**).
+✅ Pull Request vers main.
+✅ Déclenchement manuel (workflow_dispatch).
 
-## 🔄 Pipeline CI/CD
+📌 Workflow dbt-ci.yml (3 Jobs)
+| Job | Objectif | Durée | Dépendances | Sorties |
+| --- | --- | --- | --- | --- |
+| lint-compile | Vérification syntaxique (dbt parse) | ~30 sec | Aucune | ✅/❌ |
+| build | Exécution + tests des modèles | ~3-5 min | lint-compile | CSV, JSON, logs |
+| export-csv | Génération du CSV final | ~45 sec | build | fct_export_unifie.csv |
+Durée totale : ~5-8 minutes (bout en bout).
 
-### Déclenche automatiquement sur :
-- ✅ Push `main` ou `develop` (dossier `P8--DBT/**`)
-- ✅ Pull Request sur `main`
-- ✅ Déclenchement manuel (`workflow_dispatch`)
-
-### Workflow dbt-ci.yml : 3 jobs
-
-```
-┌─────────────────────────────────────────────────────┐
-│ JOB 1: lint-compile (Syntax check)                  │
-│ ├─ dbt parse (vérifie tous les modèles)             │
-│ └─ Durée : ~30 sec                                  │
-└──────────────────┬──────────────────────────────────┘
-                   │
-┌──────────────────────────────────────────────────────┐
-│ JOB 2: build (Run + Test) [needs: lint-compile]     │
-│ ├─ dbt run ── staging (fixtures + tests)             │
-│ ├─ dbt test ── staging (6 tests)                     │
-│ ├─ dbt run ── intermediate                           │
-│ ├─ dbt build ── marts (run + test)                   │
-│ ├─ Upload artifacts (run_results.json, manifest)    │
-│ └─ Durée : ~3-5 min                                 │
-└──────────────────┬──────────────────────────────────┘
-                   │
-┌──────────────────────────────────────────────────────┐
-│ JOB 3: export-csv [needs: build]                    │
-│ ├─ dbt show ── fct_export_unifie --output csv       │
-│ ├─ Résultat : 633 lignes, ~125 KB                   │
-│ ├─ Upload artifact : marts-csv-<RUN_ID>            │
-│ └─ Webhook Power BI (optionnel)                     │
-│    └─ Durée : ~45 sec                               │
-└──────────────────────────────────────────────────────┘
-```
-
-**Total** : ~5-8 minutes de bout en bout
-
----
-
-## 📥 Récupérer les résultats
-
-### Artefacts disponibles
-
+📌 Artefacts Disponibles
 | Artefact | Format | Lieu | Usage |
-|----------|--------|------|-------|
-| **fct_export_unifie.csv** | CSV | GitHub Artifacts | Power BI, Streamlit, Excel |
-| **dbt artifacts** | JSON | GitHub Artifacts | Lineage, tests, logs |
-| **Logs dbt** | Text | GitHub Actions UI | Debugging |
+| --- | --- | --- | --- |
+| fct_export_unifie.csv | CSV | [GitHub Artifacts](https://github.com/ferialzamoun-afk/P8/actions) | Source principale pour Power BI/Streamlit |
+| dbt artifacts | JSON | GitHub Artifacts | Lineage, tests, logs |
+| Logs dbt | Text | [GitHub Actions UI](https://github.com/ferialzamoun-afk/P8/actions) | Debugging |
+📌 Télécharger le CSV d’Export
+Méthode 1 : Via GitHub UI
 
-### Télécharger le CSV d'export
+Aller dans Actions → Sélectionner le run (ex: dbt CI/CD #123).
+Cliquer sur Artifacts → Télécharger marts-csv-<RUN_ID>.zip.
+Extraire le fichier fct_export_unifie.csv.
+Méthode 2 : Via CLI (GitHub CLI)
+gh run download <RUN_ID> --repo ferialzamoun-afk/P8
 
-```bash
-# Via GitHub UI
-1. Actions → dbt CI/CD → Run #<ID>
-2. Artifacts → marts-csv-<RUN_ID>
-3. Download ZIP → Extract CSV
+📊 Résultats et Livrables
+(Blocs RNCP37837BC03, BC05)
+🔹 Indicateurs Clés (2022-2025)
+| Indicateur | Valeur Moyenne | Tendance | Interprétation |
+| --- | --- | --- | --- |
+| Taux de pénétration OC | [À calculer] % | ✅ Stable | % étudiants OC / population totale |
+| Écart femmes (OC vs INSEE) | [À calculer] % | ⚠️ À améliorer | % femmes étudiants - % femmes INSEE |
+| Groupe d’âge le plus représenté | [20-24 ans] | ✅ Logique | Aligné sur la cible historique OC |
+| Groupe d’âge sous-représenté | [40+ ans] | ⚠️ Priorité | Lacune à combler |
 
-# Via CLI
-gh run download <RUN_ID> --repo <USER>/<REPO>
-```
+Exemple de données exportées (fct_export_unifie.csv) :
+| year | region | age_group | gender | nb_etudiants | population_insee | penetration_pct | pct_femmes_etu | pct_femmes_insee |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2025 | Île-de-France | 20-24 | F | 1200 | 2500000 | 0.048 | 52.3 | 51.1 |
+| 2025 | Île-de-France | 20-24 | M | 1100 | 2500000 | 0.044 | 47.7 | 48.9 |
+🔹 Visualisations (Streamlit/Power BI)
+Dashboard en développement :
 
----
+Carte choroplèthe : Taux de pénétration par région.
+Bar charts : Comparaison % femmes (OC vs INSEE).
+Heatmap : Région × Groupe d’âge (écarts de représentation).
+Line charts : Tendances annuelles (2022-2025).
+Lien Streamlit (à déployer) : [🌐 Dashboard Streamlit (Futur)](https://your-streamlit-app.com)
 
-## 🚀 Utilisation locale
+P8/
+├── .github/
+│   ├── workflows/
+│   │   ├── dbt-ci.yml                     # Workflow principal CI/CD
+│   │   ├── MANUAL_WORKFLOW_SETUP.md       # Guide de lancement manuel
+│   │   ├── POWER_BI_SETUP.md              # Intégration Power BI
+│   │   └── helpers/
+│   │
+├── P8--DBT/                               # Projet dbt principal
+│   ├── dbt_project.yml                    # Configuration dbt
+│   ├── profiles.yml                       # Connexion Snowflake
+│   ├── models/
+│   │   ├── staging/                       # Nettoyage brut
+│   │   │   ├── stg_etudiants.sql
+│   │   │   └── stg_insee_population.sql
+│   │   ├── intermediate/                  # Transformations
+│   │   │   └── int_etudiants_insee_joined.sql
+│   │   └── marts/                         # Tables d'export
+│   │       └── fct_export_unifie.sql
+│   ├── tests/                             # Tests dbt
+│   │   └── test_unique_stg_etudiants_grain.sql
+│   ├── src/                               # Sources brutes
+│   │   ├── raw_etudiants.csv
+│   │   ├── raw_insee_population.csv
+│   │   └── raw_geo_ref.csv
+│   └── target/                            # Artifacts générés
+│
+├── exports/                               # CSV exportés
+│   ├── fct_export_unifie.csv              # PRINCIPAL (source unique)
+│   ├── fct_profil_sociodem.csv
+│   └── fct_summary_analysis.csv
+│
+├── outputs/                               # (Ancien : déprécié)
+├── logs/                                 # Logs d'exécution
+├── load-env.ps1                          # Setup local (Windows)
+├── analyse_csv_p8.ipynb                  # Analyses exploratoires
+├── README.md
+├── CSV_EXPORT_VALUE_CHAIN.md              # Chaîne de valeur
+└── .gitignore
+🔧 Compétences RNCP 37837 Demonstrées
+📌 Mapping des Blocs RNCP
+Bloc RNCP,Compétence,Description,Preuves
+BC01,Structurer et gérer la base de données,Modèle en 3 couches (STAGING → INTERMEDIATE → MARTS) avec dbt + Snowflake.,[P8--DBT/models/](https://github.com/ferialzamoun-afk/P8/tree/main/P8--DBT/models)
+BC01,Gérer une base de données,Requêtes SQL pour le remplissage des tables (jointures, agrégations).,[fct_export_unifie.sql](https://github.com/ferialzamoun-afk/P8/blob/main/P8--DBT/models/marts/fct_export_unifie.sql)
+BC02,Identifier et collecter les données,Utilisation de 2 sources principales (OpenClassrooms, INSEE).,[P8--DBT/src/](https://github.com/ferialzamoun-afk/P8/tree/main/P8--DBT/src)
+BC02,Extraire et agréger,Nettoyage : Harmonisation des noms de régions, groupes d’âge, genres.,[stg_etudiants.sql](https://github.com/ferialzamoun-afk/P8/blob/main/P8--DBT/models/staging/stg_etudiants.sql)
+BC02,Explorer et pré-traiter,Jointures complexes (FULL OUTER JOIN) pour fusionner OC + INSEE.,[int_etudiants_insee_joined.sql](https://github.com/ferialzamoun-afk/P8/blob/main/P8--DBT/models/intermediate/int_etudiants_insee_joined.sql)
+BC02,Analyse univariée/multivariée,Calcul des KPIs (pénétration, écarts genre/âge).,[fct_export_unifie.sql](https://github.com/ferialzamoun-afk/P8/blob/main/P8--DBT/models/marts/fct_export_unifie.sql)
+BC03,Solution de visualisation,Dashboard Streamlit (en développement) : Cartes, heatmaps, tendances.,[À déployer](https://your-streamlit-app.com)
+BC03,Créer un tableau de bord,Intégration Power BI : Import du CSV pour visualisations.,[POWER_BI_SETUP.md](https://github.com/ferialzamoun-afk/P8/blob/main/.github/workflows/POWER_BI_SETUP.md)
+BC03,Reporting des tendances,Exports CSV pour Power BI/Excel.,[exports/](https://github.com/ferialzamoun-afk/P8/tree/main/exports)
+BC04,Veille métier/technologique,Benchmark dbt + Snowflake vs autres outils (Airflow, etc.).,[CSV_EXPORT_VALUE_CHAIN.md](https://github.com/ferialzamoun-afk/P8/blob/main/CSV_EXPORT_VALUE_CHAIN.md)
+BC04,Formaliser le cahier des charges,Documentation complète (README, workflows, guides).,[Dépôt GitHub](https://github.com/ferialzamoun-afk/P8)
+BC04,Organiser un projet data,Pipeline CI/CD (GitHub Actions) + modularité dbt.,[.github/workflows/dbt-ci.yml](https://github.com/ferialzamoun-afk/P8/blob/main/.github/workflows/dbt-ci.yml)
+BC04,Gérer la documentation,100% des livrables documentés (modèles dbt, workflows, exports).,[Dépôt GitHub](https://github.com/ferialzamoun-afk/P8)
+BC05,Analyses multivariées,Comparaison OC vs INSEE (genre, âge, région).,[analyse_csv_p8.ipynb](https://nbviewer.org/github/ferialzamoun-afk/P8/blob/main/analyse_csv_p8.ipynb)
+BC05,Tests statistiques,Validation des données (unicité, cohérence).,[tests/](https://github.com/ferialzamoun-afk/P8/tree/main/P8--DBT/tests)
+🛠 Configuration et Exécution
+(Bloc RNCP37837BC04 : Piloter un projet data)
+📌 Prérequis
 
-### Setup initial
-
-```powershell
-# 1. Cloner le repo
-git clone https://github.com/<USER>/P8.git
+Python 3.11+
+dbt-snowflake (pip install dbt-snowflake==1.11.3)
+Snowflake Account (accès aux données)
+GitHub CLI (optionnel, pour télécharger les artefacts)
+📌 Setup Initial (Local)
+# 1. Cloner le dépôt
+git clone https://github.com/ferialzamoun-afk/P8.git
 cd P8
 
-# 2. Créer venv
+# 2. Créer un environnement virtuel
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 
 # 3. Installer dbt
 pip install dbt-snowflake==1.11.3
 
-# 4. Configurer dbt profiles
-# → C:\Users\<USER>\.dbt\profiles.yml
+# 4. Configurer les accès Snowflake
+# → Modifier C:\Users\<USER>\.dbt\profiles.yml
+# Exemple :
+# P8_OPENCLASSROOMS:
+#   target: dev_password
+#   outputs:
+#     dev_password:
+#       type: snowflake
+#       account: <SNOWFLAKE_ACCOUNT>
+#       user: <SNOWFLAKE_USER>
+#       password: <SNOWFLAKE_PASSWORD>
+#       role: <SNOWFLAKE_ROLE>
+#       warehouse: <SNOWFLAKE_WAREHOUSE>
+#       database: <SNOWFLAKE_DATABASE>
+#       schema: <SNOWFLAKE_SCHEMA>
 
-# 5. Charger variables d'env
+# 5. Charger les variables d'environnement
 . ./load-env.ps1
 cd P8--DBT
-```
+📌 Commandes Principales
+| Commande | Description | Exemple |
+| --- | --- | --- |
+| Vérifier la connexion | Teste la connexion à Snowflake | dbt debug --target dev_password |
+| Exécuter les modèles | Lance tous les modèles dbt | dbt run --target dev_password |
+| Tester les données | Exécute les tests dbt | dbt test --select fct_export_unifie |
+| Prévisualiser les résultats | Affiche les 10 premières lignes | dbt show --select fct_export_unifie --limit 10 |
+| Générer la documentation | Crée la doc dbt | dbt docs generate && dbt docs serve |
 
-### Commandes principales
-
-```powershell
-# Vérifier la connexion
-dbt debug --target dev_password
-
-# Exécuter les modèles
-dbt run --target dev_password
-
-# Tester les données
-dbt test --select fct_export_unifie
-
-# Prévisualiser le résultat
-dbt show --select fct_export_unifie --limit 10
-
-# Générer la documentation
-dbt docs generate && dbt docs serve
-```
-
----
-
-## 📈 Streamlit Dashboard
-
-### Objectif
-Dashboard interactif pour explorer les resultats d'export en temps reel.
-
-### Implémente
-
-```
-┌─────────────────────────────────────┐
-│    STREAMLIT APP (local)            │
-├─────────────────────────────────────┤
-│ 1. Filtres interactifs              │
-│    ├─ Année (2022-2025)             │
-│    ├─ Région                        │
-│    ├─ Genre                         │
-│    └─ Groupe d'âge                  │
-│                                     │
-│ 2. Visualisations                   │
-│    ├─ Taux pénétration par région   │
-│    ├─ Gap femmes (étudiants/INSEE)  │
-│    ├─ Trends annuels                │
-│    └─ Heatmap région × genre        │
-│                                     │
-│ 3. Exports interactifs              │
-│    ├─ Télécharger CSV filtré        │
-│    └─ Table détaillée filtrable     │
-└─────────────────────────────────────┘
-```
-
-### Lancer en local
-
-```bash
+📌 Lancer le Dashboard Streamlit (Local)
+# Installer les dépendances
 pip install -r requirements-streamlit.txt
+
+# Lancer l'application
 streamlit run streamlit_app.py
-```
+→ URL locale : http://localhost:8501
 
-URL locale: http://localhost:8501
+🔐 Configuration des Accès
+(Bloc RNCP37837BC04 : Piloter un projet data)
+📌 Secrets GitHub Requis
+(À configurer dans Settings → Secrets and variables → Actions)
+| Secret | Description | Exemple |
+| --- | --- | --- |
+| SNOWFLAKE_ACCOUNT | Compte Snowflake | xy12345 |
+| SNOWFLAKE_USER | Utilisateur Snowflake | CI_USER |
+| SNOWFLAKE_PASSWORD | Mot de passe | *** |
+| SNOWFLAKE_ROLE | Rôle Snowflake | CI_ROLE |
+| SNOWFLAKE_WAREHOUSE | Warehouse Snowflake | COMPUTE_WH |
+| SNOWFLAKE_DATABASE | Base de données | P8_OPENCLASSROOMS |
+| SNOWFLAKE_SCHEMA | Schéma | RAW_DATA |
+📌 Permissions Snowflake
+(À exécuter par un admin Snowflake)
+sql
+-- Accorder les permissions au rôle CI
+GRANT USAGE ON DATABASE P8_OPENCLASSROOMS TO ROLE CI_ROLE;
+GRANT USAGE ON SCHEMA RAW_DATA TO ROLE CI_ROLE;
+GRANT CREATE TABLE ON SCHEMA RAW_DATA TO ROLE CI_ROLE;
+GRANT INSERT, SELECT ON ALL TABLES IN SCHEMA RAW_DATA TO ROLE CI_ROLE;
 
-### Lien Streamlit (futur)
-https://your-streamlit-app.com
-
-### Technologies
-- **Framework** : Streamlit
-- **Source données** : `exports/fct_export_unifie.csv` (source unique consolidée)
-- **Visualisations** : Plotly, Pandas
-- **Déploiement** : Streamlit Cloud ou Heroku
-
----
-
-## 📋 Structure du repo
-
-```
-P8/
-├── .github/
-│   ├── workflows/
-│   │   ├── dbt-ci.yml                    ← Workflow principal
-│   │   ├── MANUAL_WORKFLOW_SETUP.md      ← Guide lancement manuel
-│   │   ├── POWER_BI_SETUP.md             ← Intégration Power BI
-│   │   └── helpers/
-│   │
-├── P8--DBT/                              ← Projet dbt principal
-│   ├── dbt_project.yml                   ← Configuration dbt
-│   ├── profiles.yml                      ← Connexion Snowflake
-│   ├── models/
-│   │   ├── staging/                      ← Nettoyage brut
-│   │   │   ├── stg_etudiants.sql
-│   │   │   └── stg_insee_population.sql
-│   │   ├── intermediate/                 ← Transformations
-│   │   │   └── int_etudiants_insee_joined.sql
-│   │   └── marts/                        ← Tables d'export
-│   │       └── fct_export_unifie.sql
-│   ├── tests/                            ← Tests dbt
-│   │   └── test_unique_stg_etudiants_grain.sql
-│   ├── src/                              ← Sources brutes
-│   │   ├── DATASET...csv
-│   │   ├── insee_population_enrichi.csv
-│   │   └── snowflake_import*.sql
-│   └── target/                           ← Artifacts générés
-│
-├── exports/                              ← CSVs exportés
-│   ├── fct_export_unifie.csv             ← PRINCIPAL (source unique pour Streamlit et Power BI)
-│   ├── fct_profil_sociodem.csv
-│   ├── fct_summary_analysis.csv
-│   ├── stg_etudiants.csv
-│   └── stg_insee_population.csv
-│
-├── outputs/                              ← (anciens exports analytiques, non utilisés)
-│   ├── pbi_*.csv                         ← (déprécié)
-│   ├── etudiants_clean.csv
-│   ├── insee_clean.csv
-│   └── [anciens exports]
-│
-├── logs/                                 ← Logs d'exécution
-├── load-env.ps1                          ← Setup local (Windows)
-├── analyse_csv_p8.ipynb                  ← Analyses exploratoires
-│
-├── README.md                             ← Ce fichier
-├── CSV_EXPORT_VALUE_CHAIN.md             ← Chaîne valeur
-└── .gitignore
-```
-
----
-
-## 🔐 Configuration des accès
-
-### Secrets GitHub requis
-
-```
-Settings → Secrets and variables → Actions
-├─ SNOWFLAKE_ACCOUNT
-├─ SNOWFLAKE_USER
-├─ SNOWFLAKE_PASSWORD
-├─ SNOWFLAKE_ROLE
-├─ SNOWFLAKE_WAREHOUSE
-├─ SNOWFLAKE_DATABASE
-└─ SNOWFLAKE_SCHEMA
-```
-
-### Permissions Snowflake
-
-```sql
--- Compte utilisateur CI doit avoir :
-GRANT USAGE ON DATABASE P8_OPENCLASSROOMS TO ROLE <CI_ROLE>;
-GRANT USAGE ON SCHEMA RAW_DATA TO ROLE <CI_ROLE>;
-GRANT CREATE TABLE ON SCHEMA RAW_DATA TO ROLE <CI_ROLE>;
-GRANT INSERT, SELECT ON ALL TABLES IN SCHEMA RAW_DATA TO ROLE <CI_ROLE>;
-```
-
----
-
-## 🚦 États du Pipeline
-
+🚦 États du Pipeline
 | État | Signification | Action |
-|------|--------------|--------|
-| ✅ Passed | Workflow réussi | ✓ Export prêt |
-| 🟡 In Progress | Execution en cours | ⏳ Attendre |
-| ❌ Failed | Erreur dbt/Snowflake | 🔧 Voir logs |
-| ⏭️ Skipped | Condition not met | (PR ou branche) |
+| --- | --- | --- |
+| ✅ Passed | Workflow réussi | ✓ Export prêt à utiliser |
+| 🟡 In Progress | Exécution en cours | ⏳ Attendre la fin |
+| ❌ Failed | Erreur dbt/Snowflake | 🔧 Voir les logs |
+| ⏭️ Skipped | Condition non remplie | (PR ou branche non ciblée) |
 
----
+📈 Améliorations Futures
 
-## 📞 Support & Dépannage
+ Dashboard Streamlit interactif (déploiement sur Streamlit Cloud).
+ Intégration Power BI via webhook (Power Automate).
+ Modèles prédictifs (machine learning pour anticiper les tendances).
+ API REST pour un accès programmatique aux données.
+ Alertes Slack/Teams sur anomalies (ex: écarts > 20%).
+ Versioning des exports (historique des données).
 
-### Commandes utiles
-
-```powershell
-# Voir les logs locaux
-Get-Content logs/dbt.log | Select-Object -Last 50
-
-# Compiler un modèle spécifique
-dbt compile --select fct_export_unifie --inline
-
-# Voir la dépendance des modèles
-dbt deps && dbt docs generate
-
-# Tester avant push
-dbt test --select staging --fail-fast
-```
-
-### Ressources
-- 📚 [dbt Documentation](https://docs.getdbt.com)
-- 🏂 [Snowflake Setup](https://docs.snowflake.com)
-- 🔑 [GitHub Actions](https://docs.github.com/actions)
-- 📊 [Power BI Integration](Microsoft Power Automate docs)
-
----
-
-## 🎓 Améliorations futures
-
-- [ ] Dashboard Streamlit interactif
-- [ ] Intégration Power BI webhook (Power Automate)
-- [ ] Modèles prédictifs (machine learning)
-- [ ] API REST pour accès programmatique
-- [ ] Alertes Slack/Teams sur anomalies
-- [ ] Versionning des exports (historique)
-
----
-
-## 📅 Releases
-
+📅 Releases
 | Version | Date | Changements |
-|---------|------|-------------|
-| **v1.0** | 2026-03-24 | Export initial `fct_export_unifie` (633 lignes) |
+| --- | --- | --- |
+| v1.0 | 24/03/2026 | Export initial fct_export_unifie (633 lignes) |
 | v0.9 | - | Configuration CI/CD GitHub Actions |
 | v0.5 | - | Setup dbt + Snowflake |
 
----
+📌 Mapping RNCP 37837
 
-## 📄 Licence
+Blocs couverts par ce projet :
 
-Projet OpenClassrooms - Données sensibles (accès restreint)
+✅ BC01 : Structurer et gérer la base de données (modèle dbt en 3 couches, Snowflake)
+✅ BC02 : Identifier, collecter et analyser les données (nettoyage, jointures, KPIs)
+✅ BC03 : Visualiser des données et interpréter des résultats (Dashboard Streamlit/Power BI, exports CSV)
+✅ BC04 : Piloter un projet data (CI/CD, documentation, organisation, veille)
+✅ BC05 : Spécialisation Statistiques (analyses comparatives, tests statistiques, indicateurs)
 
----
-
-**👉 Démarrer** : [MANUAL_WORKFLOW_SETUP.md](.github/workflows/MANUAL_WORKFLOW_SETUP.md)
-
-**📚 Architecture** : [CSV_EXPORT_VALUE_CHAIN.md](CSV_EXPORT_VALUE_CHAIN.md)
-
-**🔌 Power BI** : [POWER_BI_SETUP.md](.github/workflows/POWER_BI_SETUP.md)

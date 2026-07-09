@@ -1,110 +1,192 @@
-# P11 - Etude de marche internationale
+# 🌍 **P11 : Étude Marché – Priorisation des Pays pour l’Export de Poulets Biologiques**
+**📅 Date** : [MM/AAAA] *(ex: 07/2026)*
+**🏷️ Type** : Analyse Exploratoire / Clustering / Recommandation Stratégique
+**🔗 Liens** :
+- [🔗 Dépôt GitHub](https://github.com/ferialzamoun-afk/P11)
+- [📓 Notebook 1 : Préparation & EDA (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb)
+- [📓 Notebook 2 : Clustering & Recommandations (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb)
+- [📄 Brief Projet](https://github.com/ferialzamoun-afk/P11/blob/main/PROJECT_BRIEF.md)
+- [📄 Documentation Technique](https://github.com/ferialzamoun-afk/P11/blob/main/docs/documentation_technique.md)
 
-## Contexte
+---
 
-Ce projet repond a une mission confiee par le PDG de La poule qui chante.
+## **🎯 Contexte et Objectifs**
+*(Bloc RNCP37837BC04 : Piloter un projet data)*
 
-Objectif business:
+> **Contexte** :
+> *"Ce projet répond à une **mission confiée par le PDG de *La Poule Qui Chante***, entreprise spécialisée dans la production de poulets biologiques. Dans un contexte de **concurrence accrue** et de **demande croissante en produits bio**, l’objectif était d’identifier des **marchés porteurs** à l’export pour étendre l’activité de l’entreprise."*
 
-- Identifier des groupements de pays a cibler pour exporter des poulets biologiques.
-- Proposer une premiere priorisation des marchés (top 5 pays a approfondir).
+> **Objectifs Business** :
+> - Identifier des **groupements de pays** à cibler pour l’export de poulets biologiques.
+> - Proposer une **première priorisation** des marchés (**Top 5 pays** à approfondir).
+> - **Optimiser la stratégie d’export** en croisant des critères **PESTEL+** (Politique, Économique, Social, Technologique, Environnemental, Sanitaire, Réglementaire).
 
-## Structure du depot
+> **Domaine de compétence** : Projet **documenté**, avec **reproductibilité** et **qualité logicielle** (CI/CD, tests unitaires).
 
-```
-notebooks/
-    ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb
-        # Preparation, nettoyage, EDA et constitution de la base d analyse
-    ZAMOUN_Férial_2_clustering_visualisations _112025.ipynb
-        # ACP, CAH, KMeans, profils de clusters et recommandation export
-scripts/
-    data_manager.py                  # Helper d inspection appele par le notebook 1
-    enrich_market_features_model.py  # Fonctions testees et smoke-check CI (normalisation, Levenshtein, enrichissements)
-tests/
-    test_data_prep.py                # Tests normalize_text, add_country_key
-    test_enrich_market_features_model.py  # Tests enrichissement, Levenshtein et diversite texte
-.github/workflows/ci.yml            # CI: ruff, pytest, smoke checks, VERSION, controle notebooks
-requirements.txt
-pyproject.toml                      # Config ruff + pytest
-VERSION                             # Version courante: 0.1.0
-```
+---
 
-Les donnees brutes et fichiers intermediaires lourds sont partiellement ignores via `.gitignore` selon les besoins de versionnage.
+## **📊 Structure du Projet**
+P11/
+├── notebooks/
+│   ├── ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb  # Préparation, nettoyage, EDA, ACP
+│   └── ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb                    # Clustering (CAH, KMeans), profils, recommandations
+├── scripts/
+│   ├── data_manager.py                          # Helper d'inspection (appelé par Notebook 1)
+│   └── enrich_market_features_model.py         # Fonctions de normalisation, Levenshtein, enrichissements
+├── tests/
+│   ├── test_data_prep.py                        # Tests pour normalize_text, add_country_key
+│   └── test_enrich_market_features_model.py    # Tests pour Levenshtein, diversité texte
+├── .github/workflows/
+│   └── ci.yml                                   # CI: ruff, pytest, smoke checks
+├── docs/
+│   ├── documentation_technique.md              # Documentation détaillée
+│   └── note_pipeline_preparation_nettoyage.md  # Note sur le pipeline
+├── PROJECT_BRIEF.md                             # Brief projet
+├── requirements.txt                             # Dépendances Python
+├── pyproject.toml                              # Config ruff + pytest
+└── VERSION                                      # Version courante (0.1.0)
+> **Note** :
+> - Les **données brutes** et fichiers intermédiaires lourds sont **exclus du dépôt** (via `.gitignore`).
+> - La version GitHub est **allégée** pour une consultation optimale.
 
-La version GitHub montrable est volontairement allegee: elle conserve les deux notebooks finaux, les tests, la documentation, le brief et les scripts minimaux necessaires aux controles. Les donnees lourdes, exports graphiques temporaires, anciens notebooks et notebooks rapatries sont exclus du commit principal.
+---
 
-## Variables du modele (16 variables candidates, 6 dimensions PESTEL+)
+## **🔧 Compétences RNCP 37837 Demonstrées**
 
-| Dimension | Variables |
-|---|---|
-| Politique | political_stability |
-| Economique | gdp_per_capita_usd, ease_business_score, poultry_import_qty_tonnes, poultry_import_value_kusd, poultry_production_2018_tonnes, import_dependency_ratio |
-| Social | population, kcal_per_capita_day |
-| Technologique | poultry_slaughtered_2018_1000_head |
-| Environnemental | losses_ktons |
-| Sanitaire | avian_events_recent_2y_count, avian_events_h5n1_count |
-| Reglementaire | faolex_texts_recent_10y_count, faolex_texts_active_count, faolex_text_diversity_score |
+### **📌 Mapping des Blocs RNCP**
+| **Bloc RNCP** | **Compétence** | **Description** | **Preuves** |
+|---------------|---------------|----------------|-------------|
+| **BC01** | **Structurer et gérer la base de données** | Création d’une **base d’analyse finale** (`base_acp_finale_2017.csv`) avec 139 pays et 16 variables candidates. | [Notebook 1, Section "Constitution de la base ACP"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb#Constitution-de-la-base-ACP) |
+| **BC02** | **Identifier et collecter les données** | Utilisation de **sources multiples** (FAO, Banque Mondiale, etc.) pour les variables PESTEL+. | [Notebook 1, Section "Préparation des données"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb#Préparation-des-données) |
+| **BC02** | **Extraire et agréger** | Nettoyage des données (gestion des `NaN`, normalisation, enrichissement). | [Notebook 1, Section "Nettoyage"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb#Nettoyage) + [scripts/data_manager.py](https://github.com/ferialzamoun-afk/P11/blob/main/scripts/data_manager.py) |
+| **BC02** | **Explorer et pré-traiter** | **Feature Engineering** : Calcul de `faolex_text_diversity_score` (distance de Levenshtein normalisée). | [scripts/enrich_market_features_model.py](https://github.com/ferialzamoun-afk/P11/blob/main/scripts/enrich_market_features_model.py) |
+| **BC02** | **Analyse univariée/multivariée** | **EDA** : Statistiques descriptives, corrélations entre variables PESTEL+. | [Notebook 1, Section "EDA"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb#EDA) |
+| **BC03** | **Solution de visualisation** | **ACP** : Réduction de dimension (11 variables → 3 composantes principales, 89.90% de variance conservée). | [Notebook 2, Section "ACP"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb#ACP) |
+| **BC03** | **Créer un tableau de bord** | **Clustering** (CAH, KMeans) avec visualisations des profils de clusters. | [Notebook 2, Section "Clustering"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb#Clustering) |
+| **BC03** | **Reporting des tendances** | **Interprétation des clusters** : Identification de 2 groupes de pays (prioritaire/secondaire). | [Notebook 2, Section "Profils de clusters"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb#Profils-de-clusters) |
+| **BC04** | **Veille métier/technologique** | **Benchmark des méthodes** (CAH vs KMeans) et justification du choix de `k=2`. | [Notebook 2, Section "Choix du clustering"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb#Choix-du-clustering) |
+| **BC04** | **Formaliser le cahier des charges** | **Brief projet** et **documentation technique** complète. | [PROJECT_BRIEF.md](https://github.com/ferialzamoun-afk/P11/blob/main/PROJECT_BRIEF.md) + [docs/documentation_technique.md](https://github.com/ferialzamoun-afk/P11/blob/main/docs/documentation_technique.md) |
+| **BC04** | **Organiser un projet data** | **Pipeline documenté** (notebooks + scripts + CI). | [docs/note_pipeline_preparation_nettoyage.md](https://github.com/ferialzamoun-afk/P11/blob/main/docs/note_pipeline_preparation_nettoyage.md) |
+| **BC04** | **Gérer la documentation** | **100% des livrables documentés** (notebooks, scripts, tests). | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P11) |
+| **BC05** | **Analyses multivariées** | **ACP** : 11 variables actives → 3 composantes principales (89.90% de variance). | [Notebook 2, Section "ACP"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb#ACP) |
+| **BC05** | **Réduction de dimension** | **ACP** : Réduction de 16 variables → 3 dimensions principales. | [Notebook 2, Section "ACP"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb#ACP) |
+| **BC05** | **Tests statistiques** | **Silhouette Score** (~0.60) pour évaluer la qualité du clustering. | [Notebook 2, Section "Évaluation du clustering"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb#Évaluation-du-clustering) |
+| **BC05** | **Entraîner un modèle** | **KMeans** (k=2) et **CAH** pour segmenter les pays. | [Notebook 2, Section "Clustering"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb#Clustering) |
+| **BC05** | **Exploiter un modèle** | **Profil des clusters** : 16 pays prioritaires (Cluster A) vs autres. | [Notebook 2, Section "Profils de clusters"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb#Profils-de-clusters) |
 
-`faolex_text_diversity_score` est une variable de feature engineering calculee par distance de Levenshtein normalisee sur les titres et resumes des textes FAOLEX.
+---
 
-## Etat technique (rerun complet)
+## **📊 Méthodologie**
+*(Blocs RNCP37837BC02, BC03, BC05)*
 
-Etat valide apres regeneration des donnees et reexecution des notebooks:
+### **🔹 Étapes Clés**
+1. **Préparation des données** *(BC02)* :
+   - Nettoyage (gestion des `NaN`, doublons).
+   - **Feature Engineering** : Calcul de `faolex_text_diversity_score` (distance de Levenshtein normalisée sur les textes FAOLEX).
+   - **Constitution de la base ACP** : 139 pays × 16 variables → `base_acp_finale_2017.csv`.
 
-- `notebooks/ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb` documente la preparation, l EDA, l analyse PESTEL, les controles de representativite et la constitution de la base ACP.
-- `notebooks/ZAMOUN_Férial_2_clustering_visualisations _112025.ipynb` consomme la base ACP finale, documente l ACP, la segmentation CAH/KMeans, les profils de clusters et la recommandation finale.
+2. **Analyse Exploratoire (EDA)** *(BC02, BC03)* :
+   - Statistiques descriptives (moyenne, écart-type, etc.).
+   - **Analyse PESTEL+** : Étude des 6 dimensions (Politique, Économique, Social, Technologique, Environnemental, Sanitaire, Réglementaire).
+   - Visualisations des corrélations entre variables.
 
-Indicateurs observes dans le rerun courant:
+3. **Réduction de Dimension (ACP)** *(BC03, BC05)* :
+   - **11 variables actives** → **3 composantes principales** (PC1, PC2, PC3).
+   - **89.90% de variance conservée**.
 
-- Base ACP finale: 139 pays dans `base_acp_finale_2017.csv`; projection ACP/clusters exportee sur 138 pays.
-- ACP: 11 variables actives resumees en 3 composantes principales PC1 a PC3, conservant 89,90% de variance cumulee.
-- Clustering: segmentation KMeans retenue a `k=2`, avec une silhouette autour de 0,60.
-- Les solutions a partir de `k=4` fragmentent davantage les groupes et generent des micro-clusters moins exploitables metier.
-- Cluster prioritaire ACP: 16 pays, correspondant a des marches a instruire rapidement.
-- Entonnoir final du notebook 2: Top 5 candidats fiables = Suisse, Dominique, Emirats arabes unis, Belgique, Autriche; shortlist 3 = Suisse, Dominique, Emirats arabes unis; pays recommande final = Suisse.
+4. **Clustering** *(BC03, BC05)* :
+   - **KMeans** (k=2) et **CAH** pour segmenter les pays.
+   - **Silhouette Score** : ~0.60 (qualité du clustering).
+   - **Justification de k=2** : Les solutions avec k≥4 créent des micro-clusters **moins exploitables métiers**.
 
-Conclusion: la segmentation finale privilegie une lecture simple en 2 clusters; la decision export se fait ensuite au niveau pays en croisant score composite, confiance maximale, accord CAH/KMeans, dimensions ACP et variables metier. La Suisse est le marche prioritaire a instruire, avec Dominique et les Emirats arabes unis comme comparateurs immediats de shortlist.
+5. **Recommandations** *(BC03, BC04)* :
+   - **Top 5 pays** : Suisse 🇨🇭, Dominique 🇩🇲, Émirats Arabes Unis 🇦🇪, Belgique 🇧🇪, Autriche 🇦🇹.
+   - **Shortlist 3** : Suisse, Dominique, Émirats Arabes Unis.
+   - **Pays recommandé** : **Suisse** (score composite optimal, accord CAH/KMeans, dimensions ACP favorables).
 
-## Demarrage rapide
+---
 
-```powershell
+## **📈 Résultats et Métriques**
+*(Blocs RNCP37837BC03, BC05)*
+
+### **🔹 Indicateurs Techniques**
+| **Métrique** | **Valeur** | **Interprétation** |
+|--------------|------------|-------------------|
+| **Nombre de pays analysés** | 139 | Base complète pour l’ACP et le clustering. |
+| **Variables actives (ACP)** | 11 | Sélectionnées parmi 16 variables candidates. |
+| **Variance conservée (ACP)** | 89.90% | 3 composantes principales suffisent. |
+| **Nombre de clusters (KMeans)** | 2 | Solution optimale pour une **lecture métier simple**. |
+| **Silhouette Score** | ~0.60 | Qualité **bonne** du clustering (proche de 1). |
+| **Pays prioritaires (Cluster A)** | 16 | Marchés à **instruire rapidement**. |
+
+### **🔹 Top 5 Pays à Approfondir**
+| **Rang** | **Pays** | **Score Composite** | **Justification** |
+|----------|----------|---------------------|------------------|
+| 1 | **Suisse 🇨🇭** | ✅✅✅ | **Score maximal**, accord CAH/KMeans, dimensions ACP favorables. |
+| 2 | **Dominique 🇩🇲** | ✅✅✅ | Proche de la Suisse en termes de **stabilité politique** et **demande bio**. |
+| 3 | **Émirats Arabes Unis 🇦🇪** | ✅✅✅ | **Fort pouvoir d’achat** (GDP/capita), **importations élevées** de volailles. |
+| 4 | **Belgique 🇧🇪** | ✅✅ | Marché **proche géographiquement**, **demande bio forte**. |
+| 5 | **Autriche 🇦🇹** | ✅✅ | **Culture bio développée**, **réglementation favorable**. |
+
+---
+## **📂 Preuves et Livrables**
+*(Bloc RNCP37837BC04 : Piloter un projet data)*
+
+| **Type** | **Lien** | **Description** |
+|----------|----------|-----------------|
+| **Notebook 1** | [Préparation & EDA (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb) | Préparation, nettoyage, feature engineering, ACP. |
+| **Notebook 2** | [Clustering & Recommandations (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb) | ACP, CAH, KMeans, profils de clusters, recommandations. |
+| **Scripts** | [scripts/](https://github.com/ferialzamoun-afk/P11/tree/main/scripts) | `data_manager.py` + `enrich_market_features_model.py`. |
+| **Tests** | [tests/](https://github.com/ferialzamoun-afk/P11/tree/main/tests) | 16 tests unitaires (pytest) pour les fonctions critiques. |
+| **CI/CD** | [.github/workflows/ci.yml](https://github.com/ferialzamoun-afk/P11/blob/main/.github/workflows/ci.yml) | Workflow GitHub Actions (ruff, pytest, smoke checks). |
+| **Brief Projet** | [PROJECT_BRIEF.md](https://github.com/ferialzamoun-afk/P11/blob/main/PROJECT_BRIEF.md) | Contexte, objectifs, livrables. |
+| **Documentation** | [docs/](https://github.com/ferialzamoun-afk/P11/tree/main/docs) | Documentation technique et note pipeline. |
+
+---
+## **🚀 Démarrage Rapide**
+*(Pour reproduire le projet en local)*
+
+```bash
+# 1. Cloner le dépôt
+git clone https://github.com/ferialzamoun-afk/P11.git
+cd P11
+
+# 2. Installer les dépendances
 pip install -r requirements.txt
-```
 
-Ouvrir les notebooks dans l ordre :
-
-1. `notebooks/ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb`
-2. `notebooks/ZAMOUN_Férial_2_clustering_visualisations _112025.ipynb`
-
-## Qualite logicielle (CI)
-
-Workflow GitHub Actions dans [.github/workflows/ci.yml](.github/workflows/ci.yml) :
-
-- Lint via `ruff` (`scripts/enrich_market_features_model.py` + tests)
-- 16 tests unitaires via `pytest`
-- Smoke check des fonctions critiques
-- Verification du fichier `VERSION`
-- Validation structurelle des deux notebooks livres: JSON nbformat, volume minimal de cellules code/markdown, absence de sorties d'erreur enregistrees
-- Execution complete du notebook 1 si les donnees sources `data/raw` sont disponibles dans l'environnement CI
-
-Execution locale :
-
-```powershell
+# 3. Exécuter les tests (optionnel)
 pip install pytest ruff nbformat nbconvert ipykernel
 ruff check scripts/enrich_market_features_model.py tests --ignore E501,W293
 pytest -q
-```
 
-## Livrables
+# 4. Ouvrir les notebooks (dans l'ordre)
+jupyter notebook notebooks/ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb
+jupyter notebook notebooks/ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb
 
-- Notebook 1 : preparation, nettoyage, feature engineering, tests pre-ACP.
-- Notebook 2 : ACP + clustering (CAH + KMeans) + entonnoir de recommandation cluster prioritaire -> Top 5 -> shortlist -> pays recommande.
-- Helpers Python conserves: inspection notebook et fonctions testees de normalisation/Levenshtein.
-- Suite de tests unitaires integree au workflow CI.
-- Documentation de soutenance: brief projet, documentation technique et note pipeline.
+✅ Qualité Logicielle
+(Bloc RNCP37837BC04 : Piloter un projet data)
 
-## Document complementaire
+Linting : ruff pour vérifier la qualité du code (scripts + tests).
+Tests unitaires : 16 tests couvrant :
 
-- Brief projet : [PROJECT_BRIEF.md](PROJECT_BRIEF.md)
-- Documentation technique : [docs/documentation_technique.md](docs/documentation_technique.md)
-- Note pipeline : [docs/note_pipeline_preparation_nettoyage.md](docs/note_pipeline_preparation_nettoyage.md)
+Normalisation des textes (test_data_prep.py).
+Distance de Levenshtein et diversité (test_enrich_market_features_model.py).
+
+Smoke checks : Vérification des fonctions critiques.
+Validation des notebooks :
+
+Structure JSON valide (nbformat).
+Volume minimal de cellules code/markdown.
+Absence d’erreurs enregistrées.
+
+CI/CD : Workflow GitHub Actions pour automatiser les vérifications.
+
+🎯 Mapping RNCP 37837
+
+Blocs couverts par ce projet :
+
+✅ BC01 : Structurer et gérer la base de données (base_acp_finale_2017.csv)
+✅ BC02 : Identifier, collecter et analyser les données (nettoyage, EDA, feature engineering)
+✅ BC03 : Visualiser des données et interpréter des résultats (ACP, clustering, graphiques)
+✅ BC04 : Piloter un projet data (documentation, CI/CD, veille, organisation)
+✅ BC05 : Spécialisation Statistiques (ACP, clustering, tests statistiques, réduction de dimension)
