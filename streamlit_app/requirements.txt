@@ -1,7 +1,0 @@
-streamlit
-streamlit-pdf-viewer
-pandas
-matplotlib
-seaborn
-numpy
-scikit-learn
