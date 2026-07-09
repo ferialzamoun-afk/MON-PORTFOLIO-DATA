@@ -1,41 +1,60 @@
-﻿# 📊 Portfolio Data Analyst - MON-PORTFOLIO-DATA
+﻿# Portfolio Data Analyst - Ferial Zamoun
 
-Bienvenue dans mon portfolio Data Analyst.
-Ce dépôt regroupe mes projets réalisés pendant ma formation et mon développement professionnel.
+Ce portfolio presente une selection courte de projets documentes, consultables et orientes recruteur. L'objectif est de montrer ma capacite a transformer des donnees dispersees en analyses fiables, indicateurs actionnables et restitutions partageables.
 
-Objectif : montrer ma capacité à analyser, structurer, visualiser et valoriser la donnée dans des contextes variés.
-
----
-
-## 🧭 Navigation
-
-- Backlog complet : [projets_data.md](projets_data.md)
-- EPIC 1 : [projets/US13_portfolio/epics/epic_1_analyses_dataviz.md](projets/US13_portfolio/epics/epic_1_analyses_dataviz.md)
-- EPIC 2 : [projets/US13_portfolio/epics/epic_2_programmation_analyse.md](projets/US13_portfolio/epics/epic_2_programmation_analyse.md)
-- EPIC 3 : [projets/US13_portfolio/epics/epic_3_sql_bases_donnees.md](projets/US13_portfolio/epics/epic_3_sql_bases_donnees.md)
-- EPIC 4 : [projets/US13_portfolio/epics/epic_4_dataviz_pilotage.md](projets/US13_portfolio/epics/epic_4_dataviz_pilotage.md)
-- EPIC 5 : [projets/US13_portfolio/epics/epic_5_portfolio_communication.md](projets/US13_portfolio/epics/epic_5_portfolio_communication.md)
+Fil rouge: cadrer un besoin metier, fiabiliser les donnees, produire des KPI, visualiser pour la decision et documenter les preuves.
 
 ---
 
-## 🧱 Structure
+## Projets mis en avant
 
-- [projets/](projets/) : dossiers par User Story
-- [streamlit_app/](streamlit_app/) : application Streamlit portfolio
-- [assets/](assets/) : ressources globales
+### 1. Fiabilisation de donnees e-commerce - Bottleneck
+
+Projet de reference pour demontrer le nettoyage, le rapprochement de sources et la qualite des donnees.
+
+- Documentation: [fiche projet Bottleneck](projets/US6_Optimisation_Bottleneck/README.md)
+- Dashboard public: https://p6-dashboard-wdcn5o8grt39nqtim6mgym.streamlit.app/
+- Depot source initial: https://github.com/ferialzamoun-afk/OC_P6_Optimisation_des_donnees_dune_boutique_en_Python
+- Version portfolio cible: P13 Partie 1 amelioree, avec notebook refactore, controles qualite, documentation IA et preuves.
+
+### 2. Dashboard decisionnel - SANITORAL
+
+Projet de datavisualisation Power BI pour piloter un portefeuille de projets selon plusieurs profils decisionnaires.
+
+- Documentation: [fiche projet SANITORAL](projets/US7_dashboard_powerbi/README.md)
+- Competences: indicateurs, seuils d'alerte, vues par persona, storytelling de pilotage.
+
+### 3. Detection de faux billets
+
+Projet de machine learning applique a un cas de detection de risque, avec modele exporte et API de prediction.
+
+- Documentation: [fiche projet detection de faux billets](projets/US12_faux_billets/README.md)
+- Competences: classification, evaluation, API FastAPI, reproductibilite.
 
 ---
 
-## 🌐 Dashboards publics
+## Competences Data Analyst demontrees
 
-- Tableau de bord Optimisation des ventes d'une boutique : https://p6-dashboard-wdcn5o8grt39nqtim6mgym.streamlit.app/
-- SOC Monitoring : https://soc-data-anomaly-monitoring-of3oufewjpbvav6ekbs6wr.streamlit.app/
-- Détails US6 : [projets/US6_Optimisation_Bottleneck/README.md](projets/US6_Optimisation_Bottleneck/README.md)
+| Competence | Preuve | Indicateur ou livrable |
+|---|---|---|
+| Cadrer un besoin metier | Projet Bottleneck, sources ERP/Web/Liaison | 3 sources consolidees, 825 produits analyses |
+| Controler la qualite des donnees | Scripts Python et notebook P13 Partie 1 | 18 controles qualite, 11 OK, 1 correction stock finalisee |
+| Produire des KPI exploitables | Dashboard et dataviz e-commerce | 143 680 EUR de CA calcule, 92 ruptures ou stocks nuls |
+| Visualiser pour la decision | Dashboard Power BI SANITORAL | Vues par persona et seuil d'alerte superieur a 15% |
+| Documenter et partager | README, captures, liens publics, tracabilite IA | Documentation consultable comme un espace partageable |
 
 ---
 
-## 👩‍💻 Auteur
+## Application portfolio
 
-Férial Zamoun  
-Formation Data Analyst - GRETA Promo 2025  
-Objectif : CDI ou poursuite en Alternance  Data \ IA
+- Application Streamlit: [streamlit_app/](streamlit_app/)
+- Donnees descriptives internes: [streamlit_app/projets_data.md](streamlit_app/projets_data.md)
+- Dossiers projets: [projets/](projets/)
+
+---
+
+## Auteur
+
+Ferial Zamoun  
+Profil Data Analyst  
+Objectif: alternance ou poste en data / IA

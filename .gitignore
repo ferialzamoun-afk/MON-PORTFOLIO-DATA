@@ -8,6 +8,16 @@ venv/
 env/
 ENV/
 
+# VSCode
+.vscode/
+
+# Data files
+data/
+
+# Pages web exportées
+*.html
+
 # Streamlit
-.streamlit/secrets.toml
+.streamlit/config.toml
 .streamlit/*.lock
+streamlit_app/
