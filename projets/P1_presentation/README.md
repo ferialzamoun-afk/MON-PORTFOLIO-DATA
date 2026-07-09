@@ -76,4 +76,4 @@ Projet de stage :
 ✉ ferial.zamoun@gmail.com  |  📅 06 65 18 49 81  |  🔗 linkedin.com/in/ferialzamoun
 Tours · Permis B · Véhicule personnel
 
-Disponible immédiatement pour un poste en Data Analyse, BI ou Consulting. Si aucune opportunité n’est trouvée, poursuite de la formation pour viser l’expertise en consulting data et IA.
+Disponible immédiatement pour un poste en Data Analyse, BI ou Consulting. Si aucune opportunité n’est trouvée, poursuite de la formation pour viser l’expertise en consulting data et IA.(RNCP37744 -data-scientist-machine-learning Septembre 2026)

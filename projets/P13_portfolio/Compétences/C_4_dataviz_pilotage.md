@@ -1,10 +1,10 @@
-# EPIC 4 — DataViz & Pilotage
+# C_4 — DataViz & Pilotage
 
 En tant que chef de projet, je veux un tableau de bord dynamique afin de suivre l'avancement des projets.
 
 ---
 
-## 🎯 Objectifs de l’EPIC
+## 🎯 Objectifs C_4
 - Construire des dashboards dynamiques
 - Structurer des indicateurs et KPI
 - Automatiser la mise à jour des données
@@ -12,9 +12,9 @@ En tant que chef de projet, je veux un tableau de bord dynamique afin de suivre 
 
 ---
 
-## 📌 User Stories incluses
+## 📌 Projets inclus
 
-### **US7 — Dashboard Power BI projets**
+### **P7 — Dashboard Power BI projets**
 - **En tant que** chef de projet  
 - **Je veux** un tableau de bord dynamique  
 - **Afin de** suivre l’avancement des projets  
