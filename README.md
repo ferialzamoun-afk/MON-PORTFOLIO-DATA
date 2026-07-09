@@ -178,6 +178,11 @@
    - **Preuves accessibles** (GitHub, nbviewer, liens publics).
 
 ---
+## **📁 Structure du Dépôt**
+- `.gitignore` : Exclut les fichiers temporaires (`__pycache__/`, `.venv/`, `*.pbit`), données sensibles, et artefacts générés.
+- `notebooks/` : Notebooks Jupyter des projets.
+- `src/` : Modules Python réutilisables.
+- `output/` : Graphiques et exports générés.
 ---
 ## **📅 Roadmap et Prochaines Étapes**
  | **Projet** | **Statut** | **Prochaines Améliorations** |
