@@ -138,11 +138,37 @@
 ---
 ### **📊 Résultats**
 *(Blocs RNCP37837BC02, BC03, BC05)*
-| **Indicateur** | **Valeur** | **Interprétation** | **Preuve** |
-|---------------|------------|-------------------|------------|
-| **Chiffre d’affaires annuel** | **480 000 €** *(atterrissage 2023)* | ✅ **3 pics saisonniers identifiés** | [kpi_analysis.py](https://github.com/ferialzamoun-afk/P9/blob/main/src/kpi_analysis.py) |
-| **Clients totaux** | **8 600 clients** | ✅ **Segmentation clients statistiquement validée , genre, recommandations par tranches d'âge** | [eda_analysis.py](https://github.com/ferialzamoun-afk/P9/blob/main/src/eda_analysis.py) |
-| **Concentration du CA (Indice de Gini 0,40)** | **Dépendance marqué à la catégorie1** | ⚠️ **Dépendance marqué à la catégorie1** | [courbe_pareto_80_20.html](https://github.com/ferialzamoun-afk/P9/raw/main/output/dataviz/courbe_pareto_80_20.html) |
+
+<table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <thead>
+    <tr style="background-color: #155799; color: white;">
+      <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Indicateur</strong></th>
+      <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Valeur</strong></th>
+      <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Interprétation</strong></th>
+      <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Preuve</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>CA annuel</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>480 000 €</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ <strong>3 pics saisonniers</strong> identifiés</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/src/kpi_analysis.py">kpi_analysis.py</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Clients totaux</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>8 600 clients</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ <strong>Segmentation statistiquement validée</strong> par genre & tranches d'âge</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/src/eda_analysis.py">eda_analysis.py</a></td>
+    </tr>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Concentration CA</strong><br/><em>(Indice Gini 0.40)</em></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Dépendance catégorie 1</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">⚠️ <strong>80/20 identifié</strong> : 20% des clients = 80% du CA</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/raw/main/lapage_project/outputs/courbe_pareto_80_20.html">Pareto Curve</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
