@@ -72,7 +72,7 @@
 - **Modèle exporté** : API FastAPI pour la prédiction.
 
 **🔗 Liens** :
-- [📄 Fiche Projet Détection de Faux Billets](https://github.com/ferialzamoun-afk/P12)
+- [📄 Fiche Projet Détection de Faux Billets](https://github.com/ferialzamoun-afk/P12/blob/main/README.md)
 - [🔗 Dépôt GitHub](https://github.com/ferialzamoun-afk/P12)
 
 **🎯 Compétences Demonstrées** :
@@ -99,7 +99,7 @@
   - **Pays prioritaire** : **Suisse** (score composite optimal, accord CAH/KMeans).
 
 **🔗 Liens** :
-- [📄 Fiche Projet P11](https://github.com/ferialzamoun-afk/P11)
+- [📄 Fiche Projet P11](https://github.com/ferialzamoun-afk/P11/blob/main/PROJECT_BRIEF.md)
 - [📓 Notebook 1 : Préparation & EDA (nbviewer)](https://github.com/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb)
 - [📓 Notebook 2 : Clustering & Recommandations (nbviewer)](https://github.com/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Férial_2_clustering_visualisations%20_112025.ipynb)
 
