@@ -506,23 +506,16 @@
 ---
 ## **🎯 Conclusion**
 Ce portfolio est **conçu pour démontrer ma capacité à** :
-
 ✅ **Transformer des données brutes en insights actionnables**.
-
 ✅ **Piloter des projets data de A à Z** (de la collecte à la restitution).
-
 ✅ **Maitriser les outils modernes** (Python, dbt, Snowflake, Streamlit, Power BI).
-
 ✅ **Communiquer clairement** avec des **décideurs non-techniques**.
 
 ---
 
 **🚀 Prêt pour une collaboration ?**
-
 - **Alternance** : Je cherche un contrat en **Data Analyst / Data Scientist**.
-
 - **Poste CDI** : Ouvert aux opportunités en **Data, BI ou IA**.
-
 - **Freelance** : Disponible pour des missions ponctuelles.
 
 ---
