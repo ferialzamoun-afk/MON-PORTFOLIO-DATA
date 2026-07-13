@@ -8,8 +8,7 @@
 - [🌐 Dashboard Streamlit (Production)](https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/)
 - [📁 Code Source Dashboard](https://github.com/ferialzamoun-afk/P9-lapage-streamlit)
 - [📓 Notebooks Jupyter](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/notebooks/analyses/)
-- [📊 Exports KPI](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs/)
-- [📁 Documentation](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/docs/)
+- [ Documentation](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/docs/)
 - [✅ Workflow Tests (pytest)](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/.github/workflows/ci.yml)
 
 ---
@@ -89,7 +88,6 @@ P9/
 | **BC02** | **Analyse univariée/multivariée** | **Analyse des tendances** (CA par mois, panier par segment client). | [02_Analyses_Marketing.ipynb](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/02_Analyses_Marketing.ipynb) |
 | **BC03** | **Solution de visualisation** | **Dashboard Streamlit** : Visualisations interactives (CA, panier, segments clients). | [Dashboard en ligne](https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/) |
 | **BC03** | **Créer un tableau de bord** | **Dashboard multi-pages** pour le CODIR (performance commerciale, comportements clients). | [Streamlit/app.py](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/dashboard/) |
-| **BC03** | **Reporting des tendances** | **Exports KPI** (Excel) et **figures de reporting** (PNG). | [outputs/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs/) |
 | **BC04** | **Veille métier/technologique** | **Benchmark des outils** (Streamlit vs Power BI) et **méthodologie documentée**. | [README.md](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/README.md) |
 | **BC04** | **Formaliser le cahier des charges** | **Documentation complète** (notebooks, dashboard, exports). | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies) |
 | **BC04** | **Organiser un projet data** | **Pipeline CI** (tests pytest) et **structure modulaire** (src/, reutilisable/). | [.github/workflows/ci.yml](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/.github/workflows/ci.yml) |
@@ -138,22 +136,8 @@ P9/
   - Tableau de bord des **KPI clés** (CA, panier, taux de rétention).
   - Export des données en **Excel** (bouton de téléchargement).
 
-**Captures d’écran** :
-*(À ajouter si disponibles)*
-```markdown
-![Dashboard - Performance Commerciale](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/raw/main/lapage_project/outputs/dashboard_performance.png)
-*Exemple : Évolution du CA mensuel et panier moyen.*
 
-![Dashboard - Segmentation Clients](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/raw/main/lapage_project/outputs/dashboard_clients.png)
 *Exemple : Segmentation RFM des clients Lapage.*
-
-🔹 Exports KPI (Excel)
-
-| Fichier | Description | Lien |
-| --- | --- | --- |
-| kpi_ventes.xlsx | CA, panier moyen, concentration des ventes | [lapage_project/outputs/kpi_ventes.xlsx](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/raw/main/lapage_project/outputs/kpi_ventes.xlsx) |
-| kpi_clients.xlsx | Segmentation clients, fréquence d'achat | [lapage_project/outputs/kpi_clients.xlsx](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/raw/main/lapage_project/outputs/kpi_clients.xlsx) |
-| kpi_produits.xlsx | Performance par catégorie de produits | [lapage_project/outputs/kpi_produits.xlsx](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/raw/main/lapage_project/outputs/kpi_produits.xlsx) |
 
 ### **🔹 Tests & Déploiement**
 
@@ -177,8 +161,6 @@ P9/
 | Dashboard Streamlit | [Production](https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/) | Application web opérationnelle |
 | Notebooks | [analyses/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/notebooks/analyses/) | Analyses statistiques (Marketing/BI) |
 | Fonctions Réutilisables | [réutilisables/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/src/) | Modules Python mutualisés |
-| Exports KPI | [outputs/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs/) | Fichiers Excel (CA, clients, produits) |
-| Figures | [outputs/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs/) | Graphiques statiques (PNG) |
 | Tests & CI | [Workflow (pytest)](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/.github/workflows/ci.yml) | Validation automatisée des KPI |
 | Tests | [tests/test_app.py](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/tests/test_app.py) | Suite de tests (100% des KPI validés) |
 

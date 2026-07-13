@@ -165,7 +165,7 @@
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Concentration CA</strong><br/><em>(Indice Gini 0.40)</em></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Dépendance catégorie 1</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">⚠️ <strong>80/20 identifié</strong> : 20% des clients = 80% du CA</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/raw/main/lapage_project/outputs/courbe_pareto_80_20.html">Pareto Curve</a></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/02_Analyses_Marketing.ipynb">Analyse détaillée</a></td>
     </tr>
   </tbody>
 </table>
@@ -213,16 +213,6 @@
       <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>Notebook 03</strong></td>
       <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/03_Analyses_Statistiques.ipynb">📓 Analyses Statistiques</a></td>
       <td style="padding: 9px 12px; border: 1px solid #ddd;">Analyses métier, visualisations</td>
-    </tr>
-    <tr>
-      <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>Exports KPI</strong></td>
-      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs">📊 outputs/</a></td>
-      <td style="padding: 9px 12px; border: 1px solid #ddd;">Fichiers Excel (CA, clients, produits)</td>
-    </tr>
-    <tr style="background-color: #f4f7fb;">
-      <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>Figures</strong></td>
-      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs/figures">📈 outputs/figures/</a></td>
-      <td style="padding: 9px 12px; border: 1px solid #ddd;">Graphiques statiques (PNG)</td>
     </tr>
   </tbody>
 </table>
@@ -281,12 +271,6 @@
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Créer un tableau de bord</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Dashboard multi-pages pour le CODIR</td>
       <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9-lapage-streamlit">Streamlit app</a></td>
-    </tr>
-    <tr>
-      <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC03</strong></td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><strong>Reporting tendances</strong></td>
-      <td style="padding: 8px; border: 1px solid #ddd;">Exports KPI (Excel) & figures (PNG)</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs">outputs/</a></td>
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC04</strong></td>
