@@ -185,6 +185,11 @@
   </thead>
   <tbody>
     <tr style="background-color: #f4f7fb;">
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>Fiche Projet</strong></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/PROJECT_BRIEF.md">📄 PROJECT_BRIEF.md</a></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;">Contexte, objectifs, méthodologie, résultats</td>
+    </tr>
+    <tr>
       <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>Dépôt GitHub</strong></td>
       <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">🔗 P9 – Lapage</a></td>
       <td style="padding: 9px 12px; border: 1px solid #ddd;">Code source, notebooks, dashboard, tests</td>
