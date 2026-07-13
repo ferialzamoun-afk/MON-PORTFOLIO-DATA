@@ -196,7 +196,7 @@
     </tr>
     <tr>
       <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>Dashboard Streamlit</strong></td>
-      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://sznbna247tbtpj2hkhexqe.streamlit.app/">🌐 Production</a></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/">🌐 Production</a></td>
       <td style="padding: 9px 12px; border: 1px solid #ddd;">Application web opérationnelle</td>
     </tr>
     <tr style="background-color: #f4f7fb;">
@@ -274,13 +274,13 @@
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC03</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Visualiser</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Dashboard Streamlit : Visualisations interactives</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://sznbna247tbtpj2hkhexqe.streamlit.app/">Dashboard Live</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/">Dashboard Live</a></td>
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC03</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Créer un tableau de bord</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Dashboard multi-pages pour le CODIR</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_streamlit_public">Streamlit app</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9-lapage-streamlit">Streamlit app</a></td>
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC03</strong></td>
@@ -496,7 +496,7 @@
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Streamlit</strong></td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://sznbna247tbtpj2hkhexqe.streamlit.app/">🌐 Dashboard Live</a></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/">🌐 Dashboard Live</a></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Application interactive</td>
     </tr>
     <tr>

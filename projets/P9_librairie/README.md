@@ -4,8 +4,9 @@
 **📅 Date** : 04/2026
 **🏷️ Type** : Analyse Statistique / Dashboard Streamlit / Pipeline CI
 **🔗 Liens** :
-- [🔗 Dépôt GitHub](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies)
-- [🌐 Dashboard Streamlit (Production)](https://sznbna247tbtpj2hkhexqe.streamlit.app/)
+- [🔗 Dépôt GitHub - Analyses](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies)
+- [🌐 Dashboard Streamlit (Production)](https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/)
+- [📁 Code Source Dashboard](https://github.com/ferialzamoun-afk/P9-lapage-streamlit)
 - [📓 Notebooks Jupyter](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/notebooks/analyses/)
 - [📊 Exports KPI](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs/)
 - [📁 Documentation](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/docs/)
@@ -86,7 +87,7 @@ P9/
 | **BC02** | **Extraire et agréger** | **Nettoyage et agrégation** : Calcul du CA, panier moyen, concentration des ventes. | [02_Analyses_Marketing.ipynb](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/02_Analyses_Marketing.ipynb) |
 | **BC02** | **Explorer et pré-traiter** | **Feature Engineering** : Segmentation clients (fréquence, catégories, etc.). | [01_Exploration_EDA.ipynb](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/01_Exploration_EDA.ipynb) |
 | **BC02** | **Analyse univariée/multivariée** | **Analyse des tendances** (CA par mois, panier par segment client). | [02_Analyses_Marketing.ipynb](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/02_Analyses_Marketing.ipynb) |
-| **BC03** | **Solution de visualisation** | **Dashboard Streamlit** : Visualisations interactives (CA, panier, segments clients). | [Dashboard en ligne](https://sznbna247tbtpj2hkhexqe.streamlit.app/) |
+| **BC03** | **Solution de visualisation** | **Dashboard Streamlit** : Visualisations interactives (CA, panier, segments clients). | [Dashboard en ligne](https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/) |
 | **BC03** | **Créer un tableau de bord** | **Dashboard multi-pages** pour le CODIR (performance commerciale, comportements clients). | [Streamlit/app.py](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/dashboard/) |
 | **BC03** | **Reporting des tendances** | **Exports KPI** (Excel) et **figures de reporting** (PNG). | [outputs/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs/) |
 | **BC04** | **Veille métier/technologique** | **Benchmark des outils** (Streamlit vs Power BI) et **méthodologie documentée**. | [README.md](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/README.md) |
@@ -123,7 +124,7 @@ P9/
 *(Blocs RNCP37837BC03, BC04)*
 
 ### **🔹 Dashboard Streamlit**
-**URL de production** : [https://sznbna247tbtpj2hkhexqe.streamlit.app/](https://sznbna247tbtpj2hkhexqe.streamlit.app/)
+**URL de production** : [https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/](https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/)
 **Fonctionnalités** :
 - **Page 1 : Performance Commerciale** :
   - CA mensuel/annuel (graphique en aires ou barres).
@@ -166,7 +167,7 @@ P9/
 | Type | Lien | Description |
 | --- | --- | --- |
 | Dépôt GitHub | [P9_analyses_ventes_librairies](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies) | Code source, notebooks, dashboard, tests |
-| Dashboard Streamlit | [Production](https://sznbna247tbtpj2hkhexqe.streamlit.app/) | Application web opérationnelle |
+| Dashboard Streamlit | [Production](https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/) | Application web opérationnelle |
 | Notebooks | [analyses/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/notebooks/analyses/) | Analyses statistiques (Marketing/BI) |
 | Fonctions Réutilisables | [réutilisables/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/src/) | Modules Python mutualisés |
 | Exports KPI | [outputs/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs/) | Fichiers Excel (CA, clients, produits) |
