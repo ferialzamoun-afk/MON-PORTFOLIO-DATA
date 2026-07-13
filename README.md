@@ -505,19 +505,26 @@
 ---
 ---
 ## **🎯 Conclusion**
-Ce portfolio est **conçu pour démontrer ma capacité à** :
-✅ **Transformer des données brutes en insights actionnables**.
-✅ **Piloter des projets data de A à Z** (de la collecte à la restitution).
-✅ **Maitriser les outils modernes** (Python, dbt, Snowflake, Streamlit, Power BI).
-✅ **Communiquer clairement** avec des **décideurs non-techniques**.
+
+<div style="line-height: 1.4;">
+Ce portfolio est <strong>conçu pour démontrer ma capacité à</strong> :<br>
+✅ <strong>Transformer des données brutes en insights actionnables</strong>.<br>
+✅ <strong>Piloter des projets data de A à Z</strong> (de la collecte à la restitution).<br>
+✅ <strong>Maitriser les outils modernes</strong> (Python, dbt, Snowflake, Streamlit, Power BI).<br>
+✅ <strong>Communiquer clairement</strong> avec des <strong>décideurs non-techniques</strong>.
+</div>
 
 ---
 
-**🚀 Prêt pour une collaboration ?**
-- **Alternance** : Je cherche un contrat en **Data Analyst / Data Scientist**.
-- **Poste CDI** : Ouvert aux opportunités en **Data, BI ou IA**.
-- **Freelance** : Disponible pour des missions ponctuelles.
+<div style="line-height: 1.4;">
+<strong>🚀 Prêt pour une collaboration ?</strong><br>
+- <strong>Alternance</strong> : Je cherche un contrat en <strong>Data Analyst / Data Scientist</strong>.<br>
+- <strong>Poste CDI</strong> : Ouvert aux opportunités en <strong>Data, BI ou IA</strong>.<br>
+- <strong>Freelance</strong> : Disponible pour des missions ponctuelles.
+</div>
 
 ---
 
-**💬 Contactez-moi** pour discuter de vos besoins en **analyse de données, machine learning ou pilotage de projets data** !
+<div style="line-height: 1.4;">
+<strong>💬 Contactez-moi</strong> pour discuter de vos besoins en <strong>analyse de données, machine learning ou pilotage de projets data</strong> !
+</div>
