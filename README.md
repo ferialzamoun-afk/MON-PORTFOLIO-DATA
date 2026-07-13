@@ -148,49 +148,190 @@
 
 ### **🔗 Liens**
 *(Accès direct aux ressources du projet)*
-| **Type** | **Lien** | **Description** |
-|----------|----------|-----------------|
-| **Dépôt GitHub** | [🔗 P9 – Lapage](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies)| Code source, notebooks, dashboard, tests |
-| **Dashboard Streamlit** | [🌐 Production](https://sznbna247tbtpj2hkhexqe.streamlit.app/) | Application web opérationnelle |
-| **Notebook 01** | [📓 Inspection & Normalisation (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/01_Exploration_et_nettoyage.ipynb) | Qualification, nettoyage, construction analytique |
-| **Notebook 02** | [📓 Préparation & Nettoyage (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/02_Analyses_Marketing.ipynb) | Pipeline en couches, tables étoile |
-| **Notebook 03** | [📓 Analyses & EDA (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/03_Analyses_Statistiques.ipynb) | Analyses métier, visualisations |
-| **Exports KPI** | [📊 reports/exports/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs) | Fichiers Excel (CA, clients, produits) |
-| **Figures** | [📈 reports/figures/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs/figures) | Graphiques statiques (PNG) |
+
+<table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <thead>
+    <tr style="background-color: #155799; color: white;">
+      <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Type</strong></th>
+      <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Lien</strong></th>
+      <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Description</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>Dépôt GitHub</strong></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">🔗 P9 – Lapage</a></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;">Code source, notebooks, dashboard, tests</td>
+    </tr>
+    <tr>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>Dashboard Streamlit</strong></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://sznbna247tbtpj2hkhexqe.streamlit.app/">🌐 Production</a></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;">Application web opérationnelle</td>
+    </tr>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>Notebook 01</strong></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/01_Exploration_et_nettoyage.ipynb">📓 Exploration & EDA</a></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;">Qualification, nettoyage, construction analytique</td>
+    </tr>
+    <tr>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>Notebook 02</strong></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/02_Analyses_Marketing.ipynb">📓 Analyses Marketing</a></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;">Pipeline en couches, segmentation client</td>
+    </tr>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>Notebook 03</strong></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/03_Analyses_Statistiques.ipynb">📓 Analyses Statistiques</a></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;">Analyses métier, visualisations</td>
+    </tr>
+    <tr>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>Exports KPI</strong></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs">📊 outputs/</a></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;">Fichiers Excel (CA, clients, produits)</td>
+    </tr>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>Figures</strong></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs/figures">📈 outputs/figures/</a></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;">Graphiques statiques (PNG)</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 ### **🎯 Compétences RNCP 37837 Demonstrées**
-| **Bloc RNCP** | **Compétence** | **Description** | **Preuves** |
-|---------------|---------------|----------------|-------------|
-| **BC01** | **Structurer et gérer la base de données** | **Pipeline de données** : Transformation des données brutes (`data/raw/`) en données exploitables (`data/processed/`). | [src/data_loader.py](https://github.com/ferialzamoun-afk/P9/blob/main/src/data_loader.py) |
-| **BC02** | **Identifier et collecter les données** | Utilisation des **données de vente Lapage** (CA, panier, fréquence clients). | [data/raw/](https://github.com/ferialzamoun-afk/P9/tree/main/data/raw) |
-| **BC02** | **Extraire et agréger** | **Nettoyage et agrégation** : Calcul du CA, panier moyen, concentration des ventes. | [notebooks/analyse_ventes.ipynb](https://nbviewer.org/github/ferialzamoun-afk/P9/blob/main/notebooks/analyse_ventes.ipynb) |
-| **BC02** | **Explorer et pré-traiter** | **Feature Engineering** : Segmentation clients (fréquence, catégories, etc.). | [notebooks/analyse_clients.ipynb](https://nbviewer.org/github/ferialzamoun-afk/P9/blob/main/notebooks/analyse_clients.ipynb) |
-| **BC02** | **Analyse univariée/multivariée** | **Analyse des tendances** (CA par mois, panier par segment client). | [notebooks/analyse_ventes.ipynb](https://nbviewer.org/github/ferialzamoun-afk/P9/blob/main/notebooks/analyse_ventes.ipynb) |
-| **BC03** | **Solution de visualisation** | **Dashboard Streamlit** : Visualisations interactives (CA, panier, segments clients). | [Dashboard en ligne](https://sznbna247tbtpj2hkhexqe.streamlit.app/) |
-| **BC03** | **Créer un tableau de bord** | **Dashboard multi-pages** pour le CODIR (performance commerciale, comportements clients). | [Streamlit/app.py](https://github.com/ferialzamoun-afk/P9/blob/main/Streamlit/app.py) |
-| **BC03** | **Reporting des tendances** | **Exports KPI** (Excel) et **figures de reporting** (PNG). | [reports/exports/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs) + [reports/figures/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs/figures) |
-| **BC04** | **Veille métier/technologique** | **Benchmark des outils** (Streamlit vs Power BI) et **méthodologie documentée**. | [README.md](https://github.com/ferialzamoun-afk/P9/blob/main/README.md) |
-| **BC04** | **Formaliser le cahier des charges** | **Documentation complète** (notebooks, dashboard, exports). | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P9) |
-| **BC04** | **Organiser un projet data** | **Pipeline CI** (tests pytest) et **structure modulaire** (src/, reutilisable/). | [.github/workflows/ci.yml](https://github.com/ferialzamoun-afk/P9/blob/main/.github/workflows/ci.yml) |
-| **BC04** | **Gérer la documentation** | **100% des livrables documentés** (notebooks, scripts, dashboard). | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P9) |
-| **BC05** | **Analyses multivariées** | **Segmentation clients** (fréquence × CA × catégories). | [notebooks/analyse_clients.ipynb](https://nbviewer.org/github/ferialzamoun-afk/P9/blob/main/notebooks/analyse_clients.ipynb) |
-| **BC05** | **Tests statistiques** | **Validation des KPI** (cohérence, filtrage multi-critères). | [tests/test_app.py](https://github.com/ferialzamoun-afk/P9/blob/main/tests/test_app.py) |
+
+<table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1); font-size: 0.88em;">
+  <thead>
+    <tr style="background-color: #155799; color: white;">
+      <th style="padding: 10px 8px; text-align: left; border: 1px solid #ddd; font-weight: 600; width: 10%;"><strong>Bloc</strong></th>
+      <th style="padding: 10px 8px; text-align: left; border: 1px solid #ddd; font-weight: 600; width: 22%;"><strong>Compétence</strong></th>
+      <th style="padding: 10px 8px; text-align: left; border: 1px solid #ddd; font-weight: 600; width: 40%;"><strong>Description</strong></th>
+      <th style="padding: 10px 8px; text-align: left; border: 1px solid #ddd; font-weight: 600; width: 28%;"><strong>Preuves</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC01</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>Structurer & gérer</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Pipeline de données : brutes → exploitables</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project">lapage_project/</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC02</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>Identifier & collecter</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Données de vente Lapage (CA, panier, clients)</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/data">data/</a></td>
+    </tr>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC02</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>Extraire & agréger</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Nettoyage & agrégation : CA, panier moyen, concentration</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/02_Analyses_Marketing.ipynb">Notebook 02</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC02</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>Explorer & pré-traiter</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Feature Engineering : Segmentation clients</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/02_Analyses_Marketing.ipynb">Notebook 02</a></td>
+    </tr>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC02</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>Analyse multivariée</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Analyse des tendances : CA & panier par segment</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/03_Analyses_Statistiques.ipynb">Notebook 03</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC03</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>Visualiser</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Dashboard Streamlit : Visualisations interactives</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://sznbna247tbtpj2hkhexqe.streamlit.app/">Dashboard Live</a></td>
+    </tr>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC03</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>Créer un tableau de bord</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Dashboard multi-pages pour le CODIR</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_streamlit_public">Streamlit app</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC03</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>Reporting tendances</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Exports KPI (Excel) & figures (PNG)</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs">outputs/</a></td>
+    </tr>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC04</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>Veille métier</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Benchmark des outils (Streamlit vs Power BI)</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/README.md">README.md</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC04</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>Cahier des charges</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Documentation complète (notebooks, dashboard)</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">Dépôt P9</a></td>
+    </tr>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC04</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>Organiser projet</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Pipeline CI (tests pytest) & structure modulaire</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">Dépôt P9</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC04</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>Gérer documentation</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;">100% des livrables documentés</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">Dépôt P9</a></td>
+    </tr>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC05</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>Analyses multivariées</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Segmentation clients (fréquence × CA)</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/02_Analyses_Marketing.ipynb">Notebook 02</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC05</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><strong>Tests statistiques</strong></td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Validation des KPI (cohérence, filtrage)</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">Dépôt P9</a></td>
+    </tr>
+  </tbody>
+</table>
 ------
+---
 ---
 ---
 ## **🎯 Compétences Data Analyst Demonstrées**
 *(Alignées sur les **blocs RNCP 37837** et les attentes métiers)*
-| **Compétence** | **Preuve** | **Indicateur / Livrable** | **Bloc RNCP** |
-|---------------|-----------|--------------------------|---------------|
-| **Cadrer un besoin métier** | Projet Bottleneck (sources ERP/Web/Liaison) | 3 sources consolidées, **825 produits analysés** | **BC04** |
-| **Contrôler la qualité des données** | Scripts Python + Notebook P13 Partie 1 | **18 contrôles qualité**, 11 OK, 1 correction stock finalisée | **BC02** |
-| **Produire des KPI exploitables** | Dashboard E-Commerce (Bottleneck) | **143 680 € de CA calculé**, 92 ruptures de stock évitées | **BC05** |
-| **Visualiser pour la décision** | Dashboard Power BI (SANITORAL) | Vues par persona, **seuil d’alerte > 15%** | **BC03** |
-| **Documenter et partager** | README, captures, liens publics, traçabilité IA | **Documentation consultable comme un espace partageable** | **BC04** |
-| **Modéliser et évaluer** | Projet Détection de Faux Billets | **Recall de 100%**, F1-score de 0.91 | **BC05** |
-| **Piloter un projet data** | Portfolio complet (P6, P8, P9, P10, P11, P12, P13) | **7 projets documentés**, CI/CD, veille technologique | **BC04** |
 
+<table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <thead>
+    <tr style="background-color: #155799; color: white;">
+      <th style="padding: 12px; text-align: left; border: 1px solid #ddd;"><strong>Compétence</strong></th>
+      <th style="padding: 12px; text-align: left; border: 1px solid #ddd;"><strong>Preuve</strong></th>
+      <th style="padding: 12px; text-align: left; border: 1px solid #ddd;"><strong>Indicateur</strong></th>
+      <th style="padding: 12px; text-align: left; border: 1px solid #ddd;"><strong>Bloc</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #f4f7fb;"><td style="padding: 9px; border: 1px solid #ddd;"><strong>Cadrer métier</strong></td><td style="padding: 9px; border: 1px solid #ddd;">Bottleneck</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>825 produits</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC04</strong></td></tr>
+    <tr><td style="padding: 9px; border: 1px solid #ddd;"><strong>Contrôler qualité</strong></td><td style="padding: 9px; border: 1px solid #ddd;">P13</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>18 contrôles</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC02</strong></td></tr>
+    <tr style="background-color: #f4f7fb;"><td style="padding: 9px; border: 1px solid #ddd;"><strong>Produire KPI</strong></td><td style="padding: 9px; border: 1px solid #ddd;">Dashboard</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>143 680 €</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC05</strong></td></tr>
+    <tr><td style="padding: 9px; border: 1px solid #ddd;"><strong>Visualiser</strong></td><td style="padding: 9px; border: 1px solid #ddd;">Power BI</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>Seuil > 15%</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC03</strong></td></tr>
+    <tr style="background-color: #f4f7fb;"><td style="padding: 9px; border: 1px solid #ddd;"><strong>Documenter</strong></td><td style="padding: 9px; border: 1px solid #ddd;">README</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>Consultable</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC04</strong></td></tr>
+    <tr><td style="padding: 9px; border: 1px solid #ddd;"><strong>Modéliser</strong></td><td style="padding: 9px; border: 1px solid #ddd;">Faux Billets</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>Recall 100%</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC05</strong></td></tr>
+    <tr style="background-color: #f4f7fb;"><td style="padding: 9px; border: 1px solid #ddd;"><strong>Piloter</strong></td><td style="padding: 9px; border: 1px solid #ddd;">Portfolio</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>7 projets</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC04</strong></td></tr>
+  </tbody>
+</table>
+  </thead>
+  <tbody>
+    <tr style="background-color: #f4f7fb;"><td style="padding: 9px; border: 1px solid #ddd;"><strong>Cadrer métier</strong></td><td style="padding: 9px; border: 1px solid #ddd;">Bottleneck</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>825 produits</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC04</strong></td></tr>
+    <tr><td style="padding: 9px; border: 1px solid #ddd;"><strong>Contrôler qualité</strong></td><td style="padding: 9px; border: 1px solid #ddd;">P13</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>18 contrôles</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC02</strong></td></tr>
+    <tr style="background-color: #f4f7fb;"><td style="padding: 9px; border: 1px solid #ddd;"><strong>Produire KPI</strong></td><td style="padding: 9px; border: 1px solid #ddd;">Dashboard</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>143 680 €</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC05</strong></td></tr>
+    <tr><td style="padding: 9px; border: 1px solid #ddd;"><strong>Visualiser</strong></td><td style="padding: 9px; border: 1px solid #ddd;">Power BI</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>Seuil > 15%</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC03</strong></td></tr>
+    <tr style="background-color: #f4f7fb;"><td style="padding: 9px; border: 1px solid #ddd;"><strong>Documenter</strong></td><td style="padding: 9px; border: 1px solid #ddd;">README</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>Consultable</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC04</strong></td></tr>
+    <tr><td style="padding: 9px; border: 1px solid #ddd;"><strong>Modéliser</strong></td><td style="padding: 9px; border: 1px solid #ddd;">Faux Billets</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>Recall 100%</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC05</strong></td></tr>
+    <tr style="background-color: #f4f7fb;"><td style="padding: 9px; border: 1px solid #ddd;"><strong>Piloter</strong></td><td style="padding: 9px; border: 1px solid #ddd;">Portfolio</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>7 projets</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC04</strong></td></tr>
+  </tbody>
+</table>
 ---
 ---
 ---
