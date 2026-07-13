@@ -2,7 +2,7 @@
 **Projet d'analyse de données et de visualisation pour suivre la performance commerciale, comprendre les comportements clients et fournir des livrables exploitables par le CODIR.**
 
 **📅 Date** : 04/2026
-**🏷️ Type** : Analyse Statistique / Dashboard Streamlit / Pipeline CI
+**🏷️ Type** : Analyse Statistique / Dashboard Streamlit
 **🔗 Liens** :
 - [🔗 Dépôt GitHub - Analyses](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies)
 - [🌐 Dashboard Streamlit (Production)](https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/)
@@ -10,7 +10,7 @@
 - [📓 Notebooks Jupyter](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/notebooks/analyses/)
 - [📊 Exports KPI](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs/)
 - [📁 Documentation](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/docs/)
-- [✅ Pipeline CI (GitHub Actions)](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/actions)
+- [✅ Workflow Tests (pytest)](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/.github/workflows/ci.yml)
 
 ---
 
@@ -116,7 +116,7 @@ P9/
    - **Figures** : Graphiques statiques (PNG) pour les présentations.
 
 4. **Tests et Validation** *(BC04, BC05)* :
-   - **Pipeline CI** : Tests automatisés (pytest) pour valider la cohérence des KPI.
+   - **Pipeline CI** : Tests automatisés ([pytest](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/.github/workflows/ci.yml)) pour valider la cohérence des KPI.
    - **Validation manuelle** : Vérification des résultats avec les équipes Lapage.
 
 ---
@@ -155,7 +155,14 @@ P9/
 | kpi_clients.xlsx | Segmentation clients, fréquence d'achat | [lapage_project/outputs/kpi_clients.xlsx](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/raw/main/lapage_project/outputs/kpi_clients.xlsx) |
 | kpi_produits.xlsx | Performance par catégorie de produits | [lapage_project/outputs/kpi_produits.xlsx](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/raw/main/lapage_project/outputs/kpi_produits.xlsx) |
 
-🔹 Notebooks d’Analyse
+### **🔹 Tests & Déploiement**
+
+| Composant | Lien | Description |
+| --- | --- | --- |
+| **Tests (pytest)** | [ci.yml - Workflow](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/.github/workflows/ci.yml) | Validation automatisée des KPI et cohérence des données |
+| **Dashboard Streamlit** | [Code Source](https://github.com/ferialzamoun-afk/P9-lapage-streamlit) | Repository avec application Streamlit déployée |
+
+### **🔹 Notebooks d'Analyse
 | Notebook | Objectif | Lien (nbviewer) |
 | --- | --- | --- |
 | analyse_ventes.ipynb | Analyse des performances commerciales (CA, panier) | [02_Analyses_Marketing.ipynb](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/02_Analyses_Marketing.ipynb) |
@@ -172,7 +179,7 @@ P9/
 | Fonctions Réutilisables | [réutilisables/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/src/) | Modules Python mutualisés |
 | Exports KPI | [outputs/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs/) | Fichiers Excel (CA, clients, produits) |
 | Figures | [outputs/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs/) | Graphiques statiques (PNG) |
-| Pipeline CI | [GitHub Actions](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/actions) | Tests pytest automatisés |
+| Tests & CI | [Workflow (pytest)](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/.github/workflows/ci.yml) | Validation automatisée des KPI |
 | Tests | [tests/test_app.py](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/tests/test_app.py) | Suite de tests (100% des KPI validés) |
 
 🛠 Configuration et Exécution
