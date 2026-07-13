@@ -72,7 +72,7 @@
 - **Modèle exporté** : API FastAPI pour la prédiction.
 
 **🔗 Liens** :
-- [📄 Fiche Projet Détection de Faux Billets](https://github.com/ferialzamoun-afk/P12/blob/main/README.md)
+- [📄 Fiche Projet Détection de Faux Billets](https://github.com/ferialzamoun-afk/P12/blob/main/PROJECT_BRIEF.md)
 - [🔗 Dépôt GitHub](https://github.com/ferialzamoun-afk/P12)
 
 **🎯 Compétences Demonstrées** :
