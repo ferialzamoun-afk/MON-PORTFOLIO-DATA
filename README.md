@@ -1,5 +1,4 @@
-﻿![Bannière Portfolio](images/banniere.png)
-# 📊 **Portfolio Data Analyst – Ferial Zamoun**
+﻿# 📊 **Portfolio Data Analyst – Ferial Zamoun**
 **Transformation de données dispersées en **décisions fiables**, indicateurs actionnables et restitutions partageables.**
 
 > **🎯 Fil Rouge** :
@@ -20,7 +19,7 @@
 
 **📩 Contact** :
 - **Email** : [ferial.zamoun@gmail.com](mailto:ferial.zamoun@gmail.com)
-- **LinkedIn** : [https://linkedin.com/in/ferial-zamoun](https://linkedin.com/in/ferial-zamoun)
+- **LinkedIn** : [https://www.linkedin.com/in/f%C3%A9rialzamoun/](https://www.linkedin.com/in/f%C3%A9rialzamoun/)
 - **GitHub** : [ferialzamoun-afk](https://github.com/ferialzamoun-afk)
 
 ---
@@ -278,7 +277,7 @@
  | **Type** | **Lien** | **Description** |
  |----------|----------|-----------------|
  | **GitHub** | [ferialzamoun-afk](https://github.com/ferialzamoun-afk) | Tous mes dépôts (P6, P8, P9, etc.) |
- | **LinkedIn** | [lien-vers-ton-linkedin](https://linkedin.com/in/tonprofil) | Profil professionnel |
+ | **LinkedIn** | [Ferial Zamoun](https://www.linkedin.com/in/f%C3%A9rialzamoun/) | Profil professionnel |
  | **Portfolio Streamlit** | [ton-lien-streamlit](https://ton-lien-streamlit-app) | Application interactive |
  | **CV PDF** | [lien-vers-ton-cv.pdf](#) | Version téléchargeable |
 
