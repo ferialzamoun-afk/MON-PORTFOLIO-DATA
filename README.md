@@ -139,57 +139,57 @@
 ### **📊 Résultats**
 *(Blocs RNCP37837BC02, BC03, BC05)*
    **Indicateur** | **Valeur** | **Interprétation** | **Preuve** |
- |---------------|------------|-------------------|------------|
- | **Chiffre d’affaires annuel** | **480 000 €** *(atterrissage 2023)* | ✅ **3 pics saisonniers identifiés** | [kpi_analysis.py](https://github.com/ferialzamoun-afk/P9/blob/main/src/kpi_analysis.py) |
- | **Clients totaux** | **8 600 clients** | ✅ **Segmentation clients statistiquement validée , genre, recommandations par tranches d'âge** | [eda_analysis.py](https://github.com/ferialzamoun-afk/P9/blob/main/src/eda_analysis.py) |
- | **Concentration du CA (Indice de Gini 0,40)** | **Dépendance marqué à la catégorie1** | ⚠️ **Dépendance marqué à la catégorie1** | [courbe_pareto_80_20.html](https://github.com/ferialzamoun-afk/P9/raw/main/output/dataviz/courbe_pareto_80_20.html) |
+|---------------|------------|-------------------|------------|
+| **Chiffre d’affaires annuel** | **480 000 €** *(atterrissage 2023)* | ✅ **3 pics saisonniers identifiés** | [kpi_analysis.py](https://github.com/ferialzamoun-afk/P9/blob/main/src/kpi_analysis.py) |
+| **Clients totaux** | **8 600 clients** | ✅ **Segmentation clients statistiquement validée , genre, recommandations par tranches d'âge** | [eda_analysis.py](https://github.com/ferialzamoun-afk/P9/blob/main/src/eda_analysis.py) |
+| **Concentration du CA (Indice de Gini 0,40)** | **Dépendance marqué à la catégorie1** | ⚠️ **Dépendance marqué à la catégorie1** | [courbe_pareto_80_20.html](https://github.com/ferialzamoun-afk/P9/raw/main/output/dataviz/courbe_pareto_80_20.html) |
 
 ---
 
 ### **🔗 Liens**
 *(Accès direct aux ressources du projet)*
- | **Type** | **Lien** | **Description** |
- |----------|----------|-----------------|
- | **Dépôt GitHub** | [🔗 P9 – Lapage](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies)| Code source, notebooks, dashboard, tests |
- | **Dashboard Streamlit** | [🌐 Production](https://sznbna247tbtpj2hkhexqe.streamlit.app/) | Application web opérationnelle |
- | **Notebook 01** | [📓 Inspection & Normalisation (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/01_Exploration_et_nettoyage.ipynb) | Qualification, nettoyage, construction analytique |
- | **Notebook 02** | [📓 Préparation & Nettoyage (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/02_Analyses_Marketing.ipynb) | Pipeline en couches, tables étoile |
- | **Notebook 03** | [📓 Analyses & EDA (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/03_Analyses_Statistiques.ipynb) | Analyses métier, visualisations |
- | **Exports KPI** | [📊 reports/exports/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs) | Fichiers Excel (CA, clients, produits) |
- | **Figures** | [📈 reports/figures/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs/figures) | Graphiques statiques (PNG) |
+| **Type** | **Lien** | **Description** |
+|----------|----------|-----------------|
+| **Dépôt GitHub** | [🔗 P9 – Lapage](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies)| Code source, notebooks, dashboard, tests |
+| **Dashboard Streamlit** | [🌐 Production](https://sznbna247tbtpj2hkhexqe.streamlit.app/) | Application web opérationnelle |
+| **Notebook 01** | [📓 Inspection & Normalisation (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/01_Exploration_et_nettoyage.ipynb) | Qualification, nettoyage, construction analytique |
+| **Notebook 02** | [📓 Préparation & Nettoyage (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/02_Analyses_Marketing.ipynb) | Pipeline en couches, tables étoile |
+| **Notebook 03** | [📓 Analyses & EDA (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/03_Analyses_Statistiques.ipynb) | Analyses métier, visualisations |
+| **Exports KPI** | [📊 reports/exports/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs) | Fichiers Excel (CA, clients, produits) |
+| **Figures** | [📈 reports/figures/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs/figures) | Graphiques statiques (PNG) |
 
 ---
 ### **🎯 Compétences RNCP 37837 Demonstrées**
- | **Bloc RNCP** | **Compétence** | **Description** | **Preuves** |
- |---------------|---------------|----------------|-------------|
- | **BC01** | **Structurer et gérer la base de données** | **Pipeline de données** : Transformation des données brutes (`data/raw/`) en données exploitables (`data/processed/`). | [src/data_loader.py](https://github.com/ferialzamoun-afk/P9/blob/main/src/data_loader.py) |
- | **BC02** | **Identifier et collecter les données** | Utilisation des **données de vente Lapage** (CA, panier, fréquence clients). | [data/raw/](https://github.com/ferialzamoun-afk/P9/tree/main/data/raw) |
- | **BC02** | **Extraire et agréger** | **Nettoyage et agrégation** : Calcul du CA, panier moyen, concentration des ventes. | [notebooks/analyse_ventes.ipynb](https://nbviewer.org/github/ferialzamoun-afk/P9/blob/main/notebooks/analyse_ventes.ipynb) |
- | **BC02** | **Explorer et pré-traiter** | **Feature Engineering** : Segmentation clients (fréquence, catégories, etc.). | [notebooks/analyse_clients.ipynb](https://nbviewer.org/github/ferialzamoun-afk/P9/blob/main/notebooks/analyse_clients.ipynb) |
- | **BC02** | **Analyse univariée/multivariée** | **Analyse des tendances** (CA par mois, panier par segment client). | [notebooks/analyse_ventes.ipynb](https://nbviewer.org/github/ferialzamoun-afk/P9/blob/main/notebooks/analyse_ventes.ipynb) |
- | **BC03** | **Solution de visualisation** | **Dashboard Streamlit** : Visualisations interactives (CA, panier, segments clients). | [Dashboard en ligne](https://sznbna247tbtpj2hkhexqe.streamlit.app/) |
- | **BC03** | **Créer un tableau de bord** | **Dashboard multi-pages** pour le CODIR (performance commerciale, comportements clients). | [Streamlit/app.py](https://github.com/ferialzamoun-afk/P9/blob/main/Streamlit/app.py) |
- | **BC03** | **Reporting des tendances** | **Exports KPI** (Excel) et **figures de reporting** (PNG). | [reports/exports/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs) + [reports/figures/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs/figures) |
- | **BC04** | **Veille métier/technologique** | **Benchmark des outils** (Streamlit vs Power BI) et **méthodologie documentée**. | [README.md](https://github.com/ferialzamoun-afk/P9/blob/main/README.md) |
- | **BC04** | **Formaliser le cahier des charges** | **Documentation complète** (notebooks, dashboard, exports). | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P9) |
- | **BC04** | **Organiser un projet data** | **Pipeline CI** (tests pytest) et **structure modulaire** (src/, reutilisable/). | [.github/workflows/ci.yml](https://github.com/ferialzamoun-afk/P9/blob/main/.github/workflows/ci.yml) |
- | **BC04** | **Gérer la documentation** | **100% des livrables documentés** (notebooks, scripts, dashboard). | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P9) |
- | **BC05** | **Analyses multivariées** | **Segmentation clients** (fréquence × CA × catégories). | [notebooks/analyse_clients.ipynb](https://nbviewer.org/github/ferialzamoun-afk/P9/blob/main/notebooks/analyse_clients.ipynb) |
- | **BC05** | **Tests statistiques** | **Validation des KPI** (cohérence, filtrage multi-critères). | [tests/test_app.py](https://github.com/ferialzamoun-afk/P9/blob/main/tests/test_app.py) |
+| **Bloc RNCP** | **Compétence** | **Description** | **Preuves** |
+|---------------|---------------|----------------|-------------|
+| **BC01** | **Structurer et gérer la base de données** | **Pipeline de données** : Transformation des données brutes (`data/raw/`) en données exploitables (`data/processed/`). | [src/data_loader.py](https://github.com/ferialzamoun-afk/P9/blob/main/src/data_loader.py) |
+| **BC02** | **Identifier et collecter les données** | Utilisation des **données de vente Lapage** (CA, panier, fréquence clients). | [data/raw/](https://github.com/ferialzamoun-afk/P9/tree/main/data/raw) |
+| **BC02** | **Extraire et agréger** | **Nettoyage et agrégation** : Calcul du CA, panier moyen, concentration des ventes. | [notebooks/analyse_ventes.ipynb](https://nbviewer.org/github/ferialzamoun-afk/P9/blob/main/notebooks/analyse_ventes.ipynb) |
+| **BC02** | **Explorer et pré-traiter** | **Feature Engineering** : Segmentation clients (fréquence, catégories, etc.). | [notebooks/analyse_clients.ipynb](https://nbviewer.org/github/ferialzamoun-afk/P9/blob/main/notebooks/analyse_clients.ipynb) |
+| **BC02** | **Analyse univariée/multivariée** | **Analyse des tendances** (CA par mois, panier par segment client). | [notebooks/analyse_ventes.ipynb](https://nbviewer.org/github/ferialzamoun-afk/P9/blob/main/notebooks/analyse_ventes.ipynb) |
+| **BC03** | **Solution de visualisation** | **Dashboard Streamlit** : Visualisations interactives (CA, panier, segments clients). | [Dashboard en ligne](https://sznbna247tbtpj2hkhexqe.streamlit.app/) |
+| **BC03** | **Créer un tableau de bord** | **Dashboard multi-pages** pour le CODIR (performance commerciale, comportements clients). | [Streamlit/app.py](https://github.com/ferialzamoun-afk/P9/blob/main/Streamlit/app.py) |
+| **BC03** | **Reporting des tendances** | **Exports KPI** (Excel) et **figures de reporting** (PNG). | [reports/exports/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs) + [reports/figures/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/outputs/figures) |
+| **BC04** | **Veille métier/technologique** | **Benchmark des outils** (Streamlit vs Power BI) et **méthodologie documentée**. | [README.md](https://github.com/ferialzamoun-afk/P9/blob/main/README.md) |
+| **BC04** | **Formaliser le cahier des charges** | **Documentation complète** (notebooks, dashboard, exports). | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P9) |
+| **BC04** | **Organiser un projet data** | **Pipeline CI** (tests pytest) et **structure modulaire** (src/, reutilisable/). | [.github/workflows/ci.yml](https://github.com/ferialzamoun-afk/P9/blob/main/.github/workflows/ci.yml) |
+| **BC04** | **Gérer la documentation** | **100% des livrables documentés** (notebooks, scripts, dashboard). | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P9) |
+| **BC05** | **Analyses multivariées** | **Segmentation clients** (fréquence × CA × catégories). | [notebooks/analyse_clients.ipynb](https://nbviewer.org/github/ferialzamoun-afk/P9/blob/main/notebooks/analyse_clients.ipynb) |
+| **BC05** | **Tests statistiques** | **Validation des KPI** (cohérence, filtrage multi-critères). | [tests/test_app.py](https://github.com/ferialzamoun-afk/P9/blob/main/tests/test_app.py) |
 ------
 ---
 ---
 ## **🎯 Compétences Data Analyst Demonstrées**
 *(Alignées sur les **blocs RNCP 37837** et les attentes métiers)*
    **Compétence** | **Preuve** | **Indicateur / Livrable** | **Bloc RNCP** |
- |---------------|-----------|--------------------------|---------------|
- | **Cadrer un besoin métier** | Projet Bottleneck (sources ERP/Web/Liaison) | 3 sources consolidées, **825 produits analysés** | **BC04** |
- | **Contrôler la qualité des données** | Scripts Python + Notebook P13 Partie 1 | **18 contrôles qualité**, 11 OK, 1 correction stock finalisée | **BC02** |
- | **Produire des KPI exploitables** | Dashboard E-Commerce (Bottleneck) | **143 680 € de CA calculé**, 92 ruptures de stock évitées | **BC05** |
- | **Visualiser pour la décision** | Dashboard Power BI (SANITORAL) | Vues par persona, **seuil d’alerte > 15%** | **BC03** |
- | **Documenter et partager** | README, captures, liens publics, traçabilité IA | **Documentation consultable comme un espace partageable** | **BC04** |
- | **Modéliser et évaluer** | Projet Détection de Faux Billets | **Recall de 100%**, F1-score de 0.91 | **BC05** |
- | **Piloter un projet data** | Portfolio complet (P6, P8, P9, P10, P11, P12, P13) | **7 projets documentés**, CI/CD, veille technologique | **BC04** |
+|---------------|-----------|--------------------------|---------------|
+| **Cadrer un besoin métier** | Projet Bottleneck (sources ERP/Web/Liaison) | 3 sources consolidées, **825 produits analysés** | **BC04** |
+| **Contrôler la qualité des données** | Scripts Python + Notebook P13 Partie 1 | **18 contrôles qualité**, 11 OK, 1 correction stock finalisée | **BC02** |
+| **Produire des KPI exploitables** | Dashboard E-Commerce (Bottleneck) | **143 680 € de CA calculé**, 92 ruptures de stock évitées | **BC05** |
+| **Visualiser pour la décision** | Dashboard Power BI (SANITORAL) | Vues par persona, **seuil d’alerte > 15%** | **BC03** |
+| **Documenter et partager** | README, captures, liens publics, traçabilité IA | **Documentation consultable comme un espace partageable** | **BC04** |
+| **Modéliser et évaluer** | Projet Détection de Faux Billets | **Recall de 100%**, F1-score de 0.91 | **BC05** |
+| **Piloter un projet data** | Portfolio complet (P6, P8, P9, P10, P11, P12, P13) | **7 projets documentés**, CI/CD, veille technologique | **BC04** |
 
 ---
 ---
@@ -244,15 +244,15 @@
 - `output/` : Graphiques et exports générés.
 ---
 ## **📅 Roadmap et Prochaines Étapes**
- | **Projet** | **Statut** | **Prochaines Améliorations** |
- |-----------|------------|-----------------------------|
- | **P6 Amélioré (Bottleneck)** | ✅ Finalisé | Déploiement du dashboard Streamlit en production |
- | **P8 (OpenClassrooms vs INSEE)** | ✅ Finalisé | Intégration Power BI + API REST |
- | **P9 (Lapage)** | ✅ Finalisé | Optimisation UX du dashboard |
- | **P10 (Dashboard Eau)** | ✅ Finalisé | Ajout de données temps réel |
- | **P11 (Étude Marché)** | ✅ Finalisé | Benchmark des outils de clustering |
- | **P12 (Détection Faux Billets)** | ✅ Finalisé | Test de modèles Deep Learning |
- | **P13 (Portfolio)** | ✅ Finalisé | Ajout de projets supplémentaires |
+| **Projet** | **Statut** | **Prochaines Améliorations** |
+|-----------|------------|-----------------------------|
+| **P6 Amélioré (Bottleneck)** | ✅ Finalisé | Déploiement du dashboard Streamlit en production |
+| **P8 (OpenClassrooms vs INSEE)** | ✅ Finalisé | Intégration Power BI + API REST |
+| **P9 (Lapage)** | ✅ Finalisé | Optimisation UX du dashboard |
+| **P10 (Dashboard Eau)** | ✅ Finalisé | Ajout de données temps réel |
+| **P11 (Étude Marché)** | ✅ Finalisé | Benchmark des outils de clustering |
+| **P12 (Détection Faux Billets)** | ✅ Finalisé | Test de modèles Deep Learning |
+| **P13 (Portfolio)** | ✅ Finalisé | Ajout de projets supplémentaires |
 
 ---
 ---
@@ -274,12 +274,12 @@
 ---
 ---
 ## **📌 Liens Utiles**
- | **Type** | **Lien** | **Description** |
- |----------|----------|-----------------|
- | **GitHub** | [ferialzamoun-afk](https://github.com/ferialzamoun-afk) | Tous mes dépôts (P6, P8, P9, etc.) |
- | **LinkedIn** | [Ferial Zamoun](https://www.linkedin.com/in/f%C3%A9rialzamoun/) | Profil professionnel |
- | **Portfolio Streamlit** | [ton-lien-streamlit](https://ton-lien-streamlit-app) | Application interactive |
- | **CV PDF** | [lien-vers-ton-cv.pdf](#) | Version téléchargeable |
+| **Type** | **Lien** | **Description** |
+|----------|----------|-----------------|
+| **GitHub** | [ferialzamoun-afk](https://github.com/ferialzamoun-afk) | Tous mes dépôts (P6, P8, P9, etc.) |
+| **LinkedIn** | [Ferial Zamoun](https://www.linkedin.com/in/f%C3%A9rialzamoun/) | Profil professionnel |
+| **Portfolio Streamlit** | [ton-lien-streamlit](https://ton-lien-streamlit-app) | Application interactive |
+| **CV PDF** | [lien-vers-ton-cv.pdf](#) | Version téléchargeable |
 
 ---
 ---
