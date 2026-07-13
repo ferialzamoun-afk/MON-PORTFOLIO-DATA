@@ -201,17 +201,17 @@
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>Notebook 01</strong></td>
-      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/01_Exploration_EDA.ipynb">📓 Exploration & EDA</a></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/01_Exploration_EDA.ipynb">📓 Exploration & EDA</a></td>
       <td style="padding: 9px 12px; border: 1px solid #ddd;">Qualification, nettoyage, construction analytique</td>
     </tr>
     <tr>
       <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>Notebook 02</strong></td>
-      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/02_Analyses_Marketing.ipynb">📓 Analyses Marketing</a></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/02_Analyses_Marketing.ipynb">📓 Analyses Marketing</a></td>
       <td style="padding: 9px 12px; border: 1px solid #ddd;">Pipeline en couches, segmentation client</td>
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>Notebook 03</strong></td>
-      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/03_Analyses_Statistiques.ipynb">📓 Analyses Statistiques</a></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/03_Analyses_Statistiques.ipynb">📓 Analyses Statistiques</a></td>
       <td style="padding: 9px 12px; border: 1px solid #ddd;">Analyses métier, visualisations</td>
     </tr>
     <tr>
