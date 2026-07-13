@@ -201,7 +201,7 @@
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>Notebook 01</strong></td>
-      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/01_Exploration_et_nettoyage.ipynb">📓 Exploration & EDA</a></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/01_Exploration_EDA.ipynb">📓 Exploration & EDA</a></td>
       <td style="padding: 9px 12px; border: 1px solid #ddd;">Qualification, nettoyage, construction analytique</td>
     </tr>
     <tr>
