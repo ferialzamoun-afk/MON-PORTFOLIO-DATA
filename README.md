@@ -138,7 +138,7 @@
 ---
 ### **📊 Résultats**
 *(Blocs RNCP37837BC02, BC03, BC05)*
-   **Indicateur** | **Valeur** | **Interprétation** | **Preuve** |
+| **Indicateur** | **Valeur** | **Interprétation** | **Preuve** |
 |---------------|------------|-------------------|------------|
 | **Chiffre d’affaires annuel** | **480 000 €** *(atterrissage 2023)* | ✅ **3 pics saisonniers identifiés** | [kpi_analysis.py](https://github.com/ferialzamoun-afk/P9/blob/main/src/kpi_analysis.py) |
 | **Clients totaux** | **8 600 clients** | ✅ **Segmentation clients statistiquement validée , genre, recommandations par tranches d'âge** | [eda_analysis.py](https://github.com/ferialzamoun-afk/P9/blob/main/src/eda_analysis.py) |
@@ -181,7 +181,7 @@
 ---
 ## **🎯 Compétences Data Analyst Demonstrées**
 *(Alignées sur les **blocs RNCP 37837** et les attentes métiers)*
-   **Compétence** | **Preuve** | **Indicateur / Livrable** | **Bloc RNCP** |
+| **Compétence** | **Preuve** | **Indicateur / Livrable** | **Bloc RNCP** |
 |---------------|-----------|--------------------------|---------------|
 | **Cadrer un besoin métier** | Projet Bottleneck (sources ERP/Web/Liaison) | 3 sources consolidées, **825 produits analysés** | **BC04** |
 | **Contrôler la qualité des données** | Scripts Python + Notebook P13 Partie 1 | **18 contrôles qualité**, 11 OK, 1 correction stock finalisée | **BC02** |
