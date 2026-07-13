@@ -8,7 +8,7 @@
 - [🌐 Dashboard Streamlit (Production)](https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/)
 - [📁 Code Source Dashboard](https://github.com/ferialzamoun-afk/P9-lapage-streamlit)
 - [📓 Notebooks Jupyter](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/notebooks/analyses/)
-- [ Documentation](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/docs/)
+- [📁 Documentation](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/docs/)
 - [✅ Workflow Tests (pytest)](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/.github/workflows/ci.yml)
 
 ---
@@ -39,6 +39,7 @@
 
 ## **📊 Structure du Projet**
 
+```
 P9/
 ├── data/                                  # Jeux de données bruts et transformés
 │   ├── raw/                               # Données sources (ventes, clients, produits)
@@ -73,6 +74,41 @@ P9/
 ├── runtime.txt                            # Version Python (3.11)
 ├── PROJECT_BRIEF.md                       # Brief du projet
 └── README.md
+```
+
+### **🔹 Données Sources (`data/raw/`)**
+
+[Dépôt GitHub - Données](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/data/raw)
+
+```
+data/raw/
+├── customers.csv                          # Clients (ID, genre, âge, etc.)
+├── products.csv                           # Produits (ID, catégorie, prix, etc.)
+└── Transactions.csv                       # Transactions (date, client, produit, montant)
+```
+
+### **🔹 Figures de Reporting (`reports/figures/`)**
+
+[Dépôt GitHub - Figures](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/reports/figures)
+
+```
+reports/figures/
+├── ca_mensuel.png                         # CA mensuel (tendance)
+├── evolution_du_ca_mensuel.png            # Évolution du CA (série temporelle)
+├── ca_par_categorie.png                   # CA par catégorie de produits
+├── btob_btoc_pie.png                      # Répartition B2B/B2C
+├── lorenz_ca.png                          # Courbe de Lorenz (concentration)
+├── pareto_clients.png                     # Courbe de Pareto clients
+├── segmentation_ca_boxplot.png            # Segmentation CA par client
+├── fig3_repartition_categorie.png         # Répartition catégories
+├── fig9_clients_actifs.png                # Clients actifs
+├── fig10_volume_transactions_produits.png # Volume transactions
+├── julie_42_scatter_age_ca.png            # Scatter: Âge vs CA
+├── julie_43_scatter_freq.png              # Scatter: Fréquence d'achat
+├── julie_44_scatter_panier.png            # Scatter: Panier moyen
+├── julie_45_boxplot_categ.png             # Boxplot catégories
+└── ... (31 fichiers PNG au total)
+```
 ---
 ## **🔧 Compétences RNCP 37837 Demonstrées**
 
@@ -156,11 +192,12 @@ P9/
 | Type | Lien | Description |
 | --- | --- | --- |
 | Dépôt GitHub | [P9_analyses_ventes_librairies](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies) | Code source, notebooks, dashboard, tests |
+| **Données Brutes** | [data/raw/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/data/raw) | customers.csv, products.csv, Transactions.csv |
 | Dashboard Streamlit | [Production](https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/) | Application web opérationnelle |
 | Notebooks | [analyses/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/notebooks/analyses/) | Analyses statistiques (Marketing/BI) |
+| **Figures & Graphiques** | [reports/figures/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/reports/figures) | 31 PNG (CA, segmentation, analyses) |
 | Fonctions Réutilisables | [réutilisables/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/src/) | Modules Python mutualisés |
 | Tests & CI | [Workflow (pytest)](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/.github/workflows/ci.yml) | Validation automatisée des KPI |
-| Tests | [tests/test_app.py](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/tests/test_app.py) | Suite de tests (100% des KPI validés) |
 
 🛠 Configuration et Exécution
 (Bloc RNCP37837BC04 : Organiser un projet data)
