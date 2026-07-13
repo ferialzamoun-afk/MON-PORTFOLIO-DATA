@@ -347,17 +347,7 @@
     <tr style="background-color: #f4f7fb;"><td style="padding: 9px; border: 1px solid #ddd;"><strong>Piloter</strong></td><td style="padding: 9px; border: 1px solid #ddd;">Portfolio</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>7 projets</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC04</strong></td></tr>
   </tbody>
 </table>
-  </thead>
-  <tbody>
-    <tr style="background-color: #f4f7fb;"><td style="padding: 9px; border: 1px solid #ddd;"><strong>Cadrer métier</strong></td><td style="padding: 9px; border: 1px solid #ddd;">Bottleneck</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>825 produits</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC04</strong></td></tr>
-    <tr><td style="padding: 9px; border: 1px solid #ddd;"><strong>Contrôler qualité</strong></td><td style="padding: 9px; border: 1px solid #ddd;">P13</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>18 contrôles</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC02</strong></td></tr>
-    <tr style="background-color: #f4f7fb;"><td style="padding: 9px; border: 1px solid #ddd;"><strong>Produire KPI</strong></td><td style="padding: 9px; border: 1px solid #ddd;">Dashboard</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>143 680 €</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC05</strong></td></tr>
-    <tr><td style="padding: 9px; border: 1px solid #ddd;"><strong>Visualiser</strong></td><td style="padding: 9px; border: 1px solid #ddd;">Power BI</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>Seuil > 15%</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC03</strong></td></tr>
-    <tr style="background-color: #f4f7fb;"><td style="padding: 9px; border: 1px solid #ddd;"><strong>Documenter</strong></td><td style="padding: 9px; border: 1px solid #ddd;">README</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>Consultable</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC04</strong></td></tr>
-    <tr><td style="padding: 9px; border: 1px solid #ddd;"><strong>Modéliser</strong></td><td style="padding: 9px; border: 1px solid #ddd;">Faux Billets</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>Recall 100%</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC05</strong></td></tr>
-    <tr style="background-color: #f4f7fb;"><td style="padding: 9px; border: 1px solid #ddd;"><strong>Piloter</strong></td><td style="padding: 9px; border: 1px solid #ddd;">Portfolio</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>7 projets</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC04</strong></td></tr>
-  </tbody>
-</table>
+
 ---
 ---
 ---
@@ -411,15 +401,53 @@
 - `output/` : Graphiques et exports générés.
 ---
 ## **📅 Roadmap et Prochaines Étapes**
-| **Projet** | **Statut** | **Prochaines Améliorations** |
-|-----------|------------|-----------------------------|
-| **P6 Amélioré (Bottleneck)** | ✅ Finalisé | Déploiement du dashboard Streamlit en production |
-| **P8 (OpenClassrooms vs INSEE)** | ✅ Finalisé | Intégration Power BI + API REST |
-| **P9 (Lapage)** | ✅ Finalisé | Optimisation UX du dashboard |
-| **P10 (Dashboard Eau)** | ✅ Finalisé | Ajout de données temps réel |
-| **P11 (Étude Marché)** | ✅ Finalisé | Benchmark des outils de clustering |
-| **P12 (Détection Faux Billets)** | ✅ Finalisé | Test de modèles Deep Learning |
-| **P13 (Portfolio)** | ✅ Finalisé | Ajout de projets supplémentaires |
+
+<table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <thead>
+    <tr style="background-color: #155799; color: white;">
+      <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Projet</strong></th>
+      <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Statut</strong></th>
+      <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Prochaines Étapes</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>P6 (Bottleneck)</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ Finalisé</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Production Streamlit + monitoring</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>P8 (OpenClassrooms)</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ Finalisé</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Intégration Power BI + API REST</td>
+    </tr>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>P9 (Lapage)</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ Finalisé</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Optimisation UX dashboard</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>P10 (Eau)</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ Finalisé</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Données temps réel</td>
+    </tr>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>P11 (Étude Marché)</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ Finalisé</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Benchmark clustering tools</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>P12 (Faux Billets)</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ Finalisé</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Test Deep Learning models</td>
+    </tr>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>P13 (Portfolio)</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ Finalisé</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Projets supplémentaires</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 ---
@@ -441,12 +469,38 @@
 ---
 ---
 ## **📌 Liens Utiles**
-| **Type** | **Lien** | **Description** |
-|----------|----------|-----------------|
-| **GitHub** | [ferialzamoun-afk](https://github.com/ferialzamoun-afk) | Tous mes dépôts (P6, P8, P9, etc.) |
-| **LinkedIn** | [Ferial Zamoun](https://www.linkedin.com/in/f%C3%A9rialzamoun/) | Profil professionnel |
-| **Portfolio Streamlit** | [ton-lien-streamlit](https://ton-lien-streamlit-app) | Application interactive |
-| **CV PDF** | [lien-vers-ton-cv.pdf](#) | Version téléchargeable |
+
+<table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <thead>
+    <tr style="background-color: #155799; color: white;">
+      <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Type</strong></th>
+      <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Lien</strong></th>
+      <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Description</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>GitHub</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk">🔗 ferialzamoun-afk</a></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Tous mes dépôts publics</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>LinkedIn</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://www.linkedin.com/in/f%C3%A9rialzamoun/">💼 Profil</a></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Expérience professionnel</td>
+    </tr>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Streamlit</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://sznbna247tbtpj2hkhexqe.streamlit.app/">🌐 Dashboard Live</a></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Application interactive</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Email</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="mailto:ferial.zamoun@gmail.com">📧 Contact</a></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Me contacter directement</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 ---
