@@ -45,36 +45,34 @@ P9/
 │   └── processed/                         # Données nettoyées et agrégées
 │
 ├── notebooks/                             # Analyses statistiques
-│   ├── analyse_ventes.ipynb               # Analyse des performances commerciales
-│   ├── analyse_clients.ipynb              # Segmentation et comportements clients
-│   └── tests_statistiques.ipynb           # Tests et validations statistiques
+│   ├── analyses/
+│   │   ├── 01_Exploration_EDA.ipynb       # Exploration & Feature Engineering
+│   │   ├── 02_Analyses_Marketing.ipynb    # Analyses métier & Segmentation
+│   │   └── 03_Analyses_Statistiques.ipynb # Tests statistiques & KPI validation
 │
 ├── src/                                   # Modules utilitaires
-│   ├── kpi_calculator.py                  # Calcul des KPI (CA, panier moyen, etc.)
-│   ├── data_loader.py                     # Chargement et préparation des données
-│   └── export_utils.py                    # Export des KPI et figures
+│   ├── data_loader.py                     # Chargement & nettoyage données
+│   ├── data_manager.py                    # Transformations & agrégations
+│   ├── kpi_export.py                      # Export des KPI
+│   ├── figures_export.py                  # Génération visualisations
+│   └── Cor_Quanti_Quanti/                 # Analyses de corrélation
 │
-├── reutilisable (toutes phases)/          # Fonctions mutualisées
-│   ├── data_loading.py                    # Fonctions de chargement génériques
-│   ├── analysis_utils.py                  # Fonctions d’analyse réutilisables
-│   └── visualization_utils.py             # Fonctions de visualisation (Matplotlib, Plotly)
+├── reutilisable (toutes phases)/          # Fonctions réutilisables
 │
-├── Streamlit/                             # Application web
-│   ├── app.py                             # Point d’entrée du dashboard
-│   ├── pages/                             # Pages additionnelles (ex: analyse_clients.py)
-│   └── assets/                            # Ressources (CSS, images)
+├── Streamlit/ (P9-lapage-streamlit repo)
+│   ├── app.py                             # Application principale
+│   ├── pages/                             # Pages multi-pages
+│   └── config.toml                        # Configuration Streamlit Cloud
 │
-├── reports/                               # Livrables
-│   ├── figures/                           # Graphiques exportés (PNG, SVG)
-│   ├── exports/                           # Exports Excel (KPI, rapports)
-│   └── Presentation/                      # Présentations (PowerPoint, PDF)
-│
-├── tests/                                # Tests unitaires
-│   └── test_app.py                        # Tests pour le dashboard Streamlit
+├── reports/                               # Livrables (KPI Excel, figures)
+├── graphiques/                            # Visualisations statiques
+├── api/                                   # API (future)
+├── models/                                # Modèles ML (si applicable)
 │
 ├── requirements.txt                       # Dépendances Python
-└── .github/workflows/
-└── ci.yml                            # Pipeline CI (pytest)
+├── runtime.txt                            # Version Python (3.11)
+├── PROJECT_BRIEF.md                       # Brief du projet
+└── README.md
 ---
 ## **🔧 Compétences RNCP 37837 Demonstrées**
 
@@ -87,7 +85,7 @@ P9/
 | **BC02** | **Explorer et pré-traiter** | **Feature Engineering** : Segmentation clients (fréquence, catégories, etc.). | [01_Exploration_EDA.ipynb](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/01_Exploration_EDA.ipynb) |
 | **BC02** | **Analyse univariée/multivariée** | **Analyse des tendances** (CA par mois, panier par segment client). | [02_Analyses_Marketing.ipynb](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/02_Analyses_Marketing.ipynb) |
 | **BC03** | **Solution de visualisation** | **Dashboard Streamlit** : Visualisations interactives (CA, panier, segments clients). | [Dashboard en ligne](https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/) |
-| **BC03** | **Créer un tableau de bord** | **Dashboard multi-pages** pour le CODIR (performance commerciale, comportements clients). | [Streamlit/app.py](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/dashboard/) |
+| **BC03** | **Créer un tableau de bord** | **Dashboard multi-pages** pour le CODIR (performance commerciale, comportements clients). | [Streamlit/app.py](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/Streamlit/app.py) |
 | **BC04** | **Veille métier/technologique** | **Benchmark des outils** (Streamlit vs Power BI) et **méthodologie documentée**. | [README.md](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/README.md) |
 | **BC04** | **Formaliser le cahier des charges** | **Documentation complète** (notebooks, dashboard, exports). | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies) |
 | **BC04** | **Organiser un projet data** | **Pipeline CI** (tests pytest) et **structure modulaire** (src/, reutilisable/). | [.github/workflows/ci.yml](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/.github/workflows/ci.yml) |
