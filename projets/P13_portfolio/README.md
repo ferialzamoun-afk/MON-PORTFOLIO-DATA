@@ -20,8 +20,8 @@
 ### **📌 Blocs Couverts**
    **Bloc RNCP** | **Compétence** | **Description** | **Preuves** |
  |---------------|---------------|----------------|-------------|
- | **BC01** | Gérer une base de données | Organisation des **données du portfolio** (projets, compétences, preuves) | [Structure GitHub](lien) |
- | **BC02** | Identifier/collecter | Collecte des **preuves de compétences** (liens GitHub, PDF, captures) | [README du portfolio](lien) |
+ | **BC01** | Gérer une base de données | Organisation des **données du portfolio** (projets, compétences, preuves) | [Structure GitHub](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA) |
+ | **BC02** | Identifier/collecter | Collecte des **preuves de compétences** (liens GitHub, PDF, captures) | [README du portfolio](https://github.com/ferialzamoun-afk/P13) |
  | **BC02** | Analyse multivariée | **Mapping compétences x projets** pour évaluer la couverture RNCP | [Tableau compétences](lien) |
  | **BC03** | Solution de visualisation | **Portfolio Streamlit** pour une navigation intuitive | [Lien Streamlit](lien) |
  | **BC03** | Créer un tableau de bord | **Vitrine des projets** avec description, compétences, preuves | [Page "Projets"](lien) |

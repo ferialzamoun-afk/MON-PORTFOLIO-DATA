@@ -1,87 +1,103 @@
-﻿# US4 - Etude de sante publique
+# 🌍 P4 — Étude de Santé Publique : Sous-nutrition mondiale (FAO 2017)
 
-Analyse exploratoire des donnees FAO pour evaluer la situation de sous-nutrition et la disponibilite alimentaire mondiale, avec un focus sur l'annee 2017.
+> **Type** : Analyse exploratoire · Données FAO · Indicateurs nutritionnels
+> **Date** : 2024 · Périmètre : mondial · Année de référence : 2017
+> **Formation** : Data Analyst — GRETA Promo 2025
 
-## Contexte
+---
 
-Ce projet s'inscrit dans un cas d'usage data analyst orientee sante publique.
-L'objectif est de transformer des jeux de donnees heterogenes en constats quantifies utiles a la decision.
+## 🎯 1. Contexte et besoin métier
 
-Sources exploitees dans l'etude:
+Ce projet répond à une problématique de santé publique internationale : évaluer la situation de sous-nutrition et la disponibilité alimentaire mondiale à partir des données FAO 2017.
 
-- population.csv
-- dispo_alimentaire.csv
-- aide_alimentaire.csv
-- sous_nutrition.csv
+**Pour qui** : organisations de pilotage alimentaire international, acteurs de la sécurité alimentaire.
 
-## Objectif metier
+**Problème** : les données FAO sont hétérogènes, multi-sources, en unités non homogènes — impossible d'en tirer des constats comparables sans préparation structurée.
 
-Repondre a des questions de pilotage alimentaire a l'echelle internationale:
+**Enjeux** :
+- Estimer la proportion de population en sous-nutrition
+- Calculer combien de personnes pourraient être nourries selon différents besoins caloriques
+- Analyser la répartition de la disponibilité alimentaire intérieure (humain, animal, pertes, autres)
 
-- quelle est la proportion de population en sous-nutrition,
-- combien de personnes pourraient etre nourries selon differents besoins caloriques,
-- quelle est la part de la disponibilite interieure orientee vers l'alimentation humaine, animale, les pertes et les autres usages.
+**Sources exploitées** :
+- population.csv — Population par pays/continent
+- dispo_alimentaire.csv — Disponibilité alimentaire intérieure
+- ide_alimentaire.csv — Flux d'aide alimentaire
+- sous_nutrition.csv — Données de sous-nutrition par pays
 
-## Perimetre des donnees et hypotheses
+**Périmètre** : année 2017 · granularité pays/zone · regroupement complémentaire par continent · scénarios nutritionnels comparés : 1 500, 2 500 et 3 000 kcal/jour/personne
 
-- Perimetre temporel principal: annee 2017.
-- Granularite: pays/zone, avec regroupement complementaire par continent.
-- Harmonisation des unites: conversions realisees pour rendre les comparaisons coherentes (ex. milliers de tonnes vers kg).
-- Scenarios nutritionnels compares: 1500, 2500 et 3000 kcal/jour/personne.
+---
 
-## Methode
+## 🧭 2. Démarche analytique
 
-1. Chargement et controle des donnees (types, dimensions, valeurs manquantes).
-2. Nettoyage/standardisation (renommage de colonnes, conversions d'unites, gestion des NaN).
-3. Jointures entre jeux de donnees (population, sous-nutrition, disponibilite alimentaire).
-4. Calcul d'indicateurs metiers:
-	- proportion de sous-nutrition,
-	- couverture theorique alimentaire,
-	- couverture theorique d'origine vegetale,
-	- repartition de la disponibilite interieure.
-5. Restitution via tableaux de synthese et visualisations (camemberts, tableaux scenarios).
+**Hypothèses méthodologiques** :
+- Harmonisation des unités : conversions systématiques (milliers de tonnes → kg)
+- Périmètre 2017 : année la plus complète dans les sources FAO
+- Mapping pays-continent construit manuellement (industrialisable)
 
-## Resultats et livrables
+**Étapes** :
+1. Chargement et contrôle des données (types, dimensions, valeurs manquantes)
+2. Nettoyage et standardisation (renommage colonnes, conversions d'unités, gestion NaN)
+3. Jointures entre jeux de données (population × sous-nutrition × disponibilité alimentaire)
+4. Calcul des indicateurs métier :
+   - Proportion de sous-nutrition par pays/région
+   - Couverture théorique alimentaire selon 3 scénarios caloriques
+   - Couverture théorique d'origine végétale
+   - Répartition disponibilité intérieure (humain / animal / pertes / autres usages)
+5. Restitution via tableaux de synthèse et visualisations (camemberts, tableaux scénarios)
 
-- Notebook d'analyse complet (import, preparation, analyses, visualisations).
-- Estimation de la population en sous-nutrition sur le perimetre 2017.
-- Simulations de couverture alimentaire sur trois hypotheses caloriques.
-- Analyse de la part vegetale et des usages de la disponibilite interieure.
-- Support de presentation du projet pour synthese orale.
+**Limites identifiées** :
+- Mapping pays-continent manuel → peut être industrialisé
+- Hypothèses nutritionnelles simplificatrices → affinables par profil de population
+- Une étape suivante serait un tableau de bord interactif pour comparer les régions dans le temps
 
-## Limites et suites
+---
 
-- Le mapping pays-continent est construit manuellement dans le notebook et peut etre industrialise.
-- Certaines hypotheses nutritionnelles restent simplificatrices et peuvent etre affinees par profil de population.
-- Une etape suivante pertinente serait la creation d'un tableau de bord interactif pour comparer les regions dans le temps.
+## 📊 3. Résultats et livrables
 
-## Preuve de competences
+| Livrable | Description |
+|---------|-------------|
+| Notebook d'analyse | Pipeline complet import → préparation → analyses → visualisations |
+| Estimation sous-nutrition | Population en sous-nutrition estimée sur le périmètre 2017 |
+| Simulations caloriques | Couverture alimentaire selon 3 hypothèses (1 500 / 2 500 / 3 000 kcal) |
+| Analyse des usages | Répartition alimentation humaine, animale, pertes et autres usages |
+| Support de présentation | Synthèse orale structurée |
 
-### Resultats de veille metier
+---
 
-- Veille sur les enjeux de securite alimentaire: sous-nutrition, disponibilite, pertes et arbitrages d'usage.
-- Traduction des enjeux en indicateurs actionnables: proportion sous-nutrie, couverture theorique, repartition des usages.
-- Apport metier: meilleure lisibilite des leviers potentiels (alimentation humaine, pertes, autres usages).
+## 🎓 4. Compétences RNCP 37837 mobilisées
 
-### Resultats de veille technologique
+| Bloc | Compétence | Ce qui a été fait | Preuve |
+|------|-----------|------------------|--------|
+| **BC02** | Identifier et collecter | Exploitation de 4 sources FAO hétérogènes | ssets/Template+Férial+V1.ipynb |
+| **BC02** | Extraire et agréger | Conversions d'unités, jointures multi-sources | Étapes 1-3 du notebook |
+| **BC02** | Traiter les données manquantes | Nettoyage, gestion NaN, standardisation | Étape 2 du notebook |
+| **BC02** | Analyse temporelle | Focus 2017, lecture de la disponibilité annuelle | Étape 3 du notebook |
+| **BC02** | Analyse univariée/multivariée | Stats descriptives, distributions, corrélations | Étape 4 du notebook |
+| **BC03** | Solution de visualisation | Camemberts, tableaux scénarios, comparaisons | Étape 5 du notebook |
+| **BC03** | Récit des résultats | Narration des constats pour un public non technique | Support de présentation |
+| **BC04** | Identifier le besoin métier | Traduction des enjeux FAO en indicateurs actionnables | Contexte du notebook |
 
-- Veille sur les bonnes pratiques d'analyse exploratoire sous Python (pandas, nettoyage, jointures, controle qualite).
-- Choix retenus: pipeline reproductible par etapes, conversion systematique des unites, visualisations de synthese.
-- Apport technique: fiabilisation des comparaisons et restitution plus claire pour un public non technique.
+---
 
-### Tracabilite des preuves
+## 💡 5. Impact et apprentissages
 
-- Competence: preparer des donnees heterogenes | Action: nettoyage, renommage, conversions | Preuve: notebook assets/Template+Férial+V1.ipynb.
-- Competence: produire des indicateurs metiers | Action: calcul sous-nutrition et scenarios de couverture | Preuve: sections Etape 3 du notebook.
-- Competence: communiquer une analyse data | Action: formalisation d'un support de restitution | Preuve: assets/Zamoun_Férial_1_presentation_112025.pdf.
+**Ce que ça a apporté** : une meilleure lisibilité des leviers potentiels sur la sécurité alimentaire — disponibilité alimentaire, pertes, arbitrages d'usage.
 
-## Ressources du projet
+**Veille métier** : enjeux de sécurité alimentaire (sous-nutrition, disponibilité, pertes) → traduction en indicateurs actionnables.
 
-- Notebook principal: assets/Template+Férial+V1.ipynb
-- Presentation: assets/Zamoun_Férial_1_presentation_112025.pdf
+**Veille technologique** : bonnes pratiques d'analyse exploratoire Python (pandas, nettoyage, jointures) → pipeline reproductible par étapes avec conversion systématique des unités.
 
-## Auteur
+**Suite naturelle** : création d'un tableau de bord interactif pour comparer les régions dans le temps et anticiper les risques.
 
-Ferial Zamoun
-Formation Data Analyst - GRETA Promo 2025
-Objectif: alternance en data
+---
+
+## 🔗 Ressources
+
+- Notebook principal : ssets/Zamoun_Ferial_1_notebook_112025.ipynb
+- Présentation : ssets/Zamoun_Férial_1_presentation_112025.pdf
+
+---
+
+*Férial Zamoun · Formation Data Analyst GRETA Promo 2025 · [GitHub](https://github.com/ferialzamoun-afk)*

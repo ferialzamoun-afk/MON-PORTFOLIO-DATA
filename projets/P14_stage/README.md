@@ -1,128 +1,107 @@
-# Projet P14 - Analyse de donnees retail
+# 🏪 P14 — Stage : Analyse de Données Retail (Intermarché)
 
-Ce depot centralise les travaux d'analyse, de preparation de donnees et de restitution autour du perimetre P14, avec deux axes principaux:
+> **Type** : Stage · Retail analytics · Python · Power BI · Streamlit
+> **Contexte** : Mission de stage en entreprise — données retail / assortiment
+> **Date** : 2025–2026
 
-- une couche analytique et documentaire (notebooks, livrables, rapports),
-- une couche applicative (Streamlit) et decisionnelle (Power BI).
+---
 
-L'objectif est de fournir un socle exploitable pour le pilotage metier (assortiment, disponibilite, performance operationnelle, gouvernance des indicateurs).
+## 🎯 1. Contexte et besoin métier
 
-## Objectifs du depot
+Mission de stage dans un contexte retail (périmètre Intermarché), centré sur le pilotage de la **disponibilité produit**, la **performance assortiment** et la **gouvernance des indicateurs**.
 
-- Structurer les donnees depuis des sources brutes jusqu'a des jeux exploitables.
-- Produire des analyses reproductibles via notebooks et scripts.
-- Alimenter des restitutions metier via Power BI et application Streamlit.
-- Conserver une documentation projet claire pour la maintenance et la transmission.
+**Problème** : les données opérationnelles sont dispersées entre plusieurs sources, sans socle analytique consolidé permettant un pilotage métier fiable et reproductible.
 
-## Arborescence principale
+**Enjeux** :
+- Structurer les données depuis les sources brutes jusqu'aux jeux exploitables
+- Produire des analyses reproductibles via notebooks et scripts
+- Alimenter des restitutions métier via Power BI et une application Streamlit
+- Conserver une documentation projet claire pour la maintenance et la transmission
 
-- data/: donnees brutes et jeux transformes.
-- docs/: documentation transverse, archives, exports, figures, notebooks et supports.
-- intermarche_notebook/: notebooks d'exploration et d'analyse sur le perimetre Intermarche.
-- powerbi/: ecosysteme Power BI (documentation, exports, scripts, rapports).
-- streamlit_app/: application Streamlit (modules, scripts, assets, notebooks associes).
-- bilan_reflexif_stage_P14.md: retour d'experience et formalisation de stage.
-- feuille_de_route_stage_P5.md: feuille de route et contexte de cadrage.
-- modele_mail_note_livraison.md: modele de communication de livraison.
+**Thématiques métier couvertes** :
+- Disponibilité produit et alertes assortiment
+- Performance opérationnelle par rayon / segment
+- Gouvernance des indicateurs et traçabilité des décisions
 
-## Organisation des donnees
+---
 
-Le dossier data/ suit une logique classique de pipeline:
+## 🧭 2. Démarche analytique
 
-- data/raw/: donnees sources non modifiees.
-- data/processed/: donnees nettoyees/standardisees pretes pour l'analyse.
-- data/Fichiers transformes/DLP/: jeux transformes lies au perimetre DLP.
+**Architecture du pipeline** :
 
-Bonnes pratiques:
+`
+data/raw/ → Préparation → data/processed/ → Analyse → Power BI / Streamlit
+`
 
-- conserver les fichiers sources intacts dans raw/;
-- documenter toute transformation majeure dans docs/ ou dans les rapports concernes;
-- eviter de versionner des donnees sensibles ou inutilement volumineuses.
+**Couches du pipeline** :
+- data/raw/ : données sources non modifiées (jamais transformées)
+- data/processed/ : données nettoyées et standardisées prêtes pour l'analyse
+- data/Fichiers transformés/DLP/ : jeux transformés liés au périmètre DLP
 
-## Demarrage rapide (Windows)
+**Conventions qualité** :
+- Journaliser les contrôles (doublons, clés, granularité, valeurs manquantes)
+- Expliciter les prérequis d'exécution dans chaque sous-module
+- Documenter toute transformation majeure dans docs/
+- Séparer clairement les données brutes, transformées et publiées
 
-1. Activer l'environnement virtuel Python du projet:
+**Flux de travail** :
+1. **Ingestion et préparation** : nouvelles sources dans 
+aw/, exécution notebooks/scripts, sorties dans processed/
+2. **Analyse** : notebooks intermarche_notebook/ et powerbi/notebooks/, hypothèses tracées dans docs/
+3. **Restitution** : mise à jour artefacts Power BI, cohérence avec l'application Streamlit
 
-```powershell
-(Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned)
-& .\venv\Scripts\Activate.ps1
-```
+---
 
-2. Installer/mettre a jour les dependances de l'application Streamlit:
+## 📊 3. Résultats et livrables
 
-```powershell
-python -m pip install -r streamlit_app\requirements.txt
-```
+| Livrable | Description |
+|---------|-------------|
+| Notebooks d'analyse | Exploration et analyse sur le périmètre Intermarché |
+| Application Streamlit | Vue applicative pour la restitution métier opérationnelle |
+| Rapports Power BI | Tableaux de bord décisionnels avec KPI pilotage |
+| Documentation projet | docs/, conventions, procédures |
+| Bilan réflexif de stage | Retour d'expérience et formalisation des apprentissages |
+| Feuille de route | Cadrage et contexte de la mission (euille_de_route_stage_P5.md) |
+| Modèle de livraison | Template de communication de livraison (modele_mail_note_livraison.md) |
 
-3. Lancer l'application Streamlit (si le point d'entree est present dans streamlit_app/):
+---
 
-```powershell
-streamlit run streamlit_app\streamlit_app.py
-```
+## 🎓 4. Compétences RNCP 37837 mobilisées
 
-## Flux de travail recommande
+| Bloc | Compétence | Ce qui a été fait | Preuve |
+|------|-----------|------------------|--------|
+| **BC02** | Identifier et collecter | Exploitation données retail brutes Intermarché | data/raw/ |
+| **BC02** | Extraire et agréger | Pipeline de transformation raw → processed | Scripts de préparation |
+| **BC02** | Vérifier la cohérence | Contrôles qualité : doublons, clés, granularité, NaN | Journaux de contrôle |
+| **BC02** | Analyse univariée/multivariée | Analyse disponibilité, performance, KPI assortiment | Notebooks |
+| **BC03** | Créer un tableau de bord | Rapports Power BI et application Streamlit | powerbi/ + streamlit_app/ |
+| **BC03** | Reporting des tendances | KPI pilotage, alertes assortiment, suivi temporel | Rapports Power BI |
+| **BC04** | Organiser un projet data | Architecture raw/processed, documentation, conventions | docs/ |
+| **BC04** | Gérer la documentation | README, bilan réflexif, feuille de route, rapports | Tous les livrables docs |
+| **BC04** | Adapter sa posture | Positionnement professionnel en contexte réel | Bilan réflexif de stage |
 
-1. Ingestion et preparation:
+---
 
-- deposer les nouvelles sources dans data/raw/;
-- executer les notebooks/scripts de preparation;
-- produire des sorties homogenes dans data/processed/ ou powerbi/outputs/ selon le besoin.
+## 💡 5. Impact et apprentissages
 
-2. Analyse:
+**Ce que ça a apporté** : un socle analytique opérationnel permettant une meilleure priorisation des actions sur la disponibilité produit et la performance assortiment.
 
-- utiliser les notebooks dans intermarche_notebook/ et les notebooks du dossier powerbi/notebooks/;
-- tracer les hypotheses, regles et limites dans docs/ ou powerbi/rapports/.
+**Veille métier** : problématiques retail (disponibilité produit, performance assortiment, pilotage des alertes) → indicateurs priorisés, règles de gestion, critères d'arbitrage documentés.
 
-3. Restitution:
+**Veille technologique** : Python (pandas/notebooks), Streamlit, Power BI → structuration raw/processed, fiabilisation des transformations, documentation des hypothèses.
 
-- mettre a jour les artefacts Power BI dans powerbi/;
-- aligner les KPI et la narration metier avec les rapports de reference;
-- verifier la coherence entre les sorties Streamlit et Power BI.
+**Bilan de stage** : expérience en contexte professionnel réel — mise en pratique de l'ensemble du pipeline analytique de la collecte à la restitution décisionnelle. Voir ilan_reflexif_stage_P14.md.
 
-## Conventions projet
+---
 
-- Documentation: privilegier des notes courtes, actionnables et datees.
-- Reproductibilite: expliciter les prerequis d'execution dans chaque sous-module.
-- Qualite des donnees: journaliser les controles (doublons, cles, granularite, valeurs manquantes).
-- Gouvernance: separer clairement les donnees brutes, transformees et publiees.
-- Portfolio: inclure une section "Preuve de competences" dans chaque README projet.
+## 🔗 Points d'entrée utiles
 
-## Preuve de competences
+- streamlit_app/README.md : cadre applicatif Streamlit
+- powerbi/README.md : cadre de la partie BI
+- docs/README.md : socle documentaire transverse
+- ilan_reflexif_stage_P14.md : retour d'expérience de stage
+- euille_de_route_stage_P5.md : feuille de route et contexte de cadrage
 
-Cette section formalise les preuves mobilisables dans le cadre du portfolio, avec un accent explicite sur la veille metier et technologique.
+---
 
-### Resultats de veille metier
-
-- Problematiques metier suivies: disponibilite produit, performance assortiment, pilotage des alertes.
-- Traduction analytique: indicateurs priorises, regles de gestion, criteres d'arbitrage.
-- Impacts attendus: meilleure priorisation des actions et reduction des angles morts operationnels.
-
-### Resultats de veille technologique
-
-- Outils mobilises: Python (pandas/notebooks), Streamlit, Power BI.
-- Pratiques retenues: structuration raw/processed, fiabilisation des transformations, documentation des hypotheses.
-- Valeur produite: acceleration des analyses, restitution plus lisible, cadre de maintenance renforce.
-
-### Tracabilite des livrables
-
-- Sources de preuve: notebooks d'analyse, scripts de transformation, rapports Power BI, documentation projet.
-- Principe de preuve: chaque livrable doit expliciter le besoin metier adresse, la methode appliquee et le resultat obtenu.
-
-### Convention portfolio (a appliquer ensuite)
-
-Pour les prochains README du portfolio, appliquer la trame de reference disponible dans docs/config/convention_readme_portfolio.md.
-
-## Points d'entree utiles
-
-- README global: ce fichier.
-- streamlit_app/README.md: cadre applicatif Streamlit.
-- powerbi/README.md: cadre de la partie BI.
-- docs/README.md: socle documentaire transverse.
-
-## Maintenance
-
-Pour garder le depot lisible dans la duree:
-
-- supprimer ou archiver regulierement les livrables obsoletes;
-- conserver les versions finales dans des emplacements explicites (rapports, exports, outputs);
-- mettre a jour ce README a chaque evolution structurelle majeure.
+*Férial Zamoun · Stage Data Analyst · [GitHub](https://github.com/ferialzamoun-afk)*

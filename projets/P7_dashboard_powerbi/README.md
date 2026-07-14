@@ -1,89 +1,102 @@
-# Dashboard SANITORAL - P7
+# 📊 P7 — Dashboard Décisionnel Power BI — SANITORAL
 
-Produire un reporting decisionnel pour faciliter les arbitrages de pilotage projets.
+> **Type** : Dashboard Power BI · Reporting décisionnel · Multi-persona
+> **Date** : 2025
+> **Outil** : Power BI Desktop
 
-## Contexte
+---
 
-Mission de data analyst pour SANITORAL.
-Le dispositif de pilotage est realise dans Power BI avec trois vues ciblees selon le profil utilisateur:
+## 🎯 1. Contexte et besoin métier
 
-- Directeur General (vision portefeuille et arbitrage strategique)
-- Directeur Regional (vision regionale et alertes de pilotage)
-- Directeur Pays (vision operationnelle detaillee)
+**Mission** : produire un reporting décisionnel pour SANITORAL afin de faciliter les arbitrages de pilotage projets à trois niveaux de gouvernance.
 
-## Objectif metier
+**Pour qui** :
 
-Permettre une prise de decision plus rapide et mieux argumentee sur les projets en cours en consolidant les informations de cout, delai et avancement dans un meme environnement de restitution.
+| Profil | Besoin |
+|--------|--------|
+| **Directeur Général** | Vision portefeuille, arbitrage stratégique (poursuite / priorisation / arrêt) |
+| **Directeur Régional** | Isolation des projets en risque, alertes sur dépassements coût/délai/livrables |
+| **Directeur Pays** | Suivi opérationnel détaillé, comparaison prévisionnel/réalisé, actions correctives |
 
-## Perimetre des donnees et hypotheses
+**Problème** : les informations de coût, délai et avancement sont éparpillées — aucune vue consolidée ne permet des arbitrages rapides en comité de pilotage.
 
-- Seuil d'alerte principal: ecart superieur a 15%.
-- Axes de comparaison: IT versus Marketing, regions, pays, phases projet.
-- Granularite d'analyse: portefeuille, projet, phase.
-- Phases suivies: A a F ou 1 a 4 selon le modele de donnees retenu.
+**Enjeux** :
+- Prioriser les projets en alerte (seuil : écart > 15%)
+- Segmenter l'analyse par département (IT vs Marketing), régions et phases
+- Réduire le temps de décision en comité de pilotage
 
-## Utilisateurs et besoins
+**Périmètre** :
+- Axes de comparaison : IT vs Marketing · régions · pays · phases projet
+- Granularité : portefeuille → projet → phase
+- Phases suivies : A à F selon le modèle de données retenu
 
-### Directeur General
+---
 
-- Evaluer la performance globale du portefeuille pour arbitrer (poursuite, priorisation, arret).
-- Suivre le volume de projets en alerte.
-- Identifier les ecarts de performance entre departements.
+## 🧭 2. Démarche analytique
 
-### Directeur Regional
+**Étapes de conception** :
+1. Cadrage des besoins par persona (DG, DR, DP) via Product Strategy Canvas
+2. Modélisation des données (relations, ajustements, référentiel de phases)
+3. Construction des dashboards différenciés par profil utilisateur
+4. Définition des indicateurs d'alerte et des KPI par niveau
+5. Intégration d'un onglet de documentation (canvas, procédure de mise à jour, modèle de données)
+6. Validation de la narration métier pour la soutenance
 
-- Isoler les projets en risque dans son perimetre.
-- Recevoir des signaux rapides sur les depassements de couts/delais/livrables.
-- Analyser les phases qui concentrent les retards.
+**Choix de conception** :
+- Dashboards différenciés par persona → réduction du bruit informationnel
+- Seuil d'alerte 15% explicite → priorisation immédiate des actions
+- Vues structurées pour l'action et non pour la contemplation
 
-### Directeur Pays
+**Limites et points d'attention** :
+- Valider définitivement le référentiel de phases (A-F ou 1-4) pour stabiliser les comparaisons
+- Industrialiser le processus de mise à jour des données
+- Ajouter un suivi temporel des alertes pour mesurer l'efficacité des actions correctives
 
-- Suivre les indicateurs detailles par projet.
-- Comparer previsionnel et realise.
-- Definir les actions correctives court terme.
+---
 
-### Cheffe de projet (Sophie)
+## 📊 3. Résultats et livrables
 
-- Identifier les problemes recurrents observes sur les derniers exercices.
-- Structurer la narration metier pour la soutenance.
+| Livrable | Description |
+|---------|-------------|
+| Dashboard DG | Vision portefeuille, alertes stratégiques, comparaison IT/Marketing |
+| Dashboard DR | Projets en risque par région, alertes phases, dépassements |
+| Dashboard DP | Détail opérationnel par projet, prévisionnel vs réalisé |
+| Onglet documentation | Product Strategy Canvas + procédure mise à jour + modèle de données |
+| Support de soutenance | Storytelling incluant prise de parole orientée décision |
 
-## Methode et conception
+---
 
-- Construction de dashboards Power BI par persona (DG, DR, DP).
-- Priorisation d'indicateurs lisibles et actionnables.
-- Integration d'elements d'explication dans un onglet de presentation:
-  1. Product Strategy Canvas
-  2. Etapes de preparation de la procedure de mise a jour des donnees
-  3. Modele de donnees (relations et ajustements)
+## 🎓 4. Compétences RNCP 37837 mobilisées
 
-## Resultats et livrables
+| Bloc | Compétence | Ce qui a été fait | Preuve |
+|------|-----------|------------------|--------|
+| **BC02** | Identifier et collecter | Collecte données coût/délai/avancement SANITORAL | Sources projet |
+| **BC02** | Vérifier la cohérence | Validation référentiel phases et relations | Modèle de données |
+| **BC03** | Solution de visualisation | 3 dashboards Power BI différenciés par profil | Dashboards DG / DR / DP |
+| **BC03** | Créer un tableau de bord | Dashboard multi-pages opérationnel sous Power BI | Fichier PBIX |
+| **BC03** | Reporting des tendances | Seuil d'alerte 15%, KPI cards, comparaisons IT/Marketing | Pages KPI |
+| **BC03** | Présenter les résultats | Support storytelling pour soutenance devant jury | Présentation |
+| **BC04** | Identifier le besoin métier | Product Strategy Canvas — 3 personas définis | Onglet documentation |
+| **BC04** | Formaliser le cahier des charges | Procédure de mise à jour et modèle de données documentés | Onglet documentation |
+| **BC04** | Adapter sa posture | Positionnement consultant — challenger les besoins | Canvas + dashboard |
 
-- 3 dashboards metier (DG, DR, DP).
-- 1 onglet de cadrage et documentation integree.
-- 1 support de soutenance axe storytelling (incluant prise de parole).
+---
 
-## Limites et suites
+## 💡 5. Impact et apprentissages
 
-- Valider definitivement le referentiel de phases (A-F ou 1-4) pour stabiliser les comparaisons.
-- Industrialiser le processus de mise a jour des donnees.
-- Ajouter un suivi temporel des alertes pour mesurer l'efficacite des actions correctives.
+**Ce que ça a apporté** : un dispositif de pilotage consolidé permettant des arbitrages plus rapides en comité de direction, avec une lisibilité immédiate des priorités et des alertes.
 
-## Preuve de competences
+**Veille métier** : pratiques de pilotage de portefeuille projets et gouvernance multi-niveaux (global, régional, local) → traduction en besoins analytiques concrets par profil décisionnaire.
 
-### Resultats de veille metier
+**Veille technologique** : bonnes pratiques de visualisation décisionnelle Power BI (hiérarchie des indicateurs, infobulles, lisibilité des alertes) → vues différenciées pour l'action.
 
-- Veille sur les pratiques de pilotage de portefeuille projets et la gouvernance multi-niveaux (global, regional, local).
-- Traduction en besoins analytiques concrets: priorisation des alertes, segmentation par profil decisionnaire, suivi des derives cout/delai/livrables.
-- Impact metier vise: arbitrages plus rapides et meilleure lisibilite des priorites.
+---
 
-### Resultats de veille technologique
+## 🔗 Ressources
 
-- Veille sur les bonnes pratiques de visualisation decisionnelle sous Power BI (hierarchie des indicateurs, usage des infobulles, lisibilite des alertes).
-- Choix retenus: dashboards differencies par persona, seuil d'alerte explicite, structuration des vues pour l'action.
-- Apports: reduction du bruit informationnel et meilleure exploitabilite des analyses en comite de pilotage.
+- Dashboards Power BI : ssets/
+- Support de soutenance : ssets/
 
-### Tracabilite des preuves
+---
 
-- Competence: cadrer un besoin metier decisionnel | Action: definition de 3 vues cibles par profil | Preuve: dashboards DG, DR, DP.
-- Competence: modeliser des indicateurs de performance | Action: mise en place du seuil d'alerte > 15% et comparaisons IT/Marketing | Preuve: pages KPI et visualisations comparatives.
-- Competence: documenter une solution data | Action: creation d'un onglet de presentation (canvas, procedure, modele) | Preuve: onglet d'introduction et support de soutenance.
+*Férial Zamoun · Formation Data Analyst GRETA Promo 2025 · [GitHub](https://github.com/ferialzamoun-afk)*

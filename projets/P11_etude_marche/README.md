@@ -1,5 +1,5 @@
 # 🌍 **P11 : Étude Marché – Priorisation des Pays pour l’Export de Poulets Biologiques**
-**📅 Date** : [MM/AAAA] *(ex: 07/2026)*
+**📅 Date** : 06/2026
 **🏷️ Type** : Analyse Exploratoire / Clustering / Recommandation Stratégique
 **🔗 Liens** :
 - [🔗 Dépôt GitHub](https://github.com/ferialzamoun-afk/P11)
