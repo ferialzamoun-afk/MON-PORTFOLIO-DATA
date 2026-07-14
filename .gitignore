@@ -14,6 +14,9 @@ ENV/
 # Data files
 data/
 
+# Images
+images/
+
 # Scripts Python
 src/
 scripts/
