@@ -138,4 +138,17 @@
 
 ---
 
+## 11. Abonnements Newsletters | Dernier Article
+
+| Newsletter | Auteur | Dernier Article |
+|-----------|--------|-----------------|
+| **ByteByteGo** | Alex Wu | **Streaming vs Batch: Two Philosophies of Data Processing** — Concepts fondamentaux pipelines streaming (Kafka, Flink) vs batch (Spark). |
+| **Big** | Alex Kantrowitz | **Meta's Path To AI Relevance, According To Meta CTO Andrew Bosworth** — Stratégie IA Meta post-ChatGPT, intégration LLM produits. |
+| **Mon Shot de Data** | Rod | **La vraie origine du terme de régularisation (et pourquoi on le met au carré) 🎯** — Guide probabiliste + intuitif régularisation L1/L2. |
+| **The Airtable Team** | Airtable | **5 types of agents you can build with Airtable** — Agents IA natifs Airtable (automation, workflows, orchestration). |
+| **The Pragmatic Engineer** | Martin Fowler | **How AI will change software engineering – with Martin Fowler** — Podcast (1:48:53) — Impact IA sur architectures, productivité dev, trends 2024-2026. |
+| **Career Brew 🎓☕** | Career Brew | **55 Hottest Early to Mid Career Jobs – 9th July** — Listings: JPMorgan $185K, Meta $314K, Nordstrom $170K + roles. |
+
+---
+
 *Dernière mise à jour : Juillet 2026*
