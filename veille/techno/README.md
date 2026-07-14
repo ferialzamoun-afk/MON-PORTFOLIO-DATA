@@ -47,6 +47,7 @@
 | Outil | Projets | Forces identifiées | Limites connues |
 |-------|---------|-------------------|-----------------|
 | **Power BI Desktop** | P7, P10, P14 | Modèle en étoile natif, DAX puissant, partage via Power BI Service | Licence Pro requise pour partage, moins flexible que Tableau pour le custom |
+| **Langage M (Power Query)** | P10 | Transformations ETL natives dans Power BI. Plus puissant que l'interface graphique pour logiques complexes. | Moins lisible que SQL pour les requêtes simples |
 | **Streamlit** | P9, P8 (partiel) | Déploiement en production rapide (Streamlit Cloud), Python natif | Pas de drill-down natif, moins adapté aux très grands volumes |
 | **Matplotlib / Seaborn** | P9, P10, P11, P12 | Visualisations exploratoires en notebook | Non interactif, sortie statique |
 | **Plotly** | P9 (dashboard) | Graphiques interactifs dans Streamlit | Plus lourd à configurer que Seaborn |
@@ -77,7 +78,7 @@
 
 | Méthode / Outil | Projet | Description |
 |----------------|--------|-------------|
-| **Great Expectations (concepts)** | P13 | 18 contrôles qualité implémentés manuellement (pattern GE adapté en Python natif) |
+| **Great Expectations** | P8 (veille) | Framework Python pour data quality. Création de "suites" de tests (expect_*) sur les données. Profiling automatique, documentation des contrats de données. Standard en production chez 1000+ entreprises (2024). Pattern implémenté manuellement dans P6/P13 (18 contrôles qualité). |
 | **Data Contracts** | P13 | Contrats d'interface entre producteurs/consommateurs de données |
 | **dbt tests** | P8 | Tests d'unicité, non-nullité, intégrité référentielle sur les modèles SQL |
 | **Traçabilité IA (journalisation prompts)** | P13 | 26 prompts documentés avec contexte, décision, résultat — réponse aux exigences IA Act |
@@ -86,6 +87,7 @@
 - 📄 *Data Management Body of Knowledge* (DAMA-DMBOK)
 - 📰 IA Act (EU, 2024) — exigences traçabilité systèmes IA
 - 📄 Cours OC P13 — Gouvernance IA
+- 🔗 [Great Expectations Documentation](https://docs.greatexpectations.io/) — Framework data quality
 
 ---
 
