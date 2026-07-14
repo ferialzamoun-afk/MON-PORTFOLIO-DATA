@@ -1,13 +1,23 @@
-﻿# 📊 Data Analyst – Ferial Zamoun ![RNCP](https://img.shields.io/badge/RNCP-37837-blue?style=flat-square) ![Python](https://img.shields.io/badge/Python-ML%20%26%20Data-green?style=flat-square)
+﻿# 📊 Data Analyst – Ferial Zamoun ![RNCP](https://img.shields.io/badge/RNCP-37837-blue?style=flat-square) ![Python](https://img.shields.io/badge/Python-ML%20%26%20Data-green?style=flat-square) ![GitHub followers](https://img.shields.io/github/followers/ferialzamoun-afk?style=social) ![Repos](https://img.shields.io/badge/Repos-9-blue) ![Projects](https://img.shields.io/badge/Projects-14-success) ![Jupyter](https://img.shields.io/badge/Notebooks%20Jupyter-15%2B-orange)
 
 **Transformation de données dispersées en **décisions fiables**, indicateurs actionnables et restitutions partageables.**
 
 > **🎯 Fil Rouge** :
 > *Cadrer un besoin métier → Fiabiliser les données → Produire des KPI → Visualiser pour la décision → Documenter les preuves.*
 
-> **🔹 Objectif** : **Alternance ou poste en Data / IA** (25 ans d’expérience IT + reconversion Data Science).
+> **🔹 Objectif** : **Alternance ou poste en Data / IA** (25 ans d'expérience IT + reconversion Data Science).
 
 ---
+
+## 📋 Table of Contents
+- [À Propos](#-à-propos)
+- [🚀 Quick Start](#-quick-start---commencer-ici)
+- [Projets Phares](#-projets-phares)
+- [🎓 Couverture RNCP 37837](#-couverture-rncp-37837)
+- [📚 Veille & Ressources](#-veille--ressources)
+- [🔒 Sécurité & Monitoring](#-sécurité--monitoring)
+- [Liens Utiles](#-liens-utiles)
+
 ---
 ## **👤 À Propos**
 **👩‍💻 Qui suis-je ?**
@@ -24,7 +34,35 @@
 - **GitHub** : [ferialzamoun-afk](https://github.com/ferialzamoun-afk)
 
 ---
+
+## **🚀 Quick Start - Commencer Ici**
+
+### **👉 Recruteur / Client ?**
+- **[📄 Synthèse Proof Points](assets/PROOF_POINTS_SYNTHESE.md)** — 1 page par projet avec 5 piliers (Contexte → Données → Démarche → Résultats → Limites)
+- **[🏆 Portfolio Phare P13](https://github.com/ferialzamoun-afk/P13)** — Gouvernance IA & P6 Bottleneck optimisé
+- **[📊 Projets Phares](#-projets-phares)** — Accès rapide aux 5 plus beaux projets
+
+### **👉 Développeur / Contributeur ?**
+- **[📚 Veille Technologique](veille/techno/README.md)** — Trends data/IA/DevOps avec newsletters actuelles
+- **[🔧 Veille Métier](veille/metier/README.md)** — Tendances sectorielles & use cases
+- **[🏗️ Architecture Portfolio](#-structure-du-portfolio)** — Organisation & structure
+
 ---
+
+## **🎓 Couverture RNCP 37837**
+
+| **Bloc** | **Compétence** | **Projets** | **Status** |
+|---------|--------------|-----------|----------|
+| **BC01** | Acquérir, nettoyer & gérer données | P6, P8, P13 | ✅ Validé |
+| **BC02** | Collecter & analyser données | P9, P10, P11, P12 | ✅ Validé |
+| **BC03** | Visualiser & raconter stories data | P9 (Streamlit), P10 (Power BI), P6 (Dashboard) | ✅ Validé |
+| **BC04** | Piloter projets data & IA | P13 (Gouvernance), P14 (Stage Intermarché) | ✅ Validé |
+| **BC05** | Stats & Machine Learning | P11 (ACP/Clustering), P12 (Classification ML) | ✅ Validé |
+
+👉 **[Voir la synthèse complète P13 Partie 1](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/docs/06_synthese_finale_P13_partie_1.md)**
+
+---
+
 ## **📁 Structure du Portfolio**
 ```
 MON-PORTFOLIO-DATA/
@@ -475,7 +513,33 @@ MON-PORTFOLIO-DATA/
 </table>
 
 ---
+
+## **📚 Veille & Ressources**
+
+👉 **[Consultez ma veille technologique complète](veille/techno/README.md)**
+- 10 sections technos : dbt, Snowflake, ML/AI, Python, Power BI, Streamlit, Great Expectations, Docker, etc.
+- 🔔 **Abonnements newsletters actuels** : ByteByteGo, Big Tech News, Mon Shot de Data, Airtable, The Pragmatic Engineer, Career Brew
+- Derniers articles par sujet
+- Ressources d'apprentissage (Towards Data Science, Kaggle, Papers With Code, Real Python)
+
+👉 **[Veille Métier & Trends](veille/metier/README.md)**
+- Tendances sectorielles (Banque, Assurance, Retail)
+- Use cases data-driven
+- Réglementations (RGPD, France Compétences)
+
 ---
+
+## **🔒 Sécurité & Monitoring**
+
+| Outil | Status | Description |
+|-------|--------|-------------|
+| **🛡️ Aikido SAST** | 🔄 En cours | Scanning SAST/SCA/secrets detection sur tous les repos |
+| **📊 Monitoring** | 🔄 En cours | Dashboards & alertes dépendances vulnérables |
+| **🚨 Alerts** | ✅ Configuré | Notifications git push violations |
+| **📋 Code Review** | ✅ Activé | GitHub branch protection & PR reviews |
+
+---
+
 ## **💡 Pourquoi ce Portfolio ?**
 - **Pour les recruteurs** :
   - **Démonstration concrète** de mes compétences en **Data Analysis, ML et Visualisation**.
@@ -489,10 +553,10 @@ MON-PORTFOLIO-DATA/
 
 - **Pour moi** :
   - **Vitrine de mon savoir-faire** en Data Science.
-  - **Outil d’amélioration continue** (feedback, veille, nouvelles technologies).
+  - **Outil d'amélioration continue** (feedback, veille, nouvelles technologies).
 
 ---
----
+
 ## **📌 Liens Utiles**
 
 <table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
