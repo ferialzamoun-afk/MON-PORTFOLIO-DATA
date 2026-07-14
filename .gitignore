@@ -19,6 +19,7 @@ ENV/
 
 # Projets ignorés
 projets/P1_presentation/
+projets/P13_portfolio/Compétences_RNCP_Data/
 
 # Data files
 data/
