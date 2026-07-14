@@ -216,18 +216,24 @@ P8/
 │   │       └── fct_export_unifie.sql
 │   ├── tests/                             # Tests dbt
 │   │   └── test_unique_stg_etudiants_grain.sql
-│   ├── src/                               # Sources brutes
-│   │   ├── raw_etudiants.csv
-│   │   ├── raw_insee_population.csv
-│   │   └── raw_geo_ref.csv
+│   ├── src/                               # Scripts/utilitaires
+│   │   ├── enrich_insee_population.py
+│   │   ├── extract_insee_population.py
+│   │   └── build_pbi_unified_export.py
 │   └── target/                            # Artifacts générés
 │
-├── exports/                               # CSV exportés
-│   ├── fct_export_unifie.csv              # PRINCIPAL (source unique)
-│   ├── fct_profil_sociodem.csv
-│   └── fct_summary_analysis.csv
+├── data/                                  # Données centralisées
+│   ├── raw/                               # Sources brutes (fichiers d'origine)
+│   │   ├── Estimation_popu_2025_dpt_sexe_classe_age.xlsx
+│   │   ├── fr-esr-referentiel-geographique.csv
+│   │   └── geo_ref_template_for_snowflake.csv
+│   └── processed/                         # Données transformées/enrichies
+│       ├── fct_export_unifie.csv          # PRINCIPAL (dbt export)
+│       ├── 5-Profil_sociodemo_output_csv_2026-03-20-1903.csv
+│       ├── 6-Comparaison_insee_region_age_genre_2026-03-20-1909.csv
+│       ├── insee_population_enrichi.csv
+│       └── insee_population_departements_wide_2022_2025.csv
 │
-├── outputs/                               # (Ancien : déprécié)
 ├── logs/                                 # Logs d'exécution
 ├── load-env.ps1                          # Setup local (Windows)
 ├── analyse_csv_p8.ipynb                  # Analyses exploratoires
@@ -239,13 +245,13 @@ P8/
 Bloc RNCP,Compétence,Description,Preuves
 BC01,Structurer et gérer la base de données,Modèle en 3 couches (STAGING → INTERMEDIATE → MARTS) avec dbt + Snowflake.,[P8--DBT/models/](https://github.com/ferialzamoun-afk/P8/tree/main/P8--DBT/models)
 BC01,Gérer une base de données,Requêtes SQL pour le remplissage des tables (jointures, agrégations).,[fct_export_unifie.sql](https://github.com/ferialzamoun-afk/P8/blob/main/P8--DBT/models/marts/fct_export_unifie.sql)
-BC02,Identifier et collecter les données,Utilisation de 2 sources principales (OpenClassrooms, INSEE).,[P8--DBT/src/](https://github.com/ferialzamoun-afk/P8/tree/main/P8--DBT/src)
+BC02,Identifier et collecter les données,Utilisation de 2 sources principales (OpenClassrooms, INSEE).,[data/raw/](https://github.com/ferialzamoun-afk/P8/tree/main/data/raw)
 BC02,Extraire et agréger,Nettoyage : Harmonisation des noms de régions, groupes d’âge, genres.,[stg_etudiants.sql](https://github.com/ferialzamoun-afk/P8/blob/main/P8--DBT/models/staging/stg_etudiants.sql)
 BC02,Explorer et pré-traiter,Jointures complexes (FULL OUTER JOIN) pour fusionner OC + INSEE.,[int_etudiants_insee_joined.sql](https://github.com/ferialzamoun-afk/P8/blob/main/P8--DBT/models/intermediate/int_etudiants_insee_joined.sql)
 BC02,Analyse univariée/multivariée,Calcul des KPIs (pénétration, écarts genre/âge).,[fct_export_unifie.sql](https://github.com/ferialzamoun-afk/P8/blob/main/P8--DBT/models/marts/fct_export_unifie.sql)
 BC03,Solution de visualisation,Dashboard Streamlit (en développement) : Cartes, heatmaps, tendances.,[À déployer](https://your-streamlit-app.com)
 BC03,Créer un tableau de bord,Intégration Power BI : Import du CSV pour visualisations.,[POWER_BI_SETUP.md](https://github.com/ferialzamoun-afk/P8/blob/main/.github/workflows/POWER_BI_SETUP.md)
-BC03,Reporting des tendances,Exports CSV pour Power BI/Excel.,[exports/](https://github.com/ferialzamoun-afk/P8/tree/main/exports)
+BC03,Reporting des tendances,Exports CSV pour Power BI/Excel.,[data/processed/](https://github.com/ferialzamoun-afk/P8/tree/main/data/processed)
 BC04,Veille métier/technologique,Benchmark dbt + Snowflake vs autres outils (Airflow, etc.).,[CSV_EXPORT_VALUE_CHAIN.md](https://github.com/ferialzamoun-afk/P8/blob/main/CSV_EXPORT_VALUE_CHAIN.md)
 BC04,Formaliser le cahier des charges,Documentation complète (README, workflows, guides).,[Dépôt GitHub](https://github.com/ferialzamoun-afk/P8)
 BC04,Organiser un projet data,Pipeline CI/CD (GitHub Actions) + modularité dbt.,[.github/workflows/dbt-ci.yml](https://github.com/ferialzamoun-afk/P8/blob/main/.github/workflows/dbt-ci.yml)
