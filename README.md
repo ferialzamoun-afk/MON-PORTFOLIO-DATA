@@ -1,4 +1,6 @@
-﻿# 📊 **Portfolio Data Analyst – Ferial Zamoun - RNCP 37837 (certification professionnelle)**
+﻿# 📊 Data Analyst – Ferial Zamoun  
+![RNCP](https://img.shields.io/badge/RNCP-37837-blue?style=flat-square) ![Python](https://img.shields.io/badge/Python-ML%20%26%20Data-green?style=flat-square)
+
 **Transformation de données dispersées en **décisions fiables**, indicateurs actionnables et restitutions partageables.**
 
 > **🎯 Fil Rouge** :
