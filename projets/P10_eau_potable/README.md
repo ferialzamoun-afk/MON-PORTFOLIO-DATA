@@ -70,10 +70,11 @@ P10/
 │   └── rebuild_geography_exports.py        # Reconstruction géographique
 │
 ├── requirements.txt                        # Dépendances Python
-├── blueprint_P10_dashboard_eau.md          # Détail des besoins et visuels
-├── contexte_DWFA_glossaire_eau.md          # Définitions des indicateurs
-├── resume_methodologique_pipeline...md    # Détails du pipeline
-└── questions_pieges_soutenance_P10.md      # Points critiques pour la soutenance
+├── docs/                                    # Documentation projet
+│   ├── blueprint_P10_dashboard_eau.md       # Détail des besoins et visuels
+│   ├── contexte_DWFA_glossaire_eau.md       # Définitions des indicateurs
+│   ├── resume_methodologique_pipeline_notebooks_01_02_03.md  # Détails du pipeline
+│   └── questions_pieges_soutenance_P10.md   # Points critiques pour la soutenance
 
 ---
 ## **🔧 Compétences RNCP 37837 Démontrées**
@@ -177,13 +178,13 @@ P10/
 |----------|----------|-----------------|
 | **Dépôt GitHub** | [P10](https://github.com/ferialzamoun-afk/P10) | Code source, notebooks, scripts, données |
 | **Notebook 01** | [Inspection & Normalisation (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/01%20-%20Inspection%20des%20données.ipynb) | Qualification, nettoyage, scores |
-| **Notebook 02** | [Préparation & Nettoyage (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/02%20-%20Préparation%20et%20nettoyage....ipynb) | Pipeline en couches, tables étoile |
-| **Notebook 03** | [Analyses & EDA (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/03%20-%20Analyses%20des%20groupements...ipynb) | Analyses métier, visualisations |
-| **Dashboard Power BI** | [Dashboard_eau_v6.pbit](https://github.com/ferialzamoun-afk/P10/raw/main/data/processed/pbi_star/Dashboard_eau_v6.pbit) | Modèle complet (à ouvrir avec Power BI Desktop) |
-| **Blueprint** | [blueprint_P10_dashboard_eau.md](https://github.com/ferialzamoun-afk/P10/blob/main/blueprint_P10_dashboard_eau.md) | Détail des besoins et visuels |
-| **Glossaire** | [contexte_DWFA_glossaire_eau.md](https://github.com/ferialzamoun-afk/P10/blob/main/contexte_DWFA_glossaire_eau.md) | Définitions des indicateurs |
-| **Méthodologie** | [resume_methodologique_pipeline...md](https://github.com/ferialzamoun-afk/P10/blob/main/resume_methodologique_pipeline_notebooks_01_02_03.md) | Détails du pipeline |
-| **QCM Soutenance** | [questions_pieges_soutenance_P10.md](https://github.com/ferialzamoun-afk/P10/blob/main/questions_pieges_soutenance_P10.md) | Points critiques pour l’évaluation |
+| **Notebook 02** | [Préparation & Nettoyage (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/02%20-%20Pr%C3%A9paration%20et%20nettoyage%20des%20donn%C3%A9es.ipynb) | Pipeline en couches, tables étoile |
+| **Notebook 03** | [Analyses & EDA (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/03%20-%20Analyses%20des%20groupements%20de%20pays%20-%20EDA%20Patrick%20-%20ACP-r%C3%A9ductions_dimensions-clustering%20.ipynb) | Analyses métier, visualisations |
+| **Dashboard Power BI** | [Dashboard_eau_v6.pbit](https://github.com/ferialzamoun-afk/P10/raw/main/pbit/Dashboard_eau_v6.pbit) | Modèle complet (à ouvrir avec Power BI Desktop) |
+| **Blueprint** | [blueprint_P10_dashboard_eau.md](https://github.com/ferialzamoun-afk/P10/blob/main/docs/blueprint_P10_dashboard_eau.md) | Détail des besoins et visuels |
+| **Glossaire** | [contexte_DWFA_glossaire_eau.md](https://github.com/ferialzamoun-afk/P10/blob/main/docs/contexte_DWFA_glossaire_eau.md) | Définitions des indicateurs |
+| **Méthodologie** | [resume_methodologique_pipeline...md](https://github.com/ferialzamoun-afk/P10/blob/main/docs/resume_methodologique_pipeline_notebooks_01_02_03.md) | Détails du pipeline |
+| **QCM Soutenance** | [questions_pieges_soutenance_P10.md](https://github.com/ferialzamoun-afk/P10/blob/main/docs/questions_pieges_soutenance_P10.md) | Points critiques pour l'évaluation |
 
 ---
 ## **🛠 Configuration et Exécution**
