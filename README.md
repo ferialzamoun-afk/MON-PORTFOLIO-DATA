@@ -25,7 +25,42 @@
 
 ---
 ---
-## **🌟 Projets Phares**
+## **📁 Structure du Portfolio**
+```
+MON-PORTFOLIO-DATA/
+├── README.md                               # Cette page - Hub principal du portfolio
+├── _config.yml                             # Configuration Jekyll (GitHub Pages)
+├── requirements.txt                        # Dépendances Python
+│
+├── projets/
+│   ├── P6_optimisation_bottleneck/        # [Intégré dans P13 Partie 1]
+│   ├── P8_pipeline_dbt/                    # Data pipelines & dbt
+│   ├── P9_librairie/                       # 📊 Lapage - Analyses ventes (Streamlit live)
+│   ├── P10_eau_potable/                    # 🌊 Dashboard Power BI complet
+│   ├── P11_etude_marche/                   # 📈 Clustering & Recommandations export
+│   ├── P12_faux_billets/                   # 🔍 ML Classification (FastAPI)
+│   ├── P13_portfolio/                      # 🏆 Portfolio & Gouvernance IA (PHARE)
+│   └── P14_stage/                          # 📚 Mémoire et documentation stage
+│
+├── docs/                                   # Documentation transversale
+│   └── veille/                             # Ressources métier & technologiques
+│
+└── data/                                   # (Ignoré - données locales)
+```
+
+### **🎯 Projets Phares - Accès Rapide**
+| **Projet** | **Type** | **Stack** | **Lien** |
+|-----------|--------|---------|--------|
+| **P13 (Partie 1)** | Gouvernance IA | Python, Jupyter | [📄 Synthèse](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/docs/06_synthese_finale_P13_partie_1.md) |
+| **P12** | ML Classification | Python, FastAPI | [🔗 Dépôt](https://github.com/ferialzamoun-afk/P12) |
+| **P11** | Clustering ACP | Python, Pandas | [🔗 Dépôt](https://github.com/ferialzamoun-afk/P11) |
+| **P10** | Dashboard BI | Power BI, SQL | [🔗 Dépôt](https://github.com/ferialzamoun-afk/P10) |
+| **P9** | Analyse Ventes | Python, Streamlit | [🌐 Live](https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/) |
+| **P8** | Data Pipeline | dbt, Snowflake | [🔗 Dépôt](https://github.com/ferialzamoun-afk/P8) |
+
+---
+---
+## **🌟 Projets Phares (Détails)**
 *(Sélection de projets documentés, consultables et orientés recruteur)*
 
 
