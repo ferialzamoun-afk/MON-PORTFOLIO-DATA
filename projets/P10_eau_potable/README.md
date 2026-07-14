@@ -6,11 +6,11 @@
 **🔗 Liens** :
 - [🔗 Dépôt GitHub](https://github.com/ferialzamoun-afk/P10)
 - [📓 Notebook 01 : Inspection & Normalisation (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/01%20-%20Inspection%20des%20données.ipynb)
-- [📓 Notebook 02 : Préparation & Nettoyage (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/02%20-%20Préparation%20et%20nettoyage....ipynb)
-- [📓 Notebook 03 : Analyses & EDA (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/03%20-%20Analyses%20des%20groupements...ipynb)
-- [📊 Dashboard Power BI (Template)](https://github.com/ferialzamoun-afk/P10/raw/main/data/processed/pbi_star/Dashboard_eau_v6.pbit)
-- [📄 Blueprint complet](https://github.com/ferialzamoun-afk/P10/blob/main/blueprint_P10_dashboard_eau.md)
-- [📄 Glossaire métier](https://github.com/ferialzamoun-afk/P10/blob/main/contexte_DWFA_glossaire_eau.md)
+- [📓 Notebook 02 : Préparation & Nettoyage (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/02%20-%20Pr%C3%A9paration%20et%20nettoyage%20des%20donn%C3%A9es.ipynb)
+- [📓 Notebook 03 : Analyses & EDA (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/03%20-%20Analyses%20des%20groupements%20de%20pays%20-%20EDA%20Patrick%20-%20ACP-r%C3%A9ductions_dimensions-clustering%20.ipynb)
+- [📊 Dashboard Power BI (Template)](https://github.com/ferialzamoun-afk/P10/raw/main/pbit/Dashboard_eau_v6.pbit)
+- [📄 Blueprint complet](https://github.com/ferialzamoun-afk/P10/blob/main/docs/blueprint_P10_dashboard_eau.md)
+- [📄 Glossaire métier](https://github.com/ferialzamoun-afk/P10/blob/main/docs/contexte_DWFA_glossaire_eau.md)
 
 ---
 
@@ -76,26 +76,26 @@ P10/
 └── questions_pieges_soutenance_P10.md      # Points critiques pour la soutenance
 
 ---
-## **🔧 Compétences RNCP 37837 Demonstrées**
+## **🔧 Compétences RNCP 37837 Démontrées**
 
 ### **📌 Mapping des Blocs RNCP**
 | **Bloc RNCP** | **Compétence** | **Description** | **Preuves** |
 |---------------|---------------|----------------|-------------|
 | **BC01** | **Structurer et gérer la base de données** | Création de **tables étoile Power BI** (`fact_dashboard_star_fr.csv`, `dim_pays_star_fr.csv`) et **marts analytiques** (csv_enrichis/). | [data/processed/pbi_star/](https://github.com/ferialzamoun-afk/P10/tree/main/data/processed/pbi_star) |
-| **BC01** | **Gérer une base de données** | **Requêtes SQL implicites** via Pandas pour le remplissage des tables (ex: jointures pays-région). | [Notebook 02, Section "Formalisation en couches"](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/02%20-%20Préparation%20et%20nettoyage....ipynb#Formalisation-en-couches) |
+| **BC01** | **Gérer une base de données** | **Requêtes SQL implicites** via Pandas pour le remplissage des tables (ex: jointures pays-région). | [Notebook 02](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/02%20-%20Pr%C3%A9paration%20et%20nettoyage%20des%20donn%C3%A9es.ipynb) |
 | **BC02** | **Identifier et collecter les données** | Utilisation de **5 sources de données** (Population, Régions, Stabilité politique, Mortalité WASH, Services eau). | [data/raw/](https://github.com/ferialzamoun-afk/P10/tree/main/data/raw) |
-| **BC02** | **Extraire et agréger** | **Nettoyage** : Standardisation des noms de pays (`country_converter`), rattachement pays-région. | [Notebook 01, Section "Préparation analytique"](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/01%20-%20Inspection%20des%20données.ipynb#Préparation-analytique) |
-| **BC02** | **Explorer et pré-traiter** | **Feature Engineering** : Calcul des scores `score_creation_services`, `score_modernisation_services`, `score_gouvernance`. | [Notebook 01, Section "Construction des scores"](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/01%20-%20Inspection%20des%20données.ipynb#Construction-des-scores) |
-| **BC02** | **Analyse univariée/multivariée** | **EDA** : Statistiques descriptives, corrélations entre indicateurs (ex: stabilité politique vs mortalité WASH). | [Notebook 03, Section "Analyses métier"](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/03%20-%20Analyses%20des%20groupements...ipynb#Analyses-métier) |
-| **BC03** | **Solution de visualisation** | **Carte choroplèthe** (stabilité politique), **bar charts** (comparaisons continentales), **scatter plots** (création/modernisation). | [Dashboard Power BI](https://github.com/ferialzamoun-afk/P10/raw/main/data/processed/pbi_star/Dashboard_eau_v6.pbit) |
-| **BC03** | **Créer un tableau de bord** | **Dashboard Power BI complet** avec 3 pages (monde, domaines métier, nationale). | [Dashboard_eau_v6.pbit](https://github.com/ferialzamoun-afk/P10/raw/main/data/processed/pbi_star/Dashboard_eau_v6.pbit) |
-| **BC03** | **Reporting des tendances** | **KPI cards** (moyennes globales), **line plots** (trajectoires nationales), **matrice de priorisation**. | [Page 2 - Domaines métier](https://github.com/ferialzamoun-afk/P10/blob/main/blueprint_P10_dashboard_eau.md#page-2---domaines-métier) |
-| **BC04** | **Veille métier/technologique** | **Benchmark des outils** (Power BI vs Tableau) et **méthodologie documentée**. | [blueprint_P10_dashboard_eau.md](https://github.com/ferialzamoun-afk/P10/blob/main/blueprint_P10_dashboard_eau.md) |
-| **BC04** | **Formaliser le cahier des charges** | **Blueprint complet** avec besoins utilisateurs, indicateurs, et visuels. | [blueprint_P10_dashboard_eau.md](https://github.com/ferialzamoun-afk/P10/blob/main/blueprint_P10_dashboard_eau.md) |
+| **BC02** | **Extraire et agréger** | **Nettoyage** : Standardisation des noms de pays (`country_converter`), rattachement pays-région. | [Notebook 01](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/01%20-%20Inspection%20des%20donn%C3%A9es.ipynb) |
+| **BC02** | **Explorer et pré-traiter** | **Feature Engineering** : Calcul des scores `score_creation_services`, `score_modernisation_services`, `score_gouvernance`. | [Notebook 01](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/01%20-%20Inspection%20des%20donn%C3%A9es.ipynb) |
+| **BC02** | **Analyse univariée/multivariée** | **EDA** : Statistiques descriptives, corrélations entre indicateurs (ex: stabilité politique vs mortalité WASH). | [Notebook 03](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/03%20-%20Analyses%20des%20groupements%20de%20pays%20-%20EDA%20Patrick%20-%20ACP-r%C3%A9ductions_dimensions-clustering%20.ipynb) |
+| **BC03** | **Solution de visualisation** | **Carte choroplèthe** (stabilité politique), **bar charts** (comparaisons continentales), **scatter plots** (création/modernisation). | [Dashboard Power BI](https://github.com/ferialzamoun-afk/P10/raw/main/pbit/Dashboard_eau_v6.pbit) |
+| **BC03** | **Créer un tableau de bord** | **Dashboard Power BI complet** avec 3 pages (monde, domaines métier, nationale). | [Dashboard_eau_v6.pbit](https://github.com/ferialzamoun-afk/P10/raw/main/pbit/Dashboard_eau_v6.pbit) |
+| **BC03** | **Reporting des tendances** | **KPI cards** (moyennes globales), **line plots** (trajectoires nationales), **matrice de priorisation**. | [Blueprint](https://github.com/ferialzamoun-afk/P10/blob/main/docs/blueprint_P10_dashboard_eau.md) |
+| **BC04** | **Veille métier/technologique** | **Benchmark des outils** (Power BI vs Tableau) et **méthodologie documentée**. | [blueprint_P10_dashboard_eau.md](https://github.com/ferialzamoun-afk/P10/blob/main/docs/blueprint_P10_dashboard_eau.md) |
+| **BC04** | **Formaliser le cahier des charges** | **Blueprint complet** avec besoins utilisateurs, indicateurs, et visuels. | [blueprint_P10_dashboard_eau.md](https://github.com/ferialzamoun-afk/P10/blob/main/docs/blueprint_P10_dashboard_eau.md) |
 | **BC04** | **Organiser un projet data** | **Pipeline en 3 notebooks** + **modules réutilisables** (`src/`). | [Notebooks/](https://github.com/ferialzamoun-afk/P10/tree/main/notebooks) + [src/](https://github.com/ferialzamoun-afk/P10/tree/main/src) |
 | **BC04** | **Gérer la documentation** | **100% des livrables documentés** (notebooks, scripts, glossaire, méthodologie). | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P10) |
-| **BC05** | **Analyses multivariées** | **Scoring composite** (création + modernisation + gouvernance) pour prioriser les pays. | [Notebook 03, Section "Matrice de priorisation"](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/03%20-%20Analyses%20des%20groupements...ipynb#Matrice-de-priorisation) |
-| **BC05** | **Réduction de dimension** | **Sélection des indicateurs** (5 sources → 3 domaines métier : création, modernisation, gouvernance). | [Notebook 01, Section "Cadrage via schéma canonique"](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/01%20-%20Inspection%20des%20données.ipynb#Cadrage-via-schéma-canonique) |
+| **BC05** | **Analyses multivariées** | **Scoring composite** (création + modernisation + gouvernance) pour prioriser les pays. | [Notebook 03](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/03%20-%20Analyses%20des%20groupements%20de%20pays%20-%20EDA%20Patrick%20-%20ACP-r%C3%A9ductions_dimensions-clustering%20.ipynb) |
+| **BC05** | **Réduction de dimension** | **Sélection des indicateurs** (5 sources → 3 domaines métier : création, modernisation, gouvernance). | [Notebook 01](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/01%20-%20Inspection%20des%20donn%C3%A9es.ipynb) |
 
 ---
 ## **📊 Pipeline de Données**
