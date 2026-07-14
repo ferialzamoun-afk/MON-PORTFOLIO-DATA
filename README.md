@@ -49,7 +49,7 @@
 - [🌐 Dashboard Streamlit](https://p6-dashboard-wdcn5o8grt39nqtim6mgym.streamlit.app/)
 - [📁 Dépôt P13 Complet](https://github.com/ferialzamoun-afk/P13)
 
-**🎯 Compétences Demonstrées** :
+**🎯 Compétences Démontrées** :
 - **Gouvernance IA** : 26 prompts tracés, décisions explicites, limitations formalisées.
 - **Contrôle qualité** : 18 validations, Great Expectations préparée, standards RNCP.
 - **Fiabilisation données** : Rapprochement ERP/Web/Liaison, détection anomalies.
@@ -76,7 +76,7 @@
 - [📄 Fiche Projet Détection de Faux Billets](https://github.com/ferialzamoun-afk/P12/blob/main/PROJECT_BRIEF.md)
 - [🔗 Dépôt GitHub](https://github.com/ferialzamoun-afk/P12)
 
-**🎯 Compétences Demonstrées** :
+**🎯 Compétences Démontrées** :
 - **Modélisation ML** (**BC05** : classification, évaluation).
 - **API FastAPI** pour le déploiement.
 - **Reproductibilité** (notebooks, documentation).
@@ -105,7 +105,7 @@
 - [📓 Notebook 2 : Clustering & Recommandations (nbviewer)](https://github.com/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Férial_2_clustering_visualisations%20_112025.ipynb)
 
 
-**🎯 Compétences Demonstrées** :
+**🎯 Compétences Démontrées** :
 - **Structurer une base de données** (**BC01**) : Création de `base_acp_finale_2017.csv` .
 - **Identifier, collecter et analyser les données** (**BC02**) : Nettoyage, EDA, **Feature Engineering** (distance de Levenshtein pour `faolex_text_diversity_score`).
 - **Visualiser des données** (**BC03**) : ACP, clustering (CAH/KMeans), profils de clusters.
@@ -219,7 +219,7 @@
 </table>
 
 ---
-### **🎯 Compétences RNCP 37837 Demonstrées**
+### **🎯 Compétences RNCP 37837 Démontrées**
 
 <table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1); font-size: 0.88em;">
   <thead>
@@ -235,31 +235,31 @@
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC01</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Structurer & gérer</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Pipeline de données : brutes → exploitables</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project">lapage_project/</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">Dépôt P9</a></td>
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC02</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Identifier & collecter</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Données de vente Lapage (CA, panier, clients)</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/lapage_project/data">data/</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/data/raw">data/raw/</a></td>
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC02</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Extraire & agréger</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Nettoyage & agrégation : CA, panier moyen, concentration</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/02_Analyses_Marketing.ipynb">Notebook 02</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/02_Analyses_Marketing.ipynb">Notebook 02</a></td>
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC02</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Explorer & pré-traiter</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Feature Engineering : Segmentation clients</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/02_Analyses_Marketing.ipynb">Notebook 02</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/01_Exploration_EDA.ipynb">Notebook 01</a></td>
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC02</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Analyse multivariée</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Analyse des tendances : CA & panier par segment</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/03_Analyses_Statistiques.ipynb">Notebook 03</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/03_Analyses_Statistiques.ipynb">Notebook 03</a></td>
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC03</strong></td>
@@ -301,7 +301,7 @@
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC05</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Analyses multivariées</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Segmentation clients (fréquence × CA)</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/notebooks/analyses/02_Analyses_Marketing.ipynb">Notebook 02</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/02_Analyses_Marketing.ipynb">Notebook 02</a></td>
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC05</strong></td>
@@ -315,7 +315,7 @@
 ---
 ---
 ---
-## **🎯 Compétences Data Analyst Demonstrées**
+## **🎯 Compétences Data Analyst Démontrées**
 *(Alignées sur les **blocs RNCP 37837** et les attentes métiers)*
 
 <table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
