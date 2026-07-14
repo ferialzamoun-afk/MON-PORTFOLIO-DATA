@@ -1,4 +1,4 @@
-﻿# 📊 **Portfolio Data Analyst – Ferial Zamoun**
+﻿# 📊 **Portfolio Data Analyst – Ferial Zamoun - RNCP 37837 (certification professionnelle)**
 **Transformation de données dispersées en **décisions fiables**, indicateurs actionnables et restitutions partageables.**
 
 > **🎯 Fil Rouge** :
