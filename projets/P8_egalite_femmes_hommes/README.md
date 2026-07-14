@@ -6,12 +6,12 @@
 **📅 Date** : 03/2026 *(Dernière mise à jour : 24/03/2026 - v1.0)*
 **🏷️ Type** : Data Pipeline / dbt / Snowflake / CI/CD / Streamlit
 **🔗 Liens** :
-- [🔗 Dépôt GitHub](https://github.com/ferialzamoun-afk/P8)
-- [📄 Documentation Pipeline](https://github.com/ferialzamoun-afk/P8/blob/main/CSV_EXPORT_VALUE_CHAIN.md)
-- [📄 Guide Power BI](https://github.com/ferialzamoun-afk/P8/blob/main/.github/workflows/POWER_BI_SETUP.md)
-- [📄 Setup Manuel CI/CD](https://github.com/ferialzamoun-afk/P8/blob/main/.github/workflows/MANUAL_WORKFLOW_SETUP.md)
-- [📊 Artefacts GitHub Actions](https://github.com/ferialzamoun-afk/P8/actions) *(CSVs exportés)*
-- [📓 Notebook Exploratoire](https://nbviewer.org/github/ferialzamoun-afk/P8/blob/main/analyse_csv_p8.ipynb) *(Analyses complémentaires)*
+- [🔗 Dépôt GitHub](https://github.com/ferialzamoun-afk/P8--DBT)
+- [📄 Documentation Pipeline](https://github.com/ferialzamoun-afk/P8--DBT/blob/main/CSV_EXPORT_VALUE_CHAIN.md)
+- [📄 Guide Power BI](https://github.com/ferialzamoun-afk/P8--DBT/blob/main/.github/workflows/POWER_BI_SETUP.md)
+- [📄 Setup Manuel CI/CD](https://github.com/ferialzamoun-afk/P8--DBT/blob/main/.github/workflows/MANUAL_WORKFLOW_SETUP.md)
+- [📊 Artefacts GitHub Actions](https://github.com/ferialzamoun-afk/P8--DBT/actions) *(CSVs exportés)*
+- [📓 Notebook Exploratoire](https://nbviewer.org/github/ferialzamoun-afk/P8--DBT/blob/main/analyse_csv_p8.ipynb) *(Analyses complémentaires)*
 
 ---
 
@@ -159,9 +159,9 @@ Durée totale : ~5-8 minutes (bout en bout).
 📌 Artefacts Disponibles
 | Artefact | Format | Lieu | Usage |
 | --- | --- | --- | --- |
-| fct_export_unifie.csv | CSV | [GitHub Artifacts](https://github.com/ferialzamoun-afk/P8/actions) | Source principale pour Power BI/Streamlit |
+| fct_export_unifie.csv | CSV | [GitHub Artifacts](https://github.com/ferialzamoun-afk/P8--DBT/actions) | Source principale pour Power BI/Streamlit |
 | dbt artifacts | JSON | GitHub Artifacts | Lineage, tests, logs |
-| Logs dbt | Text | [GitHub Actions UI](https://github.com/ferialzamoun-afk/P8/actions) | Debugging |
+| Logs dbt | Text | [GitHub Actions UI](https://github.com/ferialzamoun-afk/P8--DBT/actions) | Debugging |
 📌 Télécharger le CSV d’Export
 Méthode 1 : Via GitHub UI
 
@@ -169,7 +169,7 @@ Aller dans Actions → Sélectionner le run (ex: dbt CI/CD #123).
 Cliquer sur Artifacts → Télécharger marts-csv-<RUN_ID>.zip.
 Extraire le fichier fct_export_unifie.csv.
 Méthode 2 : Via CLI (GitHub CLI)
-gh run download <RUN_ID> --repo ferialzamoun-afk/P8
+gh run download <RUN_ID> --repo ferialzamoun-afk/P8--DBT
 
 📊 Résultats et Livrables
 (Blocs RNCP37837BC03, BC05)
@@ -195,7 +195,7 @@ Heatmap : Région × Groupe d’âge (écarts de représentation).
 Line charts : Tendances annuelles (2022-2025).
 Lien Streamlit (à déployer) : [🌐 Dashboard Streamlit (Futur)](https://your-streamlit-app.com)
 
-P8/
+P8--DBT/
 ├── .github/
 │   ├── workflows/
 │   │   ├── dbt-ci.yml                     # Workflow principal CI/CD
@@ -203,61 +203,52 @@ P8/
 │   │   ├── POWER_BI_SETUP.md              # Intégration Power BI
 │   │   └── helpers/
 │   │
-├── P8--DBT/                               # Projet dbt principal
-│   ├── dbt_project.yml                    # Configuration dbt
-│   ├── profiles.yml                       # Connexion Snowflake
-│   ├── models/
-│   │   ├── staging/                       # Nettoyage brut
-│   │   │   ├── stg_etudiants.sql
-│   │   │   └── stg_insee_population.sql
-│   │   ├── intermediate/                  # Transformations
-│   │   │   └── int_etudiants_insee_joined.sql
-│   │   └── marts/                         # Tables d'export
-│   │       └── fct_export_unifie.sql
-│   ├── tests/                             # Tests dbt
-│   │   └── test_unique_stg_etudiants_grain.sql
-│   ├── src/                               # Scripts/utilitaires
-│   │   ├── enrich_insee_population.py
-│   │   ├── extract_insee_population.py
-│   │   └── build_pbi_unified_export.py
-│   └── target/                            # Artifacts générés
-│
-├── data/                                  # Données centralisées
-│   ├── raw/                               # Sources brutes (fichiers d'origine)
-│   │   ├── Estimation_popu_2025_dpt_sexe_classe_age.xlsx
-│   │   ├── fr-esr-referentiel-geographique.csv
-│   │   └── geo_ref_template_for_snowflake.csv
-│   └── processed/                         # Données transformées/enrichies
-│       ├── fct_export_unifie.csv          # PRINCIPAL (dbt export)
-│       ├── 5-Profil_sociodemo_output_csv_2026-03-20-1903.csv
-│       ├── 6-Comparaison_insee_region_age_genre_2026-03-20-1909.csv
-│       ├── insee_population_enrichi.csv
-│       └── insee_population_departements_wide_2022_2025.csv
-│
-├── logs/                                 # Logs d'exécution
-├── load-env.ps1                          # Setup local (Windows)
-├── analyse_csv_p8.ipynb                  # Analyses exploratoires
+├── dbt_project.yml                        # Configuration dbt
+├── profiles.yml                           # Connexion Snowflake
+├── models/
+│   ├── staging/                           # Nettoyage brut
+│   │   ├── stg_etudiants.sql
+│   │   └── stg_insee_population.sql
+│   ├── intermediate/                      # Transformations
+│   │   └── int_etudiants_insee_joined.sql
+│   └── marts/                             # Tables d'export
+│       └── fct_export_unifie.sql
+├── tests/                                 # Tests dbt
+│   └── test_unique_stg_etudiants_grain.sql
+├── src/                                   # Scripts/utilitaires
+│   ├── enrich_insee_population.py
+│   ├── extract_insee_population.py
+│   └── build_pbi_unified_export.py
+├── target/                                # Artifacts générés
+├── data/                                  # Données (si configurées localement)
+│   ├── raw/                               # Sources brutes
+│   └── processed/                         # Données transformées
+├── logs/                                  # Logs d'exécution
+├── analyse_csv_p8.ipynb                   # Analyses exploratoires
 ├── README.md
 ├── CSV_EXPORT_VALUE_CHAIN.md              # Chaîne de valeur
 └── .gitignore
+
+---
+
 🔧 Compétences RNCP 37837 Demonstrées
 📌 Mapping des Blocs RNCP
 Bloc RNCP,Compétence,Description,Preuves
-BC01,Structurer et gérer la base de données,Modèle en 3 couches (STAGING → INTERMEDIATE → MARTS) avec dbt + Snowflake.,[P8--DBT/models/](https://github.com/ferialzamoun-afk/P8/tree/main/P8--DBT/models)
-BC01,Gérer une base de données,Requêtes SQL pour le remplissage des tables (jointures, agrégations).,[fct_export_unifie.sql](https://github.com/ferialzamoun-afk/P8/blob/main/P8--DBT/models/marts/fct_export_unifie.sql)
-BC02,Identifier et collecter les données,Utilisation de 2 sources principales (OpenClassrooms, INSEE).,[data/raw/](https://github.com/ferialzamoun-afk/P8/tree/main/data/raw)
-BC02,Extraire et agréger,Nettoyage : Harmonisation des noms de régions, groupes d’âge, genres.,[stg_etudiants.sql](https://github.com/ferialzamoun-afk/P8/blob/main/P8--DBT/models/staging/stg_etudiants.sql)
-BC02,Explorer et pré-traiter,Jointures complexes (FULL OUTER JOIN) pour fusionner OC + INSEE.,[int_etudiants_insee_joined.sql](https://github.com/ferialzamoun-afk/P8/blob/main/P8--DBT/models/intermediate/int_etudiants_insee_joined.sql)
-BC02,Analyse univariée/multivariée,Calcul des KPIs (pénétration, écarts genre/âge).,[fct_export_unifie.sql](https://github.com/ferialzamoun-afk/P8/blob/main/P8--DBT/models/marts/fct_export_unifie.sql)
+BC01,Structurer et gérer la base de données,Modèle en 3 couches (STAGING → INTERMEDIATE → MARTS) avec dbt + Snowflake.,[models/](https://github.com/ferialzamoun-afk/P8--DBT/tree/main/models)
+BC01,Gérer une base de données,Requêtes SQL pour le remplissage des tables (jointures, agrégations).,[fct_export_unifie.sql](https://github.com/ferialzamoun-afk/P8--DBT/blob/main/models/marts/fct_export_unifie.sql)
+BC02,Identifier et collecter les données,Utilisation de 2 sources principales (OpenClassrooms, INSEE).,[data/raw/](https://github.com/ferialzamoun-afk/P8--DBT/tree/main/data/raw)
+BC02,Extraire et agréger,Nettoyage : Harmonisation des noms de régions, groupes d'âge, genres.,[stg_etudiants.sql](https://github.com/ferialzamoun-afk/P8--DBT/blob/main/models/staging/stg_etudiants.sql)
+BC02,Explorer et pré-traiter,Jointures complexes (FULL OUTER JOIN) pour fusionner OC + INSEE.,[int_etudiants_insee_joined.sql](https://github.com/ferialzamoun-afk/P8--DBT/blob/main/models/intermediate/int_etudiants_insee_joined.sql)
+BC02,Analyse univariée/multivariée,Calcul des KPIs (pénétration, écarts genre/âge).,[fct_export_unifie.sql](https://github.com/ferialzamoun-afk/P8--DBT/blob/main/models/marts/fct_export_unifie.sql)
 BC03,Solution de visualisation,Dashboard Streamlit (en développement) : Cartes, heatmaps, tendances.,[À déployer](https://your-streamlit-app.com)
-BC03,Créer un tableau de bord,Intégration Power BI : Import du CSV pour visualisations.,[POWER_BI_SETUP.md](https://github.com/ferialzamoun-afk/P8/blob/main/.github/workflows/POWER_BI_SETUP.md)
-BC03,Reporting des tendances,Exports CSV pour Power BI/Excel.,[data/processed/](https://github.com/ferialzamoun-afk/P8/tree/main/data/processed)
-BC04,Veille métier/technologique,Benchmark dbt + Snowflake vs autres outils (Airflow, etc.).,[CSV_EXPORT_VALUE_CHAIN.md](https://github.com/ferialzamoun-afk/P8/blob/main/CSV_EXPORT_VALUE_CHAIN.md)
-BC04,Formaliser le cahier des charges,Documentation complète (README, workflows, guides).,[Dépôt GitHub](https://github.com/ferialzamoun-afk/P8)
-BC04,Organiser un projet data,Pipeline CI/CD (GitHub Actions) + modularité dbt.,[.github/workflows/dbt-ci.yml](https://github.com/ferialzamoun-afk/P8/blob/main/.github/workflows/dbt-ci.yml)
-BC04,Gérer la documentation,100% des livrables documentés (modèles dbt, workflows, exports).,[Dépôt GitHub](https://github.com/ferialzamoun-afk/P8)
-BC05,Analyses multivariées,Comparaison OC vs INSEE (genre, âge, région).,[analyse_csv_p8.ipynb](https://nbviewer.org/github/ferialzamoun-afk/P8/blob/main/analyse_csv_p8.ipynb)
-BC05,Tests statistiques,Validation des données (unicité, cohérence).,[tests/](https://github.com/ferialzamoun-afk/P8/tree/main/P8--DBT/tests)
+BC03,Créer un tableau de bord,Intégration Power BI : Import du CSV pour visualisations.,[POWER_BI_SETUP.md](https://github.com/ferialzamoun-afk/P8--DBT/blob/main/.github/workflows/POWER_BI_SETUP.md)
+BC03,Reporting des tendances,Exports CSV pour Power BI/Excel.,[data/processed/](https://github.com/ferialzamoun-afk/P8--DBT/tree/main/data/processed)
+BC04,Veille métier/technologique,Benchmark dbt + Snowflake vs autres outils (Airflow, etc.).,[CSV_EXPORT_VALUE_CHAIN.md](https://github.com/ferialzamoun-afk/P8--DBT/blob/main/CSV_EXPORT_VALUE_CHAIN.md)
+BC04,Formaliser le cahier des charges,Documentation complète (README, workflows, guides).,[Dépôt GitHub](https://github.com/ferialzamoun-afk/P8--DBT)
+BC04,Organiser un projet data,Pipeline CI/CD (GitHub Actions) + modularité dbt.,[.github/workflows/dbt-ci.yml](https://github.com/ferialzamoun-afk/P8--DBT/blob/main/.github/workflows/dbt-ci.yml)
+BC04,Gérer la documentation,100% des livrables documentés (modèles dbt, workflows, exports).,[Dépôt GitHub](https://github.com/ferialzamoun-afk/P8--DBT)
+BC05,Analyses multivariées,Comparaison OC vs INSEE (genre, âge, région).,[analyse_csv_p8.ipynb](https://nbviewer.org/github/ferialzamoun-afk/P8--DBT/blob/main/analyse_csv_p8.ipynb)
+BC05,Tests statistiques,Validation des données (unicité, cohérence).,[tests/](https://github.com/ferialzamoun-afk/P8--DBT/tree/main/tests)
 🛠 Configuration et Exécution
 (Bloc RNCP37837BC04 : Piloter un projet data)
 📌 Prérequis
@@ -268,8 +259,8 @@ Snowflake Account (accès aux données)
 GitHub CLI (optionnel, pour télécharger les artefacts)
 📌 Setup Initial (Local)
 # 1. Cloner le dépôt
-git clone https://github.com/ferialzamoun-afk/P8.git
-cd P8
+git clone https://github.com/ferialzamoun-afk/P8--DBT.git
+cd P8--DBT
 
 # 2. Créer un environnement virtuel
 python -m venv .venv
@@ -294,9 +285,8 @@ pip install dbt-snowflake==1.11.3
 #       database: <SNOWFLAKE_DATABASE>
 #       schema: <SNOWFLAKE_SCHEMA>
 
-# 5. Charger les variables d'environnement
-. ./load-env.ps1
-cd P8--DBT
+# 5. Vérifier la connexion Snowflake
+dbt debug --target dev_password
 📌 Commandes Principales
 | Commande | Description | Exemple |
 | --- | --- | --- |

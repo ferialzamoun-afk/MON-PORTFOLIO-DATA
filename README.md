@@ -56,7 +56,7 @@ MON-PORTFOLIO-DATA/
 | **P11** | Clustering ACP | Python, Pandas | [🔗 Dépôt](https://github.com/ferialzamoun-afk/P11) |
 | **P10** | Dashboard BI | Power BI, SQL | [🔗 Dépôt](https://github.com/ferialzamoun-afk/P10) |
 | **P9** | Analyse Ventes | Python, Streamlit | [🌐 Live](https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/) |
-| **P8** | Data Pipeline | dbt, Snowflake | [🔗 Dépôt](https://github.com/ferialzamoun-afk/P8) |
+| **P8** | Data Pipeline | dbt, Snowflake | [🔗 Dépôt](https://github.com/ferialzamoun-afk/P8--DBT) |
 
 ---
 ---
