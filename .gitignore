@@ -17,6 +17,9 @@ ENV/
 /fix_last_table.py
 /fix_readme.py
 
+# Projets ignorés
+projets/P1_presentation/
+
 # Data files
 data/
 
