@@ -26,25 +26,26 @@
 ---
 
 ## **📊 Structure du Projet**
+```text
 P11/
-├── notebooks/
-│   ├── ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb  # Préparation, nettoyage, EDA, ACP
-│   └── ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb                    # Clustering (CAH, KMeans), profils, recommandations
-├── scripts/
-│   ├── data_manager.py                          # Helper d'inspection (appelé par Notebook 1)
-│   └── enrich_market_features_model.py         # Fonctions de normalisation, Levenshtein, enrichissements
-├── tests/
-│   ├── test_data_prep.py                        # Tests pour normalize_text, add_country_key
-│   └── test_enrich_market_features_model.py    # Tests pour Levenshtein, diversité texte
-├── .github/workflows/
-│   └── ci.yml                                   # CI: ruff, pytest, smoke checks
+├── .github/
+├── data/
 ├── docs/
-│   ├── documentation_technique.md              # Documentation détaillée
-│   └── note_pipeline_preparation_nettoyage.md  # Note sur le pipeline
-├── PROJECT_BRIEF.md                             # Brief projet
-├── requirements.txt                             # Dépendances Python
-├── pyproject.toml                              # Config ruff + pytest
-└── VERSION                                      # Version courante (0.1.0)
+├── notebooks/
+├── output/
+├── scripts/
+├── src/
+├── tests/
+├── .gitignore
+├── get_cell_ids.py
+├── modify_notebook_19k.py
+├── PROJECT_BRIEF.md
+├── pyproject.toml
+├── README.md
+├── requirements.txt
+├── verify_19k.py
+└── VERSION
+```
 > **Note** :
 > - Les **données brutes** et fichiers intermédiaires lourds sont **exclus du dépôt** (via `.gitignore`).
 > - La version GitHub est **allégée** pour une consultation optimale.

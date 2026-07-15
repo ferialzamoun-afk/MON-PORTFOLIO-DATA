@@ -195,39 +195,28 @@ Heatmap : Région × Groupe d’âge (écarts de représentation).
 Line charts : Tendances annuelles (2022-2025).
 Lien Streamlit (à déployer) : [🔗 Dépôt GitHub](https://github.com/ferialzamoun-afk/P8--DBT)
 
+## **📊 Structure du Projet**
+```text
 P8--DBT/
 ├── .github/
-│   ├── workflows/
-│   │   ├── dbt-ci.yml                     # Workflow principal CI/CD
-│   │   ├── MANUAL_WORKFLOW_SETUP.md       # Guide de lancement manuel
-│   │   ├── POWER_BI_SETUP.md              # Intégration Power BI
-│   │   └── helpers/
-│   │
-├── dbt_project.yml                        # Configuration dbt
-├── profiles.yml                           # Connexion Snowflake
+├── data/
+├── macros/
 ├── models/
-│   ├── staging/                           # Nettoyage brut
-│   │   ├── stg_etudiants.sql
-│   │   └── stg_insee_population.sql
-│   ├── intermediate/                      # Transformations
-│   │   └── int_etudiants_insee_joined.sql
-│   └── marts/                             # Tables d'export
-│       └── fct_export_unifie.sql
-├── tests/                                 # Tests dbt
-│   └── test_unique_stg_etudiants_grain.sql
-├── src/                                   # Scripts/utilitaires
-│   ├── enrich_insee_population.py
-│   ├── extract_insee_population.py
-│   └── build_pbi_unified_export.py
-├── target/                                # Artifacts générés
-├── data/                                  # Données (si configurées localement)
-│   ├── raw/                               # Sources brutes
-│   └── processed/                         # Données transformées
-├── logs/                                  # Logs d'exécution
-├── analyse_csv_p8.ipynb                   # Analyses exploratoires
+├── output/
+├── snapshots/
+├── tests/
+├── .gitignore
+├── .user.yml
+├── CSV_EXPORT_VALUE_CHAIN.md
+├── analyse_csv_p8.ipynb
+├── dbt_project.yml
+├── package-lock.yml
+├── packages.yml
+├── profiles.yml
 ├── README.md
-├── CSV_EXPORT_VALUE_CHAIN.md              # Chaîne de valeur
-└── .gitignore
+├── requirements.txt
+└── Synthese_etudiants.md
+```
 
 ---
 

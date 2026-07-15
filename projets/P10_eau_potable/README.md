@@ -37,44 +37,25 @@
 ---
 
 ## **📊 Structure du Projet**
+```text
 P10/
-├── notebooks/                              # Pipeline analytique
-│   ├── 01 - Inspection des données.ipynb          # Qualification, normalisation, construction analytique
-│   ├── 02 - Préparation et nettoyage.ipynb        # Formalisation en couches (staging, intermediate, marts)
-│   └── 03 - Analyses des groupements.ipynb        # EDA, analyses métier, visualisations
-│
+├── api/
 ├── data/
-│   ├── raw/                                # Données sources brutes
-│   │   ├── Population.csv
-│   │   ├── RegionCountry.csv
-│   │   ├── PoliticalStability.csv
-│   │   ├── MortalityRateAttributedToWater.csv
-│   │   └── BasicAndSafelyManagedDrinkingWaterServices.csv
-│   │
-│   └── processed/                          # Données transformées
-│       ├── pbi_star/                       # Tables étoile Power BI
-│       │   ├── Dashboard_eau_v6.pbit       # Modèle Power BI complet
-│       │   ├── fact_dashboard_star_fr.csv  # Table de faits (pays × année × indicateurs)
-│       │   ├── dim_pays_star_fr.csv        # Dimension pays enrichie
-│       │   └── [autres dimensions]         # dim_region_fr.csv, dim_annee.csv, etc.
-│       │
-│       └── csv_enrichis/                   # Marts analytiques
-│           ├── en/                         # Version anglaise
-│           └── fr/                         # Version française
-│
-├── src/                                    # Modules réutilisables
-│   ├── data_manager.py                     # Gestion des données (chargement, publication)
-│   ├── schema_fr.py                        # Schéma français canonique
-│   ├── figures_export.py                   # Export des visualisations
-│   ├── kpi_export.py                       # Calcul des KPI (scores création/modernisation/gouvernance)
-│   └── rebuild_geography_exports.py        # Reconstruction géographique
-│
-├── requirements.txt                        # Dépendances Python
-├── docs/                                    # Documentation projet
-│   ├── blueprint_P10_dashboard_eau.md       # Détail des besoins et visuels
-│   ├── contexte_DWFA_glossaire_eau.md       # Définitions des indicateurs
-│   ├── resume_methodologique_pipeline_notebooks_01_02_03.md  # Détails du pipeline
-│   └── questions_pieges_soutenance_P10.md   # Points critiques pour la soutenance
+├── docs/
+├── notebooks/
+├── output/
+├── scripts/
+├── source/
+├── src/
+├── tests/
+├── veille/
+├── Dockerfile
+├── Procfile
+├── PROJECT_BRIEF.md
+├── README.md
+├── pytest.ini
+└── requirements.txt
+```
 
 ---
 ## **🔧 Compétences RNCP 37837 Démontrées**

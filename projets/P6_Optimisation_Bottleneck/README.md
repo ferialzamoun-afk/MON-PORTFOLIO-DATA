@@ -42,41 +42,27 @@
 ---
 
 ## **📊 Structure du Projet**
-P6_ameliore_IA/
-├── README.md                                  # Ce fichier
-├── requirements.txt                           # Dépendances Python
-│
+```text
+P6/
+├── .github/
+├── dashboard_deploy/
+├── data/
+├── images/
 ├── notebooks/
-│   └── bottleneck_analyse_ameliore_final.ipynb  # 49 cells (vs 148 initialement), ~1:11 min d'exécution
-│
-├── src/                                      # 5 modules Python (réutilisables)
-│   ├── quality_checks.py                     # 18 contrôles de qualité des données
-│   ├── stock_cleaning.py                     # Correction des anomalies de stock
-│   ├── data_merging.py                       # Rapprochement ERP/Web/Liaison
-│   ├── eda_analysis.py                       # Analyses exploratoires (Pareto, corrélations)
-│   └── kpi_analysis.py                       # Calcul des KPI métier (CA, marges, rotation)
-│
-├── docs/                                     # 8 fichiers de documentation (P13)
-│   ├── 01_cahier_des_charges_P13_partie_1.md      # Cahier des charges complet
-│   ├── 02_veille_technologique_P13_partie_1.md    # Benchmark des outils (Pandas vs GE vs Soda)
-│   ├── 03_journal_ia_P13_partie_1.md              # 26 prompts IA documentés (Claude)
-│   ├── 04_plan_projet_P13_partie_1.md             # Backlog, kanban, planning
-│   ├── 05_matrice_indicateurs_P13_partie_1.md       # Matrice des indicateurs
-│   ├── 06_synthese_finale_P13_partie_1.md          # Synthèse des résultats et recommandations
-│   ├── 07_checklist_publication_github.md          # Checklist pour le déploiement
-│   └── 13_great_expectations_strategy.md           # Stratégie de migration vers GE v19+
-│
-└── output/
-├── dataviz/                              # 13 graphiques Plotly (HTML)
-│   ├── chiffre_affaires_par_categorie.html
-│   ├── courbe_pareto_80_20.html
-│   ├── anomalies_prix_et_marges.html
-│   ├── distribution_stocks.html
-│   ├── rotation_mensuelle.html
-│   ├── correlations_quantitatives.html
-│   └── [7 autres graphiques]
-│
-└── captures/                             # 6-8 captures d’écran (portfolio)
+├── output/
+├── png/
+├── .gitignore
+├── DASHBOARD_README.md
+├── DOCUMENT_EXECUTIF.md
+├── main.py
+├── PHASE2_README.md
+├── README.md
+├── requirements.txt
+├── run_analysis.py
+├── streamlit_app.py
+├── STREAMLIT_README.md
+└── SYNTHESE_GLOBALE.md
+```
 ---
 
 ## **🚀 Quickstart (Démarrage Rapide)**

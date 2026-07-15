@@ -27,11 +27,24 @@ Mission de stage dans un contexte retail (périmètre Intermarché), centré sur
 
 ## 🧭 2. Démarche analytique
 
+### **📊 Structure du Projet**
+```text
+P14/
+├── data/
+├── docs/
+├── intermarche_notebook/
+├── powerbi/
+├── streamlit_app/
+├── .gitignore
+├── bilan_reflexif_stage_P14.md
+├── feuille_de_route_stage_P5.md
+├── modele_mail_note_livraison.md
+└── README.md
+```
+
 **Architecture du pipeline** :
 
-`
-data/raw/ → Préparation → data/processed/ → Analyse → Power BI / Streamlit
-`
+`data/raw/ -> préparation -> data/processed/ -> analyse -> Power BI / Streamlit`
 
 **Couches du pipeline** :
 - data/raw/ : données sources non modifiées (jamais transformées)
@@ -45,8 +58,7 @@ data/raw/ → Préparation → data/processed/ → Analyse → Power BI / Stream
 - Séparer clairement les données brutes, transformées et publiées
 
 **Flux de travail** :
-1. **Ingestion et préparation** : nouvelles sources dans 
-aw/, exécution notebooks/scripts, sorties dans processed/
+1. **Ingestion et préparation** : nouvelles sources dans `data/raw/`, exécution notebooks/scripts, sorties dans `data/processed/`
 2. **Analyse** : notebooks intermarche_notebook/ et powerbi/notebooks/, hypothèses tracées dans docs/
 3. **Restitution** : mise à jour artefacts Power BI, cohérence avec l'application Streamlit
 

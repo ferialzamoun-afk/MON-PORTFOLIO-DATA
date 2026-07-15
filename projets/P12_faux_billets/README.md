@@ -20,6 +20,34 @@
 ---
 ---
 
+## **📁 Structure du Dépôt**
+```text
+P12/
+├── api/
+├── data/
+├── docs/
+├── notebooks/
+├── output/
+├── scripts/
+├── source/
+├── src/
+├── tests/
+├── veille/
+├── .dockerignore
+├── .gitignore
+├── Dockerfile
+├── Procfile
+├── PROJECT_BRIEF.md
+├── README.md
+├── pytest.ini
+├── requirements.txt
+├── start.py
+└── venv/
+```
+
+---
+---
+
 ## **📚 Notebook Unique : Structure et Mapping RNCP**
 *(Chaque section du notebook correspond à un bloc RNCP. Utilise des **ancres** dans le notebook pour faciliter la navigation.)*
 

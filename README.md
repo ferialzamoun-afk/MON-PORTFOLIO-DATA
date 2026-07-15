@@ -64,13 +64,13 @@
 ---
 
 ## **📁 Structure du Portfolio**
-```
+```text
 MON-PORTFOLIO-DATA/
 ├── README.md                               # Cette page - Hub principal du portfolio
 ├── _config.yml                             # Configuration Jekyll (GitHub Pages)
-├── requirements.txt                        # Dépendances Python
 ├── assets/                                 # Proof points, synthèse, ressources de navigation
-│
+├── data/                                   # Données portfolio et exports
+├── images/                                 # Visuels et captures du hub
 ├── projets/
 │   ├── P1_presentation/                    # Présentation et cadrage initial
 │   ├── P2_analyse_ecommerce/               # Analyse e-commerce
@@ -86,11 +86,14 @@ MON-PORTFOLIO-DATA/
 │   ├── P12_faux_billets/                   # Classification ML et API
 │   ├── P13_portfolio/                      # Portfolio & gouvernance IA (phare)
 │   └── P14_stage/                          # Stage Intermarché et bilan réflexif
-│
-├── docs/                                   # Documentation transversale
-│   └── veille/                             # Ressources métier & technologiques
-│
-└── data/                                   # (Ignoré - données locales)
+├── src/                                    # Scripts et composants réutilisables
+├── streamlit_app/                          # Application portfolio Streamlit
+├── veille/                                 # Ressources métier & technologiques
+├── convert_final_table.py                  # Scripts de maintenance portfolio
+├── convert_tables_html.py
+├── fix_last_table.py
+├── fix_readme.py
+└── .gitignore
 ```
 
 ### **🎯 Projets Phares - Accès Rapide**

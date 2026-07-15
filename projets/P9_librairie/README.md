@@ -38,42 +38,26 @@
 ---
 
 ## **📊 Structure du Projet**
-
-```
+```text
 P9/
-├── data/                                  # Jeux de données bruts et transformés
-│   ├── raw/                               # Données sources (ventes, clients, produits)
-│   └── processed/                         # Données nettoyées et agrégées
-│
-├── notebooks/                             # Analyses statistiques
-│   ├── analyses/
-│   │   ├── 01_Exploration_EDA.ipynb       # Exploration & Feature Engineering
-│   │   ├── 02_Analyses_Marketing.ipynb    # Analyses métier & Segmentation
-│   │   └── 03_Analyses_Statistiques.ipynb # Tests statistiques & KPI validation
-│
-├── src/                                   # Modules utilitaires
-│   ├── data_loader.py                     # Chargement & nettoyage données
-│   ├── data_manager.py                    # Transformations & agrégations
-│   ├── kpi_export.py                      # Export des KPI
-│   ├── figures_export.py                  # Génération visualisations
-│   └── Cor_Quanti_Quanti/                 # Analyses de corrélation
-│
-├── reutilisable (toutes phases)/          # Fonctions réutilisables
-│
-├── Streamlit/ (P9-lapage-streamlit repo)
-│   ├── app.py                             # Application principale
-│   ├── pages/                             # Pages multi-pages
-│   └── config.toml                        # Configuration Streamlit Cloud
-│
-├── reports/                               # Livrables (KPI Excel, figures)
-├── graphiques/                            # Visualisations statiques
-├── api/                                   # API (future)
-├── models/                                # Modèles ML (si applicable)
-│
-├── requirements.txt                       # Dépendances Python
-├── runtime.txt                            # Version Python (3.11)
-├── PROJECT_BRIEF.md                       # Brief du projet
-└── README.md
+├── api/
+├── dashboard/
+├── data/
+├── docs/
+├── graphiques/
+├── models/
+├── multi-pages/
+├── notebooks/
+├── reports/
+├── src/
+├── Streamlit/
+├── tests/
+├── ACP.md
+├── packages.yml
+├── profiles.yml
+├── PROJECT_BRIEF.md
+├── README.md
+└── requirements.txt
 ```
 
 ### **🔹 Données Sources (`data/raw/`)**
