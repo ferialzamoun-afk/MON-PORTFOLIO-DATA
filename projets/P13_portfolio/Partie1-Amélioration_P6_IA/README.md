@@ -8,6 +8,8 @@
 **🔗 Liens** :
 - [🔗 Dépôt GitHub](https://github.com/ferialzamoun-afk/P6_ameliore_IA)
 - [📓 Notebook Principal](bottleneck_analyse_ameliore_final.ipynb)
+- [📓 Notebook initial](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/notebooks/p12_da_maj%2B%281%29.ipynb)
+- [📓 Notebook amélioré](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/bottleneck_analyse_ameliore_final.ipynb)
 - [📁 Cahier des Charges](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/01_cahier_des_charges_P13_partie_1.md)
 - [📁 Veille Technologique](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/02_veille_technologique_P13_partie_1.md)
 - [📁 Journal IA](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/03_journal_ia_P13_partie_1.md)
@@ -16,10 +18,13 @@
 - [🖼️ Captures Portfolio](https://github.com/ferialzamoun-afk/P6_ameliore_IA/tree/main/output/captures)
 
 **Preuves détaillées et restitution métier** :
+- [Avant : Notebook initial](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/notebooks/p12_da_maj%2B%281%29.ipynb)
+- [Après : Notebook amélioré](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/bottleneck_analyse_ameliore_final.ipynb)
+- [Avant : Synthèse initiale](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/06_synthese_finale_P13_partie_1.md)
+- [Après : Synthèse finale enrichie](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/README.md)
+- [Avant : Visuels HTML](https://github.com/ferialzamoun-afk/P6_ameliore_IA/tree/main/output/dataviz)
+- [Après : Visuels PNG](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/dataviz)
 - [Dashboard KPI pour le CODIR](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/output/captures/05_kpi_dashboard_phase2.png)
-- [Notebook détaillé](bottleneck_analyse_ameliore_final.ipynb)
-- [Veille détaillée](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/02_veille_technologique_P13_partie_1.md)
-- [Synthèse finale](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/06_synthese_finale_P13_partie_1.md)
 
 ---
 
@@ -41,6 +46,7 @@
 >    - Optimiser le temps d’exécution (**-76%**).
 >    - **Documenter chaque étape** (IA, contrôles qualité, décisions).
 >    - Fournir un **dashboard KPI** clair pour la lecture CODIR.
+>    - Montrer la trace **avant / après** entre le livrable initial et la version améliorée.
 
 > **Approche P13** :
 > *"**Pandas pragmatique** (court terme, J+30) avec **Data Contracts formalisés** en vue d’une migration vers **Great Expectations v19+** (moyen terme)."*
