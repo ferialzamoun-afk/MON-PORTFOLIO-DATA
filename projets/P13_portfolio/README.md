@@ -44,22 +44,46 @@
 ### **📁 Partie 1 - Amelioration du livrable P6**
 
 La Partie 1 est maintenant visible en deux niveaux :
-- une **racine de synthese** dans `Partie_1/` pour une lecture rapide par recruteur, mentor ou evaluateur ;
-- un **dossier de preuves detaillees** dans `Partie_1/P6_ameliore_IA/` pour les supports complets, le notebook et les documents d'audit.
+- une **version locale dans le portfolio** via `Partie1-Amélioration_P6_IA/` pour une lecture directe dans ce projet ;
+- une **source complète dans le dépôt P13** pour le détail intégral des preuves.
 
-**Livrables racine Partie 1** :
-- [Veille metier et technologique](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/01_veille_metier_technologique.md)
-- [Cahier des charges fonctionnel](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/02_cahier_des_charges_fonctionnel.md)
-- [Mini formation metiers](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/03_mini_formation_metiers.md)
-- [Hypotheses de travail](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/04_hypotheses.md)
-- [Tests et validations](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/05_tests.md)
-- [Resultats](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/06_resultats.md)
-- [Limites](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/07_limites.md)
-- [Decisions](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/08_decisions.md)
+**Livrables locaux dans le portfolio** :
+- [Veille metier et technologique](Partie1-Amélioration_P6_IA/01_veille_metier_technologique.md)
+- [Cahier des charges fonctionnel](Partie1-Amélioration_P6_IA/02_cahier_des_charges_fonctionnel.md)
+- [Mini formation metiers](Partie1-Amélioration_P6_IA/03_mini_formation_metiers.md)
+- [Hypotheses de travail](Partie1-Amélioration_P6_IA/04_hypotheses.md)
+- [Tests et validations](Partie1-Amélioration_P6_IA/05_tests.md)
+- [Resultats](Partie1-Amélioration_P6_IA/06_resultats.md)
+- [Limites](Partie1-Amélioration_P6_IA/07_limites.md)
+- [Decisions](Partie1-Amélioration_P6_IA/08_decisions.md)
+- [Notebook ameliore P6](Partie1-Amélioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb)
+- [Synthese P6 ameliore](Partie1-Amélioration_P6_IA/P6_ameliore.md)
 
-**Sources detaillees** :
+**Sources detaillees dans le dépôt P13** :
 - [Notebook ameliore P6](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA)
 - [Documentation detaillee](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/docs)
+
+### **🗂️ Structure locale P13 dans le portfolio**
+
+```text
+P13_portfolio/
+├── README.md
+├── PROOF_POINT.md
+├── Partie1-Amélioration_P6_IA/
+│   ├── 01_veille_metier_technologique.md
+│   ├── 02_cahier_des_charges_fonctionnel.md
+│   ├── 03_mini_formation_metiers.md
+│   ├── 04_hypotheses.md
+│   ├── 05_tests.md
+│   ├── 06_resultats.md
+│   ├── 07_limites.md
+│   ├── 08_decisions.md
+│   ├── P6_ameliore.md
+│   ├── bottleneck_analyse_ameliore_final.ipynb
+│   └── assets/
+├── Partie2- Valorisation du Portfolio/
+└── Compétences_RNCP_Data/
+```
 
 ---
 ## **📈 Résultats**
