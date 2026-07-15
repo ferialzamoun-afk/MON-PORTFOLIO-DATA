@@ -57,7 +57,7 @@ La Partie 1 est maintenant visible en deux niveaux :
 - [Limites](Partie1-Amélioration_P6_IA/07_limites.md)
 - [Decisions](Partie1-Amélioration_P6_IA/08_decisions.md)
 - [Notebook ameliore P6](Partie1-Amélioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb)
-- [Synthese P6 ameliore](Partie1-Amélioration_P6_IA/P6_ameliore.md)
+- [Synthese P6 ameliore](Partie1-Amélioration_P6_IA/README.md)
 
 **Sources detaillees dans le dépôt P13** :
 - [Notebook ameliore P6](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA)
@@ -78,7 +78,7 @@ P13_portfolio/
 │   ├── 06_resultats.md
 │   ├── 07_limites.md
 │   ├── 08_decisions.md
-│   ├── P6_ameliore.md
+│   ├── README.md
 │   ├── bottleneck_analyse_ameliore_final.ipynb
 │   └── assets/
 ├── Partie2- Valorisation du Portfolio/

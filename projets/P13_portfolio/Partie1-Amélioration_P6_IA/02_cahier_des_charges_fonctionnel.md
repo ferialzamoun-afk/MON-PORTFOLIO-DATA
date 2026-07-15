@@ -15,8 +15,10 @@ Formaliser le besoin metier, les livrables attendus et les criteres de reussite 
 - Notebook ameliore et reproductible.
 - Documentation de cadrage, tests, resultats et limites.
 - Synthese claire exploitable dans le portfolio.
+- Dashboard KPI lisible pour la lecture CODIR.
 
 ## Preuves associees
 
-- [P6_ameliore.md](P6_ameliore.md)
+- [README.md](README.md)
+- [Dashboard KPI](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/output/captures/05_kpi_dashboard_phase2.png)
 - [Cahier des charges detaille dans le depot source P13](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/02_cahier_des_charges_fonctionnel.md)

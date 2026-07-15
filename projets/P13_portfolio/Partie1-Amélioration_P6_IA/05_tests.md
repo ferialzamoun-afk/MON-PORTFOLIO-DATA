@@ -10,8 +10,10 @@ Montrer comment les hypotheses ont ete verifiees par controles qualite, executio
 - Verification des chemins et de la reproductibilite.
 - Controles sur les jointures, les nulls et les valeurs critiques.
 - Relecture des sorties et des visualisations avant publication.
+- Validation de la restitution metier via le dashboard KPI.
 
 ## Preuves associees
 
-- [P6_ameliore.md](P6_ameliore.md)
+- [README.md](README.md)
+- [Dashboard KPI](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/output/captures/05_kpi_dashboard_phase2.png)
 - [Tests et validations dans le depot source P13](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/05_tests.md)

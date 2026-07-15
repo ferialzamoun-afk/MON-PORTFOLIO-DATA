@@ -1,5 +1,5 @@
 # 🍷 **P6 Amélioré : Optimisation de la Gestion des Données – Bottleneck Wine Shop**
-**Amélioration du livrable P6 avec IA critique, documentation complète et traçabilité totale pour une analyse décisionnelle optimisée.**
+**Amélioration du livrable P6 avec IA critique, documentation structurée et preuves détaillées pour une restitution métier plus lisible.**
 
 > **🔹 Reproductible**   **📊 Traçable** | **🤖 IA Documentée** | **⚡ Optimisé (-68% cells, -76% temps)**
 
@@ -14,6 +14,12 @@
 - [📁 Synthèse Finale](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/06_synthese_finale_P13_partie_1.md)
 - [📊 Dataviz (13 graphiques)](https://github.com/ferialzamoun-afk/P6_ameliore_IA/tree/main/output/dataviz)
 - [🖼️ Captures Portfolio](https://github.com/ferialzamoun-afk/P6_ameliore_IA/tree/main/output/captures)
+
+**Preuves détaillées et restitution métier** :
+- [Dashboard KPI pour le CODIR](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/output/captures/05_kpi_dashboard_phase2.png)
+- [Notebook détaillé](bottleneck_analyse_ameliore_final.ipynb)
+- [Veille détaillée](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/02_veille_technologique_P13_partie_1.md)
+- [Synthèse finale](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/06_synthese_finale_P13_partie_1.md)
 
 ---
 
@@ -30,10 +36,11 @@
 >    - Chiffre d’affaires consolidé.
 >    - Analyse Pareto (80% du CA).
 >    - Recommandations pour optimiser les stocks et les marges.
-> 4. **Améliorer le livrable initial** :
+> 4. **Préparer une restitution métier exploitable** :
 >    - Réduire la taille du notebook (**-68% de cells**).
 >    - Optimiser le temps d’exécution (**-76%**).
 >    - **Documenter chaque étape** (IA, contrôles qualité, décisions).
+>    - Fournir un **dashboard KPI** clair pour la lecture CODIR.
 
 > **Approche P13** :
 > *"**Pandas pragmatique** (court terme, J+30) avec **Data Contracts formalisés** en vue d’une migration vers **Great Expectations v19+** (moyen terme)."*
@@ -258,7 +265,7 @@ Q : Comment contribuer ?
 | BC02 | Explorer et pré-traiter | EDA (Pareto, corrélations, anomalies). | [eda_analysis.py](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/src/eda_analysis.py) |
 | BC02 | Analyse univariée/multivariée | Analyse Pareto (80% du CA sur 435 produits). | [courbe_pareto_80_20.html](https://github.com/ferialzamoun-afk/P6_ameliore_IA/raw/main/output/dataviz/courbe_pareto_80_20.html) |
 | BC03 | Solution de visualisation | 13 graphiques Plotly (CA, Pareto, anomalies, stocks). | [output/dataviz/](https://github.com/ferialzamoun-afk/P6_ameliore_IA/tree/main/output/dataviz) |
-| BC03 | Créer un tableau de bord | Dashboard Streamlit (en développement pour le CODIR). | (À déployer) |
+| BC03 | Créer un tableau de bord | Dashboard KPI Streamlit pour le CODIR, déjà illustré par la capture de restitution. | [Capture dashboard](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/output/captures/05_kpi_dashboard_phase2.png) |
 | BC03 | Reporting des tendances | Exports HTML (Plotly) et synthèse écrite. | [output/dataviz/](https://github.com/ferialzamoun-afk/P6_ameliore_IA/tree/main/output/dataviz) + [06_synthese_finale](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/06_synthese_finale_P13_partie_1.md) |
 | BC04 | Veille métier/technologique | Benchmark Pandas vs GE vs Soda + roadmap migration. | [02_veille_technologique](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/02_veille_technologique_P13_partie_1.md) |
 | BC04 | Formaliser le cahier des charges | Cahier des charges complet (objectifs, contraintes, livrables). | [01_cahier_des_charges](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/01_cahier_des_charges_P13_partie_1.md) |

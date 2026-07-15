@@ -13,9 +13,10 @@ Permettre a un lecteur non technique de comprendre rapidement comment lire les p
 
 ## Usage portfolio
 
-Cette fiche sert de passerelle entre le notebook technique et une lecture plus metier dans le portfolio.
+Cette fiche sert de passerelle entre le notebook technique, le dashboard KPI et une lecture plus metier dans le portfolio.
 
 ## Preuves associees
 
-- [P6_ameliore.md](P6_ameliore.md)
+- [README.md](README.md)
+- [Dashboard KPI](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/output/captures/05_kpi_dashboard_phase2.png)
 - [Mini formation dans le depot source P13](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/03_mini_formation_metiers.md)

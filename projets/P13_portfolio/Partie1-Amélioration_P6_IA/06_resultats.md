@@ -2,7 +2,7 @@
 
 ## Objectif
 
-Synthétiser les gains visibles de l'amelioration du projet P6 dans une logique de soutenance et de portfolio.
+Synthétiser les gains visibles de l'amelioration du projet P6 et leur lecture metier via un dashboard dans une logique de soutenance et de portfolio.
 
 ## Resultats cles
 
@@ -14,5 +14,6 @@ Synthétiser les gains visibles de l'amelioration du projet P6 dans une logique 
 
 ## Preuves associees
 
-- [P6_ameliore.md](P6_ameliore.md)
+- [README.md](README.md)
+- [Dashboard KPI](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/output/captures/05_kpi_dashboard_phase2.png)
 - [Resultats detaillees dans le depot source P13](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/06_resultats.md)

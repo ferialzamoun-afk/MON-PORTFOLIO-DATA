@@ -2,7 +2,7 @@
 
 ## Objectif
 
-Montrer comment la veille metier et technologique a servi a fiabiliser le livrable P6 avant sa publication dans le portfolio P13.
+Montrer comment la veille metier et technologique a servi a fiabiliser le livrable P6 améliore et a préparer sa restitution dans un dashboard pour le portfolio P13.
 
 ## Ce qui a ete compare
 
@@ -17,5 +17,5 @@ Le choix retenu a ete un **Pandas pragmatique** a court terme, avec une logique 
 
 ## Preuves associees
 
-- [P6_ameliore.md](P6_ameliore.md)
+- [README.md](README.md)
 - [Veille detaillee dans le depot source P13](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/01_veille_metier_technologique.md)
