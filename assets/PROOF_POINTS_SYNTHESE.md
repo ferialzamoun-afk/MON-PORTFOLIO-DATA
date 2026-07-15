@@ -16,7 +16,7 @@
 | **4️⃣ Résultats** | ✅ Doublons détectés/corrigés ; anomalies stocks identifiées ; outliers prix flagués. **Recommandations** : Synchroniser ERP/Web ; piloter marges. **Livrable** : `df_final.xlsx`. |
 | **5️⃣ Limites** | Snapshot statique. Pas accès live sources. **Pistes** : Warehouse temps réel (dbt/Snowflake). |
 
-**🔗 Liens** : [GitHub P6_ameliore_IA](https://github.com/ferialzamoun-afk/P6_ameliore_IA) | [Notebook](https://nbviewer.org/github/ferialzamoun-afk/P6_ameliore_IA/blob/main/notebooks/bottleneck_analyse_ameliore_final.ipynb)
+**🔗 Liens** : [GitHub P13 - P6 amélioré](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA) | [Notebook](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/bottleneck_analyse_ameliore_final.ipynb)
 
 ---
 

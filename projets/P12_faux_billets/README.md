@@ -152,12 +152,10 @@ P12/
 > - **Précision** : 89%
 
 > **Visualisations** :
-> - **Matrice de confusion** :
->   ![Matrice de confusion](images/matrice_confusion_P12.png)
+> - **Matrice de confusion** : [Voir la visualisation dans le notebook](https://github.com/ferialzamoun-afk/P12/blob/main/notebooks/p12_da_maj%2B%281%29.ipynb)
 >   *0 faux négatifs : tous les faux billets sont détectés.*
-> - **Graphique de distribution des probabilités** :
->   ![Distribution des probabilités](images/distribution_probabilites_P12.png)
->   *Séparation nette entre vrais (prob < 0.5) et faux billets (prob > 0.5).*
+> - **Graphique de distribution des probabilités** : [Voir la visualisation dans le notebook](https://github.com/ferialzamoun-afk/P12/blob/main/notebooks/p12_da_maj%2B%281%29.ipynb)
+>   *Séparation nette entre vrais (prob < 0.5) et faux billets (prob > 0.5).* 
 
 ---
 ---

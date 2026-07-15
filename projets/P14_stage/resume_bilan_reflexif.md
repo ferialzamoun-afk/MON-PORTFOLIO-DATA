@@ -8,6 +8,6 @@ Ce bilan réflexif présente les apprentissages, les missions réalisées et l�
 - **Réflexion personnelle** : Prise de recul sur les acquis, identification des axes de progrès, valorisation de l’expérience pour la suite du parcours.
 
 ## Accès au document complet
-- [Télécharger le bilan réflexif (PPTX)](../../Bilan-Reflexif-de-Stage.pptx)
+- [Consulter le README du stage](README.md)
 
 Pour plus de détails, consulte le README du projet ou le document complet.

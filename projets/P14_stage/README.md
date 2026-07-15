@@ -108,11 +108,9 @@ P14/
 
 ## 🔗 Points d'entrée utiles
 
-- streamlit_app/README.md : cadre applicatif Streamlit
-- powerbi/README.md : cadre de la partie BI
-- docs/README.md : socle documentaire transverse
-- ilan_reflexif_stage_P14.md : retour d'expérience de stage
-- euille_de_route_stage_P5.md : feuille de route et contexte de cadrage
+- [Résumé réflexif](resume_bilan_reflexif.md) : retour d'expérience de stage
+- [Proof point stage](PROOF_POINT.md) : synthèse courte du stage
+- [README du stage](README.md) : vue d'ensemble du contexte, de la démarche et des livrables
 
 ---
 
