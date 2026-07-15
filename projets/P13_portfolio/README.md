@@ -41,6 +41,26 @@
 > 4. **Veille technologique** : Recherche et benchmark des outils (Scikit-learn, PyTorch, etc.).
 > 5. **Documentation** : Rédaction des README, guides, et supports de présentation.
 
+### **📁 Partie 1 - Amelioration du livrable P6**
+
+La Partie 1 est maintenant visible en deux niveaux :
+- une **racine de synthese** dans `Partie_1/` pour une lecture rapide par recruteur, mentor ou evaluateur ;
+- un **dossier de preuves detaillees** dans `Partie_1/P6_ameliore_IA/` pour les supports complets, le notebook et les documents d'audit.
+
+**Livrables racine Partie 1** :
+- [Veille metier et technologique](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/01_veille_metier_technologique.md)
+- [Cahier des charges fonctionnel](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/02_cahier_des_charges_fonctionnel.md)
+- [Mini formation metiers](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/03_mini_formation_metiers.md)
+- [Hypotheses de travail](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/04_hypotheses.md)
+- [Tests et validations](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/05_tests.md)
+- [Resultats](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/06_resultats.md)
+- [Limites](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/07_limites.md)
+- [Decisions](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/08_decisions.md)
+
+**Sources detaillees** :
+- [Notebook ameliore P6](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA)
+- [Documentation detaillee](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/docs)
+
 ---
 ## **📈 Résultats**
 > **Livrables** :
@@ -57,6 +77,8 @@
 ## **📂 Preuves et Livrables**
 - **Portfolio** : [Lien Streamlit](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/)
 - **Dépôt GitHub** : [Lien GitHub](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA)
+- **Projet P13 source** : [Depot P13](https://github.com/ferialzamoun-afk/P13)
+- **Partie 1 - racine** : [Partie_1](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1)
 - **Veille** : [Page Veille](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/veille/techno/)
 - **Documentation** : [README](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA)
 
