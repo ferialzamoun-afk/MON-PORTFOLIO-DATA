@@ -1,7 +1,7 @@
 # # 🎯 Projet P12 : Détection de Faux Billets par Machine Learning
 **📅 Date** : Juillet 2026
 **🏷️ Type** : Machine Learning / Classification / Analyse Statistique
-**🔗 Lien** : [Notebook Jupyter complet](https://github.com/ferialzamoun-afk/P12/blob/main/projets/P12_faux_billets/assets/p12_da_maj%20(1).ipynb)   [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12)
+**🔗 Lien** : [Notebook Jupyter complet](https://github.com/ferialzamoun-afk/P12/blob/main/notebooks/p12_da_maj%2B%281%29.ipynb)   [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12)
 
 ---
 ---
@@ -24,7 +24,7 @@
 *(Chaque section du notebook correspond à un bloc RNCP. Utilise des **ancres** dans le notebook pour faciliter la navigation.)*
 
 ### **📌 Lien vers le Notebook**
-👉 **[Ouvrir le Notebook Jupyter complet](projets\P12_faux_billets\assets\p12_da_maj+(1).ipynb)**
+👉 **[Ouvrir le Notebook Jupyter complet](https://github.com/ferialzamoun-afk/P12/blob/main/notebooks/p12_da_maj%2B%281%29.ipynb)**
 *(Le notebook est organisé en **sections claires**, chacune liée à un bloc RNCP. Voici le détail :)*
 
 ---
@@ -61,7 +61,7 @@
  | **Créer un tableau de bord** | *Non applicable* (pas de tableau de bord interactif dans P12). | - | - |
  | **Reporting des tendances** | **Interprétation des graphiques** (ex: "La distribution des probabilités montre une séparation nette entre vrais et faux billets"). | [Section "5. Interprétation des Résultats"](#5.-Interprétation-des-Résultats) | [Notebook](#5.-Interprétation-des-Résultats) |
  | **Récit des résultats** | **Synthèse narrative** des résultats dans le notebook (cellules Markdown). | [Section "5. Interprétation des Résultats"](#5.-Interprétation-des-Résultats) | [Notebook](#5.-Interprétation-des-Résultats) |
- | **Présenter les résultats** | **Adaptation du contenu** pour un public technique (ONFM) et non-technique (slides séparés). | [Section "5. Interprétation des Résultats"](#5.-Interprétation-des-Résultats) | [Notebook](#5.-Interprétation-des-Résultats) + [Slides](lien) |
+ | **Présenter les résultats** | **Adaptation du contenu** pour un public technique (ONFM) et non-technique (slides séparés). | [Section "5. Interprétation des Résultats"](#5.-Interprétation-des-Résultats) | [Notebook](#5.-Interprétation-des-Résultats) + [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12) |
 
 ---
 ---
@@ -74,9 +74,9 @@
  | **Expérimenter de nouvelles méthodes** | Test de **différents algorithmes** (Logistic Regression, Random Forest) pour comparer les performances. | [Section "6. Expérimentations"](#6.-Expérimentations) | [Notebook](#6.-Expérimentations) |
  | **Identifier le besoin métier** | **Traduction des besoins ONFM** en objectifs techniques (détection automatique, conformité EMV). | [Section "0. Contexte et Veille"](#0.-Contexte-et-Veille) | [Notebook](#0.-Contexte-et-Veille) |
  | **Formaliser le cahier des charges** | **Documentation complète** dans le notebook (objectifs, méthodologie, résultats). | [Section "0. Contexte et Objectifs"](#0.-Contexte-et-Objectifs) | [Notebook](#0.-Contexte-et-Objectifs) |
- | **Organiser un projet data** | **Structuration du notebook** en sections claires (EDA, Modélisation, Évaluation). | [Notebook complet](#) | [Notebook](lien) |
+ | **Organiser un projet data** | **Structuration du notebook** en sections claires (EDA, Modélisation, Évaluation). | [Notebook complet](#) | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12) |
  | **Ateliers de formation** | *Non applicable* (pas d’atelier dans P12). | - | - |
- | **Gérer la documentation** | **Commentaires détaillés** dans le code et cellules Markdown explicatives. | [Notebook complet](#) | [Notebook](lien) |
+ | **Gérer la documentation** | **Commentaires détaillés** dans le code et cellules Markdown explicatives. | [Notebook complet](#) | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12) |
  | **Adapter sa posture** | **Positionnement comme consultante** : explications claires pour l’ONFM. | [Section "5. Interprétation des Résultats"](#5.-Interprétation-des-Résultats) | [Notebook](#5.-Interprétation-des-Résultats) |
 
 ---
@@ -138,10 +138,10 @@
 ## **📂 Preuves et Livrables**
  | **Type** | **Lien** | **Description** |
  |----------|----------|-----------------|
- | **Notebook Jupyter** | [Lien vers le notebook](lien) | Notebook complet avec **toutes les sections** (EDA, modélisation, évaluation). |
- | **Dépôt GitHub** | [Lien vers le dépôt](lien) | Code source, README, et images (matrice de confusion, graphiques). |
- | **Slides de présentation** | [Lien vers les slides](lien) | Présentation des résultats pour l’ONFM (public non-technique). |
- | **Images** | [Dossier `/images`](lien) | Captures d’écran des visualisations (matrice de confusion, graphiques). |
+ | **Notebook Jupyter** | [Notebook](https://github.com/ferialzamoun-afk/P12/blob/main/notebooks/p12_da_maj%2B%281%29.ipynb) | Notebook complet avec **toutes les sections** (EDA, modélisation, évaluation). |
+ | **Dépôt GitHub** | [Dépôt P12](https://github.com/ferialzamoun-afk/P12) | Code source, README, et images (matrice de confusion, graphiques). |
+ | **Slides de présentation** | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12) | Présentation des résultats pour l’ONFM (public non-technique). |
+ | **Images** | [Dépôt P12](https://github.com/ferialzamoun-afk/P12) | Captures d’écran des visualisations (matrice de confusion, graphiques). |
 
 ---
 ---

@@ -100,7 +100,7 @@
 | **4️⃣ Résultats** | RandomForest : accuracy 99%, precision 98.5%, recall 97%. <15 faux négatifs (risque maîtrisé). **Recommandations** : Deploy RandomForest ; monitorer drift ; retrain 6m. **Livrable** : API REST + modèle joblib. |
 | **5️⃣ Limites** | Euros seulement (pas généralisation). Pas monitoring production (drift detection). **Pistes** : Augmenter devises ; logs production ; active learning. |
 
-**🔗 Liens** : [GitHub P12](https://github.com/ferialzamoun-afk/P12) | [API](https://your-api.com)
+**🔗 Liens** : [GitHub P12](https://github.com/ferialzamoun-afk/P12) | [API / dépôt](https://github.com/ferialzamoun-afk/P12)
 
 ---
 

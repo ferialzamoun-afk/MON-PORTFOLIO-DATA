@@ -193,7 +193,7 @@ Carte choroplèthe : Taux de pénétration par région.
 Bar charts : Comparaison % femmes (OC vs INSEE).
 Heatmap : Région × Groupe d’âge (écarts de représentation).
 Line charts : Tendances annuelles (2022-2025).
-Lien Streamlit (à déployer) : [🌐 Dashboard Streamlit (Futur)](https://your-streamlit-app.com)
+Lien Streamlit (à déployer) : [🔗 Dépôt GitHub](https://github.com/ferialzamoun-afk/P8--DBT)
 
 P8--DBT/
 ├── .github/
@@ -240,7 +240,7 @@ BC02,Identifier et collecter les données,Utilisation de 2 sources principales (
 BC02,Extraire et agréger,Nettoyage : Harmonisation des noms de régions, groupes d'âge, genres.,[stg_etudiants.sql](https://github.com/ferialzamoun-afk/P8--DBT/blob/main/models/staging/stg_etudiants.sql)
 BC02,Explorer et pré-traiter,Jointures complexes (FULL OUTER JOIN) pour fusionner OC + INSEE.,[int_etudiants_insee_joined.sql](https://github.com/ferialzamoun-afk/P8--DBT/blob/main/models/intermediate/int_etudiants_insee_joined.sql)
 BC02,Analyse univariée/multivariée,Calcul des KPIs (pénétration, écarts genre/âge).,[fct_export_unifie.sql](https://github.com/ferialzamoun-afk/P8--DBT/blob/main/models/marts/fct_export_unifie.sql)
-BC03,Solution de visualisation,Dashboard Streamlit (en développement) : Cartes, heatmaps, tendances.,[À déployer](https://your-streamlit-app.com)
+BC03,Solution de visualisation,Dashboard Streamlit (en développement) : Cartes, heatmaps, tendances.,[Dépôt GitHub](https://github.com/ferialzamoun-afk/P8--DBT)
 BC03,Créer un tableau de bord,Intégration Power BI : Import du CSV pour visualisations.,[POWER_BI_SETUP.md](https://github.com/ferialzamoun-afk/P8--DBT/blob/main/.github/workflows/POWER_BI_SETUP.md)
 BC03,Reporting des tendances,Exports CSV pour Power BI/Excel.,[data/processed/](https://github.com/ferialzamoun-afk/P8--DBT/tree/main/data/processed)
 BC04,Veille métier/technologique,Benchmark dbt + Snowflake vs autres outils (Airflow, etc.).,[CSV_EXPORT_VALUE_CHAIN.md](https://github.com/ferialzamoun-afk/P8--DBT/blob/main/CSV_EXPORT_VALUE_CHAIN.md)

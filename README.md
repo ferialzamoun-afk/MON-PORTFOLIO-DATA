@@ -39,12 +39,12 @@
 
 ### **👉 Recruteur / Client ?**
 - **[📄 Synthèse Proof Points](assets/PROOF_POINTS_SYNTHESE.md)** — 1 page par projet avec 5 piliers (Contexte → Données → Démarche → Résultats → Limites)
-- **[🏆 Portfolio Phare P13](https://github.com/ferialzamoun-afk/P13)** — Gouvernance IA & P6 Bottleneck optimisé
+- **[🏆 Portfolio Phare P13](projets/P13_portfolio/README.md)** — Gouvernance IA & P6 Bottleneck optimisé
 - **[📊 Projets Phares](#-projets-phares)** — Accès rapide aux 5 plus beaux projets
 
 ### **👉 Développeur / Contributeur ?**
 - **[📚 Veille Technologique](veille/techno/README.md)** — Trends data/IA/DevOps avec newsletters actuelles
-- **[🔧 Veille Métier](veille/metier/README.md)** — Tendances sectorielles & use cases
+- **[🔧 Veille Métier](veille/métier/README.md)** — Tendances sectorielles & use cases
 - **[🏗️ Architecture Portfolio](#-structure-du-portfolio)** — Organisation & structure
 
 ---
@@ -69,16 +69,23 @@ MON-PORTFOLIO-DATA/
 ├── README.md                               # Cette page - Hub principal du portfolio
 ├── _config.yml                             # Configuration Jekyll (GitHub Pages)
 ├── requirements.txt                        # Dépendances Python
+├── assets/                                 # Proof points, synthèse, ressources de navigation
 │
 ├── projets/
-│   ├── P6_optimisation_bottleneck/        # [Intégré dans P13 Partie 1]
-│   ├── P8_pipeline_dbt/                    # Data pipelines & dbt
-│   ├── P9_librairie/                       # 📊 Lapage - Analyses ventes (Streamlit live)
-│   ├── P10_eau_potable/                    # 🌊 Dashboard Power BI complet
-│   ├── P11_etude_marche/                   # 📈 Clustering & Recommandations export
-│   ├── P12_faux_billets/                   # 🔍 ML Classification (FastAPI)
-│   ├── P13_portfolio/                      # 🏆 Portfolio & Gouvernance IA (PHARE)
-│   └── P14_stage/                          # 📚 Mémoire et documentation stage
+│   ├── P1_presentation/                    # Présentation et cadrage initial
+│   ├── P2_analyse_ecommerce/               # Analyse e-commerce
+│   ├── P3_requetes_sql/                    # Requêtes SQL
+│   ├── P4_etude_sante_publique/            # Étude santé publique
+│   ├── P5_base_immobiliere_sql/            # Base immobilière SQL
+│   ├── P6_Optimisation_Bottleneck/         # Bottleneck amélioré et gouvernance IA
+│   ├── P7_dashboard_powerbi/               # Dashboard Power BI gouvernance projets
+│   ├── P8_egalite_femmes_hommes/           # dbt / Snowflake / exports OC vs INSEE
+│   ├── P9_librairie/                       # Lapage - analyses ventes et Streamlit
+│   ├── P10_eau_potable/                    # Dashboard eau potable et Power BI
+│   ├── P11_etude_marche/                   # Clustering et priorisation export
+│   ├── P12_faux_billets/                   # Classification ML et API
+│   ├── P13_portfolio/                      # Portfolio & gouvernance IA (phare)
+│   └── P14_stage/                          # Stage Intermarché et bilan réflexif
 │
 ├── docs/                                   # Documentation transversale
 │   └── veille/                             # Ressources métier & technologiques
@@ -89,12 +96,12 @@ MON-PORTFOLIO-DATA/
 ### **🎯 Projets Phares - Accès Rapide**
 | **Projet** | **Type** | **Stack** | **Lien** |
 |-----------|--------|---------|--------|
-| **P13 (Partie 1)** | Gouvernance IA | Python, Jupyter | [📄 Synthèse](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/docs/06_synthese_finale_P13_partie_1.md) |
-| **P12** | ML Classification | Python, FastAPI | [🔗 Dépôt](https://github.com/ferialzamoun-afk/P12) |
-| **P11** | Clustering ACP | Python, Pandas | [🔗 Dépôt](https://github.com/ferialzamoun-afk/P11) |
-| **P10** | Dashboard BI | Power BI, SQL | [🔗 Dépôt](https://github.com/ferialzamoun-afk/P10) |
-| **P9** | Analyse Ventes | Python, Streamlit | [🌐 Live](https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/) |
-| **P8** | Data Pipeline | dbt, Snowflake | [🔗 Dépôt](https://github.com/ferialzamoun-afk/P8--DBT) |
+| **P13 (Partie 1)** | Gouvernance IA | Python, Jupyter | [📄 README](projets/P13_portfolio/README.md) |
+| **P12** | ML Classification | Python, FastAPI | [📄 README](projets/P12_faux_billets/README.md) |
+| **P11** | Clustering ACP | Python, Pandas | [📄 README](projets/P11_etude_marche/README.md) |
+| **P10** | Dashboard BI | Power BI, SQL | [📄 README](projets/P10_eau_potable/README.md) |
+| **P9** | Analyse Ventes | Python, Streamlit | [📄 README](projets/P9_librairie/README.md) |
+| **P8** | Data Pipeline | dbt, Snowflake | [📄 README](projets/P8_egalite_femmes_hommes/README.md) |
 
 ---
 ---
@@ -522,7 +529,7 @@ MON-PORTFOLIO-DATA/
 - Derniers articles par sujet
 - Ressources d'apprentissage (Towards Data Science, Kaggle, Papers With Code, Real Python)
 
-👉 **[Veille Métier & Trends](veille/metier/README.md)**
+👉 **[Veille Métier & Trends](veille/métier/README.md)**
 - Tendances sectorielles (Banque, Assurance, Retail)
 - Use cases data-driven
 - Réglementations (RGPD, France Compétences)

@@ -2,7 +2,7 @@
 
 **📅 Date** : Juillet 2026
 **🏷️ Type** : Documentation / Veille / Consulting
-**🔗 Lien** : [Portfolio Streamlit](lien)
+**🔗 Lien** : [Portfolio Streamlit](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/)
 
 ---
 ## **🎯 Contexte et Objectifs**
@@ -22,15 +22,15 @@
  |---------------|---------------|----------------|-------------|
  | **BC01** | Gérer une base de données | Organisation des **données du portfolio** (projets, compétences, preuves) | [Structure GitHub](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA) |
  | **BC02** | Identifier/collecter | Collecte des **preuves de compétences** (liens GitHub, PDF, captures) | [README du portfolio](https://github.com/ferialzamoun-afk/P13) |
- | **BC02** | Analyse multivariée | **Mapping compétences x projets** pour évaluer la couverture RNCP | [Tableau compétences](lien) |
- | **BC03** | Solution de visualisation | **Portfolio Streamlit** pour une navigation intuitive | [Lien Streamlit](lien) |
- | **BC03** | Créer un tableau de bord | **Vitrine des projets** avec description, compétences, preuves | [Page "Projets"](lien) |
- | **BC03** | Présenter les résultats | **Documentation claire** pour les recruteurs/évaluateurs | [README](lien) |
- | **BC04** | Veille métier/technologique | **Page "Veille"** avec benchmarks et articles | [Lien veille](lien) |
- | **BC04** | Expérimenter de nouvelles méthodes | **Benchmark Scikit-learn vs PyTorch** | [Article](lien) |
- | **BC04** | Organiser un projet data | **Structuration du portfolio** (dossiers, README, liens) | [Dépôt GitHub](lien) |
- | **BC04** | Gérer la documentation | **Documentation complète** (README, Wiki, commentaires) | [README + Wiki](lien) |
- | **BC04** | Adapter sa posture | **Positionnement comme consultante** dans la page "À Propos" | [Page "À Propos"](lien) |
+ | **BC02** | Analyse multivariée | **Mapping compétences x projets** pour évaluer la couverture RNCP | [Tableau compétences](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA) |
+ | **BC03** | Solution de visualisation | **Portfolio Streamlit** pour une navigation intuitive | [Lien Streamlit](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/) |
+ | **BC03** | Créer un tableau de bord | **Vitrine des projets** avec description, compétences, preuves | [Page "Projets"](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/) |
+ | **BC03** | Présenter les résultats | **Documentation claire** pour les recruteurs/évaluateurs | [README](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA) |
+ | **BC04** | Veille métier/technologique | **Page "Veille"** avec benchmarks et articles | [Lien veille](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/veille/techno/) |
+ | **BC04** | Expérimenter de nouvelles méthodes | **Benchmark Scikit-learn vs PyTorch** | [Guide](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA) |
+ | **BC04** | Organiser un projet data | **Structuration du portfolio** (dossiers, README, liens) | [Dépôt GitHub](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA) |
+ | **BC04** | Gérer la documentation | **Documentation complète** (README, Wiki, commentaires) | [README + Wiki](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA) |
+ | **BC04** | Adapter sa posture | **Positionnement comme consultante** dans la page "À Propos" | [Page "À Propos"](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/) |
 
 ---
 ## **📊 Méthodologie**
@@ -55,10 +55,10 @@
 
 ---
 ## **📂 Preuves et Livrables**
-- **Portfolio** : [Lien Streamlit](lien)
-- **Dépôt GitHub** : [Lien GitHub](lien)
-- **Veille** : [Page Veille](lien)
-- **Documentation** : [README](lien)
+- **Portfolio** : [Lien Streamlit](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/)
+- **Dépôt GitHub** : [Lien GitHub](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA)
+- **Veille** : [Page Veille](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/veille/techno/)
+- **Documentation** : [README](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA)
 
 ---
 ## **🚀 Améliorations Futures**

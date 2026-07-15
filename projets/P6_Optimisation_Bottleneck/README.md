@@ -8,6 +8,7 @@
 **🔗 Liens** :
 - [🔗 Dépôt GitHub](https://github.com/ferialzamoun-afk/P6_ameliore_IA)
 - [📓 Notebook Principal (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P6_ameliore_IA/blob/main/notebooks/bottleneck_analyse_ameliore_final.ipynb)
+- [📓 Notebook Production](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/notebooks/bottleneck_analyse_ameliore_final.ipynb)
 - [📁 Cahier des Charges](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/01_cahier_des_charges_P13_partie_1.md)
 - [📁 Veille Technologique](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/02_veille_technologique_P13_partie_1.md)
 - [📁 Journal IA](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/03_journal_ia_P13_partie_1.md)
