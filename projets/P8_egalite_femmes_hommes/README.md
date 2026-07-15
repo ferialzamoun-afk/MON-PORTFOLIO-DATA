@@ -38,6 +38,31 @@
 
 ---
 
+## **📊 Structure du Projet**
+```text
+P8--DBT/
+├── .github/
+├── data/
+├── macros/
+├── models/
+├── output/
+├── snapshots/
+├── tests/
+├── .gitignore
+├── .user.yml
+├── CSV_EXPORT_VALUE_CHAIN.md
+├── analyse_csv_p8.ipynb
+├── dbt_project.yml
+├── package-lock.yml
+├── packages.yml
+├── profiles.yml
+├── README.md
+├── requirements.txt
+└── Synthese_etudiants.md
+```
+
+---
+
 ## **🏗️ Architecture et Méthodologie**
 *(Blocs RNCP37837BC01, BC02, BC04)*
 
@@ -194,29 +219,6 @@ Bar charts : Comparaison % femmes (OC vs INSEE).
 Heatmap : Région × Groupe d’âge (écarts de représentation).
 Line charts : Tendances annuelles (2022-2025).
 Lien Streamlit (à déployer) : [🔗 Dépôt GitHub](https://github.com/ferialzamoun-afk/P8--DBT)
-
-## **📊 Structure du Projet**
-```text
-P8--DBT/
-├── .github/
-├── data/
-├── macros/
-├── models/
-├── output/
-├── snapshots/
-├── tests/
-├── .gitignore
-├── .user.yml
-├── CSV_EXPORT_VALUE_CHAIN.md
-├── analyse_csv_p8.ipynb
-├── dbt_project.yml
-├── package-lock.yml
-├── packages.yml
-├── profiles.yml
-├── README.md
-├── requirements.txt
-└── Synthese_etudiants.md
-```
 
 ---
 
