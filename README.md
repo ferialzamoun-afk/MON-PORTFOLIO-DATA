@@ -350,7 +350,7 @@ MON-PORTFOLIO-DATA/
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC04</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Veille métier</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Benchmark des outils (Streamlit vs Power BI)</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/README.md">README.md</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">Dépôt GitHub</a></td>
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC04</strong></td>
