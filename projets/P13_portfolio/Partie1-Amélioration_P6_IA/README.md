@@ -8,8 +8,7 @@
 **🔗 Liens** :
 - [🔗 Dépôt GitHub](https://github.com/ferialzamoun-afk/P6_ameliore_IA)
 - [📓 Notebook Principal](bottleneck_analyse_ameliore_final.ipynb)
-- [📓 Notebook initial](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/notebooks/p12_da_maj%2B%281%29.ipynb)
-- [📓 Notebook amélioré](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/bottleneck_analyse_ameliore_final.ipynb)
+- [📓 Notebook amélioré](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/notebooks/bottleneck_analyse_ameliore_final.ipynb)
 - [📁 Cahier des Charges](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/01_cahier_des_charges_P13_partie_1.md)
 - [📁 Veille Technologique](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/02_veille_technologique_P13_partie_1.md)
 - [📁 Journal IA](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/03_journal_ia_P13_partie_1.md)
@@ -19,12 +18,12 @@
 
 **Preuves détaillées et restitution métier** :
 - [Avant : Notebook initial](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/notebooks/p12_da_maj%2B%281%29.ipynb)
-- [Après : Notebook amélioré](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/bottleneck_analyse_ameliore_final.ipynb)
+- [Après : Notebook amélioré](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/notebooks/bottleneck_analyse_ameliore_final.ipynb)
 - [Avant : Synthèse initiale](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/06_synthese_finale_P13_partie_1.md)
-- [Après : Synthèse finale enrichie](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/README.md)
+- [Après : Synthèse finale enrichie](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/06_synthese_finale_P13_partie_1.md)
 - [Avant : Visuels HTML](https://github.com/ferialzamoun-afk/P6_ameliore_IA/tree/main/output/dataviz)
-- [Après : Visuels PNG](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/dataviz)
-- [Dashboard KPI pour le CODIR](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/output/captures/05_kpi_dashboard_phase2.png)
+- [Après : Visuels PNG](https://github.com/ferialzamoun-afk/P6_ameliore_IA/tree/main/output/dataviz)
+- [Dashboard KPI pour le CODIR](https://github.com/ferialzamoun-afk/P6_ameliore_IA/tree/main/output/captures)
 
 ---
 
@@ -218,21 +217,21 @@ ruff check src/
 ### **📌 Modules Python**
 | Module | Rôle | Lien |
 | --- | --- | --- |
-| quality_checks.py | 18 contrôles de données (structure, valeurs, doublons) | [Lien](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/blob/main/src/quality_checks.py) |
-| stock_cleaning.py | Corrections tracées des anomalies de stock | [Lien](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/blob/main/src/stock_cleaning.py) |
-| data_merging.py | Rapprochement ERP/Web/Liaison avec logging | [Lien](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/blob/main/src/data_merging.py) |
-| eda_analysis.py | Analyses exploratoires (Pareto, corrélations) | [Lien](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/blob/main/src/eda_analysis.py) |
-| kpi_analysis.py | Calcul des KPI métier (CA, marges, rotation) | [Lien](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/blob/main/src/kpi_analysis.py) |
+| quality_checks.py | 18 contrôles de données (structure, valeurs, doublons) | [Lien](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/src/quality_checks.py) |
+| stock_cleaning.py | Corrections tracées des anomalies de stock | [Lien](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/src/stock_cleaning.py) |
+| data_merging.py | Rapprochement ERP/Web/Liaison avec logging | [Lien](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/src/data_merging.py) |
+| eda_analysis.py | Analyses exploratoires (Pareto, corrélations) | [Lien](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/src/eda_analysis.py) |
+| kpi_analysis.py | Calcul des KPI métier (CA, marges, rotation) | [Lien](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/src/kpi_analysis.py) |
 
 ### **⚠️ Limites et Prudences**
 (Bloc RNCP37837BC05 : Spécialisation Statistiques)
 | Limite | Impact | Recommandation | Preuve |
 | --- | --- | --- | --- |
-| 1 mois de données (octobre 2026) | Snapshot, pas de tendance | Confirmer sur multi-mois | [06_synthese_finale](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/blob/main/docs/06_synthese_finale_P13_partie_1.md) |
-| Corrélations ≠ causalité | Risque de faux signaux | Utiliser comme aide à la décision, pas comme preuve | [Notebook, Cellule 7](https://nbviewer.org/github/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/blob/main/notebooks/bottleneck_analyse_ameliore_final.ipynb#7.-Audit) |
-| Outliers statistiques | Modèle IQR | Valider avec l’équipe métier (prix premium légitimes ?) | [anomalies_prix_et_marges.html](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/raw/main/output/dataviz/anomalies_prix_et_marges.html) |
-| Stock/Liaison manuels | Risque de désynchronisation | Investiguer 799 références Web sans match ERP | [data_merging.py](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/blob/main/src/data_merging.py) |
-| Pas d’historique | Données point-in-time | Intégrer l’historique pour analyser les tendances | [06_synthese_finale](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/blob/main/docs/06_synthese_finale_P13_partie_1.md) |
+| 1 mois de données (octobre 2026) | Snapshot, pas de tendance | Confirmer sur multi-mois | [06_synthese_finale](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/06_synthese_finale_P13_partie_1.md) |
+| Corrélations ≠ causalité | Risque de faux signaux | Utiliser comme aide à la décision, pas comme preuve | [Notebook, Cellule 7](https://nbviewer.org/github/ferialzamoun-afk/P6_ameliore_IA/blob/main/notebooks/bottleneck_analyse_ameliore_final.ipynb#7.-Audit) |
+| Outliers statistiques | Modèle IQR | Valider avec l’équipe métier (prix premium légitimes ?) | [anomalies_prix_et_marges.html](https://github.com/ferialzamoun-afk/P6_ameliore_IA/raw/main/output/dataviz/anomalies_prix_et_marges.html) |
+| Stock/Liaison manuels | Risque de désynchronisation | Investiguer 799 références Web sans match ERP | [data_merging.py](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/src/data_merging.py) |
+| Pas d’historique | Données point-in-time | Intégrer l’historique pour analyser les tendances | [06_synthese_finale](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/06_synthese_finale_P13_partie_1.md) |
 
 ### **📞 Questions Fréquentes (FAQ)**
 Q : Puis-je relancer le notebook sur mes données ?
@@ -248,22 +247,22 @@ Q : Comment contribuer ?
 ### **📌 Mapping des Blocs RNCP**
 | Bloc RNCP | Compétence | Description | Preuves |
 | --- | --- | --- | --- |
-| BC01 | Structurer et gérer la base de données | Rapprochement de 3 sources (ERP, Web, Liaison) en une base unifiée. | [data_merging.py](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/blob/main/src/data_merging.py) |
-| BC01 | Gérer une base de données | Contrôles qualité (18 points) et Data Contracts (7 formalisés). | [quality_checks.py](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/blob/main/src/quality_checks.py) |
-| BC02 | Identifier et collecter les données | Utilisation des 3 sources Bottleneck (ERP, Web, Liaison). | [Notebook, Cellule 1](https://nbviewer.org/github/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/blob/main/notebooks/bottleneck_analyse_ameliore_final.ipynb#1.-Chargement-des-donn%C3%A9es) |
-| BC02 | Extraire et agréger | Nettoyage (stocks, prix) et rapprochement des données. | [stock_cleaning.py](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/blob/main/src/stock_cleaning.py) + [data_merging.py](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/blob/main/src/data_merging.py) |
-| BC02 | Explorer et pré-traiter | EDA (Pareto, corrélations, anomalies). | [eda_analysis.py](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/blob/main/src/eda_analysis.py) |
-| BC02 | Analyse univariée/multivariée | Analyse Pareto (80% du CA sur 435 produits). | [courbe_pareto_80_20.html](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/raw/main/output/dataviz/courbe_pareto_80_20.html) |
-| BC03 | Solution de visualisation | 13 graphiques Plotly (CA, Pareto, anomalies, stocks). | [output/dataviz/](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/tree/main/output/dataviz) |
-| BC03 | Créer un tableau de bord | Dashboard KPI Streamlit pour le CODIR, déjà illustré par la capture de restitution. | [Capture dashboard](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/output/captures/05_kpi_dashboard_phase2.png) |
-| BC03 | Reporting des tendances | Exports HTML (Plotly) et synthèse écrite. | [output/dataviz/](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/tree/main/output/dataviz) + [06_synthese_finale](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/blob/main/docs/06_synthese_finale_P13_partie_1.md) |
-| BC04 | Veille métier/technologique | Benchmark Pandas vs GE vs Soda + roadmap migration. | [02_veille_technologique](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/blob/main/docs/02_veille_technologique_P13_partie_1.md) |
-| BC04 | Formaliser le cahier des charges | Cahier des charges complet (objectifs, contraintes, livrables). | [01_cahier_des_charges](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/blob/main/docs/01_cahier_des_charges_P13_partie_1.md) |
-| BC04 | Organiser un projet data | Backlog, kanban, planning (GitHub Projects). | [04_plan_projet](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/blob/main/docs/04_plan_projet_P13_partie_1.md) + [captures](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/tree/main/output/captures) |
-| BC04 | Gérer la documentation | 8 docs + 26 prompts IA + 13 graphiques documentés. | [docs/](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/tree/main/docs) |
-| BC04 | Adapter sa posture | Journal IA (décisions humaines + limitations). | [03_journal_ia](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/blob/main/docs/03_journal_ia_P13_partie_1.md) |
-| BC05 | Analyses multivariées | Analyse Pareto + corrélations (prix, marges, stocks). | [eda_analysis.py](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/blob/main/src/eda_analysis.py) |
-| BC05 | Tests statistiques | Validation des KPI (cohérence, outliers). | [kpi_analysis.py](https://github.com/ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/blob/main/src/kpi_analysis.py) |
+| BC01 | Structurer et gérer la base de données | Rapprochement de 3 sources (ERP, Web, Liaison) en une base unifiée. | [data_merging.py](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/src/data_merging.py) |
+| BC01 | Gérer une base de données | Contrôles qualité (18 points) et Data Contracts (7 formalisés). | [quality_checks.py](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/src/quality_checks.py) |
+| BC02 | Identifier et collecter les données | Utilisation des 3 sources Bottleneck (ERP, Web, Liaison). | [Notebook, Cellule 1](https://nbviewer.org/github/ferialzamoun-afk/P6_ameliore_IA/blob/main/notebooks/bottleneck_analyse_ameliore_final.ipynb#1.-Chargement-des-donn%C3%A9es) |
+| BC02 | Extraire et agréger | Nettoyage (stocks, prix) et rapprochement des données. | [stock_cleaning.py](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/src/stock_cleaning.py) + [data_merging.py](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/src/data_merging.py) |
+| BC02 | Explorer et pré-traiter | EDA (Pareto, corrélations, anomalies). | [eda_analysis.py](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/src/eda_analysis.py) |
+| BC02 | Analyse univariée/multivariée | Analyse Pareto (80% du CA sur 435 produits). | [courbe_pareto_80_20.html](https://github.com/ferialzamoun-afk/P6_ameliore_IA/raw/main/output/dataviz/courbe_pareto_80_20.html) |
+| BC03 | Solution de visualisation | 13 graphiques Plotly (CA, Pareto, anomalies, stocks). | [output/dataviz/](https://github.com/ferialzamoun-afk/P6_ameliore_IA/tree/main/output/dataviz) |
+| BC03 | Créer un tableau de bord | Dashboard KPI Streamlit pour le CODIR, déjà illustré par la capture de restitution. | [Capture dashboard](https://github.com/ferialzamoun-afk/P6_ameliore_IA/tree/main/output/captures/05_kpi_dashboard_phase2.png) |
+| BC03 | Reporting des tendances | Exports HTML (Plotly) et synthèse écrite. | [output/dataviz/](https://github.com/ferialzamoun-afk/P6_ameliore_IA/tree/main/output/dataviz) + [06_synthese_finale](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/06_synthese_finale_P13_partie_1.md) |
+| BC04 | Veille métier/technologique | Benchmark Pandas vs GE vs Soda + roadmap migration. | [02_veille_technologique](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/02_veille_technologique_P13_partie_1.md) |
+| BC04 | Formaliser le cahier des charges | Cahier des charges complet (objectifs, contraintes, livrables). | [01_cahier_des_charges](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/01_cahier_des_charges_P13_partie_1.md) |
+| BC04 | Organiser un projet data | Backlog, kanban, planning (GitHub Projects). | [04_plan_projet](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/04_plan_projet_P13_partie_1.md) + [captures](https://github.com/ferialzamoun-afk/P6_ameliore_IA/tree/main/output/captures) |
+| BC04 | Gérer la documentation | 8 docs + 26 prompts IA + 13 graphiques documentés. | [docs/](https://github.com/ferialzamoun-afk/P6_ameliore_IA/tree/main/docs) |
+| BC04 | Adapter sa posture | Journal IA (décisions humaines + limitations). | [03_journal_ia](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/docs/03_journal_ia_P13_partie_1.md) |
+| BC05 | Analyses multivariées | Analyse Pareto + corrélations (prix, marges, stocks). | [eda_analysis.py](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/src/eda_analysis.py) |
+| BC05 | Tests statistiques | Validation des KPI (cohérence, outliers). | [kpi_analysis.py](https://github.com/ferialzamoun-afk/P6_ameliore_IA/blob/main/src/kpi_analysis.py) |
 
 
 🎯 Mapping RNCP 37837
