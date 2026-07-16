@@ -127,7 +127,7 @@ MON-PORTFOLIO-DATA/
 
 **🔗 Liens** :
 - [📄 Synthèse Finale P13 Partie 1](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/docs/06_synthese_finale_P13_partie_1.md)
-- [📓 Notebook Production](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/bottleneck_analyse_ameliore_final.ipynb)
+- [📓 Notebook Production](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/notebooks/bottleneck_analyse_ameliore_final.ipynb)
 - [📊 Captures Validées](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/captures)
 - [🌐 Dashboard Streamlit](https://p6-dashboard-wdcn5o8grt39nqtim6mgym.streamlit.app/)
 - [📁 Dépôt P13 Complet](https://github.com/ferialzamoun-afk/P13)
@@ -156,7 +156,7 @@ MON-PORTFOLIO-DATA/
 - **Modèle exporté** : API FastAPI pour la prédiction.
 
 **🔗 Liens** :
-- [📄 Fiche Projet Détection de Faux Billets](https://github.com/ferialzamoun-afk/P12/blob/main/PROJECT_BRIEF.md)
+- [📄 Brief Projet Détection de Faux Billets](https://github.com/ferialzamoun-afk/P12/blob/main/PROJECT_BRIEF.md)
 - [🔗 Dépôt GitHub](https://github.com/ferialzamoun-afk/P12)
 
 **🎯 Compétences Démontrées** :
@@ -185,7 +185,7 @@ MON-PORTFOLIO-DATA/
 **🔗 Liens** :
 - [📄 Fiche Projet P11](https://github.com/ferialzamoun-afk/P11/blob/main/PROJECT_BRIEF.md)
 - [📓 Notebook 1 : Préparation & EDA (nbviewer)](https://github.com/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb)
-- [📓 Notebook 2 : Clustering & Recommandations (nbviewer)](https://github.com/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Férial_2_clustering_visualisations%20_112025.ipynb)
+- [📓 Notebook 2 : Clustering & Recommandations (nbviewer)](https://github.com/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_2_clustering_visualisations%20_112025.ipynb)
 
 
 **🎯 Compétences Démontrées** :
@@ -237,19 +237,19 @@ MON-PORTFOLIO-DATA/
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>CA annuel</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>480 000 €</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ <strong>3 pics saisonniers</strong> identifiés</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/src/kpi_analysis.py">kpi_analysis.py</a></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/docs/veille/p9_missions_complementaires.md#missions-complementaires-p9">missions complémentaires P9</a></td>
     </tr>
     <tr>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Clients totaux</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>8 600 clients</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ <strong>Segmentation statistiquement validée</strong> par genre & tranches d'âge</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/src/eda_analysis.py">eda_analysis.py</a></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/docs/veille/p9_missions_complementaires.md#missions-complementaires-p9">missions complémentaires P9</a></td>
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Concentration CA</strong><br/><em>(Indice Gini 0.40)</em></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Dépendance catégorie 1</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">⚠️ <strong>80/20 identifié</strong> : 20% des clients = 80% du CA</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/02_Analyses_Marketing.ipynb">Analyse détaillée</a></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/docs/veille/p9_missions_complementaires.md#missions-complementaires-p9">missions complémentaires P9</a></td>
     </tr>
   </tbody>
 </table>
@@ -270,7 +270,7 @@ MON-PORTFOLIO-DATA/
   <tbody>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>Fiche Projet</strong></td>
-      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/PROJECT_BRIEF.md">📄 PROJECT_BRIEF.md</a></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/docs/veille/p9_missions_complementaires.md#missions-complementaires-p9">📄 Missions complémentaires P9</a></td>
       <td style="padding: 9px 12px; border: 1px solid #ddd;">Contexte, objectifs, méthodologie, résultats</td>
     </tr>
     <tr>
