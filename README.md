@@ -12,7 +12,7 @@
 ## 📋 Table of Contents
 - [À Propos](#-à-propos)
 - [🚀 Quick Start](#-quick-start---commencer-ici)
-- [Projets Phares](#-projets-phares)
+- [Projets Phares](#projets-phares)
 - [🎓 Couverture RNCP 37837](#-couverture-rncp-37837)
 - [📚 Veille & Ressources](#-veille--ressources)
 - [🔒 Sécurité & Monitoring](#-sécurité--monitoring)
@@ -40,7 +40,7 @@
 ### **👉 Recruteur / Client ?**
 - **[📄 Synthèse Proof Points](assets/PROOF_POINTS_SYNTHESE.md)** — 1 page par projet avec 5 piliers (Contexte → Données → Démarche → Résultats → Limites)
 - **[🏆 Portfolio Phare P13](projets/P13_portfolio/README.md)** — Gouvernance IA & P6 Bottleneck optimisé
-- **[📊 Projets Phares](#-projets-phares)** — Accès rapide aux 5 plus beaux projets
+- **[📊 Projets Phares](#projets-phares)** — Accès rapide aux 5 plus beaux projets
 
 ### **👉 Développeur / Contributeur ?**
 - **[📚 Veille Technologique](veille/techno/README.md)** — Trends data/IA/DevOps avec newsletters actuelles
@@ -96,6 +96,7 @@ MON-PORTFOLIO-DATA/
 └── .gitignore
 ```
 
+<a id="projets-phares"></a>
 <a id="-projets-phares"></a>
 
 ### **🎯 Projets Phares - Accès Rapide**
