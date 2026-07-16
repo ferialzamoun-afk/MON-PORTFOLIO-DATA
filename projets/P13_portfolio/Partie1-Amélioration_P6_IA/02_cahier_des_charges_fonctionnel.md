@@ -20,5 +20,5 @@ Formaliser le besoin metier, les livrables attendus et les criteres de reussite 
 ## Preuves associees
 
 - [README.md](README.md)
-- [Dashboard KPI](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/output/captures/05_kpi_dashboard_phase2.png)
-- [Cahier des charges detaille dans le depot source P13](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/02_cahier_des_charges_fonctionnel.md)
+- [Dashboard KPI](output/captures/05_kpi_dashboard_phase2.png)
+- [README du portfolio](README.md)

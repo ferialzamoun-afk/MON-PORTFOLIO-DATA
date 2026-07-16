@@ -16,4 +16,4 @@ Tracer les arbitrages qui structurent la version portfolio de la Partie 1.
 
 - [README.md](README.md)
 - [Dashboard KPI](https://p6-dashboard-wdcn5o8grt39nqtim6mgym.streamlit.app/)
-- [Decisions detaillees dans le depot source P13](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/08_decisions.md)
+- [README du portfolio](README.md)

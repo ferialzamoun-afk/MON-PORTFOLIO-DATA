@@ -59,7 +59,7 @@
 | **BC04** | Piloter projets data & IA | P13 (Gouvernance), P14 (Stage Intermarché) | ✅ Validé |
 | **BC05** | Stats & Machine Learning | P11 (ACP/Clustering), P12 (Classification ML) | ✅ Validé |
 
-👉 **[Voir la synthèse complète P13 Partie 1](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/docs/06_synthese_finale_P13_partie_1.md)**
+👉 **[Voir la synthèse complète P13 Partie 1](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/)**
 
 ---
 
@@ -126,11 +126,11 @@ MON-PORTFOLIO-DATA/
 - **Documentation** : **16 docs** (cahier des charges, veille, journal IA, plan, matrice, synthèse, checklist, stratégie GE).
 
 **🔗 Liens** :
-- [📄 Synthèse Finale P13 Partie 1](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/docs/06_synthese_finale_P13_partie_1.md)
-- [📓 Notebook Production](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/notebooks/bottleneck_analyse_ameliore_final.ipynb)
-- [📊 Captures Validées](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/captures)
+- [📄 Synthèse Finale P13 Partie 1](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/)
+- [📓 Notebook Production](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/)
+- [📊 Captures Validées](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/)
 - [🌐 Dashboard Streamlit](https://p6-dashboard-wdcn5o8grt39nqtim6mgym.streamlit.app/)
-- [📁 Dépôt P13 Complet](https://github.com/ferialzamoun-afk/P13)
+- [📁 Dépôt P13 Complet](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/)
 
 **🎯 Compétences Démontrées** :
 - **Gouvernance IA** : 26 prompts tracés, décisions explicites, limitations formalisées.

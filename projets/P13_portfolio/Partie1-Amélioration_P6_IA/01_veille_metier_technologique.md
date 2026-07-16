@@ -18,4 +18,4 @@ Le choix retenu a ete un **Pandas pragmatique** a court terme, avec une logique 
 ## Preuves associees
 
 - [README.md](README.md)
-- [Veille detaillee dans le depot source P13](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/01_veille_metier_technologique.md)
+- [README du portfolio](README.md)

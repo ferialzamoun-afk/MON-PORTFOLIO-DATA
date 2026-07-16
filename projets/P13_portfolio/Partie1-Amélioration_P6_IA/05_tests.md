@@ -15,5 +15,5 @@ Montrer comment les hypotheses ont ete verifiees par controles qualite, executio
 ## Preuves associees
 
 - [README.md](README.md)
-- [Dashboard KPI](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/output/captures/05_kpi_dashboard_phase2.png)
-- [Tests et validations dans le depot source P13](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/05_tests.md)
+- [Dashboard KPI](output/captures/05_kpi_dashboard_phase2.png)
+- [README du portfolio](README.md)

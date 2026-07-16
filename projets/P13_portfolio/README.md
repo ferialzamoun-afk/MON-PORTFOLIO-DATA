@@ -21,7 +21,7 @@
    **Bloc RNCP** | **Compétence** | **Description** | **Preuves** |
  |---------------|---------------|----------------|-------------|
  | **BC01** | Gérer une base de données | Organisation des **données du portfolio** (projets, compétences, preuves) | [Structure GitHub](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA) |
- | **BC02** | Identifier/collecter | Collecte des **preuves de compétences** (liens GitHub, PDF, captures) | [README du portfolio](https://github.com/ferialzamoun-afk/P13) |
+| **BC02** | Identifier/collecter | Collecte des **preuves de compétences** (liens GitHub, PDF, captures) | [README du portfolio](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/) |
  | **BC02** | Analyse multivariée | **Mapping compétences x projets** pour évaluer la couverture RNCP | [Tableau compétences](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA) |
  | **BC03** | Solution de visualisation | **Portfolio Streamlit** pour une navigation intuitive | [Lien Streamlit](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/) |
  | **BC03** | Créer un tableau de bord | **Vitrine des projets** avec description, compétences, preuves | [Page "Projets"](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/) |
@@ -60,8 +60,8 @@ La Partie 1 est maintenant visible en deux niveaux :
 - [Synthese P6 ameliore](Partie1-Amélioration_P6_IA/README.md)
 
 **Sources detaillees dans le dépôt P13** :
-- [Notebook ameliore P6](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA)
-- [Documentation detaillee](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/docs)
+- [Notebook ameliore P6](Partie1-Am%C3%A9lioration_P6_IA/)
+- [Documentation detaillee](Partie1-Am%C3%A9lioration_P6_IA/)
 
 ### **🗂️ Structure locale P13 dans le portfolio**
 
@@ -102,8 +102,8 @@ P13_portfolio/
 - **Portfolio** : [Lien GitHub Pages](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/)
 - **Dépôt GitHub** : [Lien GitHub](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA)
 - **P9 - Missions complémentaires** : [Dépôt racine](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies)
-- **Projet P13 source** : [Depot P13](https://github.com/ferialzamoun-afk/P13)
-- **Partie 1 - racine** : [Partie_1](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1)
+- **Projet P13 source** : [Portfolio P13](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/)
+- **Partie 1 - racine** : [Partie 1](Partie1-Am%C3%A9lioration_P6_IA/)
 - **Veille** : [Page Veille](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/veille/techno/)
 - **Documentation** : [README](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA)
 
