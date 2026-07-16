@@ -128,7 +128,7 @@
 | **4️⃣ Résultats** | KPIs : Coverage assortiment, disponibilité produits (% stock jour J), perf opérationnelle (ventes/m² magasin). **Impact** : Reporting manuel 5h → 15min auto. **Livrables** : Power BI multi-page + Streamlit app + notebooks. |
 | **5️⃣ Limites** | Données stage (temporaire) ; analyses rétrospectives. **Pistes** : ETL production temps réel (Airflow/dbt) ; KPIs RH ; demand planning ML. |
 
-**🔗 Liens** : [GitHub P14](https://github.com/ferialzamoun-afk/P14)
+**🔗 Liens** : [P14 - Stage Intermarché](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P14_stage/)
 
 ---
 
