@@ -97,7 +97,7 @@
 | **1️⃣ Besoin** | BCE : Détecter faux billets € rapidement (accuracy >97%) pour tri automatisé sans manuel (coûts énormes fraude). |
 | **2️⃣ Données** | Dataset bancaire (1400 billets : 900 vrais + 500 faux, 6 mesures géométriques). ✅ Sans manquantes, bien distribuées. Limites : euros seulement, pas données temporelles. |
 | **3️⃣ Démarche** | **scikit-learn** → EDA → Split stratifié (70/30) → Pipeline (imputation + standardisation) → Éval 3 modèles → Export joblib → **FastAPI** (routes /predict, /predict/batch). |
-| **4️⃣ Résultats** | RandomForest : accuracy 99%, precision 98.5%, recall 97%. <15 faux négatifs (risque maîtrisé). **Recommandations** : Deploy RandomForest ; monitorer drift ; retrain 6m. **Livrable** : API REST + modèle joblib. |
+| **4️⃣ Résultats** | Logistic Regression retenue après cross-validation ; recall orienté sécurité pour les faux billets ; performance validée dans le notebook. **Recommandations** : privilégier le modèle le plus robuste au rappel, monitorer le drift ; retrain 6m si besoin. **Livrable** : API REST + modèle joblib. |
 | **5️⃣ Limites** | Euros seulement (pas généralisation). Pas monitoring production (drift detection). **Pistes** : Augmenter devises ; logs production ; active learning. |
 
 **🔗 Liens** : [GitHub P12](https://github.com/ferialzamoun-afk/P12) | [API / dépôt](https://github.com/ferialzamoun-afk/P12)

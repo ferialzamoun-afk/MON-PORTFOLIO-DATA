@@ -99,7 +99,7 @@ P12/
  | **Compétence RNCP** | **Ce que j’ai fait** | **Section du Notebook** | **Preuve** |
  |----------------------|-----------------------|-------------------------|------------|
  | **Veille métier/technologique** | Recherche sur les **standards EMV** et benchmark des outils de classification (Scikit-learn vs PyTorch). | [Section "0. Contexte et Veille"](#0.-Contexte-et-Veille) | [Notebook](#0.-Contexte-et-Veille) |
- | **Expérimenter de nouvelles méthodes** | Test de **différents algorithmes** (Logistic Regression, Random Forest) pour comparer les performances. | [Section "6. Expérimentations"](#6.-Expérimentations) | [Notebook](#6.-Expérimentations) |
+ | **Expérimenter de nouvelles méthodes** | Comparaison de **plusieurs algorithmes** ; la **Logistic Regression** a été retenue après cross-validation. | [Section "6. Expérimentations"](#6.-Expérimentations) | [Notebook](#6.-Expérimentations) |
  | **Identifier le besoin métier** | **Traduction des besoins ONFM** en objectifs techniques (détection automatique, conformité EMV). | [Section "0. Contexte et Veille"](#0.-Contexte-et-Veille) | [Notebook](#0.-Contexte-et-Veille) |
  | **Formaliser le cahier des charges** | **Documentation complète** dans le notebook (objectifs, méthodologie, résultats). | [Section "0. Contexte et Objectifs"](#0.-Contexte-et-Objectifs) | [Notebook](#0.-Contexte-et-Objectifs) |
  | **Organiser un projet data** | **Structuration du notebook** en sections claires (EDA, Modélisation, Évaluation). | [Notebook complet](#) | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12) |
@@ -174,7 +174,7 @@ P12/
 ---
 
 ## **🚀 Améliorations Futures**
-> - Tester **XGBoost/Random Forest** pour améliorer la précision.
+> - Tester **XGBoost** ou d'autres variantes si un futur besoin métier le justifie.
 > - Intégrer un **système de logging** pour le monitoring en production.
 > - Explorer le **Deep Learning** (CNN) pour la détection d’images.
 > - **Automatiser** le pipeline de détection (FastAPI + modèle déployé).

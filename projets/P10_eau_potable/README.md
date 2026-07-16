@@ -8,7 +8,7 @@
 - [📓 Notebook 01 : Inspection & Normalisation (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/01%20-%20Inspection%20des%20données.ipynb)
 - [📓 Notebook 02 : Préparation & Nettoyage (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/02%20-%20Pr%C3%A9paration%20et%20nettoyage%20des%20donn%C3%A9es.ipynb)
 - [📓 Notebook 03 : Analyses & EDA (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/03%20-%20Analyses%20des%20groupements%20de%20pays%20-%20EDA%20Patrick%20-%20ACP-r%C3%A9ductions_dimensions-clustering%20.ipynb)
-- [📊 Dashboard Power BI (Template)](https://github.com/ferialzamoun-afk/P10/raw/main/pbit/Dashboard_eau_v6.pbit)
+- [📊 Télécharger le template Power BI (.pbit)](https://github.com/ferialzamoun-afk/P10/raw/main/pbit/Dashboard_eau_v6.pbit)
 - [📄 Blueprint complet](https://github.com/ferialzamoun-afk/P10/blob/main/docs/blueprint_P10_dashboard_eau.md)
 - [📄 Glossaire métier](https://github.com/ferialzamoun-afk/P10/blob/main/docs/contexte_DWFA_glossaire_eau.md)
 
@@ -69,8 +69,8 @@ P10/
 | **BC02** | **Extraire et agréger** | **Nettoyage** : Standardisation des noms de pays (`country_converter`), rattachement pays-région. | [Notebook 01](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/01%20-%20Inspection%20des%20donn%C3%A9es.ipynb) |
 | **BC02** | **Explorer et pré-traiter** | **Feature Engineering** : Calcul des scores `score_creation_services`, `score_modernisation_services`, `score_gouvernance`. | [Notebook 01](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/01%20-%20Inspection%20des%20donn%C3%A9es.ipynb) |
 | **BC02** | **Analyse univariée/multivariée** | **EDA** : Statistiques descriptives, corrélations entre indicateurs (ex: stabilité politique vs mortalité WASH). | [Notebook 03](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/03%20-%20Analyses%20des%20groupements%20de%20pays%20-%20EDA%20Patrick%20-%20ACP-r%C3%A9ductions_dimensions-clustering%20.ipynb) |
-| **BC03** | **Solution de visualisation** | **Carte choroplèthe** (stabilité politique), **bar charts** (comparaisons continentales), **scatter plots** (création/modernisation). | [Dashboard Power BI](https://github.com/ferialzamoun-afk/P10/raw/main/pbit/Dashboard_eau_v6.pbit) |
-| **BC03** | **Créer un tableau de bord** | **Dashboard Power BI complet** avec 3 pages (monde, domaines métier, nationale). | [Dashboard_eau_v6.pbit](https://github.com/ferialzamoun-afk/P10/raw/main/pbit/Dashboard_eau_v6.pbit) |
+| **BC03** | **Solution de visualisation** | **Carte choroplèthe** (stabilité politique), **bar charts** (comparaisons continentales), **scatter plots** (création/modernisation). | [Téléchargement .pbit](https://github.com/ferialzamoun-afk/P10/raw/main/pbit/Dashboard_eau_v6.pbit) |
+| **BC03** | **Créer un tableau de bord** | **Dashboard Power BI complet** avec 3 pages (monde, domaines métier, nationale). | [Téléchargement .pbit](https://github.com/ferialzamoun-afk/P10/raw/main/pbit/Dashboard_eau_v6.pbit) |
 | **BC03** | **Reporting des tendances** | **KPI cards** (moyennes globales), **line plots** (trajectoires nationales), **matrice de priorisation**. | [Blueprint](https://github.com/ferialzamoun-afk/P10/blob/main/docs/blueprint_P10_dashboard_eau.md) |
 | **BC04** | **Veille métier/technologique** | **Benchmark des outils** (Power BI vs Tableau) et **méthodologie documentée**. | [blueprint_P10_dashboard_eau.md](https://github.com/ferialzamoun-afk/P10/blob/main/docs/blueprint_P10_dashboard_eau.md) |
 | **BC04** | **Formaliser le cahier des charges** | **Blueprint complet** avec besoins utilisateurs, indicateurs, et visuels. | [blueprint_P10_dashboard_eau.md](https://github.com/ferialzamoun-afk/P10/blob/main/docs/blueprint_P10_dashboard_eau.md) |

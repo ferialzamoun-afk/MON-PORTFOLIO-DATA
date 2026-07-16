@@ -88,7 +88,7 @@ P13_portfolio/
 ---
 ## **📈 Résultats**
 > **Livrables** :
-> - ✅ **Portfolio en ligne** (Streamlit) avec 3 projets documentés.
+> - ✅ **Portfolio en ligne** (GitHub Pages) avec 3 projets documentés.
 > - ✅ **Mapping complet** des compétences RNCP 37837.
 > - ✅ **Veille technologique** à jour (2 articles/benchmarks).
 > - ✅ **Documentation** claire et accessible (README, slides).
@@ -99,7 +99,7 @@ P13_portfolio/
 
 ---
 ## **📂 Preuves et Livrables**
-- **Portfolio** : [Lien Streamlit](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/)
+- **Portfolio** : [Lien GitHub Pages](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/)
 - **Dépôt GitHub** : [Lien GitHub](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA)
 - **Projet P13 source** : [Depot P13](https://github.com/ferialzamoun-afk/P13)
 - **Partie 1 - racine** : [Partie_1](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1)
@@ -125,4 +125,4 @@ P13_portfolio/
 
 Férial Zamoun  
 Formation Data Analyst - GRETA Promo P5- 2025  
-Objectif : Recherche CDI et poursuite en RNCP37744 -data-scientist-machine-learning (Septembre 2026)
+Objectif : Recherche CDI ou poursuite en RNCP37744 -data-scientist-machine-learning (Septembre 2026)
