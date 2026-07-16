@@ -5,6 +5,7 @@
 **🏷️ Type** : Analyse Statistique / Dashboard Streamlit
 **🔗 Liens** :
 - [🔗 Dépôt GitHub - Analyses](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies)
+- [🎯 Mission du jour (ancre directe)](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/docs/veille/p9_missions_complementaires.md#missions-complementaires-p9)
 - [🌐 Dashboard Streamlit (Production)](https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/)
 - [📁 Code Source Dashboard](https://github.com/ferialzamoun-afk/P9-lapage-streamlit)
 - [📓 Notebooks Jupyter](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/notebooks/analyses/)
