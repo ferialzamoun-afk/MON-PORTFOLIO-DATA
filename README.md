@@ -237,19 +237,19 @@ MON-PORTFOLIO-DATA/
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>CA annuel</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>480 000 €</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ <strong>3 pics saisonniers</strong> identifiés</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/docs/veille/p9_missions_complementaires.md#missions-complementaires-p9">missions complémentaires P9</a></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/docs/veille/p9_missions_complementaires.md#ressources-et-technologies">missions complémentaires P9</a></td>
     </tr>
     <tr>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Clients totaux</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>8 600 clients</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ <strong>Segmentation statistiquement validée</strong> par genre & tranches d'âge</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/docs/veille/p9_missions_complementaires.md#missions-complementaires-p9">missions complémentaires P9</a></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/docs/veille/p9_missions_complementaires.md#ressources-et-technologies">missions complémentaires P9</a></td>
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Concentration CA</strong><br/><em>(Indice Gini 0.40)</em></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Dépendance catégorie 1</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">⚠️ <strong>80/20 identifié</strong> : 20% des clients = 80% du CA</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/docs/veille/p9_missions_complementaires.md#missions-complementaires-p9">missions complémentaires P9</a></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/docs/veille/p9_missions_complementaires.md#ressources-et-technologies">missions complémentaires P9</a></td>
     </tr>
   </tbody>
 </table>
@@ -270,7 +270,7 @@ MON-PORTFOLIO-DATA/
   <tbody>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>Fiche Projet</strong></td>
-      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/docs/veille/p9_missions_complementaires.md#missions-complementaires-p9">📄 Missions complémentaires P9</a></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/docs/veille/p9_missions_complementaires.md#ressources-et-technologies">📄 Missions complémentaires P9</a></td>
       <td style="padding: 9px 12px; border: 1px solid #ddd;">Contexte, objectifs, méthodologie, résultats</td>
     </tr>
     <tr>
