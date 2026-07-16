@@ -18,7 +18,6 @@ ENV/
 /fix_readme.py
 
 # Projets ignorés
-projets/P1_presentation/
 projets/P13_portfolio/Compétences_RNCP_Data/
 assets/PROOF_POINTS_TEMPLATE
 
