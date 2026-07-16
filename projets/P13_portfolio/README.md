@@ -101,7 +101,7 @@ P13_portfolio/
 ## **📂 Preuves et Livrables**
 - **Portfolio** : [Lien GitHub Pages](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/)
 - **Dépôt GitHub** : [Lien GitHub](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA)
-- **P9 - Missions complémentaires** : [Ancre directe](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/docs/veille/p9_missions_complementaires.md#ressources-et-technologies)
+- **P9 - Missions complémentaires** : [Dépôt racine](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies)
 - **Projet P13 source** : [Depot P13](https://github.com/ferialzamoun-afk/P13)
 - **Partie 1 - racine** : [Partie_1](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1)
 - **Veille** : [Page Veille](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/veille/techno/)

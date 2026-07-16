@@ -237,19 +237,19 @@ MON-PORTFOLIO-DATA/
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>CA annuel</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>480 000 €</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ <strong>3 pics saisonniers</strong> identifiés</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/docs/veille/p9_missions_complementaires.md#ressources-et-technologies">missions complémentaires P9</a></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">missions complémentaires P9</a></td>
     </tr>
     <tr>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Clients totaux</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>8 600 clients</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ <strong>Segmentation statistiquement validée</strong> par genre & tranches d'âge</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/docs/veille/p9_missions_complementaires.md#ressources-et-technologies">missions complémentaires P9</a></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">missions complémentaires P9</a></td>
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Concentration CA</strong><br/><em>(Indice Gini 0.40)</em></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Dépendance catégorie 1</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">⚠️ <strong>80/20 identifié</strong> : 20% des clients = 80% du CA</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/docs/veille/p9_missions_complementaires.md#ressources-et-technologies">missions complémentaires P9</a></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">missions complémentaires P9</a></td>
     </tr>
   </tbody>
 </table>
@@ -270,7 +270,7 @@ MON-PORTFOLIO-DATA/
   <tbody>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>Fiche Projet</strong></td>
-      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/lapage_project/docs/veille/p9_missions_complementaires.md#ressources-et-technologies">📄 Missions complémentaires P9</a></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">📄 Missions complémentaires P9</a></td>
       <td style="padding: 9px 12px; border: 1px solid #ddd;">Contexte, objectifs, méthodologie, résultats</td>
     </tr>
     <tr>
@@ -285,17 +285,17 @@ MON-PORTFOLIO-DATA/
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>Notebook 01</strong></td>
-      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/01_Exploration_EDA.ipynb">📓 Exploration & EDA</a></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">📓 Exploration & EDA</a></td>
       <td style="padding: 9px 12px; border: 1px solid #ddd;">Qualification, nettoyage, construction analytique</td>
     </tr>
     <tr>
       <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>Notebook 02</strong></td>
-      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/02_Analyses_Marketing.ipynb">📓 Analyses Marketing</a></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">📓 Analyses Marketing</a></td>
       <td style="padding: 9px 12px; border: 1px solid #ddd;">Pipeline en couches, segmentation client</td>
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>Notebook 03</strong></td>
-      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/03_Analyses_Statistiques.ipynb">📓 Analyses Statistiques</a></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">📓 Analyses Statistiques</a></td>
       <td style="padding: 9px 12px; border: 1px solid #ddd;">Analyses métier, visualisations</td>
     </tr>
   </tbody>
@@ -324,25 +324,25 @@ MON-PORTFOLIO-DATA/
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC02</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Identifier & collecter</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Données de vente Lapage (CA, panier, clients)</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/data/raw">data/raw/</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">data/raw/</a></td>
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC02</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Extraire & agréger</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Nettoyage & agrégation : CA, panier moyen, concentration</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/02_Analyses_Marketing.ipynb">Notebook 02</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">Notebook 02</a></td>
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC02</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Explorer & pré-traiter</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Feature Engineering : Segmentation clients</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/01_Exploration_EDA.ipynb">Notebook 01</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">Notebook 01</a></td>
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC02</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Analyse multivariée</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Analyse des tendances : CA & panier par segment</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/03_Analyses_Statistiques.ipynb">Notebook 03</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">Notebook 03</a></td>
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC03</strong></td>
@@ -384,7 +384,7 @@ MON-PORTFOLIO-DATA/
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC05</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Analyses multivariées</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Segmentation clients (fréquence × CA)</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/02_Analyses_Marketing.ipynb">Notebook 02</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">Notebook 02</a></td>
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC05</strong></td>
