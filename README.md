@@ -96,6 +96,8 @@ MON-PORTFOLIO-DATA/
 └── .gitignore
 ```
 
+<a id="-projets-phares"></a>
+
 ### **🎯 Projets Phares - Accès Rapide**
 | **Projet** | **Type** | **Stack** | **Lien** |
 |-----------|--------|---------|--------|
