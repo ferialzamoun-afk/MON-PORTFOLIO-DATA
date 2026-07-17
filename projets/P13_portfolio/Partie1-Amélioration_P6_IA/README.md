@@ -9,25 +9,25 @@
 | Ressource | Lien |
 |---|---|
 | 🔗 Portfolio P13 | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/) |
-| 📓 Notebook Principal | [Accéder](https://ferialzamoun-afk/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Amélioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
-| 📓 Notebook amélioré | [Accéder](https://ferialzamoun-afk/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Amélioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
-| 📁 Cahier des Charges | [Accéder](https://ferialzamoun-afk/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Amélioration_P6_IA/01_cahier_des_charges_P13_partie_1.md) |
-| 📁 Veille Technologique | [Accéder](https://ferialzamoun-afk/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Amélioration_P6_IA/02_veille_technologique_P13_partie_1.md) |
-| 📁 Journal IA | [Accéder](https://ferialzamoun-afk/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Amélioration_P6_IA/03_journal_ia_P13_partie_1.md) |
-| 📁 Synthèse Finale | [Accéder](https://ferialzamoun-afk/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Amélioration_P6_IA/06_synthese_finale_P13_partie_1.md) |
-| 📊 Dataviz (13 graphiques) | [Accéder](https://ferialzamoun-afk.github.io/P13/Partie_1/P6_ameliore_IA/output/dataviz/) |
-| 🖼️ Captures Portfolio | [Accéder](https://ferialzamoun-afk.github.io/P13/Partie_1/P6_ameliore_IA/output/captures/) |
+| 📓 Notebook Principal | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
+| 📓 Notebook amélioré | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
+| 📁 Cahier des Charges | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/02_cahier_des_charges_fonctionnel.md) |
+| 📁 Veille Technologique | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/01_veille_metier_technologique.md) |
+| 📁 Journal IA | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/08_decisions.md) |
+| 📁 Synthèse Finale | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/06_resultats.md) |
+| 📊 Dataviz (13 graphiques) | [Accéder](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/dataviz) |
+| 🖼️ Captures Portfolio | [Accéder](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/captures) |
 
 **Preuves détaillées et restitution métier** :
 | Preuve | Accès |
 |---|---|
-| Avant : Notebook initial | [Voir le PDF](https://ferialzamoun-afk.github.io/P13/Partie_1/P6_initial/Template-Notebook-Bottleneck.pdf) |
-| Après : Notebook amélioré | [Voir](https://ferialzamoun-afk/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Amélioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
+| Avant : Notebook initial | [Voir](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P6_Optimisation_Bottleneck/) |
+| Après : Notebook amélioré | [Voir](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
 | Avant : Synthèse initiale | Non conservée dans le dépôt public |
-| Après : Synthèse finale enrichie | [Voir](https://ferialzamoun-afk/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Amélioration_P6_IA/06_synthese_finale_P13_partie_1.md) |
-| Avant : Visuels HTML | [Voir](https://ferialzamoun-afk.github.io/P6/images/) |
-| Après : Visuels PNG | [Voir](https://ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/output/dataviz/) |
-| Dashboard KPI pour le CODIR | [Voir](https://ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/output/captures/) |
+| Après : Synthèse finale enrichie | [Voir](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/06_resultats.md) |
+| Avant : Visuels HTML | [Voir](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P6_Optimisation_Bottleneck/) |
+| Après : Visuels PNG | [Voir](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/dataviz) |
+| Dashboard KPI pour le CODIR | [Voir](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/captures) |
 
 ---
 
@@ -194,8 +194,8 @@ Tous les 10 critères mission P13 Partie 1 sont documentés et tracés :
 | Améliorer le livrable | Synthèse avant/après | [06_synthese_finale](docs/06_synthese_finale_P13_partie_1.md) |
 | IA critique & documentée | Journal IA (26 prompts) | [03_journal_ia](docs/03_journal_ia_P13_partie_1.md) |
 | Tester plusieurs options | Benchmark outils (Pandas/GE/Soda) | [02_veille_technologique](docs/02_veille_technologique_P13_partie_1.md) |
-| Critères explicites | Tableau comparaison + méthodologie | [Notebook, Cellule 2](https://nbviewer.org/github/ferialzamoun-afk/P6_ameliore_IA/blob/main/notebooks/bottleneck_analyse_ameliore_final.ipynb#2.-M%C3%A9thodologie) |
-| Justifier les choix | Chaque cellule commence par "Pourquoi ?" | [Notebook complet](https://nbviewer.org/github/ferialzamoun-afk/P6_ameliore_IA/blob/main/notebooks/bottleneck_analyse_ameliore_final.ipynb) |
+| Critères explicites | Tableau comparaison + méthodologie | [Notebook, Cellule 2](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
+| Justifier les choix | Chaque cellule commence par "Pourquoi ?" | [Notebook complet](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
 | Identifier les besoins métier | Cahier des charges complet | [01_cahier_des_charges](docs/01_cahier_des_charges_P13_partie_1.md) |
 | Cahier des charges | Document complet (CDC) | [01_cahier_des_charges](docs/01_cahier_des_charges_P13_partie_1.md) |
 | Organiser le projet | Backlog, kanban, planning | [04_plan_projet](docs/04_plan_projet_P13_partie_1.md) |
