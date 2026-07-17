@@ -8,26 +8,26 @@
 **🔗 Liens** :
 | Ressource | Lien |
 |---|---|
-| 🔗 Portfolio P13 | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/) |
-| 📓 Notebook Principal | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Amélioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
-| 📓 Notebook amélioré | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Amélioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
-| 📁 Cahier des Charges | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Amélioration_P6_IA/01_cahier_des_charges_P13_partie_1.md) |
-| 📁 Veille Technologique | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Amélioration_P6_IA/02_veille_technologique_P13_partie_1.md) |
-| 📁 Journal IA | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Amélioration_P6_IA/03_journal_ia_P13_partie_1.md) |
-| 📁 Synthèse Finale | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Amélioration_P6_IA/06_synthese_finale_P13_partie_1.md) |
-| 📊 Dataviz (13 graphiques) | [Accéder](https://ferialzamoun-afk.github.io/P13/Partie_1/P6_ameliore_IA/output/dataviz/) |
-| 🖼️ Captures Portfolio | [Accéder](https://ferialzamoun-afk.github.io/P13/Partie_1/P6_ameliore_IA/output/captures/) |
+| 🔗 Portfolio P13 | [Accéder](https://ferialzamoun-afk/MON-PORTFOLIO-DATA/projets/P13_portfolio/) |
+| 📓 Notebook Principal | [Accéder](https://ferialzamoun-afk/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Amélioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
+| 📓 Notebook amélioré | [Accéder](https://ferialzamoun-afk/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Amélioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
+| 📁 Cahier des Charges | [Accéder](https://ferialzamoun-afk/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Amélioration_P6_IA/01_cahier_des_charges_P13_partie_1.md) |
+| 📁 Veille Technologique | [Accéder](https://ferialzamoun-afk/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Amélioration_P6_IA/02_veille_technologique_P13_partie_1.md) |
+| 📁 Journal IA | [Accéder](https://ferialzamoun-afk/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Amélioration_P6_IA/03_journal_ia_P13_partie_1.md) |
+| 📁 Synthèse Finale | [Accéder](https://ferialzamoun-afk/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Amélioration_P6_IA/06_synthese_finale_P13_partie_1.md) |
+| 📊 Dataviz (13 graphiques) | [Accéder](https://ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/output/dataviz/) |
+| 🖼️ Captures Portfolio | [Accéder](https://ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/output/captures/) |
 
 **Preuves détaillées et restitution métier** :
 | Preuve | Accès |
 |---|---|
-| Avant : Notebook initial | [Voir le PDF](https://ferialzamoun-afk.github.io/P13/Partie_1/P6_initial/Template-Notebook-Bottleneck.pdf) |
-| Après : Notebook amélioré | [Voir](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Amélioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
+| Avant : Notebook initial | [Voir le PDF](https://ferialzamoun-afk/P13/Partie_1/P6_initial/Template-Notebook-Bottleneck.pdf) |
+| Après : Notebook amélioré | [Voir](https://ferialzamoun-afk/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Amélioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
 | Avant : Synthèse initiale | Non conservée dans le dépôt public |
-| Après : Synthèse finale enrichie | [Voir](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Amélioration_P6_IA/06_synthese_finale_P13_partie_1.md) |
-| Avant : Visuels HTML | [Voir](https://ferialzamoun-afk.github.io/P6/images/) |
-| Après : Visuels PNG | [Voir](https://ferialzamoun-afk.github.io/P13/Partie_1/P6_ameliore_IA/output/dataviz/) |
-| Dashboard KPI pour le CODIR | [Voir](https://ferialzamoun-afk.github.io/P13/Partie_1/P6_ameliore_IA/output/captures/) |
+| Après : Synthèse finale enrichie | [Voir](https://ferialzamoun-afk/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Amélioration_P6_IA/06_synthese_finale_P13_partie_1.md) |
+| Avant : Visuels HTML | [Voir](https://ferialzamoun-afk/P6/images/) |
+| Après : Visuels PNG | [Voir](https://ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/output/dataviz/) |
+| Dashboard KPI pour le CODIR | [Voir](https://ferialzamoun-afk/P13/Partie_1/P6_ameliore_IA/output/captures/) |
 
 ---
 
