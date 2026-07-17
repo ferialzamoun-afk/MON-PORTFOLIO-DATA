@@ -58,10 +58,16 @@ Etat aligne avec la documentation projet P13 (controle du 2026-07-18):
 | Tache | Description | Statut |
 |---|---|---|
 | T09 | Preparer les preuves pour le portfolio | [x] |
+| T11 | Nettoyer le depot GitHub avant publication | [~] |
 | T12 | Nettoyer le depot GitHub + setup security scanning | [~] |
+| T15 | Valider metier les alertes actionnables (top 20) | [~] |
+| T17 | Executer 9.3 renfort BC05 (K-Means + kNN) | [~] |
 | T18 | Synchroniser les taches dans GitHub Projects | [~] |
+| T19 | Fixer les seuils metier BC05 | [~] |
+| T20 | Integrer la synthese BC05 dans le dashboard | [~] |
+| T21 | Mettre a jour la tracabilite IA (decisions + impacts) | [ ] |
 
 Points de cloture avant push final:
 
-- Finaliser la synchro des cartes GitHub Project (session authentifiee requise).
+- Finaliser les cartes encore en A faire (T12, T21) dans GitHub Project.
 - Verifier les liens publics et la coherence des statuts dans les pages du portfolio.
