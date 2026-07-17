@@ -65,6 +65,10 @@ P9/
 
 [Dépôt GitHub - Données](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/data/raw)
 
+> **Note de publication** :
+> Les donnees partagees dans le cadre du portfolio sont destinees a la demonstration pedagogique.
+> Aucun nom, email, telephone ou identifiant client directement nominatif n'est expose dans cette documentation publique.
+
 ```
 data/raw/
 ├── customers.csv                          # Clients (ID, genre, âge, etc.)
@@ -98,21 +102,31 @@ reports/figures/
 ## **🔧 Compétences RNCP 37837 Demonstrées**
 
 ### **📌 Mapping des Blocs RNCP**
-| **Bloc RNCP** | **Compétence** | **Description** | **Preuves** |
-|---------------|---------------|----------------|-------------|
-| **BC01** | **Structurer et gérer la base de données** | **Pipeline de données** : Transformation des données brutes (`data/raw/`) en données exploitables (`data/processed/`). | [src/data_loader.py](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/src/data_loader.py) |
-| **BC02** | **Identifier et collecter les données** | Utilisation des **données de vente Lapage** (CA, panier, fréquence clients). | [data/raw/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/data/raw) |
-| **BC02** | **Extraire et agréger** | **Nettoyage et agrégation** : Calcul du CA, panier moyen, concentration des ventes. | [02_Analyses_Marketing.ipynb](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/02_Analyses_Marketing.ipynb) |
-| **BC02** | **Explorer et pré-traiter** | **Feature Engineering** : Segmentation clients (fréquence, catégories, etc.). | [01_Exploration_EDA.ipynb](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/01_Exploration_EDA.ipynb) |
-| **BC02** | **Analyse univariée/multivariée** | **Analyse des tendances** (CA par mois, panier par segment client). | [02_Analyses_Marketing.ipynb](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/02_Analyses_Marketing.ipynb) |
-| **BC03** | **Solution de visualisation** | **Dashboard Streamlit** : Visualisations interactives (CA, panier, segments clients). | [Dashboard en ligne](https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/) |
-| **BC03** | **Créer un tableau de bord** | **Dashboard multi-pages** pour le CODIR (performance commerciale, comportements clients). | [Streamlit/app.py](https://github.com/ferialzamoun-afk/P9-lapage-streamlit/blob/main/Streamlit/app.py) |
-| **BC04** | **Veille métier/technologique** | **Benchmark des outils** (Streamlit vs Power BI) et **méthodologie documentée**. | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies) |
-| **BC04** | **Formaliser le cahier des charges** | **Documentation complète** (notebooks, dashboard, exports). | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies) |
-| **BC04** | **Organiser un projet data** | **Pipeline CI** (tests pytest) et **structure modulaire** (src/, reutilisable/). | [.github/workflows/ci.yml](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/.github/workflows/ci.yml) |
-| **BC04** | **Gérer la documentation** | **100% des livrables documentés** (notebooks, scripts, dashboard). | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies) |
-| **BC05** | **Analyses multivariées** | **Segmentation clients** (fréquence × CA × catégories). | [02_Analyses_Marketing.ipynb](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/02_Analyses_Marketing.ipynb) |
-| **BC05** | **Tests statistiques** | **Validation des KPI** (cohérence, filtrage multi-critères). | [tests/test_app.py](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/tests/test_app.py) |
+<table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); font-size: 0.95em;">
+   <thead>
+      <tr style="background-color: #155799; color: white;">
+         <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Bloc RNCP</strong></th>
+         <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Compétence</strong></th>
+         <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Description</strong></th>
+         <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Preuves</strong></th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC01</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Structurer et gérer la base de données</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Pipeline de données : transformation des données brutes vers des données exploitables.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/src/data_loader.py">src/data_loader.py</a></td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC02</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Identifier et collecter les données</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Utilisation des données de vente Lapage : CA, panier, fréquence clients.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/data/raw">data/raw/</a></td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC02</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Extraire et agréger</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Nettoyage et agrégation : calcul du CA, du panier moyen et de la concentration des ventes.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/02_Analyses_Marketing.ipynb">02_Analyses_Marketing.ipynb</a></td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC02</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Explorer et pré-traiter</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Feature engineering pour la segmentation clients.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/01_Exploration_EDA.ipynb">01_Exploration_EDA.ipynb</a></td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC02</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Analyse univariée / multivariée</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Analyse des tendances : CA mensuel et panier par segment client.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/02_Analyses_Marketing.ipynb">02_Analyses_Marketing.ipynb</a></td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC03</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Solution de visualisation</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Dashboard Streamlit avec visualisations interactives.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/">Dashboard en ligne</a></td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC03</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Créer un tableau de bord</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Dashboard multi-pages pour le CODIR.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9-lapage-streamlit/blob/main/Streamlit/app.py">Streamlit/app.py</a></td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC04</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Veille métier / technologique</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Benchmark des outils et méthodologie documentée.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">Dépôt GitHub</a></td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC04</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Formaliser le cahier des charges</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Documentation complète : notebooks, dashboard et exports.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">Dépôt GitHub</a></td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC04</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Organiser un projet data</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Pipeline CI et structure modulaire du projet.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/.github/workflows/ci.yml">ci.yml</a></td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC04</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Gérer la documentation</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Livrables documentés : notebooks, scripts et dashboard.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">Dépôt GitHub</a></td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC05</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Analyses multivariées</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Segmentation clients : fréquence, CA et catégories.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/02_Analyses_Marketing.ipynb">02_Analyses_Marketing.ipynb</a></td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC05</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Tests statistiques</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Validation des KPI et du filtrage multi-critères.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/tests/test_app.py">tests/test_app.py</a></td></tr>
+   </tbody>
+</table>
 
 ---
 ## **📊 Méthodologie**
@@ -159,103 +173,160 @@ reports/figures/
 *Exemple : Segmentation RFM des clients Lapage.*
 
 ### **🔹 Tests & Déploiement**
+<table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); font-size: 0.95em;">
+   <thead>
+      <tr style="background-color: #155799; color: white;">
+         <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Composant</strong></th>
+         <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Lien</strong></th>
+         <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Description</strong></th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Tests (pytest)</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/.github/workflows/ci.yml">ci.yml - Workflow</a></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Validation automatisée des KPI et cohérence des données.</td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Dashboard Streamlit</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9-lapage-streamlit">Code Source</a></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Repository avec application Streamlit déployée.</td></tr>
+   </tbody>
+</table>
 
-| Composant | Lien | Description |
-| --- | --- | --- |
-| **Tests (pytest)** | [ci.yml - Workflow](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/.github/workflows/ci.yml) | Validation automatisée des KPI et cohérence des données |
-| **Dashboard Streamlit** | [Code Source](https://github.com/ferialzamoun-afk/P9-lapage-streamlit) | Repository avec application Streamlit déployée |
-
-### **🔹 Notebooks d'Analyse
-| Notebook | Objectif | Lien (nbviewer) |
-| --- | --- | --- |
-| analyse_ventes.ipynb | Analyse des performances commerciales (CA, panier) | [02_Analyses_Marketing.ipynb](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/02_Analyses_Marketing.ipynb) |
-| analyse_clients.ipynb | Segmentation et comportements clients | [01_Exploration_EDA.ipynb](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/01_Exploration_EDA.ipynb) + [02_Analyses_Marketing.ipynb](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/02_Analyses_Marketing.ipynb) |
-| tests_statistiques.ipynb | Validation des KPI et tests statistiques | [03_Analyses_Statistiques.ipynb](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/03_Analyses_Statistiques.ipynb) |
+### **🔹 Notebooks d'Analyse**
+<table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); font-size: 0.95em;">
+   <thead>
+      <tr style="background-color: #155799; color: white;">
+         <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Notebook</strong></th>
+         <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Objectif</strong></th>
+         <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Lien</strong></th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">analyse_ventes.ipynb</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Analyse des performances commerciales : CA et panier.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/02_Analyses_Marketing.ipynb">02_Analyses_Marketing.ipynb</a></td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;">analyse_clients.ipynb</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Segmentation et comportements clients.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/01_Exploration_EDA.ipynb">01_Exploration_EDA.ipynb</a> + <a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/02_Analyses_Marketing.ipynb">02_Analyses_Marketing.ipynb</a></td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">tests_statistiques.ipynb</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Validation des KPI et tests statistiques.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/03_Analyses_Statistiques.ipynb">03_Analyses_Statistiques.ipynb</a></td></tr>
+   </tbody>
+</table>
 
 📂 Preuves et Documentation
 (Bloc RNCP37837BC04 : Piloter un projet data)
-| Type | Lien | Description |
-| --- | --- | --- |
-| Dépôt GitHub | [P9_analyses_ventes_librairies](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies) | Code source, notebooks, dashboard, tests |
-| **Données Brutes** | [data/raw/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/data/raw) | customers.csv, products.csv, Transactions.csv |
-| Dashboard Streamlit | [Production](https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/) | Application web opérationnelle |
-| Notebooks | [analyses/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/notebooks/analyses/) | Analyses statistiques (Marketing/BI) |
-| **Figures & Graphiques** | [reports/figures/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/reports/figures) | 31 PNG (CA, segmentation, analyses) |
-| Fonctions Réutilisables | [réutilisables/](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/src/) | Modules Python mutualisés |
-| Tests & CI | [Workflow (pytest)](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/.github/workflows/ci.yml) | Validation automatisée des KPI |
+<table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); font-size: 0.95em;">
+   <thead>
+      <tr style="background-color: #155799; color: white;">
+         <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Type</strong></th>
+         <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Lien</strong></th>
+         <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Description</strong></th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">Dépôt GitHub</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">P9_analyses_ventes_librairies</a></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Code source, notebooks, dashboard et tests.</td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;">Données de travail</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/data/raw">data/raw/</a></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Jeux de donnees utilises pour l'analyse, publies sans information nominative directe.</td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">Dashboard Streamlit</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/">Production</a></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Application web opérationnelle.</td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;">Notebooks</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/notebooks/analyses/">analyses/</a></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Analyses statistiques Marketing/BI.</td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">Figures & Graphiques</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/reports/figures">reports/figures/</a></td><td style="padding: 10px 12px; border: 1px solid #ddd;">31 PNG : CA, segmentation et analyses.</td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;">Fonctions Réutilisables</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/tree/main/src/">src/</a></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Modules Python mutualisés.</td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">Tests & CI</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/.github/workflows/ci.yml">Workflow (pytest)</a></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Validation automatisée des KPI.</td></tr>
+   </tbody>
+</table>
 
-🛠 Configuration et Exécution
-(Bloc RNCP37837BC04 : Organiser un projet data)
-📌 Prérequis
+---
+## **🛠 Configuration et Exécution**
+*(Bloc RNCP37837BC04 : Organiser un projet data)*
 
-Python 3.11+
-pip
+### **📌 Prérequis**
+- Python 3.11+
+- `pip`
 
-📌 Installation
-bash
-Copier
-
+### **📌 Installation**
+```bash
 # Depuis le dossier racine du projet (lapage_project)
 pip install -r requirements.txt
+```
 
-📌 Lancement Local
+### **📌 Lancement Local**
 1. Notebooks
+
+```bash
 cd notebooks
 jupyter notebook
+```
 
-→ Ouvre Jupyter dans ton navigateur, puis exécute les notebooks dans l’ordre.
+Ouvre ensuite Jupyter dans ton navigateur, puis execute les notebooks dans l'ordre.
+
 2. Dashboard Streamlit
+
+```bash
 # Depuis le dossier racine (lapage_project)
 streamlit run Streamlit/app.py
-→ Le dashboard sera accessible sur http://localhost:8501.
-📌 Tests
+```
+
+URL locale attendue : `http://localhost:8501`
+
+### **📌 Tests**
+```bash
 # Depuis le dossier racine (lapage_project)
 python -m pytest tests/test_app.py -v --tb=short
+```
+
 Couverture des tests :
+- Chargement des données.
+- Cohérence des KPI de base (CA, panier, fréquence).
+- Filtrage multi-critères du dashboard.
 
-Chargement des données.
-Cohérence des KPI de base (CA, panier, fréquence).
-Filtrage multi-critères du dashboard.
-(Bloc RNCP37837BC02 : Identifier, collecter et analyser les données)
-🔹 Points de Vigilance
-| Problème | Solution Appliquée | Impact |
-| --- | --- | --- |
-| Données manquantes | Imputation par moyenne/médiane | Éviter les biais dans les analyses |
-| Doublons | Suppression via drop_duplicates() | Données propres pour les KPI |
-| Incohérences CA | Vérification des totaux (CA = somme des ventes) | Fiabilité des indicateurs |
-| Segments clients | Validation via RFM (Récence, Fréquence, Monétaire) | Pertinence de la segmentation |
+### **🔐 Politique de publication**
+- Le portfolio decrit les traitements, KPI et visualisations sans exposer de secret, de cle d'acces ou de configuration privee.
+- Les donnees clients sont presentees sous une forme compatible avec une diffusion pedagogique, sans information nominative directe dans la documentation publique.
+- Les environnements de production et leurs parametres d'acces restent separes du contenu du depot public.
 
-🔹 Audits Effectués
+### **🔹 Points de Vigilance**
+*(Bloc RNCP37837BC02 : Identifier, collecter et analyser les données)*
+<table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); font-size: 0.95em;">
+   <thead>
+      <tr style="background-color: #155799; color: white;">
+         <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Problème</strong></th>
+         <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Solution Appliquée</strong></th>
+         <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Impact</strong></th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">Données manquantes</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Imputation par moyenne ou médiane.</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Réduction des biais dans les analyses.</td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;">Doublons</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Suppression via <code>drop_duplicates()</code>.</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Données propres pour les KPI.</td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">Incohérences CA</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Vérification des totaux : CA = somme des ventes.</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Fiabilité des indicateurs.</td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;">Segments clients</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Validation via RFM : récence, fréquence, monétaire.</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Pertinence de la segmentation.</td></tr>
+   </tbody>
+</table>
+
+### **🔹 Audits Effectués**
 
 ✅ Cohérence des KPI : CA = somme(ventes), panier moyen = CA / nombre de transactions.
 ✅ Filtrage multi-critères : Tests pytest pour valider les filtres du dashboard.
 ✅ Validation des segments : Vérification que la segmentation RFM couvre 100% des clients.
 
-🔄 Maintenance et Mises à Jour
-📌 Recalcul Complet
+### **🔄 Maintenance et Mises à Jour**
 
-Placer les nouvelles données dans data/raw/.
-Exécuter les notebooks dans l’ordre :
+#### **📌 Recalcul Complet**
+
+- Placer les nouvelles données dans `data/raw/`.
+- Exécuter les notebooks dans l’ordre :
+
+```bash
 jupyter notebook notebooks/analyse_ventes.ipynb
 jupyter notebook notebooks/analyse_clients.ipynb
+```
 
-Les sorties (KPI, figures) seront générées dans reports/.
-📌 Enrichissements Possibles
+Les sorties (KPI, figures) seront generees dans `reports/`.
 
-Ajout de données : Intégrer des données externes (ex: tendances marché du livre).
-Nouveaux KPI : Taux de rétention, panier moyen par catégorie.
-Amélioration UX : Simplification du dashboard (version business).
-Automatisation : Planification des mises à jour (ex: mensuelles).
+#### **📌 Enrichissements Possibles**
 
-📌 Mapping RNCP 37837
+- Ajout de données : intégrer des données externes (ex: tendances marché du livre).
+- Nouveaux KPI : taux de rétention, panier moyen par catégorie.
+- Amélioration UX : simplification du dashboard (version business).
+- Automatisation : planification des mises à jour (ex: mensuelles).
+
+### **📌 Mapping RNCP 37837**
 
 Blocs couverts par ce projet :
 
-✅ BC01 : Structurer et gérer la base de données (pipeline de données, tables nettoyées)
-✅ BC02 : Identifier, collecter et analyser les données (nettoyage, EDA, segmentation)
-✅ BC03 : Visualiser des données et interpréter des résultats (Dashboard Streamlit, exports KPI)
-✅ BC04 : Piloter un projet data (documentation, CI, organisation, veille)
-✅ BC05 : Spécialisation Statistiques (analyses multivariées, tests statistiques, RFM)
+- ✅ BC01 : Structurer et gérer la base de données (pipeline de données, tables nettoyées)
+- ✅ BC02 : Identifier, collecter et analyser les données (nettoyage, EDA, segmentation)
+- ✅ BC03 : Visualiser des données et interpréter des résultats (Dashboard Streamlit, exports KPI)
+- ✅ BC04 : Piloter un projet data (documentation, CI, organisation, veille)
+- ✅ BC05 : Spécialisation Statistiques (analyses multivariées, tests statistiques, RFM)
 
 
 

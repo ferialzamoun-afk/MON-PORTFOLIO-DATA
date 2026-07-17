@@ -11,6 +11,11 @@ ENV/
 # VSCode
 .vscode/
 
+# Jekyll local build artifacts
+_site/
+.jekyll-metadata
+.sass-cache/
+
 # Scripts Python racine (garder uniquement README.md)
 /convert_final_table.py
 /convert_tables_html.py

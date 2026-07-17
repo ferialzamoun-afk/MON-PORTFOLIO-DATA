@@ -202,21 +202,6 @@ Tous les 10 critères mission P13 Partie 1 sont documentés et tracés :
 | Outils de gestion | GitHub Projects Kanban | [Captures disponibles](output/captures/) |
 | Intégrer les contraintes | 5 types documentés (délai, RGPD, budget, sobriété, conformité) | [04_plan_projet](docs/04_plan_projet_P13_partie_1.md) |
 
-### **🛠️ Pour les Développeurs / Contributeurs**
-(Bloc RNCP37837BC04 : Gérer la documentation et formaliser les processus)
-📌 Environnement Local
-# Setup
-python -m venv .venv
-.venv\Scripts\Activate.ps1  # Windows
-source .venv/bin/activate  # Mac/Linux
-pip install -r requirements.txt
-
-# Modifier / Tester
-jupyter notebook
-# ... éditer & exécuter les cellules
-
-# Lint & Format (optionnel)
-ruff check src/
 
 ### **📌 Modules Python**
 | Module | Rôle | Lien |

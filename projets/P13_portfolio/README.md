@@ -2,7 +2,7 @@
 
 **📅 Date** : Juillet 2026
 **🏷️ Type** : Documentation / Veille / Consulting
-**🔗 Lien** : [Portfolio Streamlit](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/)
+**🔗 Lien** : [Portfolio Github Page](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/)
 
 ---
 ## **🎯 Contexte et Objectifs**
@@ -18,19 +18,84 @@
 ## **🔧 Compétences RNCP 37837 Demonstrées**
 
 ### **📌 Blocs Couverts**
-   **Bloc RNCP** | **Compétence** | **Description** | **Preuves** |
- |---------------|---------------|----------------|-------------|
- | **BC01** | Gérer une base de données | Organisation des **données du portfolio** (projets, compétences, preuves) | [Structure GitHub](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA) |
-| **BC02** | Identifier/collecter | Collecte des **preuves de compétences** (liens GitHub, PDF, captures) | [README du portfolio](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/) |
- | **BC02** | Analyse multivariée | **Mapping compétences x projets** pour évaluer la couverture RNCP | [Tableau compétences](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA) |
- | **BC03** | Solution de visualisation | **Portfolio Streamlit** pour une navigation intuitive | [Lien Streamlit](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/) |
- | **BC03** | Créer un tableau de bord | **Vitrine des projets** avec description, compétences, preuves | [Page "Projets"](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/) |
- | **BC03** | Présenter les résultats | **Documentation claire** pour les recruteurs/évaluateurs | [README](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA) |
- | **BC04** | Veille métier/technologique | **Page "Veille"** avec benchmarks et articles | [Lien veille](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/veille/techno/) |
- | **BC04** | Expérimenter de nouvelles méthodes | **Benchmark Scikit-learn vs PyTorch** | [Guide](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA) |
- | **BC04** | Organiser un projet data | **Structuration du portfolio** (dossiers, README, liens) | [Dépôt GitHub](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA) |
- | **BC04** | Gérer la documentation | **Documentation complète** (README, Wiki, commentaires) | [README + Wiki](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA) |
- | **BC04** | Adapter sa posture | **Positionnement comme consultante** dans la page "À Propos" | [Page "À Propos"](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/) |
+<table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); font-size: 0.95em;">
+  <thead>
+    <tr style="background-color: #155799; color: white;">
+      <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Bloc RNCP</strong></th>
+      <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Compétence</strong></th>
+      <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Description</strong></th>
+      <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Preuves</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC01</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Gérer une base de données</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Organisation des données du portfolio, des projets, des compétences et des preuves.</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA">Structure GitHub</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC02</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Identifier / collecter</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Collecte des preuves de compétences : liens GitHub, PDF, captures et livrables.</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/">README du portfolio</a></td>
+    </tr>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC02</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Analyse multivariée</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Mapping compétences x projets pour évaluer la couverture RNCP.</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA">Tableau compétences</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC03</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Solution de visualisation</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Portfolio Streamlit pour une navigation plus lisible dans les projets et les preuves.</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/">Lien Streamlit</a></td>
+    </tr>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC03</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Créer un tableau de bord</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Vitrine des projets avec description, compétences et preuves accessibles.</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/">Page Projets</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC03</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Présenter les résultats</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Documentation claire à destination des recruteurs et des évaluateurs.</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA">README</a></td>
+    </tr>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC04</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Veille métier / technologique</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Page veille avec benchmarks, ressources et articles.</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/veille/techno/">Lien veille</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC04</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Expérimenter de nouvelles méthodes</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Comparaison d'approches et benchmark des outils utilisés dans le portfolio.</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA">Guide</a></td>
+    </tr>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC04</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Organiser un projet data</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Structuration du portfolio : dossiers, README, liens et navigation.</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA">Dépôt GitHub</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC04</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Gérer la documentation</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Documentation complète : README, wiki et éléments d'explication.</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA">README + Wiki</a></td>
+    </tr>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC04</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Adapter sa posture</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Positionnement consultante et orientation recruteur sur la page À Propos.</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/">Page À Propos</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 ## **📊 Méthodologie**

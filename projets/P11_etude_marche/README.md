@@ -55,25 +55,28 @@ P11/
 ## **🔧 Compétences RNCP 37837 Demonstrées**
 
 ### **📌 Mapping des Blocs RNCP**
-| **Bloc RNCP** | **Compétence** | **Description** | **Preuves** |
-|---------------|---------------|----------------|-------------|
-| **BC01** | **Structurer et gérer la base de données** | Création d’une **base d’analyse finale** (`base_acp_finale_2017.csv`) avec 139 pays et 16 variables candidates. | [Notebook 1, Section "Constitution de la base ACP"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb#Constitution-de-la-base-ACP) |
-| **BC02** | **Identifier et collecter les données** | Utilisation de **sources multiples** (FAO, Banque Mondiale, etc.) pour les variables PESTEL+. | [Notebook 1, Section "Préparation des données"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb#Préparation-des-données) |
-| **BC02** | **Extraire et agréger** | Nettoyage des données (gestion des `NaN`, normalisation, enrichissement). | [Notebook 1, Section "Nettoyage"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb#Nettoyage) + [scripts/data_manager.py](https://github.com/ferialzamoun-afk/P11/blob/main/scripts/data_manager.py) |
-| **BC02** | **Explorer et pré-traiter** | **Feature Engineering** : Calcul de `faolex_text_diversity_score` (distance de Levenshtein normalisée). | [scripts/enrich_market_features_model.py](https://github.com/ferialzamoun-afk/P11/blob/main/scripts/enrich_market_features_model.py) |
-| **BC02** | **Analyse univariée/multivariée** | **EDA** : Statistiques descriptives, corrélations entre variables PESTEL+. | [Notebook 1, Section "EDA"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb#EDA) |
-| **BC03** | **Solution de visualisation** | **ACP** : Réduction de dimension (11 variables → 3 composantes principales, 89.90% de variance conservée). | [Notebook 2, Section "ACP"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_2_clustering_visualisations_112025.ipynb#ACP) |
-| **BC03** | **Créer un tableau de bord** | **Clustering** (CAH, KMeans) avec visualisations des profils de clusters. | [Notebook 2, Section "Clustering"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_2_clustering_visualisations_112025.ipynb#Clustering) |
-| **BC03** | **Reporting des tendances** | **Interprétation des clusters** : Identification de 2 groupes de pays (prioritaire/secondaire). | [Notebook 2, Section "Profils de clusters"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_2_clustering_visualisations_112025.ipynb#Profils-de-clusters) |
-| **BC04** | **Veille métier/technologique** | **Benchmark des méthodes** (CAH vs KMeans) et justification du choix de `k=2`. | [Notebook 2, Section "Choix du clustering"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_2_clustering_visualisations_112025.ipynb#Choix-du-clustering) |
-| **BC04** | **Formaliser le cahier des charges** | **Brief projet** et **documentation technique** complète. | [PROJECT_BRIEF.md](https://github.com/ferialzamoun-afk/P11/blob/main/PROJECT_BRIEF.md) + [docs/documentation_technique.md](https://github.com/ferialzamoun-afk/P11/blob/main/docs/documentation_technique.md) |
-| **BC04** | **Organiser un projet data** | **Pipeline documenté** (notebooks + scripts + CI). | [docs/note_pipeline_preparation_nettoyage.md](https://github.com/ferialzamoun-afk/P11/blob/main/docs/note_pipeline_preparation_nettoyage.md) |
-| **BC04** | **Gérer la documentation** | **100% des livrables documentés** (notebooks, scripts, tests). | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P11) |
-| **BC05** | **Analyses multivariées** | **ACP** : 11 variables actives → 3 composantes principales (89.90% de variance). | [Notebook 2, Section "ACP"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb#ACP) |
-| **BC05** | **Réduction de dimension** | **ACP** : Réduction de 16 variables → 3 dimensions principales. | [Notebook 2, Section "ACP"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb#ACP) |
-| **BC05** | **Tests statistiques** | **Silhouette Score** (~0.60) pour évaluer la qualité du clustering. | [Notebook 2, Section "Évaluation du clustering"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb#Évaluation-du-clustering) |
-| **BC05** | **Entraîner un modèle** | **KMeans** (k=2) et **CAH** pour segmenter les pays. | [Notebook 2, Section "Clustering"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb#Clustering) |
-| **BC05** | **Exploiter un modèle** | **Profil des clusters** : 16 pays prioritaires (Cluster A) vs autres. | [Notebook 2, Section "Profils de clusters"](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_2_clustering_visualisations_112025.ipynb#Profils-de-clusters) |
+<table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); font-size: 0.95em;">
+   <thead><tr style="background-color: #155799; color: white;"><th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Bloc RNCP</strong></th><th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Compétence</strong></th><th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Description</strong></th><th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Preuves</strong></th></tr></thead>
+   <tbody>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC01</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Structurer et gérer la base de données</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Base d'analyse finale de 139 pays et 16 variables candidates.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb#Constitution-de-la-base-ACP">Notebook 1</a></td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC02</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Identifier et collecter les données</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Sources multiples : FAO, Banque Mondiale et autres données PESTEL+.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb#Préparation-des-données">Préparation des données</a></td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC02</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Extraire et agréger</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Nettoyage, normalisation et enrichissement des données.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb#Nettoyage">Nettoyage</a> + <a href="https://github.com/ferialzamoun-afk/P11/blob/main/scripts/data_manager.py">data_manager.py</a></td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC02</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Explorer et pré-traiter</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Feature engineering via <code>faolex_text_diversity_score</code>.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P11/blob/main/scripts/enrich_market_features_model.py">enrich_market_features_model.py</a></td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC02</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Analyse univariée / multivariée</td><td style="padding: 10px 12px; border: 1px solid #ddd;">EDA et corrélations entre variables PESTEL+.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb#EDA">EDA</a></td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC03</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Solution de visualisation</td><td style="padding: 10px 12px; border: 1px solid #ddd;">ACP : 11 variables vers 3 composantes, 89.90% de variance.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_2_clustering_visualisations_112025.ipynb#ACP">ACP</a></td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC03</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Créer un tableau de bord</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Clustering CAH et KMeans avec profils de clusters.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_2_clustering_visualisations_112025.ipynb#Clustering">Clustering</a></td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC03</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Reporting des tendances</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Interprétation de 2 groupes de pays, prioritaire et secondaire.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_2_clustering_visualisations_112025.ipynb#Profils-de-clusters">Profils de clusters</a></td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC04</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Veille métier / technologique</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Benchmark CAH vs KMeans et justification de <code>k=2</code>.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_2_clustering_visualisations_112025.ipynb#Choix-du-clustering">Choix du clustering</a></td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC04</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Formaliser le cahier des charges</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Brief projet et documentation technique complète.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P11/blob/main/PROJECT_BRIEF.md">PROJECT_BRIEF.md</a> + <a href="https://github.com/ferialzamoun-afk/P11/blob/main/docs/documentation_technique.md">documentation_technique.md</a></td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC04</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Organiser un projet data</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Pipeline documenté : notebooks, scripts et CI.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P11/blob/main/docs/note_pipeline_preparation_nettoyage.md">note_pipeline_preparation_nettoyage.md</a></td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC04</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Gérer la documentation</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Livrables documentés : notebooks, scripts et tests.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P11">Dépôt GitHub</a></td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC05</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Analyses multivariées</td><td style="padding: 10px 12px; border: 1px solid #ddd;">ACP : 11 variables actives vers 3 composantes principales.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb#ACP">ACP</a></td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC05</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Réduction de dimension</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Réduction de 16 variables à 3 dimensions principales.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb#ACP">ACP</a></td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC05</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Tests statistiques</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Silhouette score d'environ 0.60 pour évaluer le clustering.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb#Évaluation-du-clustering">Évaluation du clustering</a></td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC05</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Entraîner un modèle</td><td style="padding: 10px 12px; border: 1px solid #ddd;">KMeans k=2 et CAH pour segmenter les pays.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb#Clustering">Clustering</a></td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC05</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Exploiter un modèle</td><td style="padding: 10px 12px; border: 1px solid #ddd;">16 pays prioritaires dans le cluster A.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_2_clustering_visualisations_112025.ipynb#Profils-de-clusters">Profils de clusters</a></td></tr>
+   </tbody>
+</table>
 
 ---
 
@@ -111,44 +114,52 @@ P11/
 *(Blocs RNCP37837BC03, BC05)*
 
 ### **🔹 Indicateurs Techniques**
-| **Métrique** | **Valeur** | **Interprétation** |
-|--------------|------------|-------------------|
-| **Nombre de pays analysés** | 139 | Base complète pour l’ACP et le clustering. |
-| **Variables actives (ACP)** | 11 | Sélectionnées parmi 16 variables candidates. |
-| **Variance conservée (ACP)** | 89.90% | 3 composantes principales suffisent. |
-| **Nombre de clusters (KMeans)** | 2 | Solution optimale pour une **lecture métier simple**. |
-| **Silhouette Score** | ~0.60 | Qualité **bonne** du clustering (proche de 1). |
-| **Pays prioritaires (Cluster A)** | 16 | Marchés à **instruire rapidement**. |
+<table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); font-size: 0.95em;">
+   <thead><tr style="background-color: #155799; color: white;"><th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Métrique</strong></th><th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Valeur</strong></th><th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Interprétation</strong></th></tr></thead>
+   <tbody>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">Nombre de pays analysés</td><td style="padding: 10px 12px; border: 1px solid #ddd;">139</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Base complète pour l’ACP et le clustering.</td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;">Variables actives (ACP)</td><td style="padding: 10px 12px; border: 1px solid #ddd;">11</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Sélectionnées parmi 16 variables candidates.</td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">Variance conservée (ACP)</td><td style="padding: 10px 12px; border: 1px solid #ddd;">89.90%</td><td style="padding: 10px 12px; border: 1px solid #ddd;">3 composantes principales suffisent.</td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;">Nombre de clusters (KMeans)</td><td style="padding: 10px 12px; border: 1px solid #ddd;">2</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Solution optimale pour une lecture métier simple.</td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">Silhouette Score</td><td style="padding: 10px 12px; border: 1px solid #ddd;">~0.60</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Qualité bonne du clustering.</td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;">Pays prioritaires (Cluster A)</td><td style="padding: 10px 12px; border: 1px solid #ddd;">16</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Marchés à instruire rapidement.</td></tr>
+   </tbody>
+</table>
 
 ### **🔹 Top 5 Pays à Approfondir**
-| **Rang** | **Pays** | **Score Composite** | **Justification** |
-|----------|----------|---------------------|------------------|
-| 1 | **Suisse 🇨🇭** | ✅✅✅ | **Score maximal**, accord CAH/KMeans, dimensions ACP favorables. |
-| 2 | **Dominique 🇩🇲** | ✅✅✅ | Proche de la Suisse en termes de **stabilité politique** et **demande bio**. |
-| 3 | **Émirats Arabes Unis 🇦🇪** | ✅✅✅ | **Fort pouvoir d’achat** (GDP/capita), **importations élevées** de volailles. |
-| 4 | **Belgique 🇧🇪** | ✅✅ | Marché **proche géographiquement**, **demande bio forte**. |
-| 5 | **Autriche 🇦🇹** | ✅✅ | **Culture bio développée**, **réglementation favorable**. |
+<table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); font-size: 0.95em;">
+   <thead><tr style="background-color: #155799; color: white;"><th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Rang</strong></th><th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Pays</strong></th><th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Score Composite</strong></th><th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Justification</strong></th></tr></thead>
+   <tbody>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">1</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Suisse 🇨🇭</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">✅✅✅</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Score maximal, accord CAH/KMeans et dimensions ACP favorables.</td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;">2</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Dominique 🇩🇲</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">✅✅✅</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Proche de la Suisse par stabilité politique et demande bio.</td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">3</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Émirats Arabes Unis 🇦🇪</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">✅✅✅</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Fort pouvoir d’achat et importations élevées de volailles.</td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;">4</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Belgique 🇧🇪</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">✅✅</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Marché proche géographiquement avec forte demande bio.</td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">5</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Autriche 🇦🇹</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">✅✅</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Culture bio développée et réglementation favorable.</td></tr>
+   </tbody>
+</table>
 
 ---
 ## **📂 Preuves et Livrables**
 *(Bloc RNCP37837BC04 : Piloter un projet data)*
 
-| **Type** | **Lien** | **Description** |
-|----------|----------|-----------------|
-| **Notebook 1** | [Préparation & EDA (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb) | Préparation, nettoyage, feature engineering, ACP. |
-| **Notebook 2** | [Clustering & Recommandations (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb) | ACP, CAH, KMeans, profils de clusters, recommandations. |
-| **Scripts** | [scripts/](https://github.com/ferialzamoun-afk/P11/tree/main/scripts) | `data_manager.py` + `enrich_market_features_model.py`. |
-| **Tests** | [tests/](https://github.com/ferialzamoun-afk/P11/tree/main/tests) | 16 tests unitaires (pytest) pour les fonctions critiques. |
-| **CI/CD** | [.github/workflows/ci.yml](https://github.com/ferialzamoun-afk/P11/blob/main/.github/workflows/ci.yml) | Workflow GitHub Actions (ruff, pytest, smoke checks). |
-| **Brief Projet** | [PROJECT_BRIEF.md](https://github.com/ferialzamoun-afk/P11/blob/main/PROJECT_BRIEF.md) | Contexte, objectifs, livrables. |
-| **Documentation** | [docs/](https://github.com/ferialzamoun-afk/P11/tree/main/docs) | Documentation technique et note pipeline. |
+<table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); font-size: 0.95em;">
+   <thead><tr style="background-color: #155799; color: white;"><th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Type</strong></th><th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Lien</strong></th><th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Description</strong></th></tr></thead>
+   <tbody>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">Notebook 1</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb">Préparation & EDA</a></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Préparation, nettoyage, feature engineering et ACP.</td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;">Notebook 2</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb">Clustering & Recommandations</a></td><td style="padding: 10px 12px; border: 1px solid #ddd;">ACP, CAH, KMeans, profils de clusters et recommandations.</td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">Scripts</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P11/tree/main/scripts">scripts/</a></td><td style="padding: 10px 12px; border: 1px solid #ddd;"><code>data_manager.py</code> et <code>enrich_market_features_model.py</code>.</td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;">Tests</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P11/tree/main/tests">tests/</a></td><td style="padding: 10px 12px; border: 1px solid #ddd;">16 tests unitaires pour les fonctions critiques.</td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">CI/CD</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P11/blob/main/.github/workflows/ci.yml">.github/workflows/ci.yml</a></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Workflow GitHub Actions : ruff, pytest, smoke checks.</td></tr>
+      <tr><td style="padding: 10px 12px; border: 1px solid #ddd;">Brief Projet</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P11/blob/main/PROJECT_BRIEF.md">PROJECT_BRIEF.md</a></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Contexte, objectifs et livrables.</td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">Documentation</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P11/tree/main/docs">docs/</a></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Documentation technique et note pipeline.</td></tr>
+   </tbody>
+</table>
 
 ---
 ## **🚀 Démarrage Rapide**
 *(Pour reproduire le projet en local)*
 
-```bash
-# 1. Cloner le dépôt
+<pre><code># 1. Cloner le dépôt
 git clone https://github.com/ferialzamoun-afk/P11.git
 cd P11
 
@@ -162,32 +173,32 @@ pytest -q
 
 # 4. Ouvrir les notebooks (dans l'ordre)
 jupyter notebook notebooks/ZAMOUN_Ferial_1_preparation_nettoyage_EDA_analyse_exploratoire_112025.ipynb
-jupyter notebook notebooks/ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb
+jupyter notebook notebooks/ZAMOUN_Férial_2_clustering_visualisations_112025.ipynb</code></pre>
 
-✅ Qualité Logicielle
-(Bloc RNCP37837BC04 : Piloter un projet data)
+## **✅ Qualité Logicielle**
+*(Bloc RNCP37837BC04 : Piloter un projet data)*
 
-Linting : ruff pour vérifier la qualité du code (scripts + tests).
-Tests unitaires : 16 tests couvrant :
+- Linting : `ruff` pour vérifier la qualité du code (scripts + tests).
+- Tests unitaires : 16 tests couvrant :
 
-Normalisation des textes (test_data_prep.py).
-Distance de Levenshtein et diversité (test_enrich_market_features_model.py).
+   - Normalisation des textes (`test_data_prep.py`).
+   - Distance de Levenshtein et diversité (`test_enrich_market_features_model.py`).
 
-Smoke checks : Vérification des fonctions critiques.
-Validation des notebooks :
+- Smoke checks : Vérification des fonctions critiques.
+- Validation des notebooks :
 
-Structure JSON valide (nbformat).
-Volume minimal de cellules code/markdown.
-Absence d’erreurs enregistrées.
+   - Structure JSON valide (`nbformat`).
+   - Volume minimal de cellules code/markdown.
+   - Absence d’erreurs enregistrées.
 
-CI/CD : Workflow GitHub Actions pour automatiser les vérifications.
+- CI/CD : Workflow GitHub Actions pour automatiser les vérifications.
 
-🎯 Mapping RNCP 37837
+## **🎯 Mapping RNCP 37837**
 
 Blocs couverts par ce projet :
 
-✅ BC01 : Structurer et gérer la base de données (base_acp_finale_2017.csv)
-✅ BC02 : Identifier, collecter et analyser les données (nettoyage, EDA, feature engineering)
-✅ BC03 : Visualiser des données et interpréter des résultats (ACP, clustering, graphiques)
-✅ BC04 : Piloter un projet data (documentation, CI/CD, veille, organisation)
-✅ BC05 : Spécialisation Statistiques (ACP, clustering, tests statistiques, réduction de dimension)
+- ✅ BC01 : Structurer et gérer la base de données (`base_acp_finale_2017.csv`)
+- ✅ BC02 : Identifier, collecter et analyser les données (nettoyage, EDA, feature engineering)
+- ✅ BC03 : Visualiser des données et interpréter des résultats (ACP, clustering, graphiques)
+- ✅ BC04 : Piloter un projet data (documentation, CI/CD, veille, organisation)
+- ✅ BC05 : Spécialisation Statistiques (ACP, clustering, tests statistiques, réduction de dimension)

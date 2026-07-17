@@ -12,11 +12,19 @@
 
 **Pour qui** :
 
-| Profil | Besoin |
-|--------|--------|
-| **Directeur Général** | Vision portefeuille, arbitrage stratégique (poursuite / priorisation / arrêt) |
-| **Directeur Régional** | Isolation des projets en risque, alertes sur dépassements coût/délai/livrables |
-| **Directeur Pays** | Suivi opérationnel détaillé, comparaison prévisionnel/réalisé, actions correctives |
+<table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); font-size: 0.95em;">
+	<thead>
+		<tr style="background-color: #155799; color: white;">
+			<th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Profil</strong></th>
+			<th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Besoin</strong></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Directeur Général</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Vision portefeuille et arbitrage stratégique : poursuite, priorisation, arrêt.</td></tr>
+		<tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Directeur Régional</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Isolation des projets en risque et alertes sur les dépassements coût/délai/livrables.</td></tr>
+		<tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Directeur Pays</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Suivi opérationnel détaillé et comparaison prévisionnel/réalisé.</td></tr>
+	</tbody>
+</table>
 
 **Problème** : les informations de coût, délai et avancement sont éparpillées — aucune vue consolidée ne permet des arbitrages rapides en comité de pilotage.
 
@@ -56,29 +64,47 @@
 
 ## 📊 3. Résultats et livrables
 
-| Livrable | Description |
-|---------|-------------|
-| Dashboard DG | Vision portefeuille, alertes stratégiques, comparaison IT/Marketing |
-| Dashboard DR | Projets en risque par région, alertes phases, dépassements |
-| Dashboard DP | Détail opérationnel par projet, prévisionnel vs réalisé |
-| Onglet documentation | Product Strategy Canvas + procédure mise à jour + modèle de données |
-| Support de soutenance | Storytelling incluant prise de parole orientée décision |
+<table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); font-size: 0.95em;">
+	<thead>
+		<tr style="background-color: #155799; color: white;">
+			<th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Livrable</strong></th>
+			<th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Description</strong></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">Dashboard DG</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Vision portefeuille, alertes stratégiques et comparaison IT/Marketing.</td></tr>
+		<tr><td style="padding: 10px 12px; border: 1px solid #ddd;">Dashboard DR</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Projets en risque par région, alertes phases et dépassements.</td></tr>
+		<tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">Dashboard DP</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Détail opérationnel par projet, prévisionnel vs réalisé.</td></tr>
+		<tr><td style="padding: 10px 12px; border: 1px solid #ddd;">Onglet documentation</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Product Strategy Canvas, procédure de mise à jour et modèle de données.</td></tr>
+		<tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">Support de soutenance</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Storytelling avec prise de parole orientée décision.</td></tr>
+	</tbody>
+</table>
 
 ---
 
 ## 🎓 4. Compétences RNCP 37837 mobilisées
 
-| Bloc | Compétence | Ce qui a été fait | Preuve |
-|------|-----------|------------------|--------|
-| **BC02** | Identifier et collecter | Collecte données coût/délai/avancement SANITORAL | Sources projet |
-| **BC02** | Vérifier la cohérence | Validation référentiel phases et relations | Modèle de données |
-| **BC03** | Solution de visualisation | 3 dashboards Power BI différenciés par profil | Dashboards DG / DR / DP |
-| **BC03** | Créer un tableau de bord | Dashboard multi-pages opérationnel sous Power BI | Fichier PBIX |
-| **BC03** | Reporting des tendances | Seuil d'alerte 15%, KPI cards, comparaisons IT/Marketing | Pages KPI |
-| **BC03** | Présenter les résultats | Support storytelling pour soutenance devant jury | Présentation |
-| **BC04** | Identifier le besoin métier | Product Strategy Canvas — 3 personas définis | Onglet documentation |
-| **BC04** | Formaliser le cahier des charges | Procédure de mise à jour et modèle de données documentés | Onglet documentation |
-| **BC04** | Adapter sa posture | Positionnement consultant — challenger les besoins | Canvas + dashboard |
+<table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); font-size: 0.95em;">
+	<thead>
+		<tr style="background-color: #155799; color: white;">
+			<th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Bloc</strong></th>
+			<th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Compétence</strong></th>
+			<th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Ce qui a été fait</strong></th>
+			<th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Preuve</strong></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC02</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Identifier et collecter</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Collecte des données coût, délai et avancement SANITORAL.</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Sources projet</td></tr>
+		<tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC02</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Vérifier la cohérence</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Validation du référentiel de phases et des relations.</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Modèle de données</td></tr>
+		<tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC03</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Solution de visualisation</td><td style="padding: 10px 12px; border: 1px solid #ddd;">3 dashboards Power BI différenciés par profil.</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Dashboards DG / DR / DP</td></tr>
+		<tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC03</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Créer un tableau de bord</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Dashboard multi-pages opérationnel sous Power BI.</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Fichier PBIX</td></tr>
+		<tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC03</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Reporting des tendances</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Seuil d'alerte 15%, KPI cards et comparaisons IT/Marketing.</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Pages KPI</td></tr>
+		<tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC03</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Présenter les résultats</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Support storytelling pour la soutenance.</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Présentation</td></tr>
+		<tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC04</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Identifier le besoin métier</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Product Strategy Canvas avec 3 personas définis.</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Onglet documentation</td></tr>
+		<tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC04</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Formaliser le cahier des charges</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Procédure de mise à jour et modèle de données documentés.</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Onglet documentation</td></tr>
+		<tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC04</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Adapter sa posture</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Posture consultant pour challenger les besoins.</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Canvas + dashboard</td></tr>
+	</tbody>
+</table>
 
 ---
 

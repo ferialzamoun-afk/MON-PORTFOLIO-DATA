@@ -66,31 +66,49 @@ P14/
 
 ## 📊 3. Résultats et livrables
 
-| Livrable | Description |
-|---------|-------------|
-| Notebooks d'analyse | Exploration et analyse sur le périmètre Intermarché |
-| Application Streamlit | Vue applicative pour la restitution métier opérationnelle |
-| Rapports Power BI | Tableaux de bord décisionnels avec KPI pilotage |
-| Documentation projet | docs/, conventions, procédures |
-| Bilan réflexif de stage | Retour d'expérience et formalisation des apprentissages |
-| Feuille de route | Cadrage et contexte de la mission (euille_de_route_stage_P5.md) |
-| Modèle de livraison | Template de communication de livraison (modele_mail_note_livraison.md) |
+<table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); font-size: 0.95em;">
+	<thead>
+		<tr style="background-color: #155799; color: white;">
+			<th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Livrable</strong></th>
+			<th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Description</strong></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">Notebooks d'analyse</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Exploration et analyse sur le périmètre Intermarché.</td></tr>
+		<tr><td style="padding: 10px 12px; border: 1px solid #ddd;">Application Streamlit</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Vue applicative pour la restitution métier opérationnelle.</td></tr>
+		<tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">Rapports Power BI</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Tableaux de bord décisionnels avec KPI de pilotage.</td></tr>
+		<tr><td style="padding: 10px 12px; border: 1px solid #ddd;">Documentation projet</td><td style="padding: 10px 12px; border: 1px solid #ddd;">docs/, conventions et procédures.</td></tr>
+		<tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">Bilan réflexif de stage</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Retour d'expérience et formalisation des apprentissages.</td></tr>
+		<tr><td style="padding: 10px 12px; border: 1px solid #ddd;">Feuille de route</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Cadrage et contexte de la mission (feuille_de_route_stage_P5.md).</td></tr>
+		<tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;">Modèle de livraison</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Template de communication de livraison (modele_mail_note_livraison.md).</td></tr>
+	</tbody>
+</table>
 
 ---
 
 ## 🎓 4. Compétences RNCP 37837 mobilisées
 
-| Bloc | Compétence | Ce qui a été fait | Preuve |
-|------|-----------|------------------|--------|
-| **BC02** | Identifier et collecter | Exploitation données retail brutes Intermarché | data/raw/ |
-| **BC02** | Extraire et agréger | Pipeline de transformation raw → processed | Scripts de préparation |
-| **BC02** | Vérifier la cohérence | Contrôles qualité : doublons, clés, granularité, NaN | Journaux de contrôle |
-| **BC02** | Analyse univariée/multivariée | Analyse disponibilité, performance, KPI assortiment | Notebooks |
-| **BC03** | Créer un tableau de bord | Rapports Power BI et application Streamlit | powerbi/ + streamlit_app/ |
-| **BC03** | Reporting des tendances | KPI pilotage, alertes assortiment, suivi temporel | Rapports Power BI |
-| **BC04** | Organiser un projet data | Architecture raw/processed, documentation, conventions | docs/ |
-| **BC04** | Gérer la documentation | README, bilan réflexif, feuille de route, rapports | Tous les livrables docs |
-| **BC04** | Adapter sa posture | Positionnement professionnel en contexte réel | Bilan réflexif de stage |
+<table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); font-size: 0.95em;">
+	<thead>
+		<tr style="background-color: #155799; color: white;">
+			<th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Bloc</strong></th>
+			<th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Compétence</strong></th>
+			<th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Ce qui a été fait</strong></th>
+			<th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Preuve</strong></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC02</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Identifier et collecter</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Exploitation des données retail brutes Intermarché.</td><td style="padding: 10px 12px; border: 1px solid #ddd;">data/raw/</td></tr>
+		<tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC02</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Extraire et agréger</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Pipeline de transformation raw vers processed.</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Scripts de préparation</td></tr>
+		<tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC02</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Vérifier la cohérence</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Contrôles qualité : doublons, clés, granularité, NaN.</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Journaux de contrôle</td></tr>
+		<tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC02</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Analyse univariée / multivariée</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Analyse disponibilité, performance et KPI assortiment.</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Notebooks</td></tr>
+		<tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC03</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Créer un tableau de bord</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Rapports Power BI et application Streamlit.</td><td style="padding: 10px 12px; border: 1px solid #ddd;">powerbi/ + streamlit_app/</td></tr>
+		<tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC03</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Reporting des tendances</td><td style="padding: 10px 12px; border: 1px solid #ddd;">KPI pilotage, alertes assortiment et suivi temporel.</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Rapports Power BI</td></tr>
+		<tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC04</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Organiser un projet data</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Architecture raw/processed, documentation et conventions.</td><td style="padding: 10px 12px; border: 1px solid #ddd;">docs/</td></tr>
+		<tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC04</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Gérer la documentation</td><td style="padding: 10px 12px; border: 1px solid #ddd;">README, bilan réflexif, feuille de route et rapports.</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Tous les livrables docs</td></tr>
+		<tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC04</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Adapter sa posture</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Positionnement professionnel en contexte réel.</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Bilan réflexif de stage</td></tr>
+	</tbody>
+</table>
 
 ---
 
