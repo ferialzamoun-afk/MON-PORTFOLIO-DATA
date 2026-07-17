@@ -72,9 +72,9 @@ Montrer comment les hypotheses ont ete validees dans une logique dashboard: qual
 
 - [README.md](README.md)
 - [Dashboard KPI](output/captures/05_kpi_dashboard_phase2.png)
-- [Notebook BC05 - section globale](https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb#RNCP37837BC05)
-- [Notebook BC05 - 9.1 Immediate](https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb#RNCP37837BC05-IMMEDIATE)
-- [Notebook BC05 - 9.2 Isolation Forest](https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb#RNCP37837BC05-IFOREST)
-- [Notebook BC05 - 9.3 K-Means et kNN](https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb#RNCP37837BC05-KMEANS-KNN)
+- [Notebook BC05 - section globale](https://nbviewer.org/github/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/notebooks/bottleneck_analyse_ameliore_final.ipynb#RNCP37837BC05)
+- [Notebook BC05 - 9.1 Immediate](https://nbviewer.org/github/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/notebooks/bottleneck_analyse_ameliore_final.ipynb#RNCP37837BC05-IMMEDIATE)
+- [Notebook BC05 - 9.2 Isolation Forest](https://nbviewer.org/github/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/notebooks/bottleneck_analyse_ameliore_final.ipynb#RNCP37837BC05-IFOREST)
+- [Notebook BC05 - 9.3 K-Means et kNN](https://nbviewer.org/github/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/notebooks/bottleneck_analyse_ameliore_final.ipynb#RNCP37837BC05-KMEANS-KNN)
 - [Mode d'emploi dashboard](09_mode_emploi_dashboard.html)
 - [README du portfolio](README.md)
