@@ -129,7 +129,7 @@ MON-PORTFOLIO-DATA/
 │   ├── P13_portfolio/                      # Portfolio & gouvernance IA (phare)
 │   └── P14_stage/                          # Stage Intermarché et bilan réflexif
 ├── src/                                    # Scripts et composants réutilisables
-├── streamlit_app/                          # Application portfolio Streamlit
+├── streamlit_app/                          # Application portfolio GitHub Pages
 ├── veille/                                 # Ressources métier & technologiques
 ├── convert_final_table.py                  # Scripts de maintenance portfolio
 ├── convert_tables_html.py

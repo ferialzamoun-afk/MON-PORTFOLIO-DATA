@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Limites - Partie 1"
+---
+
 # Limites - Partie 1
 
 ## Objectif

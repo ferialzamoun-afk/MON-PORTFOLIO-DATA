@@ -9,12 +9,13 @@
 | Ressource | Lien |
 |---|---|
 | 🔗 Portfolio P13 | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/) |
-| 📓 Notebook Principal | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
-| 📓 Notebook amélioré | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
-| 📁 Cahier des Charges | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/02_cahier_des_charges_fonctionnel.md) |
-| 📁 Veille Technologique | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/01_veille_metier_technologique.md) |
-| 📁 Journal IA | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/08_decisions.md) |
-| 📁 Synthèse Finale | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/06_resultats.md) |
+| 📓 Notebook Principal | [Accéder](https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
+| 📓 Notebook amélioré | [Accéder](https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
+| 📁 Cahier des Charges | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/02_cahier_des_charges_fonctionnel.html) |
+| 📁 Veille Technologique | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/01_veille_metier_technologique.html) |
+| 📁 Journal IA | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/08_decisions.html) |
+| 📁 Synthèse Finale | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/06_resultats.html) |
+| 📘 Mode d'emploi Dashboard | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/09_mode_emploi_dashboard.html) |
 | 📊 Dataviz (13 graphiques) | [Accéder](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/dataviz) |
 | 🖼️ Captures Portfolio | [Accéder](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/captures) |
 
@@ -22,12 +23,13 @@
 | Preuve | Accès |
 |---|---|
 | Avant : Notebook initial | [Voir](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P6_Optimisation_Bottleneck/) |
-| Après : Notebook amélioré | [Voir](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
+| Après : Notebook amélioré | [Voir](https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
 | Avant : Synthèse initiale | Non conservée dans le dépôt public |
 | Après : Synthèse finale enrichie | [Voir](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/06_resultats.md) |
 | Avant : Visuels HTML | [Voir](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P6_Optimisation_Bottleneck/) |
 | Après : Visuels PNG | [Voir](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/dataviz) |
 | Dashboard KPI pour le CODIR | [Voir](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/captures) |
+| Mode d'emploi utilisateur du dashboard | [Voir](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/09_mode_emploi_dashboard.html) |
 
 ---
 
@@ -194,8 +196,8 @@ Tous les 10 critères mission P13 Partie 1 sont documentés et tracés :
 | Améliorer le livrable | Synthèse avant/après | [06_synthese_finale](docs/06_synthese_finale_P13_partie_1.md) |
 | IA critique & documentée | Journal IA (26 prompts) | [03_journal_ia](docs/03_journal_ia_P13_partie_1.md) |
 | Tester plusieurs options | Benchmark outils (Pandas/GE/Soda) | [02_veille_technologique](docs/02_veille_technologique_P13_partie_1.md) |
-| Critères explicites | Tableau comparaison + méthodologie | [Notebook, Cellule 2](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
-| Justifier les choix | Chaque cellule commence par "Pourquoi ?" | [Notebook complet](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
+| Critères explicites | Tableau comparaison + méthodologie | [Notebook, Cellule 2](https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
+| Justifier les choix | Chaque cellule commence par "Pourquoi ?" | [Notebook complet](https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
 | Identifier les besoins métier | Cahier des charges complet | [01_cahier_des_charges](docs/01_cahier_des_charges_P13_partie_1.md) |
 | Cahier des charges | Document complet (CDC) | [01_cahier_des_charges](docs/01_cahier_des_charges_P13_partie_1.md) |
 | Organiser le projet | Backlog, kanban, planning | [04_plan_projet](docs/04_plan_projet_P13_partie_1.md) |
@@ -217,7 +219,7 @@ Tous les 10 critères mission P13 Partie 1 sont documentés et tracés :
 | Limite | Impact | Recommandation | Preuve |
 | --- | --- | --- | --- |
 | 1 mois de données (octobre 2026) | Snapshot, pas de tendance | Confirmer sur multi-mois | [06_synthese_finale](docs/06_synthese_finale_P13_partie_1.md) |
-| Corrélations ≠ causalité | Risque de faux signaux | Utiliser comme aide à la décision, pas comme preuve | [Notebook, Cellule 7](notebooks/bottleneck_analyse_ameliore_final.ipynb) |
+| Corrélations ≠ causalité | Risque de faux signaux | Utiliser comme aide à la décision, pas comme preuve | [Notebook, Cellule 7](https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
 | Outliers statistiques | Modèle IQR | Valider avec l’équipe métier (prix premium légitimes ?) | [anomalies_prix_et_marges.html](output/dataviz/anomalies_prix_et_marges.html) |
 | Stock/Liaison manuels | Risque de désynchronisation | Investiguer 799 références Web sans match ERP | [data_merging.py](src/data_merging.py) |
 | Pas d’historique | Données point-in-time | Intégrer l’historique pour analyser les tendances | [06_synthese_finale](docs/06_synthese_finale_P13_partie_1.md) |
@@ -238,7 +240,7 @@ Q : Comment contribuer ?
 | --- | --- | --- | --- |
 | BC01 | Structurer et gérer la base de données | Rapprochement de 3 sources (ERP, Web, Liaison) en une base unifiée. | [data_merging.py](src/data_merging.py) |
 | BC01 | Gérer une base de données | Contrôles qualité (18 points) et Data Contracts (7 formalisés). | [quality_checks.py](src/quality_checks.py) |
-| BC02 | Identifier et collecter les données | Utilisation des 3 sources Bottleneck (ERP, Web, Liaison). | [Notebook, Cellule 1](notebooks/bottleneck_analyse_ameliore_final.ipynb) |
+| BC02 | Identifier et collecter les données | Utilisation des 3 sources Bottleneck (ERP, Web, Liaison). | [Notebook, Cellule 1](https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
 | BC02 | Extraire et agréger | Nettoyage (stocks, prix) et rapprochement des données. | [stock_cleaning.py](src/stock_cleaning.py) + [data_merging.py](src/data_merging.py) |
 | BC02 | Explorer et pré-traiter | EDA (Pareto, corrélations, anomalies). | [eda_analysis.py](src/eda_analysis.py) |
 | BC02 | Analyse univariée/multivariée | Analyse Pareto (80% du CA sur 435 produits). | [courbe_pareto_80_20.html](output/dataviz/courbe_pareto_80_20.html) |
