@@ -22,8 +22,21 @@ En lecture recruteur, ce projet montre un enchainement clair :
 
 > **Objectifs** :
 > - **Partie 1 - P6 amélioré** : transformer un livrable exploratoire en version **production-ready** (qualité, reproductibilité, traçabilité IA, résultats métier).
-> - **Partie 2 - Portfolio** : structurer une vitrine claire des preuves, avec **mapping RNCP** et navigation orientée recruteur/jury.
+> - **Partie 2 - Portfolio** : structurer une vitrine claire des preuves, avec **mapping RNCP**, narration `contexte → besoin métier → démarche → résultats → impact`, et navigation orientée recruteur/jury.
 > - **Faciliter l’évaluation** via des preuves vérifiables, des indicateurs mesurables et des liens publics.
+
+### **Mission 2 - Réalisation du portfolio**
+
+La Partie 2 transforme les livrables techniques en preuves de compétences consultables sur GitHub Pages.
+
+| Axe Mission 2 | Application dans le portfolio |
+|---|---|
+| Narration des preuves | Chaque projet est raconté par contexte, besoin métier, démarche, résultats et impact. |
+| Intégration de la veille | Les choix d'outils et méthodes sont justifiés par la veille métier et technologique. |
+| TNR GitHub Pages | Build local, liens publics, rendu Markdown et cohérence des chiffres sont vérifiés avant push. |
+| Correction vs évolution | Les corrections de liens/rendu/chiffres passent avant les enrichissements futurs. |
+
+Preuve dédiée : [Mission 2 - Réalisation du portfolio](Partie2-%20Valorisation%20du%20Portfolio/)
 
 ## **🧩 Preuve de compétences**
 
@@ -200,11 +213,12 @@ P13_portfolio/
 
 | Axe | Indicateur | Valeur |
 |---|---|---|
-| Rationalisation | Réduction du notebook | **-68%** de cellules |
-| Performance | Temps d'exécution | **-76%** |
+| Rationalisation | Réduction du notebook | **148 → 65 cellules (-56%)** avec enrichissement BC05 |
+| Performance | Temps d'exécution | **~1 min 30** vs ~5 min initialement |
 | Qualité | Contrôles explicites | **18** contrôles |
 | Gouvernance IA | Prompts tracés | **26** |
 | Robustesse | Data contracts formalisés | **7** |
+| BC05 | Matrice décisionnelle stricte | **1 critique, 172 à surveiller, 652 normaux** |
 
 > **Impact** :
 > - **Prêt pour l’évaluation** par les jurys France Compétences.
@@ -216,6 +230,7 @@ P13_portfolio/
 - **Dépôt GitHub** : [Lien GitHub](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA)
 - **P9 - Missions complémentaires** : [Dépôt racine](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies)
 - **Projet P13 source** : [Portfolio P13](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/)
+- **Partie 2 - Mission portfolio** : [Mission 2](Partie2-%20Valorisation%20du%20Portfolio/)
 - **Partie 1 - racine** : [Partie 1](Partie1-Am%C3%A9lioration_P6_IA/)
 - **Veille technologique** : [Page Veille Techno](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/veille/techno/)
 - **Veille métier** : [Page Veille Métier](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/veille/métier/)
