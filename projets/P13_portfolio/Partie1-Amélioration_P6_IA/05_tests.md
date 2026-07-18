@@ -11,28 +11,39 @@ Montrer comment les hypotheses ont ete validees dans une logique dashboard: qual
 
 ## Tests menes
 
-- Audit du notebook initial et verification de reproductibilite.
-- Validation Pandera des regles critiques (prix, marge, stock, coherence achat/vente).
-- Verification des alertes statistiques (Z-score/IQR, Isolation Forest).
-- Verification de l explicabilite (SHAP) pour les produits prioritaires.
-- Verification de la priorisation avancee (K-Means/kNN) en appui du backlog.
-- Validation de la restitution metier dans le dashboard.
+| Test | Objet |
+|---|---|
+| Audit notebook | Verification de reproductibilite du notebook initial. |
+| Pandera | Validation des regles critiques (prix, marge, stock, coherence achat/vente). |
+| Alertes statistiques | Verification des alertes (Z-score/IQR, Isolation Forest). |
+| Explicabilite | Verification de SHAP pour les produits prioritaires. |
+| Priorisation | Verification de K-Means/kNN en appui du backlog, sans passage critique automatique. |
+| Restitution dashboard | Validation de la lecture metier dans le dashboard. |
 
 ## Mode de restitution Pandera
 
-- Execution: Pandera est execute dans le notebook en arriere-plan pour valider les regles de qualite.
-- Affichage: le dashboard n'affiche pas le code technique ni les tables brutes de failure cases.
-- Restitution visible: un resume metier est affiche (statut OK/Alerte/Indisponible + nombre de violations).
-- Traçabilite: les details techniques restent documentes dans la documentation projet et rejouables dans le notebook.
+| Aspect | Regle de restitution |
+|---|---|
+| Execution | Pandera est execute dans le notebook en arriere-plan pour valider les regles de qualite. |
+| Affichage | Le dashboard n'affiche pas le code technique ni les tables brutes de failure cases. |
+| Restitution visible | Un resume metier est affiche (statut OK/Alerte/Indisponible + nombre de violations). |
+| Traçabilite | Les details techniques restent documentes dans la documentation projet et rejouables dans le notebook. |
 
 ## Articulation Pandera et Great Expectations
 
-- Pandera est utilise en controle amont: il securise les donnees avant calcul des scores et priorites.
-- Great Expectations est utilise en controle aval: il securise la publication et la traçabilite des lots.
-- Decision de blocage:
-	- Echec Pandera => on corrige la donnee avant de continuer l'analyse.
-	- Echec GE => on bloque la diffusion externe tant que les expectations ne sont pas conformes.
-- Benefice metier: les equipes traitent des alertes fiables, et la publication reste gouvernee par des regles qualite explicites.
+| Niveau | Role |
+|---|---|
+| Pandera | Controle amont: securise les donnees avant calcul des scores et priorites. |
+| Great Expectations | Controle aval: securise la publication et la traçabilite des lots. |
+
+| Situation | Action |
+|---|---|
+| Echec Pandera | Corriger la donnee avant de continuer l'analyse. |
+| Echec GE | Bloquer la diffusion externe tant que les expectations ne sont pas conformes. |
+
+| Benefice metier | Effet attendu |
+|---|---|
+| Publication gouvernee | Les equipes traitent des alertes fiables, avec des regles qualite explicites. |
 
 ## Grille de validation dashboard
 
@@ -48,33 +59,45 @@ Montrer comment les hypotheses ont ete validees dans une logique dashboard: qual
 
 ### Entree 1 - Sequence de tests rapide et fiable
 
-- **Contexte** : Besoin de valider vite sans casser le flux notebook existant.
-- **Hypothese IA** : Une sequence en 3 etapes (schema, anomalies, restitution) couvre l'essentiel pour le lot en cours.
-- **Options considerees** :
-	1. Tests complets type framework lourd des la premiere iteration.
-	2. Sequence progressive Pandas/Pandera + controles statistiques de base.
-- **Decision humaine** : Option 2 retenue.
-- **Justification** : Delai court, meilleure lisibilite pour la soutenance, integration immediate dans le notebook.
-- **Impact** : Tests rejouables, etat des controles plus clair pour le lecteur metier.
+| Champ | Contenu |
+|---|---|
+| Contexte | Besoin de valider vite sans casser le flux notebook existant. |
+| Hypothese IA | Une sequence en 3 etapes (schema, anomalies, restitution) couvre l'essentiel pour le lot en cours. |
+| Options considerees | 1. Tests complets type framework lourd des la premiere iteration. 2. Sequence progressive Pandas/Pandera + controles statistiques de base. |
+| Decision humaine | Option 2 retenue. |
+| Justification | Delai court, meilleure lisibilite pour la soutenance, integration immediate dans le notebook. |
+| Impact | Tests rejouables, etat des controles plus clair pour le lecteur metier. |
 
 ### Entree 2 - Validation BC05 en conditions reelles
 
-- **Contexte** : Prouver la valeur statistique sans sur-complexifier l'implementation.
-- **Hypothese IA** : IF + SHAP couvre la decision immediate; K-Means/kNN complete la priorisation.
-- **Options considerees** :
-	1. Introduire directement plusieurs modeles en parallele.
-	2. Stabiliser d'abord les alertes statistiques de base.
-- **Decision humaine** : Option 2 retenue.
-- **Justification** : separation nette entre alerte critique immediate et priorisation de second niveau.
-- **Impact** : traçabilite claire de la chaine Qualite -> Detection -> Explication -> Decision.
+| Champ | Contenu |
+|---|---|
+| Contexte | Prouver la valeur statistique sans sur-complexifier l'implementation. |
+| Hypothese IA | IF + SHAP couvre la decision immediate; K-Means/kNN complete la priorisation. |
+| Options considerees | 1. Introduire directement plusieurs modeles en parallele. 2. Stabiliser d'abord les alertes statistiques de base. |
+| Decision humaine | Option 2 retenue. |
+| Justification | Separation nette entre alerte critique immediate et priorisation de second niveau. |
+| Impact | Traçabilite claire de la chaine Qualite -> Detection -> Explication -> Decision. |
+
+### Entree 3 - Validation de la matrice decisionnelle stricte
+
+| Champ | Contenu |
+|---|---|
+| Contexte | Les premiers compteurs donnaient trop de critiques lorsque kNN/K-Means entraient dans le score critique. |
+| Hypothese IA | Separer `critical_score` et `surveillance_score` rend la priorisation plus robuste. |
+| Decision humaine | `Critique` = IF + SHAP + impact ; kNN/K-Means = surveillance. |
+| Resultat | Matrice complete : 1 critique, 172 a surveiller, 652 normaux. Dashboard filtre courant : 1 critique, 152 a surveiller, 560 normaux. |
+| Impact | La short-list critique redevient actionnable sans perdre les signaux rares dans le backlog. |
 
 ## Preuves associees
 
-- [README.md](README.md)
-- [Dashboard KPI](output/captures/05_kpi_dashboard_phase2.png)
-- [Notebook BC05 - section globale](https://nbviewer.org/github/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/notebooks/bottleneck_analyse_ameliore_final.ipynb#RNCP37837BC05)
-- [Notebook BC05 - 9.1 Immediate](https://nbviewer.org/github/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/notebooks/bottleneck_analyse_ameliore_final.ipynb#RNCP37837BC05-IMMEDIATE)
-- [Notebook BC05 - 9.2 Isolation Forest](https://nbviewer.org/github/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/notebooks/bottleneck_analyse_ameliore_final.ipynb#RNCP37837BC05-IFOREST)
-- [Notebook BC05 - 9.3 K-Means et kNN](https://nbviewer.org/github/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/notebooks/bottleneck_analyse_ameliore_final.ipynb#RNCP37837BC05-KMEANS-KNN)
-- [Mode d'emploi dashboard](09_mode_emploi_dashboard.html)
-- [README du portfolio](README.md)
+| Preuve | Lien |
+|---|---|
+| README | [Ouvrir](README.md) |
+| Dashboard KPI | [Ouvrir](output/captures/05_kpi_dashboard_phase2.png) |
+| Notebook BC05 - section globale | [Ouvrir](https://nbviewer.org/github/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/notebooks/bottleneck_analyse_ameliore_final.ipynb#RNCP37837BC05) |
+| Notebook BC05 - 9.1 Immediate | [Ouvrir](https://nbviewer.org/github/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/notebooks/bottleneck_analyse_ameliore_final.ipynb#RNCP37837BC05-IMMEDIATE) |
+| Notebook BC05 - 9.2 Isolation Forest | [Ouvrir](https://nbviewer.org/github/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/notebooks/bottleneck_analyse_ameliore_final.ipynb#RNCP37837BC05-IFOREST) |
+| Notebook BC05 - 9.3 K-Means et kNN | [Ouvrir](https://nbviewer.org/github/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/notebooks/bottleneck_analyse_ameliore_final.ipynb#RNCP37837BC05-KMEANS-KNN) |
+| Mode d'emploi dashboard | [Ouvrir](09_mode_emploi_dashboard.html) |
+| README du portfolio | [Ouvrir](README.md) |

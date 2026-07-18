@@ -1,35 +1,52 @@
 # 🍷 **P6 Amélioré : Optimisation de la Gestion des Données – Bottleneck Wine Shop**
 **Amélioration du livrable P6 avec IA critique, documentation structurée et preuves détaillées pour une restitution métier plus lisible.**
 
-> **🔹 Reproductible**   **📊 Traçable** | **🤖 IA Documentée** | **⚡ Optimisé (-68% cells, -76% temps)**
+> **🔹 Reproductible**   **📊 Traçable** | **🤖 IA Documentée** | **⚡ Optimisé (-56% cellules) + BC05 décisionnel strict**
 
 **📅 Date** : Juillet 2026
 **🏷️ Type** : Analyse Exploratoire / Data Cleaning / KPI Business / IA Assistée
 **🔗 Liens** :
-| Ressource | Lien |
-|---|---|
-| 🔗 Portfolio P13 | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/) |
-| 📓 Notebook Principal | [Accéder](https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
-| 📓 Notebook amélioré | [Accéder](https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
-| 📁 Cahier des Charges | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/02_cahier_des_charges_fonctionnel.html) |
-| 📁 Veille Technologique | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/01_veille_metier_technologique.html) |
-| 📁 Journal IA | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/08_decisions.html) |
-| 📁 Synthèse Finale | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/06_resultats.html) |
-| 📘 Mode d'emploi Dashboard | [Accéder](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/09_mode_emploi_dashboard.html) |
-| 📊 Dataviz (13 graphiques) | [Accéder](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/dataviz) |
-| 🖼️ Captures Portfolio | [Accéder](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/captures) |
+
+<table>
+	<thead>
+		<tr>
+			<th>Ressource</th>
+			<th>Lien</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>🔗 Portfolio P13</td><td><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/">Accéder</a></td></tr>
+		<tr><td>📓 Notebook principal</td><td><a href="https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb">Accéder</a></td></tr>
+		<tr><td>📁 Cahier des charges</td><td><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/02_cahier_des_charges_fonctionnel.html">Accéder</a></td></tr>
+		<tr><td>📁 Veille technologique</td><td><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/01_veille_metier_technologique.html">Accéder</a></td></tr>
+		<tr><td>📁 Journal IA</td><td><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/08_decisions.html">Accéder</a></td></tr>
+		<tr><td>📁 Synthèse finale</td><td><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/06_resultats.html">Accéder</a></td></tr>
+		<tr><td>📘 Mode d'emploi dashboard</td><td><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/09_mode_emploi_dashboard.html">Accéder</a></td></tr>
+		<tr><td>📊 Dataviz (25 visuels)</td><td><a href="https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/dataviz">Accéder</a></td></tr>
+		<tr><td>🖼️ Captures Portfolio</td><td><a href="https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/captures">Accéder</a></td></tr>
+	</tbody>
+</table>
 
 **Preuves détaillées et restitution métier** :
-| Preuve | Accès |
-|---|---|
-| Avant : Notebook initial | [Voir](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P6_Optimisation_Bottleneck/) |
-| Après : Notebook amélioré | [Voir](https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
-| Avant : Synthèse initiale | Non conservée dans le dépôt public |
-| Après : Synthèse finale enrichie | [Voir](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/06_resultats.md) |
-| Avant : Visuels HTML | [Voir](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P6_Optimisation_Bottleneck/) |
-| Après : Visuels PNG | [Voir](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/dataviz) |
-| Dashboard KPI pour le CODIR | [Voir](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/captures) |
-| Mode d'emploi utilisateur du dashboard | [Voir](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/09_mode_emploi_dashboard.html) |
+
+<table>
+	<thead>
+		<tr>
+			<th>Preuve</th>
+			<th>Accès</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>Avant : Notebook initial</td><td><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P6_Optimisation_Bottleneck/">Voir</a></td></tr>
+		<tr><td>Après : Notebook amélioré</td><td><a href="https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb">Voir</a></td></tr>
+		<tr><td>Avant : Synthèse initiale</td><td>Non conservée dans le dépôt public</td></tr>
+		<tr><td>Après : Synthèse finale enrichie</td><td><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/06_resultats.html">Voir</a></td></tr>
+		<tr><td>Avant : Visuels HTML</td><td><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P6_Optimisation_Bottleneck/">Voir</a></td></tr>
+		<tr><td>Après : Visuels PNG</td><td><a href="https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/dataviz">Voir</a></td></tr>
+		<tr><td>Dashboard KPI pour le CODIR</td><td><a href="https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/captures">Voir</a></td></tr>
+		<tr><td>Mode d'emploi utilisateur du dashboard</td><td><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/09_mode_emploi_dashboard.html">Voir</a></td></tr>
+	</tbody>
+</table>
 
 ---
 
@@ -47,11 +64,12 @@
 >    - Analyse Pareto (80% du CA).
 >    - Recommandations pour optimiser les stocks et les marges.
 > 4. **Préparer une restitution métier exploitable** :
->    - Réduire la taille du notebook (**-68% de cells**).
->    - Optimiser le temps d’exécution (**-76%**).
+>    - Réduire la taille du notebook (**148 → 65 cellules, -56%**) tout en ajoutant le renfort BC05.
+>    - Conserver une exécution courte (**~1 min 30** sur la version enrichie).
 >    - **Documenter chaque étape** (IA, contrôles qualité, décisions).
 >    - Fournir un **dashboard KPI** clair pour la lecture CODIR.
 >    - Montrer la trace **avant / après** entre le livrable initial et la version améliorée.
+>    - Séparer la priorisation stricte (`critical_score`) de la surveillance statistique (`surveillance_score`).
 
 > **Approche P13** :
 > *"**Pandas pragmatique** (court terme, J+30) avec **Data Contracts formalisés** en vue d’une migration vers **Great Expectations v19+** (moyen terme)."*
@@ -63,21 +81,20 @@
 |---|---|---|
 | `README.md` | Ce fichier | Point d’entrée du livrable |
 | `requirements.txt` | Dépendances Python | Reproductibilité de l’environnement |
-| `notebooks/bottleneck_analyse_ameliore_final.ipynb` | Notebook final | Analyse principale, 49 cellules, exécution ~1:11 |
+| `notebooks/bottleneck_analyse_ameliore_final.ipynb` | Notebook final | Analyse principale, 65 cellules, exécution ~1:30 |
 | `src/quality_checks.py` | Script Python | 18 contrôles de qualité des données |
 | `src/stock_cleaning.py` | Script Python | Correction des anomalies de stock |
 | `src/data_merging.py` | Script Python | Rapprochement ERP / Web / Liaison |
 | `src/eda_analysis.py` | Script Python | Analyses exploratoires, Pareto, corrélations |
 | `src/kpi_analysis.py` | Script Python | Calcul des KPI métier (CA, marges, rotation) |
-| `docs/01_cahier_des_charges_P13_partie_1.md` | Documentation | Cahier des charges complet |
-| `docs/02_veille_technologique_P13_partie_1.md` | Documentation | Benchmark Pandas vs GE vs Soda |
-| `docs/03_journal_ia_P13_partie_1.md` | Documentation | 26 prompts IA documentés |
-| `docs/04_plan_projet_P13_partie_1.md` | Documentation | Backlog, kanban, planning |
-| `docs/05_matrice_indicateurs_P13_partie_1.md` | Documentation | Matrice des indicateurs |
-| `docs/06_synthese_finale_P13_partie_1.md` | Documentation | Synthèse des résultats et recommandations |
-| `docs/07_checklist_publication_github.md` | Documentation | Checklist de déploiement |
-| `docs/13_great_expectations_strategy.md` | Documentation | Stratégie de migration vers GE v19+ |
-| `output/dataviz/` | Graphiques HTML | 13 graphiques Plotly pour la restitution |
+| `02_cahier_des_charges_fonctionnel.html` | Documentation | Cahier des charges fonctionnel public |
+| `01_veille_metier_technologique.html` | Documentation | Veille métier et technologique |
+| `08_decisions.html` | Documentation | Décisions IA et arbitrages humains |
+| `04_hypotheses.html` | Documentation | Hypothèses de travail |
+| `05_tests.html` | Documentation | Tests et validations |
+| `06_resultats.html` | Documentation | Résultats et recommandations |
+| `09_mode_emploi_dashboard.html` | Documentation | Mode d'emploi dashboard |
+| `output/dataviz/` | Graphiques HTML/PNG | 13 graphiques Phase II + 12 visuels BC05 |
 | `output/captures/` | Captures PNG | 6 à 8 captures portfolio |
 ---
 
@@ -114,31 +131,56 @@ jupyter notebook notebooks/bottleneck_analyse_ameliore_final.ipynb
 ### **📌 Résultats Générés**
 
 ✅ Checkpoints à chaque phase (M00, Phase I, Phase II, Final).
-✅ 13 graphiques Plotly dans output/dataviz/ (CA, Pareto, anomalies, stocks, corrélations).
+✅ 25 visuels dans output/dataviz/ : 13 graphiques Phase II + 12 visuels BC05.
 ✅ Rapport de qualité : 18 contrôles + 7 Data Contracts validés.
-✅ Temps total : ~1 minute 11 secondes (vs ~5 min initialement).
+✅ Temps total : ~1 minute 30 secondes sur la version enrichie (vs ~5 min initialement).
 
 ### **📊 Résultats Clés**
 (Blocs RNCP37837BC02, BC03, BC05)
-| Bloc | Élément | Résultat | Preuve |
-| --- | --- | --- | --- |
-| Phase I | Données chargées | 825 (ERP) + 1 513 (Web) + 825 (Liaison) | data_merging.py |
-| Phase I | Contrôles qualité | 18 points validés (11 OK, 4 à vérifier, 2 à documenter, 1 corrigé) | quality_checks.py |
-| Phase I | Stocks corrigés | 2 exceptions (stock < 0) identifiées et tracées | stock_cleaning.py |
-| Phase I | Rapprochement ERP/Web | 714 / 1 513 matches (47.2% → anomalies à investiguer) | data_merging.py |
-| Phase II | CA total | 143 680 EUR/mois (octobre 2026) | kpi_analysis.py |
-| Phase II | Produits avec CA | 689 | eda_analysis.py |
-| Phase II | Pareto 80% | Rang 435 | courbe_pareto_80_20.html |
-| Phase II | Marge moyenne | 47.32% | anomalies_prix_et_marges.html |
-| Phase II | Stock / Rotation | 2.98 mois (moyenne) | distribution_stocks.html |
-| Phase II | Anomalies détectées | 10 (3 prix invalides, 7 marges négatives) | anomalies_prix_et_marges.html |
-| Dataviz | Chiffre d’affaires par catégorie | Graphique de synthèse | HTML |
-| Dataviz | Courbe Pareto 80/20 | Visualisation des ventes concentrées | HTML |
-| Dataviz | Anomalies prix et marges | Contrôle des valeurs aberrantes | HTML |
-| Dataviz | Distribution des stocks | Répartition des niveaux de stock | HTML |
-| Dataviz | Rotation mensuelle | Suivi de rotation | HTML |
-| Dataviz | Corrélations quantitatives | Relations entre variables | HTML |
-| Dataviz | Autres visuels | 7 graphiques supplémentaires | output/dataviz/ |
+<table>
+	<thead>
+		<tr>
+			<th>Bloc</th>
+			<th>Élément</th>
+			<th>Résultat</th>
+			<th>Preuve</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>Phase I</td><td>Données chargées</td><td>825 ERP + 1 513 Web + 825 Liaison</td><td>data_merging.py</td></tr>
+		<tr><td>Phase I</td><td>Contrôles qualité</td><td>18 points validés (11 OK, 4 à vérifier, 2 à documenter, 1 corrigé)</td><td>quality_checks.py</td></tr>
+		<tr><td>Phase I</td><td>Stocks corrigés</td><td>2 exceptions stock &lt; 0 identifiées et tracées</td><td>stock_cleaning.py</td></tr>
+		<tr><td>Phase I</td><td>Rapprochement ERP/Web</td><td>714 / 1 513 matches (47,2%)</td><td>data_merging.py</td></tr>
+		<tr><td>Phase II</td><td>CA total</td><td>143 680 EUR/mois (octobre 2026)</td><td>kpi_analysis.py</td></tr>
+		<tr><td>Phase II</td><td>Produits avec CA</td><td>689</td><td>eda_analysis.py</td></tr>
+		<tr><td>Phase II</td><td>Pareto 80%</td><td>Rang 435</td><td>courbe_pareto_80_20.html</td></tr>
+		<tr><td>Phase II</td><td>Marge moyenne</td><td>47.32%</td><td>anomalies_prix_et_marges.html</td></tr>
+		<tr><td>Phase II</td><td>Stock / Rotation</td><td>2.98 mois (moyenne)</td><td>distribution_stocks.html</td></tr>
+		<tr><td>Phase II</td><td>Anomalies détectées</td><td>10 (3 prix invalides, 7 marges négatives)</td><td>anomalies_prix_et_marges.html</td></tr>
+		<tr><td>BC05</td><td>Alertes immédiates</td><td>36 alertes statistiques (4,36%)</td><td>bc05_alertes_actionnables.csv</td></tr>
+		<tr><td>BC05</td><td>Isolation Forest</td><td>25 alertes multivariées</td><td>bc05_iforest_alerts.csv</td></tr>
+		<tr><td>BC05</td><td>K-Means</td><td>4 clusters produits</td><td>bc05_kmeans_scatter</td></tr>
+		<tr><td>BC05</td><td>kNN</td><td>42 produits rares au seuil 95e percentile</td><td>bc05_knn_scatter</td></tr>
+		<tr><td>BC05</td><td>Matrice décisionnelle stricte</td><td>825 produits : 1 critique, 172 à surveiller, 652 normaux</td><td>bc05_matrice_decisionnelle.csv</td></tr>
+		<tr><td>Dataviz</td><td>Chiffre d’affaires par catégorie</td><td>Graphique de synthèse</td><td>HTML</td></tr>
+		<tr><td>Dataviz</td><td>Courbe Pareto 80/20</td><td>Visualisation des ventes concentrées</td><td>HTML</td></tr>
+		<tr><td>Dataviz</td><td>Anomalies prix et marges</td><td>Contrôle des valeurs aberrantes</td><td>HTML</td></tr>
+		<tr><td>Dataviz</td><td>Distribution des stocks</td><td>Répartition des niveaux de stock</td><td>HTML</td></tr>
+		<tr><td>Dataviz</td><td>Rotation mensuelle</td><td>Suivi de rotation</td><td>HTML</td></tr>
+		<tr><td>Dataviz</td><td>Corrélations quantitatives</td><td>Relations entre variables</td><td>HTML</td></tr>
+		<tr><td>Dataviz</td><td>Autres visuels</td><td>7 graphiques supplémentaires + 12 visuels BC05</td><td>output/dataviz/</td></tr>
+	</tbody>
+</table>
+
+### **🧭 Règle de décision BC05 retenue**
+
+| Niveau | Score | Rôle |
+|---|---|---|
+| **Critique** | `critical_score >= 0.65` | IF + SHAP + impact business ; short-list actionnable CODIR |
+| **À surveiller** | `surveillance_score >= 0.45` | IF + kNN + K-Means + SHAP + impact ; backlog d'investigation |
+| **Normal** | Sous les seuils | Suivi standard |
+
+Le kNN est un score non supervisé de rareté locale : il aide à ordonner les investigations, mais ne déclenche pas seul une urgence critique.
 
 ### **🔧 Méthodologie et Choix Technologiques**
 (Blocs RNCP37837BC02, BC04)
@@ -176,15 +218,17 @@ Moyen terme : Migration vers Great Expectations v19+ (voir roadmap).
 (Bloc RNCP37837BC04 : Organiser un projet data)
 | Dimension | P6 Initial | P6 Amélioré | Gain |
 | --- | --- | --- | --- |
-| Cellules notebook | 148 | 49 | -68% |
-| Temps d’exécution | ~5 min | 1:11 min | -76% |
-| Code cells | 105 | 39 | -63% |
-| Markdown cells | 43 | 8 | -81% |
+| Cellules notebook | 148 | 65 | -56% malgré le renfort BC05 |
+| Temps d’exécution | ~5 min | ~1:30 min | ~70% plus rapide |
+| Code cells | 105 | 28 | -73% |
+| Markdown cells | 43 | 37 | Documentation renforcée |
 | Erreurs/warnings | 1 major | 0 | ✅ |
 | Contrôles qualité | Implicites | 18 explicites | ✅ |
 | Data Contracts | 0 | 7 formalisés | ✅ |
 | Checkpoints | 0 | 4 internes | ✅ |
 | Documentation IA | 0 | 26 prompts tracés | ✅ |
+| Alertes BC05 | 0 | 36 alertes + matrice 825 produits | ✅ |
+| Modèles avancés | 0 | IF, SHAP, K-Means, kNN | ✅ |
 | Reproductibilité | Chemins locaux | Chemins relatifs | ✅ |
 
 ### **📚 Documentation Complète**
@@ -193,16 +237,16 @@ Moyen terme : Migration vers Great Expectations v19+ (voir roadmap).
 Tous les 10 critères mission P13 Partie 1 sont documentés et tracés :
 | Critère | Document | Lien |
 | --- | --- | --- |
-| Améliorer le livrable | Synthèse avant/après | [06_synthese_finale](docs/06_synthese_finale_P13_partie_1.md) |
-| IA critique & documentée | Journal IA (26 prompts) | [03_journal_ia](docs/03_journal_ia_P13_partie_1.md) |
-| Tester plusieurs options | Benchmark outils (Pandas/GE/Soda) | [02_veille_technologique](docs/02_veille_technologique_P13_partie_1.md) |
+| Améliorer le livrable | Synthèse avant/après | [06_resultats](06_resultats.html) |
+| IA critique & documentée | Journal IA / décisions | [08_decisions](08_decisions.html) |
+| Tester plusieurs options | Benchmark outils (Pandas/GE/Soda/IF/SHAP/kNN) | [01_veille_metier_technologique](01_veille_metier_technologique.html) |
 | Critères explicites | Tableau comparaison + méthodologie | [Notebook, Cellule 2](https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
 | Justifier les choix | Chaque cellule commence par "Pourquoi ?" | [Notebook complet](https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
-| Identifier les besoins métier | Cahier des charges complet | [01_cahier_des_charges](docs/01_cahier_des_charges_P13_partie_1.md) |
-| Cahier des charges | Document complet (CDC) | [01_cahier_des_charges](docs/01_cahier_des_charges_P13_partie_1.md) |
-| Organiser le projet | Backlog, kanban, planning | [04_plan_projet](docs/04_plan_projet_P13_partie_1.md) |
+| Identifier les besoins métier | Cahier des charges complet | [02_cahier_des_charges_fonctionnel](02_cahier_des_charges_fonctionnel.html) |
+| Cahier des charges | Document complet (CDC) | [02_cahier_des_charges_fonctionnel](02_cahier_des_charges_fonctionnel.html) |
+| Organiser le projet | Hypothèses, tests, décisions | [04_hypotheses](04_hypotheses.html) + [05_tests](05_tests.html) |
 | Outils de gestion | GitHub Projects Kanban | [Captures disponibles](output/captures/) |
-| Intégrer les contraintes | 5 types documentés (délai, RGPD, budget, sobriété, conformité) | [04_plan_projet](docs/04_plan_projet_P13_partie_1.md) |
+| Intégrer les contraintes | 5 types documentés (délai, RGPD, budget, sobriété, conformité) | [08_decisions](08_decisions.html) |
 
 
 ### **📌 Modules Python**
@@ -218,11 +262,11 @@ Tous les 10 critères mission P13 Partie 1 sont documentés et tracés :
 (Bloc RNCP37837BC05 : Spécialisation Statistiques)
 | Limite | Impact | Recommandation | Preuve |
 | --- | --- | --- | --- |
-| 1 mois de données (octobre 2026) | Snapshot, pas de tendance | Confirmer sur multi-mois | [06_synthese_finale](docs/06_synthese_finale_P13_partie_1.md) |
+| 1 mois de données (octobre 2026) | Snapshot, pas de tendance | Confirmer sur multi-mois | [06_resultats](06_resultats.html) |
 | Corrélations ≠ causalité | Risque de faux signaux | Utiliser comme aide à la décision, pas comme preuve | [Notebook, Cellule 7](https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
 | Outliers statistiques | Modèle IQR | Valider avec l’équipe métier (prix premium légitimes ?) | [anomalies_prix_et_marges.html](output/dataviz/anomalies_prix_et_marges.html) |
 | Stock/Liaison manuels | Risque de désynchronisation | Investiguer 799 références Web sans match ERP | [data_merging.py](src/data_merging.py) |
-| Pas d’historique | Données point-in-time | Intégrer l’historique pour analyser les tendances | [06_synthese_finale](docs/06_synthese_finale_P13_partie_1.md) |
+| Pas d’historique | Données point-in-time | Intégrer l’historique pour analyser les tendances | [06_resultats](06_resultats.html) |
 
 ### **📞 Questions Fréquentes (FAQ)**
 Q : Puis-je relancer le notebook sur mes données ?
@@ -236,24 +280,33 @@ Q : Comment contribuer ?
 
 ### **🔧 Compétences RNCP 37837 Demonstrées**
 ### **📌 Mapping des Blocs RNCP**
-| Bloc RNCP | Compétence | Description | Preuves |
-| --- | --- | --- | --- |
-| BC01 | Structurer et gérer la base de données | Rapprochement de 3 sources (ERP, Web, Liaison) en une base unifiée. | [data_merging.py](src/data_merging.py) |
-| BC01 | Gérer une base de données | Contrôles qualité (18 points) et Data Contracts (7 formalisés). | [quality_checks.py](src/quality_checks.py) |
-| BC02 | Identifier et collecter les données | Utilisation des 3 sources Bottleneck (ERP, Web, Liaison). | [Notebook, Cellule 1](https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
-| BC02 | Extraire et agréger | Nettoyage (stocks, prix) et rapprochement des données. | [stock_cleaning.py](src/stock_cleaning.py) + [data_merging.py](src/data_merging.py) |
-| BC02 | Explorer et pré-traiter | EDA (Pareto, corrélations, anomalies). | [eda_analysis.py](src/eda_analysis.py) |
-| BC02 | Analyse univariée/multivariée | Analyse Pareto (80% du CA sur 435 produits). | [courbe_pareto_80_20.html](output/dataviz/courbe_pareto_80_20.html) |
-| BC03 | Solution de visualisation | 13 graphiques Plotly (CA, Pareto, anomalies, stocks). | [output/dataviz/](output/dataviz/) |
-| BC03 | Créer un tableau de bord | Dashboard KPI Streamlit pour le CODIR, déjà illustré par la capture de restitution. | [Capture dashboard](output/captures/05_kpi_dashboard_phase2.png) |
-| BC03 | Reporting des tendances | Exports HTML (Plotly) et synthèse écrite. | [output/dataviz/](output/dataviz/) + [06_synthese_finale](docs/06_synthese_finale_P13_partie_1.md) |
-| BC04 | Veille métier/technologique | Benchmark Pandas vs GE vs Soda + roadmap migration. | [02_veille_technologique](docs/02_veille_technologique_P13_partie_1.md) |
-| BC04 | Formaliser le cahier des charges | Cahier des charges complet (objectifs, contraintes, livrables). | [01_cahier_des_charges](docs/01_cahier_des_charges_P13_partie_1.md) |
-| BC04 | Organiser un projet data | Backlog, kanban, planning (GitHub Projects). | [04_plan_projet](docs/04_plan_projet_P13_partie_1.md) + [captures](output/captures/) |
-| BC04 | Gérer la documentation | 8 docs + 26 prompts IA + 13 graphiques documentés. | [docs/](docs/) |
-| BC04 | Adapter sa posture | Journal IA (décisions humaines + limitations). | [03_journal_ia](docs/03_journal_ia_P13_partie_1.md) |
-| BC05 | Analyses multivariées | Analyse Pareto + corrélations (prix, marges, stocks). | [eda_analysis.py](src/eda_analysis.py) |
-| BC05 | Tests statistiques | Validation des KPI (cohérence, outliers). | [kpi_analysis.py](src/kpi_analysis.py) |
+
+<table>
+	<thead>
+		<tr>
+			<th>Bloc RNCP</th>
+			<th>Compétence</th>
+			<th>Description</th>
+			<th>Preuves</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>BC01</td><td>Structurer et gérer la base</td><td>Rapprochement ERP, Web et Liaison en base unifiée.</td><td><a href="https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/src">src/data_merging.py</a></td></tr>
+		<tr><td>BC01</td><td>Gérer une base de données</td><td>18 contrôles qualité + 7 Data Contracts.</td><td><a href="https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/src">src/quality_checks.py</a></td></tr>
+		<tr><td>BC02</td><td>Identifier et collecter</td><td>Utilisation des 3 sources Bottleneck.</td><td><a href="https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb">Notebook</a></td></tr>
+		<tr><td>BC02</td><td>Extraire et agréger</td><td>Nettoyage stocks/prix et rapprochement des données.</td><td><a href="https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/src">Scripts Python</a></td></tr>
+		<tr><td>BC02</td><td>Explorer et pré-traiter</td><td>EDA, Pareto, corrélations, anomalies.</td><td><a href="https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/src">eda_analysis.py</a></td></tr>
+		<tr><td>BC03</td><td>Visualiser</td><td>13 graphiques Phase II + 12 visuels BC05.</td><td><a href="https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/dataviz">output/dataviz</a></td></tr>
+		<tr><td>BC03</td><td>Créer un tableau de bord</td><td>Dashboard KPI Streamlit pour lecture CODIR.</td><td><a href="output/captures/05_kpi_dashboard_phase2.png">Capture dashboard</a></td></tr>
+		<tr><td>BC03</td><td>Reporting des tendances</td><td>Exports visuels + synthèse écrite.</td><td><a href="06_resultats.html">06_resultats</a></td></tr>
+		<tr><td>BC04</td><td>Veille métier/technologique</td><td>Benchmark Pandas, GE, Soda, IF, SHAP, K-Means, kNN.</td><td><a href="01_veille_metier_technologique.html">01_veille</a></td></tr>
+		<tr><td>BC04</td><td>Formaliser le cahier des charges</td><td>Objectifs, contraintes et livrables.</td><td><a href="02_cahier_des_charges_fonctionnel.html">02_cahier</a></td></tr>
+		<tr><td>BC04</td><td>Organiser un projet data</td><td>Hypothèses, tests, résultats et décisions.</td><td><a href="04_hypotheses.html">04_hypotheses</a> + <a href="05_tests.html">05_tests</a></td></tr>
+		<tr><td>BC04</td><td>Gérer la documentation</td><td>Pages publiques, décisions IA, mode d'emploi dashboard.</td><td><a href="08_decisions.html">08_decisions</a> + <a href="09_mode_emploi_dashboard.html">09_mode_emploi</a></td></tr>
+		<tr><td>BC05</td><td>Analyses multivariées</td><td>Isolation Forest, SHAP, K-Means, kNN, score strict et surveillance.</td><td><a href="06_resultats.html">06_resultats</a></td></tr>
+		<tr><td>BC05</td><td>Tests statistiques</td><td>Validation KPI, outliers et matrice décisionnelle stricte.</td><td><a href="05_tests.html">05_tests</a></td></tr>
+	</tbody>
+</table>
 
 
 🎯 Mapping RNCP 37837
