@@ -41,14 +41,14 @@ Les resultats de veille sont integres dans la narration pour justifier les choix
 | Projet 3 - A completer | README projet + lien livrable + capture | A completer | KPI, volume donnees, outils, resultat | [ ] |
 | Projet 4 - A completer | README projet + lien livrable + capture | A completer | KPI, volume donnees, outils, resultat | [ ] |
 | Projet 5 - A completer | README projet + lien livrable + capture | A completer | KPI, volume donnees, outils, resultat | [ ] |
-| Projet 6 - Bottleneck | Notebook P6 ameliore + documentation Partie 1 + capture resultat | Python, Pandas, nettoyage, rapprochement de donnees, EDA, detection d'anomalies, pilotage IA | CA total, valeurs manquantes, doublons, anomalies, temps d'execution, controles qualite | [~] |
+| **Projet 6 - Bottleneck ⭐ preuve technique phare** | Notebook P6 ameliore + dashboard + documentation Partie 1 + captures | Python, Pandas, nettoyage, rapprochement, EDA, detection anomalies, BC05, dashboard, IA critique | CA 143.7k EUR, 825 produits, 714 web match, 18 controles qualite, 36 alertes BC05, matrice stricte 1 critique / 172 a surveiller / 652 normaux, 65 cellules | [x] |
 | Projet 7 - A completer | README projet + lien livrable + capture | A completer | KPI, volume donnees, outils, resultat | [ ] |
 | Projet 8 - A completer | README projet + lien livrable + capture | A completer | KPI, volume donnees, outils, resultat | [ ] |
 | Projet 9 - A completer | README projet + lien livrable + capture | A completer | KPI, volume donnees, outils, resultat | [ ] |
 | Projet 10 - A completer | README projet + lien livrable + capture | A completer | KPI, volume donnees, outils, resultat | [ ] |
 | Projet 11 - A completer | README projet + lien livrable + capture | A completer | KPI, volume donnees, outils, resultat | [ ] |
 | Projet 12 - A completer | README projet + lien livrable + capture | A completer | KPI, volume donnees, outils, resultat | [ ] |
-| Projet 13 - A completer | README projet + lien livrable + capture | A completer | KPI, volume donnees, outils, resultat | [ ] |
+| **Projet 13 - Portfolio + IA ⭐ preuve de pilotage** | Documentation P13 Partie 1 + Mission 2 + matrice RNCP + GitHub Pages | Pilotage projet, IA governance, documentation, veille technologique, valorisation portfolio | GitHub Project, dossier projet unique, Mission 2, mapping RNCP, TNR GitHub Pages, correction vs evolution | [x] |
 | Projet 14 - A completer | README projet + lien livrable + capture | A completer | KPI, volume donnees, outils, resultat | [ ] |
 
 ## 3. Niveau de profondeur par projet
@@ -77,16 +77,16 @@ Les resultats de veille sont integres dans la narration pour justifier les choix
 
 | Competence | Projets qui la prouvent | Preuve a ajouter | Statut |
 |---|---|---|---|
-| Collecter et integrer des donnees | A completer | Source de donnees, import, requetes, fichiers. | [ ] |
-| Nettoyer et preparer les donnees | P6 Bottleneck + a completer | Notebook, controles qualite, traitement valeurs manquantes/doublons. | [ ] |
-| Analyser les donnees | P6 Bottleneck + a completer | EDA, indicateurs, segmentation, analyses metier. | [ ] |
-| Visualiser et restituer | A completer | Dashboard, graphiques, captures, rapport. | [ ] |
+| Collecter et integrer des donnees | **P6 Bottleneck** | Sources ERP/Web/Liaison, rapprochement 825 produits. | [x] |
+| Nettoyer et preparer les donnees | **P6 Bottleneck** | 18 controles qualite, stocks corriges, anomalies documentees. | [x] |
+| Analyser les donnees | **P6 Bottleneck** | EDA, Pareto rang 435, BC05, matrice stricte. | [x] |
+| Visualiser et restituer | **P6 Dashboard + P13 GitHub Pages** | Dashboard Streamlit, 25 visuels, portfolio public. | [x] |
 | Utiliser SQL | A completer | Requetes, schema, resultats. | [ ] |
-| Utiliser Python | P6 Bottleneck + a completer | Notebook, scripts, librairies. | [ ] |
-| Communiquer des recommandations | A completer | Synthese, conclusions, recommandations. | [ ] |
-| Documenter et versionner | P6 Bottleneck + portfolio | README, GitHub, changelog, issues. | [ ] |
-| Piloter un projet data | P13 Partie 1 | Planning, backlog, risques, matrice indicateurs. | [ ] |
-| Utiliser l'IA de maniere critique | P13 Partie 1 | Prompts, variantes, decisions humaines, limites. | [ ] |
+| Utiliser Python | **P6 Bottleneck** | Notebook 65 cellules, scripts, pandas, sklearn, SHAP. | [x] |
+| Communiquer des recommandations | **P13 + P6** | Synthese, conclusions, dashboard decisionnel, soutenance. | [x] |
+| Documenter et versionner | **P13 + portfolio** | README, GitHub Pages, dossier unique, TNR, commits. | [x] |
+| Piloter un projet data | **P13 Partie 1** | GitHub Project, planning, backlog, risques, matrice indicateurs. | [x] |
+| Utiliser l'IA de maniere critique | **P13 + P6** | Prompts, variantes, decisions humaines, limites, arbitrage `critical_score` / `surveillance_score`. | [x] |
 
 ## 6. Actions immediates
 
