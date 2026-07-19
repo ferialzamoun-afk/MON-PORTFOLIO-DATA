@@ -63,8 +63,9 @@ kNN et K-Means ordonnent les investigations, mais ne suffisent plus a declencher
 
 | Document | Lien |
 |---|---|
-| Cahier des charges fonctionnel | [Ouvrir](02_cahier_des_charges_fonctionnel.html) |
-| Hypotheses de travail | [Ouvrir](04_hypotheses.html) |
-| Tests et validations | [Ouvrir](05_tests.html) |
-| Resultats | [Ouvrir](06_resultats.html) |
-| Decisions | [Ouvrir](08_decisions.html) |
+| Cahier des charges fonctionnel | [Ouvrir](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/docs/01_cahier_des_charges_P13_partie_1.md) |
+| Hypotheses de travail | [Ouvrir](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/docs/04_hypoyheses.md) |
+| Tests et validations | [Ouvrir](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/docs/05_tests.md) |
+| Resultats | [Ouvrir](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/docs/06_resultats.md) |
+| Limites | [Ouvrir](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/docs/07_limites.md) |
+| Decisions | [Ouvrir](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/docs/08_decisions.md) |
