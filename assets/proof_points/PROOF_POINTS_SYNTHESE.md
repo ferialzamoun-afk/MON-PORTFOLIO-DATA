@@ -121,7 +121,7 @@
 | Pilier | Résumé |
 |--------|--------|
 | **1️⃣ Besoin** | Validation compétences Data Analyst (RNCP-37837) via portfolio + soutenance. Enjeu : formaliser progression P1-P12 (cleaning → analytics → ML → deployment). |
-| **2️⃣ Données** | 14 projets (P1-P142) + synthèse avec livrables hétérogènes (notebooks, APIs, dashboards, CSV/Power BI exports). ✅ Complets documentés. |
+| **2️⃣ Données** | 14 projets (P1-P14) + synthèse avec livrables hétérogènes (notebooks, APIs, dashboards, CSV/Power BI exports). ✅ Complets documentés. |
 | **3️⃣ Démarche** | **GitHub Pages** (hub portfolio) + markdown docs (veille) + templates proof points → Sélection 6 phares → Structuration 5 piliers → Narration recruteur → Deployment. |
 | **4️⃣ Résultats** | Portfolio 6 phares + 9 secondaires ; 5 blocs RNCP couverts (100%) ; veille techno 10 sections + veille métier 5 domaines. **Livrables** : README synthétique + 6 proof points + veille + soutenance. |
 | **5️⃣ Limites** | Portfolio statique (snapshot). **Pistes** : Metrics temps réel (GitHub workflows) ; testimonials ; dashboard interactif. |
