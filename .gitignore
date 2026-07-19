@@ -25,6 +25,7 @@ _site/
 # Projets ignorés
 projets/P13_portfolio/Compétences_RNCP_Data/
 assets/PROOF_POINTS_TEMPLATE
+assets/JOURNAL_ASSERTIONS_PORTFOLIO.md
 
 # Data files
 data/
