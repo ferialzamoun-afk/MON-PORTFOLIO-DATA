@@ -64,7 +64,7 @@ kNN et K-Means ordonnent les investigations, mais ne suffisent plus a declencher
 | Document | Lien |
 |---|---|
 | Cahier des charges fonctionnel | [Ouvrir](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/docs/01_cahier_des_charges_P13_partie_1.md) |
-| Hypotheses de travail | [Ouvrir](hhttps://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/04_hypotheses.md) |
+| Hypotheses de travail | [Ouvrir](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/04_hypotheses.md) |
 | Tests et validations | [Ouvrir](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/05_tests.md) |
 | Resultats | [Ouvrir](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/06_resultats.md) |
 | Limites | [Ouvrir](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/07_limites.md) |
