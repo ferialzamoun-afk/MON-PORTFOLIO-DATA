@@ -1,8 +1,20 @@
-# 📋 Proof Points Synthétiques — Portfolio Complet
+# 📋 Proof Points Synthétiques — Projets importants
 
 **Format condensé** pour recruteurs/clients : 1 page par projet avec les 5 piliers essentiels.
 
 > **Utilisation** : À imprimer/partager avant entretien ou pour rappel rapide de chaque réalisation.
+
+## 🧭 Navigation niveau 2 - ordre décroissant
+
+- [P14 — Stage Intermarché](#-p14--stage-intermarché-retail-analytics)
+- [P13 — Portfolio Final](#-p13--portfolio-final-rncp-validation)
+- [P12 — Détection Faux Billets](#-p12--détection-faux-billets-ml--fastapi)
+- [P11 — Étude Marché Export](#-p11--étude-marché-export-poulets-bio-clustering--acp)
+- [P10 — Dashboard Eau Potable](#-p10--dashboard-eau-potable-power-bi--langage-m)
+- [P9 — Analyse Ventes Lapage](#-p9--analyse-ventes-lapage-bi--analytics)
+- [P8 — OC vs INSEE](#-p8--oc-vs-insee-data-engineering--dbt)
+- [P7 — Dashboard Gouvernance Projets](#-p7--dashboard-gouvernance-projets-sanitoral)
+- [P6 — Optimisation Boutique Bottleneck](#-p6--optimisation-boutique-bottleneck)
 
 ---
 
@@ -109,7 +121,7 @@
 | Pilier | Résumé |
 |--------|--------|
 | **1️⃣ Besoin** | Validation compétences Data Analyst (RNCP-37837) via portfolio + soutenance. Enjeu : formaliser progression P1-P12 (cleaning → analytics → ML → deployment). |
-| **2️⃣ Données** | 12 projets (P1-P12) + synthèse avec livrables hétérogènes (notebooks, APIs, dashboards, CSV/Power BI exports). ✅ Complets documentés. |
+| **2️⃣ Données** | 14 projets (P1-P142) + synthèse avec livrables hétérogènes (notebooks, APIs, dashboards, CSV/Power BI exports). ✅ Complets documentés. |
 | **3️⃣ Démarche** | **GitHub Pages** (hub portfolio) + markdown docs (veille) + templates proof points → Sélection 6 phares → Structuration 5 piliers → Narration recruteur → Deployment. |
 | **4️⃣ Résultats** | Portfolio 6 phares + 9 secondaires ; 5 blocs RNCP couverts (100%) ; veille techno 10 sections + veille métier 5 domaines. **Livrables** : README synthétique + 6 proof points + veille + soutenance. |
 | **5️⃣ Limites** | Portfolio statique (snapshot). **Pistes** : Metrics temps réel (GitHub workflows) ; testimonials ; dashboard interactif. |
@@ -132,19 +144,4 @@
 
 ---
 
-## 📌 À Imprimer / Partager
-
-- 📄 **Une page par projet** : synthèse exécutive complète
-- 🎯 **Angle recruteur** : contexte métier → données → démarche → résultats → limites & pistes  
-- ⏱️ **Temps lecture** : 3-5 minutes par projet
-- 🔗 **Tous liens cliquables** vers GitHub, notebooks, dashboards
-
----
-
-## 🔄 Comment Utiliser Ce Fichier
-
-1. **Avant entretien** : Parcourir synthèses pour rappel rapide de chaque projet
-2. **Pour recruteur** : Imprimer + remises lors de présentation
-3. **Pour portfolio** : Ajouter ce fichier aux assets en PDF
-4. **Pour documentation** : Référencer template PROOF_POINTS_TEMPLATE.md pour structure complète
 
