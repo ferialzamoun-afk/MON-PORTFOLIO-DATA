@@ -8,7 +8,7 @@
 - [📓 Notebook 01 : Inspection & Normalisation (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/01%20-%20Inspection%20des%20données.ipynb)
 - [📓 Notebook 02 : Préparation & Nettoyage (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/02%20-%20Pr%C3%A9paration%20et%20nettoyage%20des%20donn%C3%A9es.ipynb)
 - [📓 Notebook 03 : Analyses & EDA (nbviewer)](https://nbviewer.org/github/ferialzamoun-afk/P10/blob/main/notebooks/03%20-%20Analyses%20des%20groupements%20de%20pays%20-%20EDA%20Patrick%20-%20ACP-r%C3%A9ductions_dimensions-clustering%20.ipynb)
-- [📊 Télécharger le template Power BI (.pbit)](https://github.com/ferialzamoun-afk/P10/raw/main/pbit/Zamoun_Férial_2_dashboard_112025.pbit)
+- [📊 Télécharger le template Power BI (.pbit)](https://https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P10_eau_potable/assets/Zamoun_F%C3%A9rial_2_dashboard_112025.pbit)
 - [📄 Blueprint complet](https://github.com/ferialzamoun-afk/P10/blob/main/docs/blueprint_P10_dashboard_eau.md)
 - [📄 Glossaire métier](https://github.com/ferialzamoun-afk/P10/blob/main/docs/contexte_DWFA_glossaire_eau.md)
 
