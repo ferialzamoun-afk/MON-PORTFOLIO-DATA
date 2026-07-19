@@ -37,17 +37,13 @@
 
 ## **🚀 Quick Start - Commencer Ici**
 
-### **Lancer le portfolio en local**
-Depuis la racine du dépôt, installe les dépendances Ruby puis démarre Jekyll :
-```bash
-bundle install
-bundle exec jekyll serve --config _config.yml,_config.dev.yml --livereload --incremental
-```
+### **Réalisation technique**
+Portfolio réalisé avec **Bundle** et **Jekyll**, puis publié via **GitHub Pages**.
 
 ### **👉 Recruteur / Client ?**
-- **[📄 Synthèse Proof Points](assets/PROOF_POINTS_SYNTHESE.md)** — 1 page par projet avec 5 piliers (Contexte → Données → Démarche → Résultats → Limites)
-- **[🏆 Portfolio Phare P13](projets/P13_portfolio/)** — Gouvernance IA & P6 Bottleneck optimisé
 - **[📊 Projets Phares](#projets-phares)** — Accès rapide aux 5 plus beaux projets
+- **[🏆 Portfolio Phare P13](projets/P13_portfolio/)** — Gouvernance IA & P6 Bottleneck optimisé
+- **[📄 Synthèse Proof Points](assets/PROOF_POINTS_SYNTHESE.md)** — Synthèse par projet avec 5 piliers (Contexte → Données → Démarche → Résultats → Limites)
 
 ### **👉 Développeur / Contributeur ?**
 - **[📚 Veille Technologique](veille/techno/)** — Trends data/IA/DevOps avec newsletters actuelles
@@ -241,7 +237,7 @@ MON-PORTFOLIO-DATA/
 <p><strong>Lecture rapide :</strong> ouvrir chaque lien pour accéder au README complet, aux notebooks ou au livrable interactif associé.</p>
 
 ---
-### **🎯 Compétences RNCP 37837 Démontrées**
+### **🎯 Exemple de Compétences RNCP 37837 Démontrées pour le projet P9-Librairie**
 
 <table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); font-size: 0.95em;">
   <thead>
@@ -257,49 +253,49 @@ MON-PORTFOLIO-DATA/
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC01</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Structurer & gérer</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Pipeline de données : brutes → exploitables</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">Dépôt P9</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/01_Exploration_EDA.ipynb#RNCP37837BC01">01_Exploration_EDA - BC01</a></td>
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC02</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Identifier & collecter</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Données de vente Lapage (CA, panier, clients)</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">data/raw/</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/01_Exploration_EDA.ipynb#RNCP37837BC02-COLLECT">01_Exploration_EDA - BC02 collecter</a></td>
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC02</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Extraire & agréger</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Nettoyage & agrégation : CA, panier moyen, concentration</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">Notebook 02</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/01_Exploration_EDA.ipynb#RNCP37837BC02-CLEAN">01_Exploration_EDA - BC02 nettoyer</a></td>
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC02</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Explorer & pré-traiter</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Feature Engineering : Segmentation clients</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">Notebook 01</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/01_Exploration_EDA.ipynb#RNCP37837BC02-ANALYZE">01_Exploration_EDA - BC02 explorer</a></td>
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC02</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Analyse multivariée</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Analyse des tendances : CA & panier par segment</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">Notebook 03</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/01_Exploration_EDA.ipynb#RNCP37837BC02-UNIVARIATE">01_Exploration_EDA - BC02 analyse</a></td>
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC03</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Visualiser</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Dashboard Streamlit : Visualisations interactives</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/">Dashboard Live</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/02_Analyses_Marketing.ipynb#RNCP37837BC03">02_Analyses_Marketing - BC03</a></td>
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC03</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Créer un tableau de bord</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Dashboard multi-pages pour le CODIR</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9-lapage-streamlit">Streamlit app</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/">Streamlit app</a></td>
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC04</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Veille métier</strong></td>
-      <td style="padding: 8px; border: 1px solid #ddd;">Benchmark des outils (Streamlit vs Power BI)</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">Dépôt GitHub</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Missions complémentaires</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/docs/veille/p9_missions_complementaires.md">Missions complémentaires</a></td>
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC04</strong></td>
@@ -311,25 +307,25 @@ MON-PORTFOLIO-DATA/
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC04</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Organiser projet</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Pipeline CI (tests pytest) & structure modulaire</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">Dépôt P9</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/docs/p9_structure_projet.md">structure de projet</a></td>
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC04</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Gérer documentation</strong></td>
-      <td style="padding: 8px; border: 1px solid #ddd;">100% des livrables documentés</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">Dépôt P9</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;">Rédiger des spécifications fonctionnelles</td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/docs/specifications.md">spécifications fonctionnelles</a></td>
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC05</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Analyses multivariées</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Segmentation clients (fréquence × CA)</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">Notebook 02</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/03_Analyses_Statistiques.ipynb#RNCP37837BC05">03_Analyses_Statistiques - BC05</a></td>
     </tr>
     <tr>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC05</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Tests statistiques</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Validation des KPI (cohérence, filtrage)</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies">Dépôt P9</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/03_Analyses_Statistiques.ipynb#RNCP37837BC05-FREQUENCY">03_Analyses_Statistiques - BC05 tests</a></td>
     </tr>
   </tbody>
 </table>

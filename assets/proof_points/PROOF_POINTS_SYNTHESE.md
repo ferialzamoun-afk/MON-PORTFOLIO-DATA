@@ -1,20 +1,8 @@
-# 📋 Proof Points Synthétiques — Projets importants
+# 📋 Proof Points Synthétiques — Portfolio Complet
 
 **Format condensé** pour recruteurs/clients : 1 page par projet avec les 5 piliers essentiels.
 
 > **Utilisation** : À imprimer/partager avant entretien ou pour rappel rapide de chaque réalisation.
-
-## 🧭 Navigation niveau 2 - ordre décroissant
-
-- [P14 — Stage Intermarché](#-p14--stage-intermarché-retail-analytics)
-- [P13 — Portfolio Final](#-p13--portfolio-final-rncp-validation)
-- [P12 — Détection Faux Billets](#-p12--détection-faux-billets-ml--fastapi)
-- [P11 — Étude Marché Export](#-p11--étude-marché-export-poulets-bio-clustering--acp)
-- [P10 — Dashboard Eau Potable](#-p10--dashboard-eau-potable-power-bi--langage-m)
-- [P9 — Analyse Ventes Lapage](#-p9--analyse-ventes-lapage-bi--analytics)
-- [P8 — OC vs INSEE](#-p8--oc-vs-insee-data-engineering--dbt)
-- [P7 — Dashboard Gouvernance Projets](#-p7--dashboard-gouvernance-projets-sanitoral)
-- [P6 — Optimisation Boutique Bottleneck](#-p6--optimisation-boutique-bottleneck)
 
 ---
 
