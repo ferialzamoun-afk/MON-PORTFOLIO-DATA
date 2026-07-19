@@ -59,5 +59,5 @@ Rendre explicites les hypotheses qui guident la chaine de decision du dashboard.
 | Preuve | Lien |
 |---|---|
 | README | [Ouvrir](README.md) |
-| Dashboard KPI | [Ouvrir](output/captures/05_kpi_dashboard_phase2.png) |
+| Dashboard KPI | [Ouvrir](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/dataviz) |
 | README du portfolio | [Ouvrir](README.md) |
