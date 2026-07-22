@@ -43,7 +43,7 @@ Portfolio réalisé avec **Bundle** et **Jekyll**, puis publié via **GitHub Pag
 ### **👉 Recruteur / Client ?**
 - **[📊 Projets Phares](#projets-phares)** — Accès rapide aux 5 plus beaux projets
 - **[🏆 Portfolio Phare P13](projets/P13_portfolio/)** — Gouvernance IA & P6 Bottleneck optimisé
-- **[📄 Synthèse Proof Points](assets/PROOF_POINTS_SYNTHESE.md)** — Synthèse par projet avec 5 piliers (Contexte → Données → Démarche → Résultats → Limites)
+- **[📄 <a id="synthese-proof-points">Synthèse Proof Points</a>](assets/PROOF_POINTS_SYNTHESE.md)** — Synthèse par projet avec 5 piliers (Contexte → Données → Démarche → Résultats → Limites)
 
 ### **👉 Développeur / Contributeur ?**
 - **[📚 Veille Technologique](veille/techno/)** — Trends data/IA/DevOps avec newsletters actuelles
@@ -52,7 +52,7 @@ Portfolio réalisé avec **Bundle** et **Jekyll**, puis publié via **GitHub Pag
 
 ---
 
-## **🎓 Couverture RNCP 37837**
+## **🎓 <a id="couverture-rncp-37837"></a> Couverture RNCP 37837**
 
 <table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); font-size: 0.95em;">
   <thead>

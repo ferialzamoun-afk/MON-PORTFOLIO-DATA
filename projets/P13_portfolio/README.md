@@ -87,35 +87,35 @@ Preuve dédiée : [Mission 2 - Réalisation du portfolio](Partie2-%20Valorisatio
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Analyse multivariée</td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Mapping compétences x projets pour évaluer la couverture RNCP.</td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Partie 2</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA">Tableau compétences</a></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/README.md#couverture-rncp-37837">Tableau compétences</a></td>
     </tr>
     <tr>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC03</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Solution de visualisation</td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Portfolio GitHub Pages pour une navigation plus lisible dans les projets et les preuves.</td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Partie 2</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/">Lien Streamlit</a></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/">Lien Github Pages</a></td>
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC03</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Créer un tableau de bord</td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Vitrine des projets avec description, compétences et preuves accessibles.</td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Partie 2</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/">Page Projets</a></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/README.md#synthese-proof-points">Page Projets</a></td>
     </tr>
     <tr>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC03</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Présenter les résultats</td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Documentation claire à destination des recruteurs et des évaluateurs.</td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Partie 2</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA">README</a></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/assets/proof_points/PROOF_POINTS_SYNTHESE.md">README</a></td>
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC04</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Veille métier / technologique</td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Page veille avec benchmarks, ressources et articles.</td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Partie 2</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/veille/techno/">Lien veille</a></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/tree/main/veille">Lien veille</a></td>
     </tr>
     <tr>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC04</strong></td>
