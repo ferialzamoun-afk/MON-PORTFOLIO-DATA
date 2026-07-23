@@ -38,7 +38,7 @@
 | Outil        | Usage                                 | Fichiers Associés                                         |
 | ------------ | ------------------------------------- | --------------------------------------------------------- |
 | **Python**   | Notebooks Jupyter, analyse de données | `Presentation_Notebook_Fzamoun.ipynb`, `p12_da_maj.ipynb` |
-| **R**        | Analyse statistique (ACP)             | `base_acp_finale_standardisee_2017.csv`                   |
+| **R (NA)**        | Analyse statistique (ACP)             | `base_acp_finale_standardisee_2017.csv`                   |
 | **SQL**      | Requêtes et bases de données          | `projets/P3_requetes_sql/`                                |
 | **Power BI** | Visualisation de données              | `projets/P7_dashboard_powerbi/`                           |
 
@@ -176,9 +176,9 @@
 
 ---
 
-## 🔗 **Intégrations Clés dans Ton Portfolio**
+## 🔗 **Intégrations Clés dans Ton Portfolio prochainement**
 
-### 🔄 **Workflow Data avec Snowflake + dbt + Great Expectations**
+### 🔄 **Workflow Data avec Snowflake + dbt + Great Expectations ou equivalent **
 
 ```mermaid
 graph TD

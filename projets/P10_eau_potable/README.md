@@ -18,7 +18,7 @@
 *(Bloc RNCP37837BC04 : Piloter un projet data)*
 
 > **Contexte** :
-> *"Projet **DWFA (Data Work For Africa)** visant à créer un **dashboard Power BI interactif** pour analyser les **enjeux mondiaux d’accès à l’eau potable**, de **gouvernance politique** et de **mortalité liée à l’eau (WASH)**. Ce projet s’inscrit dans une démarche d’**aide à la décision** pour les acteurs publics et privés engagés dans l’amélioration de l’accès à l’eau.*
+> *"Projet **DWFA ()** visant à créer un **dashboard Power BI interactif** pour analyser les **enjeux mondiaux d’accès à l’eau potable**, de **gouvernance politique** et de **mortalité liée à l’eau (WASH)**. Ce projet s’inscrit dans une démarche d’**aide à la décision** pour les acteurs publics et privés engagés dans l’amélioration de l’accès à l’eau.*
 
 > **Objectifs Métier** :
 > Le dashboard répond à **quatre besoins utilisateurs prioritaires** :
