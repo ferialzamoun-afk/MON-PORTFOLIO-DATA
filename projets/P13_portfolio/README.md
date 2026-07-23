@@ -5,6 +5,14 @@
 **🔗 Lien** : [Portfolio Github Page](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/)
 
 ---
+### **📁 Partie 1 - Amelioration du livrable P6**
+
+La Partie 1 est maintenant visible en deux niveaux :
+- une **version locale dans le portfolio** via `Partie1-Amélioration_P6_IA/` pour une lecture directe dans ce projet ;
+- une **source complète dans le dépôt P13** pour le détail intégral des preuves.
+
+
+---
 ## **🧭 Ligne éditoriale du projet phare**
 
 **Passage d'une analyse exploratoire vers une version production-ready avec traçabilité IA, contrôles qualité et documentation RNCP.**
@@ -157,11 +165,9 @@ Preuve dédiée : [Mission 2 - Réalisation du portfolio](Partie2-%20Valorisatio
 > 4. **Traçabilité IA et qualité** : Documentation des prompts, contrôles, limites et décisions.
 > 5. **Documentation de soutenance** : Rédaction des README, guides, preuves et supports évaluables.
 
-### **📁 Partie 1 - Amelioration du livrable P6**
+### **📁 Partie 2 - Création d'un Portfolio de projets**
 
-La Partie 1 est maintenant visible en deux niveaux :
-- une **version locale dans le portfolio** via `Partie1-Amélioration_P6_IA/` pour une lecture directe dans ce projet ;
-- une **source complète dans le dépôt P13** pour le détail intégral des preuves.
+L'objectif de la Partie 2 est de **mettre en valeur les projets et les compétences** à travers un portfolio clair, structuré et accessible.
 
 
 ### **🗂️ Structure locale P13 dans le portfolio**
