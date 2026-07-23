@@ -461,13 +461,13 @@ MON-PORTFOLIO-DATA/
 
 ## **📚 Veille & Ressources**
 
-👉 **[Consultez ma veille technologique complète](veille/techno/)**
+👉 **[Consultez ma veille technologique complète](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/assets/veille/techno/README.md)**
 - 10 sections technos : dbt, Snowflake, ML/AI, Python, Power BI, Streamlit, Great Expectations, Docker, etc.
 - 🔔 **Abonnements newsletters actuels** : ByteByteGo, Big Tech News, Mon Shot de Data, Airtable, The Pragmatic Engineer, Career Brew
 - Derniers articles par sujet
 - Ressources d'apprentissage (Towards Data Science, Kaggle, Papers With Code, Real Python)
 
-👉 **[Veille Métier & Trends](veille/métier/)**
+👉 **[Veille Métier & Trends](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/assets/veille/metier/README.md)**
 - Tendances sectorielles (Banque, Assurance, Retail)
 - Use cases data-driven
 - Réglementations (RGPD, France Compétences)
