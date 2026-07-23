@@ -28,6 +28,16 @@ assets/PROOF_POINTS_TEMPLATE
 assets/JOURNAL_ASSERTIONS_PORTFOLIO.md
 assets/TNR github
 
+# Pages ignorées
+Gemfile
+Gemfile.lock
+TNR_PUBLICATION_MVP.md
+_config.dev.yml
+_config.yml
+tash list
+e -File  Where-Object { $_.LastWriteTime -gt (Get-Date).AddHours(-24) }  Select-Object FullName, LastWriteTime
+e-a-jour-veille
+
 # Data filesSuppressio
 data/
 
