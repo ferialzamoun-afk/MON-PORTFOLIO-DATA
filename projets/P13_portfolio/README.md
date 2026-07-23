@@ -21,7 +21,7 @@ En lecture recruteur, ce projet montre un enchainement clair :
 > *"Projet de **certification RNCP 37837 Data Analyst** (GRETA OpenClassrooms). L’objectif était de **structurer un portfolio professionnel** démontrant mes compétences en Data Science et IA, aligné sur les **blocs officiels France Compétences**."*
 
 > **Objectifs** :
-> - **Partie 1 - P6 amélioré** : transformer un livrable exploratoire en version **production-ready** (qualité, reproductibilité, traçabilité IA, résultats métier).
+> - **Partie 1 - P6 amélioré** : transformer un livrable exploratoire en version **production-ready** (qualité, reproductibilité, traçabilité IA, résultats métier) ==> <a href="https://p6-dashboard-wdcn5o8grt39nqtim6mgym.streamlit.app/"> Dashboard decisionnel</a> .
 > - **Partie 2 - Portfolio** : structurer une vitrine claire des preuves, avec **mapping RNCP**, narration `contexte → besoin métier → démarche → résultats → impact`, et navigation orientée recruteur/jury.
 > - **Faciliter l’évaluation** via des preuves vérifiables, des indicateurs mesurables et des liens publics.
 
@@ -163,21 +163,6 @@ La Partie 1 est maintenant visible en deux niveaux :
 - une **version locale dans le portfolio** via `Partie1-Amélioration_P6_IA/` pour une lecture directe dans ce projet ;
 - une **source complète dans le dépôt P13** pour le détail intégral des preuves.
 
-**Livrables locaux dans le portfolio** :
-- [Veille metier et technologique](Partie1-Am%C3%A9lioration_P6_IA/01_veille_metier_technologique.html)
-- [Cahier des charges fonctionnel](Partie1-Am%C3%A9lioration_P6_IA/02_cahier_des_charges_fonctionnel.html)
-- [Mini formation metiers](Partie1-Am%C3%A9lioration_P6_IA/03_mini_formation_metiers.html)
-- [Hypotheses de travail](Partie1-Am%C3%A9lioration_P6_IA/04_hypotheses.html)
-- [Tests et validations](Partie1-Am%C3%A9lioration_P6_IA/05_tests.html)
-- [Resultats](Partie1-Am%C3%A9lioration_P6_IA/06_resultats.html)
-- [Limites](Partie1-Am%C3%A9lioration_P6_IA/07_limites.html)
-- [Decisions](Partie1-Am%C3%A9lioration_P6_IA/08_decisions.html)
-- [Notebook ameliore P6](https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb)
-- [Synthese P6 ameliore](Partie1-Am%C3%A9lioration_P6_IA/README.md)
-
-**Sources detaillees dans le dépôt P13** :
-- [Notebook ameliore P6](Partie1-Am%C3%A9lioration_P6_IA/)
-- [Documentation detaillee](Partie1-Am%C3%A9lioration_P6_IA/)
 
 ### **🗂️ Structure locale P13 dans le portfolio**
 
@@ -194,6 +179,7 @@ P13_portfolio/
 │   ├── 06_resultats.md
 │   ├── 07_limites.md
 │   ├── 08_decisions.md
+│   ├── 09_mode_emploi_dashboard.md
 │   ├── README.md
 │   ├── bottleneck_analyse_ameliore_final.ipynb
 │   └── assets/
@@ -228,13 +214,12 @@ P13_portfolio/
 ## **📂 Preuves et Livrables**
 - **Portfolio** : [Lien GitHub Pages](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/)
 - **Dépôt GitHub** : [Lien GitHub](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA)
-- **P9 - Missions complémentaires** : [Dépôt racine](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies)
 - **Projet P13 source** : [Portfolio P13](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/)
-- **Partie 2 - Mission portfolio** : [Mission 2](Partie2-%20Valorisation%20du%20Portfolio/)
-- **Partie 1 - racine** : [Partie 1](Partie1-Am%C3%A9lioration_P6_IA/)
+- **Partie 2 - Mission portfolio** : [Mission 2](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_2/R%C3%A9aliser%20un%20portfolio/README.md)
+- **Partie 1 - racine** : [Partie 1](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/tree/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA)
 - **Veille technologique** : [Page Veille Techno](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/veille/techno/)
 - **Veille métier** : [Page Veille Métier](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/veille/métier/)
-- **Traçabilité IA (Partie 1)** : [Journal IA / décisions](Partie1-Am%C3%A9lioration_P6_IA/08_decisions.html)
+- **Traçabilité IA (Partie 1)** : [Journal IA / décisions](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/docs/03_journal_ia_P13_partie_1.md)
 - **Documentation** : [README](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA)
 
 ---
