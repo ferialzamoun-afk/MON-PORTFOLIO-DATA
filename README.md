@@ -325,7 +325,7 @@ MON-PORTFOLIO-DATA/
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>BC05</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;"><strong>Tests statistiques</strong></td>
       <td style="padding: 8px; border: 1px solid #ddd;">Validation des KPI (cohérence, filtrage)</td>
-      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies/blob/main/notebooks/analyses/03_Analyses_Statistiques.ipynb#RNCP37837BC05-FREQUENCY">03_Analyses_Statistiques - BC05 tests</a></td>
+      <td style="padding: 8px; border: 1px solid #ddd;"><a href="https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/Axe_Analytique_Statistiques">03_Analyses_Statistiques - BC05 tests</a></td>
     </tr>
   </tbody>
 </table>

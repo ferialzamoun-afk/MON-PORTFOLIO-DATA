@@ -176,7 +176,7 @@
 
 ---
 
-## 🔗 **Intégrations Clés dans Ton Portfolio prochainement**
+## 🔗 **Intégrations Clés dans mon Portfolio prochainement**
 
 ### 🔄 **Workflow Data avec Snowflake + dbt + Great Expectations ou equivalent **
 
@@ -190,7 +190,7 @@ graph TD
     D -->|Power BI| G[Rapport Visuel]
 ```
 
-**Avantages de ton stack** :  
+**Avantages du stack dans mon portfolio** :
 ✅ **Snowflake + dbt** : Pipeline ELT moderne et scalable.  
 ✅ **Great Expectations + Pandera** : Double couche de validation (SQL + Python).  
 ✅ **Streamlit** : Visualisation interactive et légère.  
@@ -228,7 +228,7 @@ graph TD
 
 ---
 
-## 📌 **Bonnes Pratiques pour Ton Stack**
+## 📌 **Bonnes Pratiques du Stack**
 
 ### 🔹 **dbt + Snowflake**
 
