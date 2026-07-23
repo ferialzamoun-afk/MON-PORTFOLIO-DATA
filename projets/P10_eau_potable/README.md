@@ -36,26 +36,48 @@
 
 ---
 
-## **📊 Structure du Projet**
-```text
-P10/
-├── api/
-├── data/
-├── docs/
-├── notebooks/
-├── output/
-├── scripts/
-├── source/
-├── src/
-├── tests/
-├── veille/
-├── Dockerfile
-├── Procfile
-├── PROJECT_BRIEF.md
-├── README.md
-├── pytest.ini
-└── requirements.txt
+## <a id="structure-du-projet"> Structure du projet</a>
+
 ```
+P10/
+├── notebooks/                              # Pipeline analytique
+│   ├── 01 - Inspection des données.ipynb  # Qualification et normalisation
+│   ├── 02 - Préparation et nettoyage...   # Formalisation en couches
+│   └── 03 - Analyses des groupements...   # EDA et analyses métier
+│
+├── data/
+│   ├── raw/                                # Données sources brutes
+│   │   ├── Population.csv
+│   │   ├── RegionCountry.csv
+│   │   ├── PoliticalStability.csv
+│   │   ├── MortalityRateAttributedToWater.csv
+│   │   └── BasicAndSafelyManagedDrinkingWaterServices.csv
+│   │
+│   └── processed/                          # Données transformées
+│       ├── pbi_star/                       # Tables étoile Power BI
+│       │   ├── Dashboard_eau_v6.pbit
+│       │   ├── fact_dashboard_star_fr.csv
+│       │   ├── dim_pays_star_fr.csv
+│       │   └── [dimensions détaillées]
+│       │
+│       ├── csv_enrichis/                   # Marts analytiques
+│       │   ├── en/ (anglais)
+│       │   └── fr/ (français)
+│       │
+│       └── [dimensions et références]
+│
+├── src/                                    # Modules réutilisables
+│   ├── data_manager.py                     # Gestion des données
+│   ├── schema_fr.py                        # Schéma français canonique
+│   ├── figures_export.py                   # Export des visualisations
+│   ├── kpi_export.py                       # Calcul des KPI
+│   └── rebuild_geography_exports.py        # Reconstruction géographique
+│
+├── requirements.txt                        # Dépendances Python
+└── [documentation métier et dashboards]
+```
+
+---
 
 ---
 ## **🔧 Compétences RNCP 37837 Démontrées**
@@ -64,7 +86,7 @@ P10/
 <table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); font-size: 0.95em;">
    <thead><tr style="background-color: #155799; color: white;"><th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Bloc RNCP</strong></th><th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Compétence</strong></th><th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Description</strong></th><th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd;"><strong>Preuves</strong></th></tr></thead>
    <tbody>
-      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC01</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Structurer et gérer la base de données</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Tables étoile Power BI et marts analytiques dédiés.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P10/tree/main/data/processed/pbi_star">data/processed/pbi_star/</a></td></tr>
+      <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC01</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Structurer et gérer la base de données</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Tables étoile Power BI et marts analytiques dédiés.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P10/tree/main/data/processed/pbi_star">data/processed/pbi_star/</a> et <a href="https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/README.md#structure-du-projet">structure du projet</a></td></tr>
       <tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC01</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Gérer une base de données</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Jointures et alimentation des tables via Pandas.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P10_eau_potable/notebooks/02%20-%20Pr%C3%A9paration%20et%20nettoyage%20des%20donn%C3%A9es.ipynb">Notebook 02</a></td></tr>
       <tr style="background-color: #f4f7fb;"><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC02</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Identifier et collecter les données</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Utilisation de 5 sources : population, régions, stabilité politique, mortalité WASH et services eau.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/P10/tree/main/data/raw">data/raw/</a></td></tr>
       <tr><td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC02</strong></td><td style="padding: 10px 12px; border: 1px solid #ddd;">Extraire et agréger</td><td style="padding: 10px 12px; border: 1px solid #ddd;">Nettoyage, standardisation des noms de pays et rattachement pays-région.</td><td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P10_eau_potable/assets/notebooks/">Notebook 01</a></td></tr>
