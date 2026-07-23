@@ -329,37 +329,8 @@ MON-PORTFOLIO-DATA/
     </tr>
   </tbody>
 </table>
-------
 ---
----
----
-## **🎯 Compétences Data Analyst Démontrées**
-*(Alignées sur les **blocs RNCP 37837** et les attentes métiers)*
 
-<table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); font-size: 0.95em;">
-  <thead>
-    <tr style="background-color: #155799; color: white;">
-      <th style="padding: 12px; text-align: left; border: 1px solid #ddd;"><strong>Compétence</strong></th>
-      <th style="padding: 12px; text-align: left; border: 1px solid #ddd;"><strong>Preuve</strong></th>
-      <th style="padding: 12px; text-align: left; border: 1px solid #ddd;"><strong>Indicateur</strong></th>
-      <th style="padding: 12px; text-align: left; border: 1px solid #ddd;"><strong>Bloc</strong></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="background-color: #f4f7fb;"><td style="padding: 9px; border: 1px solid #ddd;"><strong>Cadrer métier</strong></td><td style="padding: 9px; border: 1px solid #ddd;">Bottleneck</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>825 produits</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC04</strong></td></tr>
-    <tr><td style="padding: 9px; border: 1px solid #ddd;"><strong>Contrôler qualité</strong></td><td style="padding: 9px; border: 1px solid #ddd;">P13</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>18 contrôles</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC02</strong></td></tr>
-    <tr style="background-color: #f4f7fb;"><td style="padding: 9px; border: 1px solid #ddd;"><strong>Produire KPI</strong></td><td style="padding: 9px; border: 1px solid #ddd;">Dashboard</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>143 680 €</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC05</strong></td></tr>
-    <tr><td style="padding: 9px; border: 1px solid #ddd;"><strong>Visualiser</strong></td><td style="padding: 9px; border: 1px solid #ddd;">Power BI</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>Seuil > 15%</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC03</strong></td></tr>
-    <tr style="background-color: #f4f7fb;"><td style="padding: 9px; border: 1px solid #ddd;"><strong>Documenter</strong></td><td style="padding: 9px; border: 1px solid #ddd;">README</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>Consultable</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC04</strong></td></tr>
-    <tr><td style="padding: 9px; border: 1px solid #ddd;"><strong>Modéliser</strong></td><td style="padding: 9px; border: 1px solid #ddd;">Faux Billets</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>Recall 100%</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC05</strong></td></tr>
-    <tr style="background-color: #f4f7fb;"><td style="padding: 9px; border: 1px solid #ddd;"><strong>Piloter</strong></td><td style="padding: 9px; border: 1px solid #ddd;">Portfolio</td><td style="padding: 9px; border: 1px solid #ddd;"><strong>7 projets</strong></td><td style="padding: 9px; border: 1px solid #ddd;"><strong>BC04</strong></td></tr>
-  </tbody>
-</table>
-
----
----
----
----
 ## **🚀 Comment Naviguer dans ce Portfolio ?**
 1. **Pour les recruteurs** :
    - Commence par la section **"À Propos"** pour comprendre mon parcours.
