@@ -16,11 +16,11 @@
 	</thead>
 	<tbody>
 		<tr><td>🔗 Portfolio P13</td><td><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/">Accéder</a></td></tr>
-		<tr><td>📓 Notebook principal</td><td><a href="https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb">Accéder</a></td></tr>
+		<tr><td>📓 Notebook principal</td><td><a href="https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb">Accéder</a></td></tr>
 		<tr><td>📁 Cahier des charges</td><td><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/02_cahier_des_charges_fonctionnel.html">Accéder</a></td></tr>
 		<tr><td>📁 Veille technologique</td><td><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/01_veille_metier_technologique.html">Accéder</a></td></tr>
-		<tr><td>📁 Journal IA</td><td><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/08_decisions.html">Accéder</a></td></tr>
-		<tr><td>📁 Synthèse finale</td><td><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/06_resultats.html">Accéder</a></td></tr>
+		<tr><td>📁 Journal IA</td><td><a href="https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/docs/03_journal_ia_P13_partie_1.md">Accéder</a></td></tr>
+		<tr><td>📁 Synthèse finale</td><td><a href="https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/docs/06_synthese_finale_P13_partie_1.md">Accéder</a></td></tr>
 		<tr><td>📘 Mode d'emploi dashboard</td><td><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/09_mode_emploi_dashboard.html">Accéder</a></td></tr>
 		<tr><td>📊 Dataviz (25 visuels)</td><td><a href="https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/dataviz">Accéder</a></td></tr>
 		<tr><td>🖼️ Captures Portfolio</td><td><a href="https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/captures">Accéder</a></td></tr>
