@@ -47,7 +47,7 @@ Portfolio réalisé avec **Bundle** et **Jekyll**, puis publié via **GitHub Pag
 
 ### **👉 Développeur / Contributeur ?**
 - **[📚 Veille Technologique](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/assets/veille/techno/README.md)** — Trends data/IA/DevOps avec newsletters actuelles
-- **[🔧 Veille Métier](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/assets/veille/metier/README.md)** — Tendances sectorielles & use cases
+- **[🔧 Veille Métier](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/assets/veille/métier/README.md)** — Tendances sectorielles & use cases
 - **[🏗️ Architecture Portfolio](#-structure-du-portfolio)** — Organisation & structure
 
 ---
@@ -549,8 +549,8 @@ MON-PORTFOLIO-DATA/
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Expérience professionnel</td>
     </tr>
     <tr style="background-color: #f4f7fb;">
-      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Streamlit</strong></td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/">🌐 Dashboard Live</a></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Github page</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/">🌐 Github pages</a></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Application interactive</td>
     </tr>
     <tr>
