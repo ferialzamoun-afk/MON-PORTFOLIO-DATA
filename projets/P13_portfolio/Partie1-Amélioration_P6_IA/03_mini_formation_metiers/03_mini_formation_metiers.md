@@ -44,3 +44,11 @@ Notre outil detecte automatiquement les produits vendus a perte ou incoherents, 
 ## Usage portfolio
 
 Cette fiche sert de passerelle entre le notebook technique, le dashboard et la decision operationnelle.
+
+## Preuves associees
+
+| Preuve | Lien |
+|---|---|
+| README | [Ouvrir](README.md) |
+| Dashboard KPI | [Ouvrir](output/captures/05_kpi_dashboard_phase2.png) |
+| README du portfolio | [Ouvrir](README.md) |
