@@ -67,9 +67,9 @@ Le kNN est interprete comme une rarete locale non supervisee : il priorise les i
 
 ## Preuves associees
 
-- [README.md](README.md)
+- [README.md](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/README.md)
 - [Dashboard KPI](output/captures/05_kpi_dashboard_phase2.png)
-- [README du portfolio](README.md)
+- [README du portfolio](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/README.md)
 
 ## Suivi des taches (passe pre-commit/push)
 

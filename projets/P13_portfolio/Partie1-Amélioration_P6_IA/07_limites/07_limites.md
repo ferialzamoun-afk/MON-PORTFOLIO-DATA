@@ -23,6 +23,6 @@ Encadrer l'interpretation des resultats en documentant les limites data, metier 
 
 | Preuve | Lien |
 |---|---|
-| README | [Ouvrir](README.md) |
+| README | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/README.md) |
 | Dashboard KPI | [Ouvrir](output/captures/05_kpi_dashboard_phase2.png) |
-| README du portfolio | [Ouvrir](README.md) |
+| README du portfolio | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/README.md) |

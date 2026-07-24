@@ -80,14 +80,14 @@ Tracer les arbitrages qui structurent la version portfolio de la Partie 1.
 
 | Preuve | Lien |
 |---|---|
-| README | [Ouvrir](README.md) |
-| Veille metier et technologique | [Ouvrir](01_veille_metier_technologique.html) |
-| Tests et validations | [Ouvrir](05_tests.html) |
-| Resultats | [Ouvrir](06_resultats.html) |
+| README | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/README.md) |
+| Veille metier et technologique | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/01_veille_metier_technologique/01_veille_metier_technologique.md) |
+| Tests et validations | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/05_tests/05_tests.md) |
+| Resultats | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/06_resultats/06_resultats.md) |
 | Notebook BC05 - section globale | [Ouvrir](https://nbviewer.org/github/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/notebooks/bottleneck_analyse_ameliore_final.ipynb#RNCP37837BC05) |
 | Notebook BC05 - 9.1 Immediate | [Ouvrir](https://nbviewer.org/github/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/notebooks/bottleneck_analyse_ameliore_final.ipynb#RNCP37837BC05-IMMEDIATE) |
 | Notebook BC05 - 9.2 Isolation Forest | [Ouvrir](https://nbviewer.org/github/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/notebooks/bottleneck_analyse_ameliore_final.ipynb#RNCP37837BC05-IFOREST) |
 | Notebook BC05 - 9.3 K-Means et kNN | [Ouvrir](https://nbviewer.org/github/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/notebooks/bottleneck_analyse_ameliore_final.ipynb#RNCP37837BC05-KMEANS-KNN) |
 | Mode d'emploi dashboard | [Ouvrir](09_mode_emploi_dashboard.html) |
-| Dashboard KPI | [Ouvrir](https://p6-dashboard-wdcn5o8grt39nqtim6mgym.streamlit.app/) |
-| README du portfolio | [Ouvrir](README.md) |
+| Dashboard KPI | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/09_mode_emploi_dashboard/09_mode_emploi_dashboard.md/) |
+| README du portfolio | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/README.md) |

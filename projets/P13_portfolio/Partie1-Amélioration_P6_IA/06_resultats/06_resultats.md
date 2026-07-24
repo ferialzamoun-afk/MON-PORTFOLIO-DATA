@@ -92,4 +92,4 @@ Synthetiser les gains visibles du projet P6 ameliore et leur traduction en decis
 | Mode d'emploi dashboard | [Ouvrir](09_mode_emploi_dashboard.html) |
 | GitHub Project - Kanban | [Ouvrir](https://github.com/users/ferialzamoun-afk/projects/2/views/1) |
 | GitHub Project - Vue portfolio | [Ouvrir](https://github.com/users/ferialzamoun-afk/projects/2/views/3) |
-| README du portfolio | [Ouvrir](README.md) |
+| README du portfolio | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/README.md) |
