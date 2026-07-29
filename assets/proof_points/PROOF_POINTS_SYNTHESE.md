@@ -85,6 +85,7 @@
 | **5️⃣ Limites** | Pas données ICP ; modèle descriptif. **Pistes** : Données satellite ; ML clustering validé ; tableau temps réel API. |
 
 **🔗 Liens** : [GitHub P10](https://github.com/ferialzamoun-afk/P10) | [captures PBIT](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/tree/main/projets/P10_eau_potable/assets/captures)
+
 ---
 
 ## 🌐 P11 — Étude Marché Export Poulets Bio (Clustering & ACP)
