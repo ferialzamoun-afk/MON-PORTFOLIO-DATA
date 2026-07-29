@@ -43,7 +43,7 @@ Portfolio réalisé avec **Bundle** et **Jekyll**, puis publié via **GitHub Pag
 ### **👉 Recruteur / Client ?**
 - **[📊 Projets Phares](#projets-phares)** — Accès rapide aux 5 plus beaux projets
 - **[🏆 Portfolio Phare P13](projets/P13_portfolio/)** — Gouvernance IA & P6 Bottleneck optimisé
-- **[📄 <a id="synthese-proof-points">Synthèse Proof Points</a>](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/assets/proof_points/PROOF_POINTS_SYNTHESE.md)** — Synthèse par projet avec 5 piliers (Contexte → Données → Démarche → Résultats → Limites)
+- **[📄 Synthèse Proof Points](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/assets/proof_points/PROOF_POINTS_SYNTHESE.md)** — Synthèse par projet avec 5 piliers (Contexte → Données → Démarche → Résultats → Limites)
 
 ### **👉 Développeur / Contributeur ?**
 - **[📚 Veille Technologique](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/assets/veille/techno/README.md)** — Trends data/IA/DevOps avec newsletters actuelles
