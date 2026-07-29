@@ -88,6 +88,6 @@ Tracer les arbitrages qui structurent la version portfolio de la Partie 1.
 | Notebook BC05 - 9.1 Immediate | [Ouvrir](https://nbviewer.org/github/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/notebooks/bottleneck_analyse_ameliore_final.ipynb#RNCP37837BC05-IMMEDIATE) |
 | Notebook BC05 - 9.2 Isolation Forest | [Ouvrir](https://nbviewer.org/github/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/notebooks/bottleneck_analyse_ameliore_final.ipynb#RNCP37837BC05-IFOREST) |
 | Notebook BC05 - 9.3 K-Means et kNN | [Ouvrir](https://nbviewer.org/github/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/notebooks/bottleneck_analyse_ameliore_final.ipynb#RNCP37837BC05-KMEANS-KNN) |
-| Mode d'emploi dashboard | [Ouvrir](09_mode_emploi_dashboard.html) |
-| Dashboard KPI | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/09_mode_emploi_dashboard/09_mode_emploi_dashboard.md/) |
-| README du portfolio | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/README.md) |
+| Mode d'emploi dashboard | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/09_mode_emploi_dashboard/09_mode_emploi_dashboard.md/) |
+| Dashboard KPI | [Ouvrir](https://p6-dashboard-wdcn5o8grt39nqtim6mgym.streamlit.app/) |
+| README du portfolio | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/README.md) |

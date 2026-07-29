@@ -61,6 +61,6 @@ kNN est non supervise : il mesure une rarete locale, pas une erreur certaine. Il
 
 | Preuve | Lien |
 |---|---|
-| Tests et validations | [Ouvrir](05_tests.html) |
-| Resultats | [Ouvrir](06_resultats.html) |
-| Decisions | [Ouvrir](08_decisions.html) |
+| Tests et validations | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/05_tests/05_tests.md) |
+| Resultats | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/06_resultats/06_resultats.md) |
+| Decisions | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/08_decisions/08_decisions.md) |

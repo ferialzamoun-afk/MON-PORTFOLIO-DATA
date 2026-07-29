@@ -63,9 +63,9 @@ kNN et K-Means ordonnent les investigations, mais ne suffisent plus a declencher
 
 | Document | Lien |
 |---|---|
-| Cahier des charges fonctionnel | [Ouvrir](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/docs/01_cahier_des_charges_P13_partie_1.md) |
-| Hypotheses de travail | [Ouvrir](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/docs/04_hypoyheses.md) |
-| Tests et validations | [Ouvrir](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/docs/05_tests.md) |
-| Resultats | [Ouvrir](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/docs/06_resultats.md) |
-| Limites | [Ouvrir](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/docs/07_limites.md) |
-| Decisions | [Ouvrir](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/docs/08_decisions.md) |
+| Cahier des charges fonctionnel | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/tree/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/02_cahier_des_charges_fonctionnel) |
+| Hypotheses de travail | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/04_hypotheses/04_hypotheses.md) |
+| Tests et validations | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/05_tests/05_tests.md) |
+| Resultats | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/06_resultats/06_resultats.md) |
+| Limites | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/07_limites/07_limites.md) |
+| Decisions | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/08_decisions/08_decisions.md) |

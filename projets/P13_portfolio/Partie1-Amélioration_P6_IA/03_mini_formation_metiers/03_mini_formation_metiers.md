@@ -50,5 +50,5 @@ Cette fiche sert de passerelle entre le notebook technique, le dashboard et la d
 | Preuve | Lien |
 |---|---|
 | README | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/README.md) |
-| Dashboard KPI | [Ouvrir](output/captures/05_kpi_dashboard_phase2.png) |
-| README du portfolio | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/README.md) |
+| Dashboard KPI | [Ouvrir](https://p6-dashboard-wdcn5o8grt39nqtim6mgym.streamlit.app/) |
+| README du portfolio | [Ouvrir](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/README.md) |
