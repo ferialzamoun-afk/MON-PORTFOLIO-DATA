@@ -84,8 +84,7 @@
 | **4️⃣ Résultats** | 200 pays classés accès eau vs stabilité ; 5 clusters zones critiques ; trajectoires 2000-2024. **Recommandations** : Top 20 prioritaires (<50% accès). **Livrable** : Dashboard Power BI 5 pages + CSV étoile (180k lignes). |
 | **5️⃣ Limites** | Pas données ICP ; modèle descriptif. **Pistes** : Données satellite ; ML clustering validé ; tableau temps réel API. |
 
-**🔗 Liens** : [GitHub P10](https://github.com/ferialzamoun-afk/P10)
-
+**🔗 Liens** : [GitHub P10](https://github.com/ferialzamoun-afk/P10) | [captures PBIT](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/tree/main/projets/P10_eau_potable/assets/captures)
 ---
 
 ## 🌐 P11 — Étude Marché Export Poulets Bio (Clustering & ACP)
@@ -126,7 +125,7 @@
 | **4️⃣ Résultats** | Portfolio 6 phares + 9 secondaires ; 5 blocs RNCP couverts (100%) ; veille techno 10 sections + veille métier 5 domaines. **Livrables** : README synthétique + 6 proof points + veille + soutenance. |
 | **5️⃣ Limites** | Portfolio statique (snapshot). **Pistes** : Metrics temps réel (GitHub workflows) ; testimonials ; dashboard interactif. |
 
-**🔗 Liens** : [Portfolio Hub](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/) | [GitHub](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA)
+**🔗 Liens** :  [GitHub](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA) | [Portfolio Hub](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/) 
 
 ---
 
@@ -140,7 +139,7 @@
 | **4️⃣ Résultats** | KPIs : Coverage assortiment, disponibilité produits (% stock jour J), perf opérationnelle (ventes/m² magasin). **Impact** : Reporting manuel 5h → 15min auto. **Livrables** : Power BI multi-page + Streamlit app + notebooks. |
 | **5️⃣ Limites** | Données stage (temporaire) ; analyses rétrospectives. **Pistes** : ETL production temps réel (Airflow/dbt) ; KPIs RH ; demand planning ML. |
 
-**🔗 Liens** : [P14 - Stage Intermarché](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P14_stage/)
+**🔗 Liens** : [P14 - Stage Intermarché](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P14_stage/assets/cahier_des_charges/Cahier_des_charges.pdf)
 
 ---
 
