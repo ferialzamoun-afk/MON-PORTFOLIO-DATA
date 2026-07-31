@@ -9,7 +9,7 @@
 **Dépôt** : [ferialzamoun-afk/MON-PORTFOLIO-DATA](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA)  
 **Description** : Projets réalisés pendant la formation préparatoire au titre **RNCP 37837**.  
 **Langage principal** : Jupyter Notebook (Python/R)  
-**Technologies identifiées** : Jekyll, GitHub Pages, Python, Jupyter, Power BI, SQL, R, **Streamlit**, **Pandera**, **Great Expectations**, **dbt**, **Snowflake**.
+**Technologies identifiées** : Jekyll, GitHub Pages, Python, Jupyter, Power BI, SQL,  **Streamlit**, **Pandera**, **Great Expectations**, **dbt**, **Snowflake**.
 
 ---
 
