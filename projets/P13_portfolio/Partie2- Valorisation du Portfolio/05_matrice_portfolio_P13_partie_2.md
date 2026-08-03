@@ -24,15 +24,15 @@ Les resultats de veille sont integres dans la narration pour justifier les choix
 
 | Indicateur | Ma preuve | Metriques possibles | Statut |
 |---|---|---|---|
-| Le portfolio presente clairement le profil Data Analyst. | README principal : presentation, objectif professionnel, competences, outils, lien de contact. | Sections presentes ; temps de lecture ; clarté du pitch. | [ ] |
-| Les projets sont organises et consultables. | Arborescence propre : un dossier ou une section par projet, liens fonctionnels, noms explicites. | Nombre de projets documentes ; nombre de liens verifies. | [ ] |
-| Les projets demontrent les competences du titre professionnel. | Chaque projet relie a des competences : collecte, nettoyage, analyse, visualisation, restitution, SQL, Python, BI, gestion de projet. | Nombre de competences couvertes ; nombre de projets par competence. | [ ] |
-| Les livrables sont comprehensibles par un recruteur ou client non technique. | README projet avec contexte, objectif, demarche, resultats, captures et recommandations. | Nombre de README complets ; presence de captures ; lisibilite. | [ ] |
-| Les resultats et impacts sont valorises. | Section resultats : KPI, insights, decision metier, limites, prochaines etapes. | Nombre de resultats quantifies ; nombre de recommandations. | [ ] |
-| Le portfolio respecte les bonnes pratiques GitHub. | README, structure claire, liens relatifs, fichiers inutiles retires, documentation d'execution. | Liens morts ; taille repo ; presence .gitignore si utile. | [ ] |
-| L'accessibilite et la lisibilite sont prises en compte. | Titres hierarchises, textes alternatifs pour images, contrastes/captures lisibles, langage clair. | Nombre d'images avec description ; niveau de structure Markdown. | [ ] |
-| La demarche d'amelioration continue est visible. | Issues GitHub, backlog, changelog, TODO, matrice de suivi, versionnement. | Nombre d'issues/taches ; nombre de commits utiles ; jalons. | [ ] |
-| La difference correction / evolution est explicite. | TNR GitHub Pages + suivi des corrections de liens/rendus/chiffres vs evolutions de contenu. | Nombre de corrections bloquantes ; nombre d'evolutions planifiees. | [~] |
+| Le portfolio presente clairement le profil Data Analyst. | README principal : presentation, objectif professionnel, competences, outils, lien de contact. | Sections presentes ; temps de lecture ; clarté du pitch. | [x] |
+| Les projets sont organises et consultables. | Arborescence propre : un dossier ou une section par projet, liens fonctionnels, noms explicites. | Nombre de projets documentes ; nombre de liens verifies. | [x] |
+| Les projets demontrent les competences du titre professionnel. | Chaque projet relie a des competences : collecte, nettoyage, analyse, visualisation, restitution, SQL, Python, BI, gestion de projet. | Nombre de competences couvertes ; nombre de projets par competence. | [x] |
+| Les livrables sont comprehensibles par un recruteur ou client non technique. | README projet avec contexte, objectif, demarche, resultats, captures et recommandations. | Nombre de README complets ; presence de captures ; lisibilite. | [x] |
+| Les resultats et impacts sont valorises. | Section resultats : KPI, insights, decision metier, limites, prochaines etapes. | Nombre de resultats quantifies ; nombre de recommandations. | [x] |
+| Le portfolio respecte les bonnes pratiques GitHub. | README, structure claire, liens relatifs, fichiers inutiles retires, documentation d'execution. | Liens morts ; taille repo ; presence .gitignore si utile. | [x] |
+| L'accessibilite et la lisibilite sont prises en compte. | Titres hierarchises, textes alternatifs pour images, contrastes/captures lisibles, langage clair. | Nombre d'images avec description ; niveau de structure Markdown. | [x] |
+| La demarche d'amelioration continue est visible. | Issues GitHub, backlog, changelog, TODO, matrice de suivi, versionnement. | Nombre d'issues/taches ; nombre de commits utiles ; jalons. | [x] |
+| La difference correction / evolution est explicite. | TNR GitHub Pages + suivi des corrections de liens/rendus/chiffres vs evolutions de contenu. | Nombre de corrections bloquantes ; nombre d'evolutions planifiees. | [x] |
 
 ## 2. Matrice de suivi des 14 projets
 
