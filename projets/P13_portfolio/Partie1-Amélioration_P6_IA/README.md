@@ -17,11 +17,11 @@
 	<tbody>
 		<tr><td>🔗 Portfolio P13</td><td><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/">Accéder</a></td></tr>
 		<tr><td>📓 Notebook principal</td><td><a href="https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb">Accéder</a></td></tr>
-		<tr><td>📁 Cahier des charges</td><td><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/02_cahier_des_charges_fonctionnel.html">Accéder</a></td></tr>
-		<tr><td>📁 Veille technologique</td><td><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/01_veille_metier_technologique.html">Accéder</a></td></tr>
+		<tr><td>📁 Cahier des charges</td><td><a href="02_cahier_des_charges_fonctionnel/02_cahier_des_charges_fonctionnel.md">Accéder</a></td></tr>
+		<tr><td>📁 Veille technologique</td><td><a href="01_veille_metier_technologique/01_veille_metier_technologique.md">Accéder</a></td></tr>
 		<tr><td>📁 Journal IA</td><td><a href="https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/docs/03_journal_ia_P13_partie_1.md">Accéder</a></td></tr>
 		<tr><td>📁 Synthèse finale</td><td><a href="https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/docs/06_synthese_finale_P13_partie_1.md">Accéder</a></td></tr>
-		<tr><td>📘 Mode d'emploi dashboard</td><td><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/09_mode_emploi_dashboard.html">Accéder</a></td></tr>
+		<tr><td>📘 Mode d'emploi dashboard</td><td><a href="09_mode_emploi_dashboard/09_mode_emploi_dashboard.md">Accéder</a></td></tr>
 		<tr><td>📊 Dataviz (25 visuels)</td><td><a href="https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/dataviz">Accéder</a></td></tr>
 		<tr><td>🖼️ Captures Portfolio</td><td><a href="https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/captures">Accéder</a></td></tr>
 	</tbody>
@@ -40,11 +40,11 @@
 		<tr><td>Avant : Notebook initial</td><td><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P6_Optimisation_Bottleneck/">Voir</a></td></tr>
 		<tr><td>Après : Notebook amélioré</td><td><a href="https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb">Voir</a></td></tr>
 		<tr><td>Avant : Synthèse initiale</td><td>Non conservée dans le dépôt public</td></tr>
-		<tr><td>Après : Synthèse finale enrichie</td><td><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/06_resultats.html">Voir</a></td></tr>
+		<tr><td>Après : Synthèse finale enrichie</td><td><a href="06_resultats/06_resultats.md">Voir</a></td></tr>
 		<tr><td>Avant : Visuels HTML</td><td><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P6_Optimisation_Bottleneck/">Voir</a></td></tr>
 		<tr><td>Après : Visuels PNG</td><td><a href="https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/dataviz">Voir</a></td></tr>
 		<tr><td>Dashboard KPI pour le CODIR</td><td><a href="https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/captures">Voir</a></td></tr>
-		<tr><td>Mode d'emploi utilisateur du dashboard</td><td><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/09_mode_emploi_dashboard.html">Voir</a></td></tr>
+		<tr><td>Mode d'emploi utilisateur du dashboard</td><td><a href="09_mode_emploi_dashboard/09_mode_emploi_dashboard.md">Voir</a></td></tr>
 	</tbody>
 </table>
 
@@ -237,36 +237,36 @@ Moyen terme : Migration vers Great Expectations v19+ (voir roadmap).
 Tous les 10 critères mission P13 Partie 1 sont documentés et tracés :
 | Critère | Document | Lien |
 | --- | --- | --- |
-| Améliorer le livrable | Synthèse avant/après | [06_resultats](06_resultats.html) |
-| IA critique & documentée | Journal IA / décisions | [08_decisions](08_decisions.html) |
-| Tester plusieurs options | Benchmark outils (Pandas/GE/Soda/IF/SHAP/kNN) | [01_veille_metier_technologique](01_veille_metier_technologique.html) |
+| Améliorer le livrable | Synthèse avant/après | [06_resultats](06_resultats/06_resultats.md) |
+| IA critique & documentée | Journal IA / décisions | [08_decisions](08_decisions/08_decisions.md) |
+| Tester plusieurs options | Benchmark outils (Pandas/GE/Soda/IF/SHAP/kNN) | [01_veille_metier_technologique](01_veille_metier_technologique/01_veille_metier_technologique.md) |
 | Critères explicites | Tableau comparaison + méthodologie | [Notebook, Cellule 2](https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
 | Justifier les choix | Chaque cellule commence par "Pourquoi ?" | [Notebook complet](https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
-| Identifier les besoins métier | Cahier des charges complet | [02_cahier_des_charges_fonctionnel](02_cahier_des_charges_fonctionnel.html) |
-| Cahier des charges | Document complet (CDC) | [02_cahier_des_charges_fonctionnel](02_cahier_des_charges_fonctionnel.html) |
-| Organiser le projet | Hypothèses, tests, décisions | [04_hypotheses](04_hypotheses.html) + [05_tests](05_tests.html) |
-| Outils de gestion | GitHub Projects Kanban | [Captures disponibles](output/captures/) |
-| Intégrer les contraintes | 5 types documentés (délai, RGPD, budget, sobriété, conformité) | [08_decisions](08_decisions.html) |
+| Identifier les besoins métier | Cahier des charges complet | [02_cahier_des_charges_fonctionnel](02_cahier_des_charges_fonctionnel/02_cahier_des_charges_fonctionnel.md) |
+| Cahier des charges | Document complet (CDC) | [02_cahier_des_charges_fonctionnel](02_cahier_des_charges_fonctionnel/02_cahier_des_charges_fonctionnel.md) |
+| Organiser le projet | Hypothèses, tests, décisions | [04_hypotheses](04_hypotheses/04_hypotheses.md) + [05_tests](05_tests/05_tests.md) |
+| Outils de gestion | GitHub Projects Kanban | [Captures disponibles](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/captures) |
+| Intégrer les contraintes | 5 types documentés (délai, RGPD, budget, sobriété, conformité) | [08_decisions](08_decisions/08_decisions.md) |
 
 
 ### **📌 Modules Python**
 | Module | Rôle | Lien |
 | --- | --- | --- |
-| quality_checks.py | 18 contrôles de données (structure, valeurs, doublons) | [Lien](src/quality_checks.py) |
-| stock_cleaning.py | Corrections tracées des anomalies de stock | [Lien](src/stock_cleaning.py) |
-| data_merging.py | Rapprochement ERP/Web/Liaison avec logging | [Lien](src/data_merging.py) |
-| eda_analysis.py | Analyses exploratoires (Pareto, corrélations) | [Lien](src/eda_analysis.py) |
-| kpi_analysis.py | Calcul des KPI métier (CA, marges, rotation) | [Lien](src/kpi_analysis.py) |
+| quality_checks.py | 18 contrôles de données (structure, valeurs, doublons) | [Lien](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/src/quality_checks.py) |
+| stock_cleaning.py | Corrections tracées des anomalies de stock | [Lien](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/src/stock_cleaning.py) |
+| data_merging.py | Rapprochement ERP/Web/Liaison avec logging | [Lien](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/src/data_merging.py) |
+| eda_analysis.py | Analyses exploratoires (Pareto, corrélations) | [Lien](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/src/eda_analysis.py) |
+| kpi_analysis.py | Calcul des KPI métier (CA, marges, rotation) | [Lien](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/src/kpi_analysis.py) |
 
 ### **⚠️ Limites et Prudences**
 (Bloc RNCP37837BC05 : Spécialisation Statistiques)
 | Limite | Impact | Recommandation | Preuve |
 | --- | --- | --- | --- |
-| 1 mois de données (octobre 2026) | Snapshot, pas de tendance | Confirmer sur multi-mois | [06_resultats](06_resultats.html) |
+| 1 mois de données (octobre 2026) | Snapshot, pas de tendance | Confirmer sur multi-mois | [06_resultats](06_resultats/06_resultats.md) |
 | Corrélations ≠ causalité | Risque de faux signaux | Utiliser comme aide à la décision, pas comme preuve | [Notebook, Cellule 7](https://nbviewer.org/github/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb) |
-| Outliers statistiques | Modèle IQR | Valider avec l’équipe métier (prix premium légitimes ?) | [anomalies_prix_et_marges.html](output/dataviz/anomalies_prix_et_marges.html) |
-| Stock/Liaison manuels | Risque de désynchronisation | Investiguer 799 références Web sans match ERP | [data_merging.py](src/data_merging.py) |
-| Pas d’historique | Données point-in-time | Intégrer l’historique pour analyser les tendances | [06_resultats](06_resultats.html) |
+| Outliers statistiques | Modèle IQR | Valider avec l’équipe métier (prix premium légitimes ?) | [Dataviz](https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/dataviz) |
+| Stock/Liaison manuels | Risque de désynchronisation | Investiguer 799 références Web sans match ERP | [data_merging.py](https://github.com/ferialzamoun-afk/P13/blob/main/Partie_1/P6_ameliore_IA/src/data_merging.py) |
+| Pas d’historique | Données point-in-time | Intégrer l’historique pour analyser les tendances | [06_resultats](06_resultats/06_resultats.md) |
 
 ### **📞 Questions Fréquentes (FAQ)**
 Q : Puis-je relancer le notebook sur mes données ?
@@ -297,14 +297,14 @@ Q : Comment contribuer ?
 		<tr><td>BC02</td><td>Extraire et agréger</td><td>Nettoyage stocks/prix et rapprochement des données.</td><td><a href="https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/src">Scripts Python</a></td></tr>
 		<tr><td>BC02</td><td>Explorer et pré-traiter</td><td>EDA, Pareto, corrélations, anomalies.</td><td><a href="https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/src">eda_analysis.py</a></td></tr>
 		<tr><td>BC03</td><td>Visualiser</td><td>13 graphiques Phase II + 12 visuels BC05.</td><td><a href="https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/dataviz">output/dataviz</a></td></tr>
-		<tr><td>BC03</td><td>Créer un tableau de bord</td><td>Dashboard KPI Streamlit pour lecture CODIR.</td><td><a href="output/captures/05_kpi_dashboard_phase2.png">Capture dashboard</a></td></tr>
-		<tr><td>BC03</td><td>Reporting des tendances</td><td>Exports visuels + synthèse écrite.</td><td><a href="06_resultats.html">06_resultats</a></td></tr>
-		<tr><td>BC04</td><td>Veille métier/technologique</td><td>Benchmark Pandas, GE, Soda, IF, SHAP, K-Means, kNN.</td><td><a href="01_veille_metier_technologique.html">01_veille</a></td></tr>
-		<tr><td>BC04</td><td>Formaliser le cahier des charges</td><td>Objectifs, contraintes et livrables.</td><td><a href="02_cahier_des_charges_fonctionnel.html">02_cahier</a></td></tr>
-		<tr><td>BC04</td><td>Organiser un projet data</td><td>Hypothèses, tests, résultats et décisions.</td><td><a href="04_hypotheses.html">04_hypotheses</a> + <a href="05_tests.html">05_tests</a></td></tr>
-		<tr><td>BC04</td><td>Gérer la documentation</td><td>Pages publiques, décisions IA, mode d'emploi dashboard.</td><td><a href="08_decisions.html">08_decisions</a> + <a href="09_mode_emploi_dashboard.html">09_mode_emploi</a></td></tr>
-		<tr><td>BC05</td><td>Analyses multivariées</td><td>Isolation Forest, SHAP, K-Means, kNN, score strict et surveillance.</td><td><a href="06_resultats.html">06_resultats</a></td></tr>
-		<tr><td>BC05</td><td>Tests statistiques</td><td>Validation KPI, outliers et matrice décisionnelle stricte.</td><td><a href="05_tests.html">05_tests</a></td></tr>
+		<tr><td>BC03</td><td>Créer un tableau de bord</td><td>Dashboard KPI Streamlit pour lecture CODIR.</td><td><a href="https://github.com/ferialzamoun-afk/P13/tree/main/Partie_1/P6_ameliore_IA/output/captures">Captures dashboard</a></td></tr>
+		<tr><td>BC03</td><td>Reporting des tendances</td><td>Exports visuels + synthèse écrite.</td><td><a href="06_resultats/06_resultats.md">06_resultats</a></td></tr>
+		<tr><td>BC04</td><td>Veille métier/technologique</td><td>Benchmark Pandas, GE, Soda, IF, SHAP, K-Means, kNN.</td><td><a href="01_veille_metier_technologique/01_veille_metier_technologique.md">01_veille</a></td></tr>
+		<tr><td>BC04</td><td>Formaliser le cahier des charges</td><td>Objectifs, contraintes et livrables.</td><td><a href="02_cahier_des_charges_fonctionnel/02_cahier_des_charges_fonctionnel.md">02_cahier</a></td></tr>
+		<tr><td>BC04</td><td>Organiser un projet data</td><td>Hypothèses, tests, résultats et décisions.</td><td><a href="04_hypotheses/04_hypotheses.md">04_hypotheses</a> + <a href="05_tests/05_tests.md">05_tests</a></td></tr>
+		<tr><td>BC04</td><td>Gérer la documentation</td><td>Pages publiques, décisions IA, mode d'emploi dashboard.</td><td><a href="08_decisions/08_decisions.md">08_decisions</a> + <a href="09_mode_emploi_dashboard/09_mode_emploi_dashboard.md">09_mode_emploi</a></td></tr>
+		<tr><td>BC05</td><td>Analyses multivariées</td><td>Isolation Forest, SHAP, K-Means, kNN, score strict et surveillance.</td><td><a href="06_resultats/06_resultats.md">06_resultats</a></td></tr>
+		<tr><td>BC05</td><td>Tests statistiques</td><td>Validation KPI, outliers et matrice décisionnelle stricte.</td><td><a href="05_tests/05_tests.md">05_tests</a></td></tr>
 	</tbody>
 </table>
 
