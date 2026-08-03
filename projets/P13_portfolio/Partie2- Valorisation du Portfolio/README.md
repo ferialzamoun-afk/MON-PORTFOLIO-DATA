@@ -57,8 +57,8 @@ Avant chaque publication importante, je controle :
 | Preuve | Lien |
 |---|---|
 | Portfolio public | [Accueil portfolio](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/) |
-| Matrice portfolio | [05_matrice_portfolio_P13_partie_2](05_matrice_portfolio_P13_partie_2.html) |
-| Projet phare P13/P6 | [Partie 1 - P6 ameliore](../Partie1-Am%C3%A9lioration_P6_IA/) |
+| Matrice portfolio | [05_matrice_portfolio_P13_partie_2](05_matrice_portfolio_P13_partie_2.md) |
+| Projet phare P13/P6 | [Partie 1 - P6 ameliore](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/README.md) |
 | Dashboard P6 | [Dashboard Streamlit](https://p6-dashboard-wdcn5o8grt39nqtim6mgym.streamlit.app/) |
 
 ## Phrase de soutenance

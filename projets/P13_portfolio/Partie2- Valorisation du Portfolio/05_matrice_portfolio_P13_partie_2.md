@@ -6,6 +6,8 @@
 
 Cette matrice permet de suivre la preparation du portfolio, la qualite des preuves et l'avancement des 14 projets.
 
+Mise a jour : 2026-08-03.
+
 ## Mission 2 - Narration des preuves
 
 Le portfolio doit raconter chaque preuve selon le fil : **contexte -> besoin metier -> demarche -> resultats -> impact**.
@@ -36,20 +38,20 @@ Les resultats de veille sont integres dans la narration pour justifier les choix
 
 | Projet | Type de preuve attendue | Competences a valoriser | Metriques possibles | Statut |
 |---|---|---|---|---|
-| Projet 1 - A completer | README projet + lien livrable + capture | A completer | KPI, volume donnees, outils, resultat | [ ] |
-| Projet 2 - A completer | README projet + lien livrable + capture | A completer | KPI, volume donnees, outils, resultat | [ ] |
-| Projet 3 - A completer | README projet + lien livrable + capture | A completer | KPI, volume donnees, outils, resultat | [ ] |
-| Projet 4 - A completer | README projet + lien livrable + capture | A completer | KPI, volume donnees, outils, resultat | [ ] |
-| Projet 5 - A completer | README projet + lien livrable + capture | A completer | KPI, volume donnees, outils, resultat | [ ] |
-| **Projet 6 - Bottleneck ⭐ preuve technique phare** | Notebook P6 ameliore + dashboard + documentation Partie 1 + captures | Python, Pandas, nettoyage, rapprochement, EDA, detection anomalies, BC05, dashboard, IA critique | CA 143.7k EUR, 825 produits, 714 web match, 18 controles qualite, 36 alertes BC05, matrice stricte 1 critique / 172 a surveiller / 652 normaux, 65 cellules | [x] |
-| Projet 7 - A completer | README projet + lien livrable + capture | A completer | KPI, volume donnees, outils, resultat | [ ] |
-| Projet 8 - A completer | README projet + lien livrable + capture | A completer | KPI, volume donnees, outils, resultat | [ ] |
-| Projet 9 - A completer | README projet + lien livrable + capture | A completer | KPI, volume donnees, outils, resultat | [ ] |
-| Projet 10 - A completer | README projet + lien livrable + capture | A completer | KPI, volume donnees, outils, resultat | [ ] |
-| Projet 11 - A completer | README projet + lien livrable + capture | A completer | KPI, volume donnees, outils, resultat | [ ] |
-| Projet 12 - A completer | README projet + lien livrable + capture | A completer | KPI, volume donnees, outils, resultat | [ ] |
-| **Projet 13 - Portfolio + IA ⭐ preuve de pilotage** | Documentation P13 Partie 1 + Mission 2 + matrice RNCP + GitHub Pages | Pilotage projet, IA governance, documentation, veille technologique, valorisation portfolio | GitHub Project, dossier projet unique, Mission 2, mapping RNCP, TNR GitHub Pages, correction vs evolution | [x] |
-| Projet 14 - A completer | README projet + lien livrable + capture | A completer | KPI, volume donnees, outils, resultat | [ ] |
+| Projet 1 - Presentation | [README P1](../../P1_presentation/README.md) + preuve de positionnement | Communication pro, narration, positionnement | Clarte du pitch, lisibilite, coherence du profil | [~] |
+| Projet 2 - Analyse e-commerce | [README P2](../../P2_analyse_ecommerce/README.md) + livrables d'analyse | Collecte, nettoyage, KPI, visualisation | Volume traite, KPI commerciaux, recommandations | [~] |
+| Projet 3 - Requetes SQL | [README P3](../../P3_requetes_sql/README.md) + scripts/requetes | SQL, modelisation, extraction | Nombre de requetes, complexite SQL, qualite des sorties | [~] |
+| Projet 4 - Etude sante publique | [README P4](../../P4_etude_sante_publique/README.md) + restitution | Analyse exploratoire, dataviz, insights | Nombre d'indicateurs, qualite des visualisations, recommandations | [~] |
+| Projet 5 - Base immobiliere SQL | [README P5](../../P5_base_immobiliere_sql/README.md) + requetes | SQL avance, qualite donnees, restitution | KPI immobiliers, requetes metier, robustesse des controles | [~] |
+| **Projet 6 - Bottleneck ⭐ preuve technique phare** | [README P6](../../P6_Optimisation_Bottleneck/README.md) + notebook P6 ameliore + dashboard + documentation Partie 1 | Python, Pandas, nettoyage, rapprochement, EDA, detection anomalies, BC05, dashboard, IA critique | CA 143.7k EUR, 825 produits, 714 web match, 18 controles qualite, 36 alertes BC05, matrice stricte 1 critique / 172 a surveiller / 652 normaux, 65 cellules | [x] |
+| Projet 7 - Dashboard Power BI | [README P7](../../P7_dashboard_powerbi/README.md) + rapport visuel | BI, storytelling, decisionnel | Nombre de pages KPI, lisibilite dashboard, recommandations | [~] |
+| Projet 8 - Egalite femmes hommes | [README P8](../../P8_egalite_femmes_hommes/README.md) + analyse RH | ETL, data quality, indicateurs RH | KPI egalite, ecarts detectes, qualite du reporting | [~] |
+| Projet 9 - Librairie | [README P9](../../P9_librairie/README.md) + app/livrables | Pipeline data, UX analytique, dataviz | Interactions app, KPI suivis, qualite des insights | [~] |
+| Projet 10 - Eau potable | [README P10](../../P10_eau_potable/README.md) + analyses thematiques | Analyse sectorielle, qualite donnees, dataviz | KPI eau potable, couverture geographique, recommandations | [~] |
+| Projet 11 - Etude marche | [README P11](../../P11_etude_marche/README.md) + synthese business | Etude de marche, segmentation, priorisation | Critere de ciblage, scoring, decisions proposees | [~] |
+| Projet 12 - Faux billets | [README P12](../../P12_faux_billets/README.md) + notebook + docs | Classification, modelisation, evaluation | Precision modele, robustesse validation, tracabilite decisions | [~] |
+| **Projet 13 - Portfolio + IA ⭐ preuve de pilotage** | [README P13](../README.md) + Mission 2 + matrice RNCP + GitHub Pages | Pilotage projet, IA governance, documentation, veille technologique, valorisation portfolio | GitHub Project, dossier projet unique, Mission 2, mapping RNCP, TNR GitHub Pages, correction vs evolution | [x] |
+| Projet 14 - Stage | [README P14](../../P14_stage/README.md) + livrables de mission | Cadre pro, analyse metier, restitution | Livrables produits, adoption metier, impact operationnel | [~] |
 
 ## 3. Niveau de profondeur par projet
 
@@ -92,7 +94,7 @@ Les resultats de veille sont integres dans la narration pour justifier les choix
 
 | Priorite | Action | Livrable cible | Statut |
 |---|---|---|---|
-| 1 | Lister les noms exacts des 14 projets du portfolio. | Matrice projets completee | [ ] |
+| 1 | Lister les noms exacts des 14 projets du portfolio. | Matrice projets completee | [x] |
 | 2 | Identifier les 3 a 4 projets les plus forts apres Bottleneck. | Niveau de profondeur defini | [ ] |
 | 3 | Creer ou harmoniser le README principal du portfolio. | README portfolio | [ ] |
 | 4 | Ajouter une capture ou preuve visuelle pour chaque projet prioritaire. | Assets/captures | [ ] |
