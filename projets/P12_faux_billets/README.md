@@ -55,12 +55,12 @@ P12/
 👉 **[Ouvrir le Notebook Jupyter complet](assets/notebook/p12_da_maj_1.ipynb)**
 *(Le notebook est organisé en **sections claires**, chacune liée à un bloc RNCP. Voici le détail :)*
 
-Liens directs vers les ancres RNCP du notebook :
-- [RNCP BC01](assets/notebook/ancres_rncp_notebook.md#rncp-bc01)
-- [RNCP BC02](assets/notebook/ancres_rncp_notebook.md#rncp-bc02)
-- [RNCP BC03](assets/notebook/ancres_rncp_notebook.md#rncp-bc03)
-- [RNCP BC04](assets/notebook/ancres_rncp_notebook.md#rncp-bc04)
-- [RNCP BC05](assets/notebook/ancres_rncp_notebook.md#rncp-bc05)
+Liens directs vers la page de preuves RNCP (version recruteur) :
+- [RNCP BC01](rncp_preuves_p12.html#rncp-bc01)
+- [RNCP BC02](rncp_preuves_p12.html#rncp-bc02)
+- [RNCP BC03](rncp_preuves_p12.html#rncp-bc03)
+- [RNCP BC04](rncp_preuves_p12.html#rncp-bc04)
+- [RNCP BC05](rncp_preuves_p12.html#rncp-bc05)
 
 ---
 
@@ -68,7 +68,7 @@ Liens directs vers les ancres RNCP du notebook :
 *(Non applicable à P12, car pas de base SQL. Mais si tu as utilisé un DataFrame Pandas comme "base de données temporaire", tu peux l’inclure.)*
 > **⚠️ Note** :
 > *"Ce projet n’utilise pas de base de données SQL, mais les données ont été **structurées en DataFrame Pandas** avec des relations entre les features (ex: liens entre les motifs et les labels)."*
-> **Preuve** : [Section RNCP BC01 du notebook](assets/notebook/ancres_rncp_notebook.md#rncp-bc01)
+> **Preuve** : [Section RNCP BC01 du notebook](rncp_preuves_p12.html#rncp-bc01)
 
 ---
 
@@ -77,13 +77,13 @@ Liens directs vers les ancres RNCP du notebook :
 
 | **Compétence RNCP** | **Ce que j’ai fait** | **Section du Notebook** | **Preuve** |
 |----------------------|-----------------------|-------------------------|------------|
-| **Identifier et collecter** | Utilisation du **dataset ONFM** (images de billets + labels) en respectant les normes EMV. | [Section RNCP BC02](assets/notebook/ancres_rncp_notebook.md#rncp-bc02) | [Notebook](assets/notebook/ancres_rncp_notebook.md#rncp-bc02) |
-| **Extraire et agréger** | Nettoyage des données : gestion des **valeurs manquantes**, suppression des doublons. | [Section RNCP BC02](assets/notebook/ancres_rncp_notebook.md#rncp-bc02) | [Notebook](assets/notebook/ancres_rncp_notebook.md#rncp-bc02) |
-| **Explorer et pré-traiter** | **Feature Engineering** : sélection et préparation des variables pour la classification. | [Section RNCP BC02](assets/notebook/ancres_rncp_notebook.md#rncp-bc02) | [Notebook](assets/notebook/ancres_rncp_notebook.md#rncp-bc02) |
-| **Vérifier la cohérence** | Vérification de la **fiabilité des données** (statistiques descriptives, distributions). | [Section RNCP BC02](assets/notebook/ancres_rncp_notebook.md#rncp-bc02) | [Notebook](assets/notebook/ancres_rncp_notebook.md#rncp-bc02) |
-| **Traiter les données manquantes** | Imputation des valeurs manquantes (moyenne, médiane) et gestion des outliers. | [Section RNCP BC02](assets/notebook/ancres_rncp_notebook.md#rncp-bc02) | [Notebook](assets/notebook/ancres_rncp_notebook.md#rncp-bc02) |
+| **Identifier et collecter** | Utilisation du **dataset ONFM** (images de billets + labels) en respectant les normes EMV. | [Section RNCP BC02](rncp_preuves_p12.html#rncp-bc02) | [Notebook](rncp_preuves_p12.html#rncp-bc02) |
+| **Extraire et agréger** | Nettoyage des données : gestion des **valeurs manquantes**, suppression des doublons. | [Section RNCP BC02](rncp_preuves_p12.html#rncp-bc02) | [Notebook](rncp_preuves_p12.html#rncp-bc02) |
+| **Explorer et pré-traiter** | **Feature Engineering** : sélection et préparation des variables pour la classification. | [Section RNCP BC02](rncp_preuves_p12.html#rncp-bc02) | [Notebook](rncp_preuves_p12.html#rncp-bc02) |
+| **Vérifier la cohérence** | Vérification de la **fiabilité des données** (statistiques descriptives, distributions). | [Section RNCP BC02](rncp_preuves_p12.html#rncp-bc02) | [Notebook](rncp_preuves_p12.html#rncp-bc02) |
+| **Traiter les données manquantes** | Imputation des valeurs manquantes (moyenne, médiane) et gestion des outliers. | [Section RNCP BC02](rncp_preuves_p12.html#rncp-bc02) | [Notebook](rncp_preuves_p12.html#rncp-bc02) |
 | **Analyse temporelle** | *Non applicable* (pas de séries temporelles dans P12). | - | - |
-| **Analyse univariée/multivariée** | Analyse des **distributions** (histogrammes, boxplots) et **corrélations** entre features. | [Section RNCP BC02](assets/notebook/ancres_rncp_notebook.md#rncp-bc02) | [Notebook](assets/notebook/ancres_rncp_notebook.md#rncp-bc02) |
+| **Analyse univariée/multivariée** | Analyse des **distributions** (histogrammes, boxplots) et **corrélations** entre features. | [Section RNCP BC02](rncp_preuves_p12.html#rncp-bc02) | [Notebook](rncp_preuves_p12.html#rncp-bc02) |
 
 ---
 ---
@@ -93,12 +93,12 @@ Liens directs vers les ancres RNCP du notebook :
 
 | **Compétence RNCP** | **Ce que j’ai fait** | **Section du Notebook** | **Preuve** |
 |----------------------|-----------------------|-------------------------|------------|
-| **Solution de visualisation** | Création de **graphiques adaptés** (histogrammes, boxplots, matrice de corrélation) avec Matplotlib/Seaborn. | [Section RNCP BC03](assets/notebook/ancres_rncp_notebook.md#rncp-bc03) | [Notebook](assets/notebook/ancres_rncp_notebook.md#rncp-bc03) |
-| **Graphiques accessibles** | Respect des **bonnes pratiques** (titres, légendes, couleurs contrastées). | [Section RNCP BC03](assets/notebook/ancres_rncp_notebook.md#rncp-bc03) | [Notebook](assets/notebook/ancres_rncp_notebook.md#rncp-bc03) |
+| **Solution de visualisation** | Création de **graphiques adaptés** (histogrammes, boxplots, matrice de corrélation) avec Matplotlib/Seaborn. | [Section RNCP BC03](rncp_preuves_p12.html#rncp-bc03) | [Notebook](rncp_preuves_p12.html#rncp-bc03) |
+| **Graphiques accessibles** | Respect des **bonnes pratiques** (titres, légendes, couleurs contrastées). | [Section RNCP BC03](rncp_preuves_p12.html#rncp-bc03) | [Notebook](rncp_preuves_p12.html#rncp-bc03) |
 | **Créer un tableau de bord** | *Non applicable* (pas de tableau de bord interactif dans P12). | - | - |
-| **Reporting des tendances** | **Interprétation des graphiques** (ex: "La distribution des probabilités montre une séparation nette entre vrais et faux billets"). | [Section RNCP BC03](assets/notebook/ancres_rncp_notebook.md#rncp-bc03) | [Notebook](assets/notebook/ancres_rncp_notebook.md#rncp-bc03) |
-| **Récit des résultats** | **Synthèse narrative** des résultats dans le notebook (cellules Markdown). | [Section RNCP BC03](assets/notebook/ancres_rncp_notebook.md#rncp-bc03) | [Notebook](assets/notebook/ancres_rncp_notebook.md#rncp-bc03) |
-| **Présenter les résultats** | **Adaptation du contenu** pour un public technique (ONFM) et non-technique (slides séparés). | [Section RNCP BC03](assets/notebook/ancres_rncp_notebook.md#rncp-bc03) | [Notebook](assets/notebook/ancres_rncp_notebook.md#rncp-bc03) + [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12) |
+| **Reporting des tendances** | **Interprétation des graphiques** (ex: "La distribution des probabilités montre une séparation nette entre vrais et faux billets"). | [Section RNCP BC03](rncp_preuves_p12.html#rncp-bc03) | [Notebook](rncp_preuves_p12.html#rncp-bc03) |
+| **Récit des résultats** | **Synthèse narrative** des résultats dans le notebook (cellules Markdown). | [Section RNCP BC03](rncp_preuves_p12.html#rncp-bc03) | [Notebook](rncp_preuves_p12.html#rncp-bc03) |
+| **Présenter les résultats** | **Adaptation du contenu** pour un public technique (ONFM) et non-technique (slides séparés). | [Section RNCP BC03](rncp_preuves_p12.html#rncp-bc03) | [Notebook](rncp_preuves_p12.html#rncp-bc03) + [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12) |
 
 ---
 ---
@@ -108,14 +108,14 @@ Liens directs vers les ancres RNCP du notebook :
 
 | **Compétence RNCP** | **Ce que j’ai fait** | **Section du Notebook** | **Preuve** |
 |----------------------|-----------------------|-------------------------|------------|
-| **Veille métier/technologique** | Recherche sur les **standards EMV** et benchmark des outils de classification (Scikit-learn vs PyTorch). | [Section RNCP BC04](assets/notebook/ancres_rncp_notebook.md#rncp-bc04) | [Notebook](assets/notebook/ancres_rncp_notebook.md#rncp-bc04) + [Note de veille EMV](assets/veille/recherche_standards_emv_detection_fraude.md) |
-| **Expérimenter de nouvelles méthodes** | Comparaison de **plusieurs algorithmes** ; la **Logistic Regression** a été retenue après cross-validation. | [Section RNCP BC04](assets/notebook/ancres_rncp_notebook.md#rncp-bc04) | [Notebook](assets/notebook/ancres_rncp_notebook.md#rncp-bc04) |
-| **Identifier le besoin métier** | **Traduction des besoins ONFM** en objectifs techniques (détection automatique, conformité EMV). | [Section RNCP BC04](assets/notebook/ancres_rncp_notebook.md#rncp-bc04) | [Notebook](assets/notebook/ancres_rncp_notebook.md#rncp-bc04) |
-| **Formaliser le cahier des charges** | **Documentation complète** dans le notebook (objectifs, méthodologie, résultats). | [Section RNCP BC04](assets/notebook/ancres_rncp_notebook.md#rncp-bc04) | [Notebook](assets/notebook/ancres_rncp_notebook.md#rncp-bc04) |
-| **Organiser un projet data** | **Structuration du notebook** en sections claires (EDA, Modélisation, Évaluation). | [Notebook RNCP BC04](assets/notebook/ancres_rncp_notebook.md#rncp-bc04) | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12) |
+| **Veille métier/technologique** | Recherche sur les **standards EMV** et benchmark des outils de classification (Scikit-learn vs PyTorch). | [Section RNCP BC04](rncp_preuves_p12.html#rncp-bc04) | [Notebook](rncp_preuves_p12.html#rncp-bc04) + [Note de veille EMV](assets/veille/recherche_standards_emv_detection_fraude.md) |
+| **Expérimenter de nouvelles méthodes** | Comparaison de **plusieurs algorithmes** ; la **Logistic Regression** a été retenue après cross-validation. | [Section RNCP BC04](rncp_preuves_p12.html#rncp-bc04) | [Notebook](rncp_preuves_p12.html#rncp-bc04) |
+| **Identifier le besoin métier** | **Traduction des besoins ONFM** en objectifs techniques (détection automatique, conformité EMV). | [Section RNCP BC04](rncp_preuves_p12.html#rncp-bc04) | [Notebook](rncp_preuves_p12.html#rncp-bc04) |
+| **Formaliser le cahier des charges** | **Documentation complète** dans le notebook (objectifs, méthodologie, résultats). | [Section RNCP BC04](rncp_preuves_p12.html#rncp-bc04) | [Notebook](rncp_preuves_p12.html#rncp-bc04) |
+| **Organiser un projet data** | **Structuration du notebook** en sections claires (EDA, Modélisation, Évaluation). | [Notebook RNCP BC04](rncp_preuves_p12.html#rncp-bc04) | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12) |
 | **Ateliers de formation** | *Non applicable* (pas d’atelier dans P12). | - | - |
-| **Gérer la documentation** | **Commentaires détaillés** dans le code et cellules Markdown explicatives. | [Notebook RNCP BC04](assets/notebook/ancres_rncp_notebook.md#rncp-bc04) | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12) |
-| **Adapter sa posture** | **Positionnement comme consultante** : explications claires pour l’ONFM. | [Section RNCP BC04](assets/notebook/ancres_rncp_notebook.md#rncp-bc04) | [Notebook](assets/notebook/ancres_rncp_notebook.md#rncp-bc04) |
+| **Gérer la documentation** | **Commentaires détaillés** dans le code et cellules Markdown explicatives. | [Notebook RNCP BC04](rncp_preuves_p12.html#rncp-bc04) | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12) |
+| **Adapter sa posture** | **Positionnement comme consultante** : explications claires pour l’ONFM. | [Section RNCP BC04](rncp_preuves_p12.html#rncp-bc04) | [Notebook](rncp_preuves_p12.html#rncp-bc04) |
 
 ---
 ---
@@ -125,13 +125,13 @@ Liens directs vers les ancres RNCP du notebook :
 
 | **Compétence RNCP** | **Ce que j’ai fait** | **Section du Notebook** | **Preuve** |
 |----------------------|-----------------------|-------------------------|------------|
-| **Analyses multivariées** | Étude des **corrélations entre features** (matrice de corrélation). | [Section RNCP BC05](assets/notebook/ancres_rncp_notebook.md#rncp-bc05) | [Notebook](assets/notebook/ancres_rncp_notebook.md#rncp-bc05) |
+| **Analyses multivariées** | Étude des **corrélations entre features** (matrice de corrélation). | [Section RNCP BC05](rncp_preuves_p12.html#rncp-bc05) | [Notebook](rncp_preuves_p12.html#rncp-bc05) |
 | **Réduction de dimension** | *Non applicable* (pas de PCA ou t-SNE dans P12). | - | - |
-| **Tests statistiques** | **Validation croisée** et tests de robustesse (ex: test sur différents sous-ensembles). | [Section RNCP BC05](assets/notebook/ancres_rncp_notebook.md#rncp-bc05) | [Notebook](assets/notebook/ancres_rncp_notebook.md#rncp-bc05) |
-| **Feature Engineering (non supervisé)** | Sélection des **variables pertinentes** pour la classification. | [Section RNCP BC05](assets/notebook/ancres_rncp_notebook.md#rncp-bc05) | [Notebook](assets/notebook/ancres_rncp_notebook.md#rncp-bc05) |
-| **Entraîner un modèle** | **Classification binaire** avec Scikit-learn (Logistic Regression). | [Section RNCP BC05](assets/notebook/ancres_rncp_notebook.md#rncp-bc05) | [Notebook](assets/notebook/ancres_rncp_notebook.md#rncp-bc05) |
-| **Exploiter un modèle** | **Évaluation des performances** (matrice de confusion, métriques). | [Section RNCP BC05](assets/notebook/ancres_rncp_notebook.md#rncp-bc05) | [Notebook](assets/notebook/ancres_rncp_notebook.md#rncp-bc05) |
-| **Choisir un modèle adapté** | Justification du choix du modèle retenu après comparaison. | [Section RNCP BC05](assets/notebook/ancres_rncp_notebook.md#rncp-bc05) | [Notebook](assets/notebook/ancres_rncp_notebook.md#rncp-bc05) |
+| **Tests statistiques** | **Validation croisée** et tests de robustesse (ex: test sur différents sous-ensembles). | [Section RNCP BC05](rncp_preuves_p12.html#rncp-bc05) | [Notebook](rncp_preuves_p12.html#rncp-bc05) |
+| **Feature Engineering (non supervisé)** | Sélection des **variables pertinentes** pour la classification. | [Section RNCP BC05](rncp_preuves_p12.html#rncp-bc05) | [Notebook](rncp_preuves_p12.html#rncp-bc05) |
+| **Entraîner un modèle** | **Classification binaire** avec Scikit-learn (Logistic Regression). | [Section RNCP BC05](rncp_preuves_p12.html#rncp-bc05) | [Notebook](rncp_preuves_p12.html#rncp-bc05) |
+| **Exploiter un modèle** | **Évaluation des performances** (matrice de confusion, métriques). | [Section RNCP BC05](rncp_preuves_p12.html#rncp-bc05) | [Notebook](rncp_preuves_p12.html#rncp-bc05) |
+| **Choisir un modèle adapté** | Justification du choix du modèle retenu après comparaison. | [Section RNCP BC05](rncp_preuves_p12.html#rncp-bc05) | [Notebook](rncp_preuves_p12.html#rncp-bc05) |
 | **Analyse de séries temporelles** | *Non applicable* (pas de séries temporelles dans P12). | - | - |
 
 ---
@@ -206,3 +206,4 @@ Liens directs vers les ancres RNCP du notebook :
 Férial Zamoun  
 Formation Data Analyst - GRETA Promo P5- 2025  
 Objectif : Recherche CDI et poursuite en RNCP37744 -data-scientist-machine-learning (Septembre 2026)
+
