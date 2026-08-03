@@ -1,34 +1,39 @@
-# Ancres RNCP - Notebook P12
+---
+layout: default
+title: "Ancres RNCP - P12 (legacy)"
+---
 
-Cette page fournit des ancres stables pour la navigation depuis le README.
+# Ancres RNCP - P12 (page legacy)
 
-## Acces notebook
+Cette page est conservee pour compatibilite des anciens liens.
 
-- [Notebook P12 (version renommee)](p12_da_maj_1.ipynb)
+Pour une navigation recruteur, utiliser la page mise a jour:
 
-## Ancres RNCP
+- [Navigation RNCP et preuves](../../rncp_preuves_p12.html)
+
+## Redirection par bloc RNCP
 
 <a id="rncp-bc01"></a>
 ### RNCP BC01
 
-- [Aller au notebook](p12_da_maj_1.ipynb)
+- [Aller aux preuves BC01](../../rncp_preuves_p12.html#rncp-bc01)
 
 <a id="rncp-bc02"></a>
 ### RNCP BC02
 
-- [Aller au notebook](p12_da_maj_1.ipynb)
+- [Aller aux preuves BC02](../../rncp_preuves_p12.html#rncp-bc02)
 
 <a id="rncp-bc03"></a>
 ### RNCP BC03
 
-- [Aller au notebook](p12_da_maj_1.ipynb)
+- [Aller aux preuves BC03](../../rncp_preuves_p12.html#rncp-bc03)
 
 <a id="rncp-bc04"></a>
 ### RNCP BC04
 
-- [Aller au notebook](p12_da_maj_1.ipynb)
+- [Aller aux preuves BC04](../../rncp_preuves_p12.html#rncp-bc04)
 
 <a id="rncp-bc05"></a>
 ### RNCP BC05
 
-- [Aller au notebook](p12_da_maj_1.ipynb)
+- [Aller aux preuves BC05](../../rncp_preuves_p12.html#rncp-bc05)
