@@ -1,4 +1,4 @@
-﻿# # 🎯 Projet P12 : Détection de Faux Billets par Machine Learning
+﻿# 🎯 Projet P12 : Détection de Faux Billets par Machine Learning
 **📅 Date** : Juillet 2026
 **🏷️ Type** : Machine Learning / Classification / Analyse Statistique
 **🔗 Lien** : [Notebook Jupyter complet](https://github.com/ferialzamoun-afk/P12/blob/main/notebooks/p12_da_maj%2B%281%29.ipynb)   [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12)
