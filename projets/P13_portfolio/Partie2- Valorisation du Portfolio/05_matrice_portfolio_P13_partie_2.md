@@ -83,12 +83,22 @@ Les resultats de veille sont integres dans la narration pour justifier les choix
 | Nettoyer et preparer les donnees | **P6 Bottleneck** | 18 controles qualite, stocks corriges, anomalies documentees. | [x] |
 | Analyser les donnees | **P6 Bottleneck** | EDA, Pareto rang 435, BC05, matrice stricte. | [x] |
 | Visualiser et restituer | **P6 Dashboard + P13 GitHub Pages** | Dashboard Streamlit, 25 visuels, portfolio public. | [x] |
-| Utiliser SQL | A completer | Requetes, schema, resultats. | [ ] |
+| Utiliser SQL | **P3 Requetes SQL + P5 Base immobiliere SQL** | Requetes metier, schema, resultats. | [x] |
 | Utiliser Python | **P6 Bottleneck** | Notebook 65 cellules, scripts, pandas, sklearn, SHAP. | [x] |
 | Communiquer des recommandations | **P13 + P6** | Synthese, conclusions, dashboard decisionnel, soutenance. | [x] |
 | Documenter et versionner | **P13 + portfolio** | README, GitHub Pages, dossier unique, TNR, commits. | [x] |
 | Piloter un projet data | **P13 Partie 1** | GitHub Project, planning, backlog, risques, matrice indicateurs. | [x] |
 | Utiliser l'IA de maniere critique | **P13 + P6** | Prompts, variantes, decisions humaines, limites, arbitrage `critical_score` / `surveillance_score`. | [x] |
+
+## 5.1 Statut des blocs RNCP 37837
+
+| Bloc | Intitule | Statut |
+|---|---|---|
+| BC01 | Structurer et gerer une base de donnees | [x] Termine |
+| BC02 | Collecter, traiter et analyser les donnees | [x] Termine |
+| BC03 | Visualiser et restituer les resultats | [x] Termine |
+| BC04 | Piloter un projet data et documenter | [x] Termine |
+| BC05 | Realiser des analyses statistiques avancees | [x] Termine |
 
 ## 6. Actions immediates
 
