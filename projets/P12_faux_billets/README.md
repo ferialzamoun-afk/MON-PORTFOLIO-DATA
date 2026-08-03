@@ -61,7 +61,7 @@ P12/
 *(Non applicable à P12, car pas de base SQL. Mais si tu as utilisé un DataFrame Pandas comme "base de données temporaire", tu peux l’inclure.)*
 > **⚠️ Note** :
 > *"Ce projet n’utilise pas de base de données SQL, mais les données ont été **structurées en DataFrame Pandas** avec des relations entre les features (ex: liens entre les motifs et les labels)."*
-> **Preuve** : [Section "2) Chargement et Structuration des Données" du notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb)
+> **Preuve** : [Section RNCP BC01 du notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc01)
 
 ---
 
@@ -70,13 +70,13 @@ P12/
 
 | **Compétence RNCP** | **Ce que j’ai fait** | **Section du Notebook** | **Preuve** |
 |----------------------|-----------------------|-------------------------|------------|
-| **Identifier et collecter** | Utilisation du **dataset ONFM** (images de billets + labels) en respectant les normes EMV. | [Section "2) Chargement et Structuration des Données"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
-| **Extraire et agréger** | Nettoyage des données : gestion des **valeurs manquantes**, suppression des doublons. | [Section "3) Analyse exploratoire (EDA)"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
-| **Explorer et pré-traiter** | **Feature Engineering** : sélection et préparation des variables pour la classification. | [Section "4) Prétraitement et préparation des données"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
-| **Vérifier la cohérence** | Vérification de la **fiabilité des données** (statistiques descriptives, distributions). | [Section "3) Analyse exploratoire (EDA)"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
-| **Traiter les données manquantes** | Imputation des valeurs manquantes (moyenne, médiane) et gestion des outliers. | [Section "4) Prétraitement et préparation des données"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
+| **Identifier et collecter** | Utilisation du **dataset ONFM** (images de billets + labels) en respectant les normes EMV. | [Section RNCP BC02](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc02) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc02) |
+| **Extraire et agréger** | Nettoyage des données : gestion des **valeurs manquantes**, suppression des doublons. | [Section RNCP BC02](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc02) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc02) |
+| **Explorer et pré-traiter** | **Feature Engineering** : sélection et préparation des variables pour la classification. | [Section RNCP BC02](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc02) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc02) |
+| **Vérifier la cohérence** | Vérification de la **fiabilité des données** (statistiques descriptives, distributions). | [Section RNCP BC02](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc02) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc02) |
+| **Traiter les données manquantes** | Imputation des valeurs manquantes (moyenne, médiane) et gestion des outliers. | [Section RNCP BC02](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc02) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc02) |
 | **Analyse temporelle** | *Non applicable* (pas de séries temporelles dans P12). | - | - |
-| **Analyse univariée/multivariée** | Analyse des **distributions** (histogrammes, boxplots) et **corrélations** entre features. | [Section "3) Analyse exploratoire (EDA)"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
+| **Analyse univariée/multivariée** | Analyse des **distributions** (histogrammes, boxplots) et **corrélations** entre features. | [Section RNCP BC02](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc02) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc02) |
 
 ---
 ---
@@ -86,12 +86,12 @@ P12/
 
 | **Compétence RNCP** | **Ce que j’ai fait** | **Section du Notebook** | **Preuve** |
 |----------------------|-----------------------|-------------------------|------------|
-| **Solution de visualisation** | Création de **graphiques adaptés** (histogrammes, boxplots, matrice de corrélation) avec Matplotlib/Seaborn. | [Section "3) Analyse exploratoire (EDA)"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
-| **Graphiques accessibles** | Respect des **bonnes pratiques** (titres, légendes, couleurs contrastées). | [Section "3) Analyse exploratoire (EDA)"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
+| **Solution de visualisation** | Création de **graphiques adaptés** (histogrammes, boxplots, matrice de corrélation) avec Matplotlib/Seaborn. | [Section RNCP BC03](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc03) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc03) |
+| **Graphiques accessibles** | Respect des **bonnes pratiques** (titres, légendes, couleurs contrastées). | [Section RNCP BC03](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc03) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc03) |
 | **Créer un tableau de bord** | *Non applicable* (pas de tableau de bord interactif dans P12). | - | - |
-| **Reporting des tendances** | **Interprétation des graphiques** (ex: "La distribution des probabilités montre une séparation nette entre vrais et faux billets"). | [Section "7.2 Distribution des probabilités prédites"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
-| **Récit des résultats** | **Synthèse narrative** des résultats dans le notebook (cellules Markdown). | [Section "7) Sélection du meilleur modèle"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
-| **Présenter les résultats** | **Adaptation du contenu** pour un public technique (ONFM) et non-technique (slides séparés). | [Section "7) Sélection du meilleur modèle"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) + [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12) |
+| **Reporting des tendances** | **Interprétation des graphiques** (ex: "La distribution des probabilités montre une séparation nette entre vrais et faux billets"). | [Section RNCP BC03](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc03) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc03) |
+| **Récit des résultats** | **Synthèse narrative** des résultats dans le notebook (cellules Markdown). | [Section RNCP BC03](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc03) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc03) |
+| **Présenter les résultats** | **Adaptation du contenu** pour un public technique (ONFM) et non-technique (slides séparés). | [Section RNCP BC03](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc03) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc03) + [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12) |
 
 ---
 ---
@@ -101,14 +101,14 @@ P12/
 
 | **Compétence RNCP** | **Ce que j’ai fait** | **Section du Notebook** | **Preuve** |
 |----------------------|-----------------------|-------------------------|------------|
-| **Veille métier/technologique** | Recherche sur les **standards EMV** et benchmark des outils de classification (Scikit-learn vs PyTorch). | [Section "0. Contexte et Veille"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
-| **Expérimenter de nouvelles méthodes** | Comparaison de **plusieurs algorithmes** ; la **Logistic Regression** a été retenue après cross-validation. | [Section "6) Recherche d'hyperparamètres et cross-validation des modèles supervisés"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
-| **Identifier le besoin métier** | **Traduction des besoins ONFM** en objectifs techniques (détection automatique, conformité EMV). | [Section "0. Contexte et Veille"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
-| **Formaliser le cahier des charges** | **Documentation complète** dans le notebook (objectifs, méthodologie, résultats). | [Section "0. Contexte et Veille"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
-| **Organiser un projet data** | **Structuration du notebook** en sections claires (EDA, Modélisation, Évaluation). | [Notebook complet](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12) |
+| **Veille métier/technologique** | Recherche sur les **standards EMV** et benchmark des outils de classification (Scikit-learn vs PyTorch). | [Section RNCP BC04](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc04) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc04) + [Note de veille EMV](assets/veille/recherche_standards_emv_detection_fraude.md) |
+| **Expérimenter de nouvelles méthodes** | Comparaison de **plusieurs algorithmes** ; la **Logistic Regression** a été retenue après cross-validation. | [Section RNCP BC04](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc04) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc04) |
+| **Identifier le besoin métier** | **Traduction des besoins ONFM** en objectifs techniques (détection automatique, conformité EMV). | [Section RNCP BC04](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc04) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc04) |
+| **Formaliser le cahier des charges** | **Documentation complète** dans le notebook (objectifs, méthodologie, résultats). | [Section RNCP BC04](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc04) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc04) |
+| **Organiser un projet data** | **Structuration du notebook** en sections claires (EDA, Modélisation, Évaluation). | [Notebook RNCP BC04](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc04) | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12) |
 | **Ateliers de formation** | *Non applicable* (pas d’atelier dans P12). | - | - |
-| **Gérer la documentation** | **Commentaires détaillés** dans le code et cellules Markdown explicatives. | [Notebook complet](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12) |
-| **Adapter sa posture** | **Positionnement comme consultante** : explications claires pour l’ONFM. | [Section "7) Sélection du meilleur modèle"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
+| **Gérer la documentation** | **Commentaires détaillés** dans le code et cellules Markdown explicatives. | [Notebook RNCP BC04](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc04) | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12) |
+| **Adapter sa posture** | **Positionnement comme consultante** : explications claires pour l’ONFM. | [Section RNCP BC04](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc04) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc04) |
 
 ---
 ---
@@ -118,13 +118,13 @@ P12/
 
 | **Compétence RNCP** | **Ce que j’ai fait** | **Section du Notebook** | **Preuve** |
 |----------------------|-----------------------|-------------------------|------------|
-| **Analyses multivariées** | Étude des **corrélations entre features** (matrice de corrélation). | [Section "3) Analyse exploratoire (EDA)"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
+| **Analyses multivariées** | Étude des **corrélations entre features** (matrice de corrélation). | [Section RNCP BC05](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc05) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc05) |
 | **Réduction de dimension** | *Non applicable* (pas de PCA ou t-SNE dans P12). | - | - |
-| **Tests statistiques** | **Validation croisée** et tests de robustesse (ex: test sur différents sous-ensembles). | [Section "6) Recherche d'hyperparamètres et cross-validation des modèles supervisés"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
-| **Feature Engineering (non supervisé)** | Sélection des **variables pertinentes** pour la classification. | [Section "4) Prétraitement et préparation des données"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
-| **Entraîner un modèle** | **Classification binaire** avec Scikit-learn (Logistic Regression). | [Section "5) Modélisation"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
-| **Exploiter un modèle** | **Évaluation des performances** (matrice de confusion, métriques). | [Section "7) Sélection du meilleur modèle"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
-| **Choisir un modèle adapté** | Justification du choix du modèle retenu après comparaison. | [Section "7) Sélection du meilleur modèle"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
+| **Tests statistiques** | **Validation croisée** et tests de robustesse (ex: test sur différents sous-ensembles). | [Section RNCP BC05](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc05) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc05) |
+| **Feature Engineering (non supervisé)** | Sélection des **variables pertinentes** pour la classification. | [Section RNCP BC05](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc05) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc05) |
+| **Entraîner un modèle** | **Classification binaire** avec Scikit-learn (Logistic Regression). | [Section RNCP BC05](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc05) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc05) |
+| **Exploiter un modèle** | **Évaluation des performances** (matrice de confusion, métriques). | [Section RNCP BC05](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc05) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc05) |
+| **Choisir un modèle adapté** | Justification du choix du modèle retenu après comparaison. | [Section RNCP BC05](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc05) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc05) |
 | **Analyse de séries temporelles** | *Non applicable* (pas de séries temporelles dans P12). | - | - |
 
 ---
@@ -134,7 +134,7 @@ P12/
 ## **📊 Méthodologie**
 *(Bloc RNCP37837BC04 : Piloter un projet data)*
 > **Étapes** :
-> 1. **Contexte et Veille** : Recherche sur les standards EMV et les outils de détection de fraude.
+> 1. **Contexte et Veille** : Recherche sur les standards EMV et les outils de détection de fraude ([note detaillee](assets/veille/recherche_standards_emv_detection_fraude.md), [documentation technique](assets/documentation/DOC_TECHNIQUE_PIPELINE_FAUX_BILLETS.md), [cahier des charges](assets/cahier_des_charges/PROJECT_BRIEF.md)).
 > 2. **Chargement des données** : Import du dataset ONFM (images + labels).
 > 3. **Nettoyage des données** : Gestion des valeurs manquantes, suppression des doublons.
 > 4. **Feature Engineering** : Extraction de caractéristiques (motifs, hologrammes).
