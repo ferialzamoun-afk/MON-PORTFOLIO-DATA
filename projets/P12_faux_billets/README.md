@@ -108,7 +108,7 @@ Liens directs vers la page de preuves RNCP (version recruteur) :
 
 | **Compétence RNCP** | **Ce que j’ai fait** | **Section du Notebook** | **Preuve** |
 |----------------------|-----------------------|-------------------------|------------|
-| **Veille métier/technologique** | Recherche sur les **standards EMV** et benchmark des outils de classification (Scikit-learn vs PyTorch). | [Section RNCP BC04](rncp_preuves_p12.html#rncp-bc04) | [Notebook](rncp_preuves_p12.html#rncp-bc04) + [Note de veille EMV](assets/veille/recherche_standards_emv_detection_fraude.md) |
+| **Veille métier/technologique** | Recherche sur les **standards EMV** et benchmark des outils de classification (Scikit-learn vs PyTorch). | [Section RNCP BC04](rncp_preuves_p12.html#rncp-bc04) | [Notebook](rncp_preuves_p12.html#rncp-bc04) + [Note de veille EMV](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P12_faux_billets/assets/veille/recherche_standards_emv_detection_fraude.html) |
 | **Expérimenter de nouvelles méthodes** | Comparaison de **plusieurs algorithmes** ; la **Logistic Regression** a été retenue après cross-validation. | [Section RNCP BC04](rncp_preuves_p12.html#rncp-bc04) | [Notebook](rncp_preuves_p12.html#rncp-bc04) |
 | **Identifier le besoin métier** | **Traduction des besoins ONFM** en objectifs techniques (détection automatique, conformité EMV). | [Section RNCP BC04](rncp_preuves_p12.html#rncp-bc04) | [Notebook](rncp_preuves_p12.html#rncp-bc04) |
 | **Formaliser le cahier des charges** | **Documentation complète** dans le notebook (objectifs, méthodologie, résultats). | [Section RNCP BC04](rncp_preuves_p12.html#rncp-bc04) | [Notebook](rncp_preuves_p12.html#rncp-bc04) |
@@ -141,7 +141,7 @@ Liens directs vers la page de preuves RNCP (version recruteur) :
 ## **📊 Méthodologie**
 *(Bloc RNCP37837BC04 : Piloter un projet data)*
 > **Étapes** :
-> 1. **Contexte et Veille** : Recherche sur les standards EMV et les outils de détection de fraude ([note detaillee](assets/veille/recherche_standards_emv_detection_fraude.md), [documentation technique](assets/documentation/DOC_TECHNIQUE_PIPELINE_FAUX_BILLETS.md), [cahier des charges](assets/cahier_des_charges/PROJECT_BRIEF.md)).
+> 1. **Contexte et Veille** : Recherche sur les standards EMV et les outils de détection de fraude ([note detaillee](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P12_faux_billets/assets/veille/recherche_standards_emv_detection_fraude.html), [documentation technique](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P12_faux_billets/assets/documentation/DOC_TECHNIQUE_PIPELINE_FAUX_BILLETS.html), [cahier des charges](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P12_faux_billets/assets/cahier_des_charges/PROJECT_BRIEF.html)).
 > 2. **Chargement des données** : Import du dataset ONFM (images + labels).
 > 3. **Nettoyage des données** : Gestion des valeurs manquantes, suppression des doublons.
 > 4. **Feature Engineering** : Extraction de caractéristiques (motifs, hologrammes).

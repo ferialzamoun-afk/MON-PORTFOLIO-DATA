@@ -46,9 +46,9 @@ Cette page est concue pour les recruteurs: chaque bloc RNCP pointe vers des preu
 
 - Pilotage, documentation et veille
 - Preuves:
-- [Veille EMV 2026](assets/veille/recherche_standards_emv_detection_fraude.md)
-- [Documentation technique](assets/documentation/DOC_TECHNIQUE_PIPELINE_FAUX_BILLETS.md)
-- [Cahier des charges](assets/cahier_des_charges/PROJECT_BRIEF.md)
+- [Veille EMV 2026](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P12_faux_billets/assets/veille/recherche_standards_emv_detection_fraude.html)
+- [Documentation technique](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P12_faux_billets/assets/documentation/DOC_TECHNIQUE_PIPELINE_FAUX_BILLETS.html)
+- [Cahier des charges](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P12_faux_billets/assets/cahier_des_charges/PROJECT_BRIEF.html)
 
 ## RNCP BC05
 
