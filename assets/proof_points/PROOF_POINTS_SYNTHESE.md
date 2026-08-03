@@ -28,7 +28,7 @@
 | **4️⃣ Résultats** | ✅ Doublons détectés/corrigés ; anomalies stocks identifiées ; outliers prix flagués. **Recommandations** : Synchroniser ERP/Web ; piloter marges. **Livrable** : `df_final.xlsx`. |
 | **5️⃣ Limites** | Snapshot statique. Pas accès live sources. **Pistes** : Warehouse temps réel (dbt/Snowflake). |
 
-**🔗 Liens** : [P13 - P6 amélioré](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/) | [Notebook](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb)
+**🔗 Liens** : [GitHub P6](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P6_Optimisation_Bottleneck/README.md) | [P13 - P6 amélioré](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/) | [Notebook](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/projets/P13_portfolio/Partie1-Am%C3%A9lioration_P6_IA/bottleneck_analyse_ameliore_final.ipynb)
 
 ---
 
@@ -42,7 +42,7 @@
 | **4️⃣ Résultats** | Dashboard DG/DR/DP differentiated ; alertes immédiates (>15% écart) ; narration décision-first. **Impact** : Temps décision comité réduit. |
 | **5️⃣ Limites** | Référentiel phases à valider (A-F vs 1-4). Processus mise à jour à industrialiser. **Pistes** : Monitoring alertes temporel. |
 
-**🔗 Liens** : [Assets P7](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/tree/main/projets/P7_dashboard_powerbi/assets)
+**🔗 Liens** : [GitHub P7](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P7_dashboard_powerbi/README.md) | [Assets P7](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/tree/main/projets/P7_dashboard_powerbi/assets)
 
 ---
 
@@ -56,7 +56,7 @@
 | **4️⃣ Résultats** | KPIs : Taux pénétration OC 2.3% ; gap régional Île-de-France 5.1% vs Auvergne 1.9% ; +4% femmes. **Recommandations** : Recruitement Sud. **Livrable** : CSV (633 lignes) Power BI. |
 | **5️⃣ Limites** | OC data anonyme ; analyse descriptive. **Pistes** : Prédictions régionales ; tableau temps réel Streamlit. |
 
-**🔗 Liens** : [GitHub P8--DBT](https://github.com/ferialzamoun-afk/P8--DBT) | [Workflow CI/CD](https://github.com/ferialzamoun-afk/P8--DBT/actions)
+**🔗 Liens** : [GitHub P8](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P8_egalite_femmes_hommes/README.md) | [Dossier P8](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/tree/main/projets/P8_egalite_femmes_hommes)
 
 ---
 
@@ -70,7 +70,7 @@
 | **4️⃣ Résultats** | CA mensuel ; concentration clients (top 20% = 80% CA) ; catégories top/flop ; segmentation B2B/B2C. **Recommandations** : Fidéliser top 20% ; pousser faibles. **Livrables** : Dashboard Streamlit + KPI Excel. |
 | **5️⃣ Limites** | Données fournies (pas live). Descriptive only. **Pistes** : Churn ML ; LTV ; recommandation produits. |
 
-**🔗 Liens** : [GitHub Analyses](https://github.com/ferialzamoun-afk/P9_analyses_ventes_librairies) | [Dashboard Streamlit](https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/)
+**🔗 Liens** : [GitHub P9](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P9_librairie/README.md) | [Dashboard Streamlit](https://p9-lapage-app-9jzz7bhjbzdalqkrzaiz62.streamlit.app/)
 
 ---
 
@@ -84,7 +84,7 @@
 | **4️⃣ Résultats** | 200 pays classés accès eau vs stabilité ; 5 clusters zones critiques ; trajectoires 2000-2024. **Recommandations** : Top 20 prioritaires (<50% accès). **Livrable** : Dashboard Power BI 5 pages + CSV étoile (180k lignes). |
 | **5️⃣ Limites** | Pas données ICP ; modèle descriptif. **Pistes** : Données satellite ; ML clustering validé ; tableau temps réel API. |
 
-**🔗 Liens** : [GitHub P10](https://github.com/ferialzamoun-afk/P10) | [captures PBIT](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/tree/main/projets/P10_eau_potable/assets/captures)
+**🔗 Liens** : [GitHub P10](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P10_eau_potable/README.md) | [captures PBIT](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/tree/main/projets/P10_eau_potable/assets/captures)
 
 ---
 
@@ -98,7 +98,7 @@
 | **4️⃣ Résultats** | 5 clusters profils marché (Import-dépendant stable / Croissance volailles forte / Régulation restrictive). Top 5 : Pays X (margin haute) → Pays Y (faible régulation). **Recommandations** : Débuter Pays X-Y ; éviter Pays Z. |
 | **5️⃣ Limites** | Pas données commerciales actuelles. Clustering non labélisé. **Pistes** : Tarifs réels import/export ; validation terrain ; seasonalité. |
 
-**🔗 Liens** : [GitHub P11](https://github.com/ferialzamoun-afk/P11) | [Notebooks](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/)
+**🔗 Liens** : [GitHub P11](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P11_etude_marche/README.md) | [Notebooks](https://nbviewer.org/github/ferialzamoun-afk/P11/blob/main/notebooks/)
 
 ---
 
@@ -112,7 +112,7 @@
 | **4️⃣ Résultats** | Logistic Regression retenue après cross-validation ; recall orienté sécurité pour les faux billets ; performance validée dans le notebook. **Recommandations** : privilégier le modèle le plus robuste au rappel, monitorer le drift ; retrain 6m si besoin. **Livrable** : API REST + modèle joblib. |
 | **5️⃣ Limites** | Euros seulement (pas généralisation). Pas monitoring production (drift detection). **Pistes** : Augmenter devises ; logs production ; active learning. |
 
-**🔗 Liens** : [GitHub P12](https://github.com/ferialzamoun-afk/P12) | [API / dépôt](https://github.com/ferialzamoun-afk/P12)
+**🔗 Liens** : [GitHub P12](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P12_faux_billets/README.md) | [API / dossier](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/tree/main/projets/P12_faux_billets/api)
 
 ---
 
@@ -126,7 +126,7 @@
 | **4️⃣ Résultats** | Portfolio 6 phares + 9 secondaires ; 5 blocs RNCP couverts (100%) ; veille techno 10 sections + veille métier 5 domaines. **Livrables** : README synthétique + 6 proof points + veille + soutenance. |
 | **5️⃣ Limites** | Portfolio statique (snapshot). **Pistes** : Metrics temps réel (GitHub workflows) ; testimonials ; dashboard interactif. |
 
-**🔗 Liens** :  [GitHub](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA) | [Portfolio Hub](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/) 
+**🔗 Liens** : [GitHub P13](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P13_portfolio/README.md) | [Portfolio Hub](https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/) 
 
 ---
 
@@ -140,7 +140,7 @@
 | **4️⃣ Résultats** | KPIs : Coverage assortiment, disponibilité produits (% stock jour J), perf opérationnelle (ventes/m² magasin). **Impact** : Reporting manuel 5h → 15min auto. **Livrables** : Power BI multi-page + Streamlit app + notebooks. |
 | **5️⃣ Limites** | Données stage (temporaire) ; analyses rétrospectives. **Pistes** : ETL production temps réel (Airflow/dbt) ; KPIs RH ; demand planning ML. |
 
-**🔗 Liens** : [P14 - Stage Intermarché](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P14_stage/assets/cahier_des_charges/Cahier_des_charges.pdf)
+**🔗 Liens** : [GitHub P14](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P14_stage/README.md) | [Cahier des charges P14](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/projets/P14_stage/assets/cahier_des_charges/Cahier_des_charges.pdf)
 
 ---
 
