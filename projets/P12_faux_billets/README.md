@@ -1,7 +1,7 @@
 ﻿# 🎯 Projet P12 : Détection de Faux Billets par Machine Learning
 **📅 Date** : Juillet 2026
 **🏷️ Type** : Machine Learning / Classification / Analyse Statistique
-**🔗 Lien** : [Notebook Jupyter complet](https://github.com/ferialzamoun-afk/P12/blob/main/notebooks/p12_da_maj%2B%281%29.ipynb)   [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12)
+**🔗 Lien** : [Notebook Jupyter complet](assets/notebook/p12_da_maj%2B%281%29.ipynb)   [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12)
 
 ---
 ---
@@ -52,7 +52,7 @@ P12/
 *(Chaque section du notebook correspond à un bloc RNCP. Utilise des **ancres** dans le notebook pour faciliter la navigation.)*
 
 ### **📌 Lien vers le Notebook**
-👉 **[Ouvrir le Notebook Jupyter complet](https://github.com/ferialzamoun-afk/P12/blob/main/notebooks/p12_da_maj%2B%281%29.ipynb)**
+👉 **[Ouvrir le Notebook Jupyter complet](assets/notebook/p12_da_maj%2B%281%29.ipynb)**
 *(Le notebook est organisé en **sections claires**, chacune liée à un bloc RNCP. Voici le détail :)*
 
 ---
@@ -61,7 +61,7 @@ P12/
 *(Non applicable à P12, car pas de base SQL. Mais si tu as utilisé un DataFrame Pandas comme "base de données temporaire", tu peux l’inclure.)*
 > **⚠️ Note** :
 > *"Ce projet n’utilise pas de base de données SQL, mais les données ont été **structurées en DataFrame Pandas** avec des relations entre les features (ex: liens entre les motifs et les labels)."*
-> **Preuve** : [Section "1. Chargement et Structuration des Données" du notebook](#1.-Chargement-et-Structuration-des-Données)
+> **Preuve** : [Section "2) Chargement et Structuration des Données" du notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb)
 
 ---
 
@@ -70,13 +70,13 @@ P12/
 
 | **Compétence RNCP** | **Ce que j’ai fait** | **Section du Notebook** | **Preuve** |
 |----------------------|-----------------------|-------------------------|------------|
-| **Identifier et collecter** | Utilisation du **dataset ONFM** (images de billets + labels) en respectant les normes EMV. | [Section "1. Chargement des données"](#1.-Chargement-des-données) | [Notebook](#1.-Chargement-des-données) |
-| **Extraire et agréger** | Nettoyage des données : gestion des **valeurs manquantes**, suppression des doublons. | [Section "2. Nettoyage des données"](#2.-Nettoyage-des-données) | [Notebook](#2.-Nettoyage-des-données) |
-| **Explorer et pré-traiter** | **Feature Engineering** : Extraction de caractéristiques (motifs, hologrammes, taille) à partir des images. | [Section "3. Feature Engineering"](#3.-Feature-Engineering) | [Notebook](#3.-Feature-Engineering) |
-| **Vérifier la cohérence** | Vérification de la **fiabilité des données** (statistiques descriptives, distributions). | [Section "4. Analyse Exploratoire (EDA)"](#4.-Analyse-Exploratoire-(EDA)) | [Notebook](#4.-Analyse-Exploratoire-(EDA)) |
-| **Traiter les données manquantes** | Imputation des valeurs manquantes (moyenne, médiane) et gestion des outliers. | [Section "2. Nettoyage des données"](#2.-Nettoyage-des-données) | [Notebook](#2.-Nettoyage-des-données) |
+| **Identifier et collecter** | Utilisation du **dataset ONFM** (images de billets + labels) en respectant les normes EMV. | [Section "2) Chargement et Structuration des Données"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
+| **Extraire et agréger** | Nettoyage des données : gestion des **valeurs manquantes**, suppression des doublons. | [Section "3) Analyse exploratoire (EDA)"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
+| **Explorer et pré-traiter** | **Feature Engineering** : sélection et préparation des variables pour la classification. | [Section "4) Prétraitement et préparation des données"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
+| **Vérifier la cohérence** | Vérification de la **fiabilité des données** (statistiques descriptives, distributions). | [Section "3) Analyse exploratoire (EDA)"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
+| **Traiter les données manquantes** | Imputation des valeurs manquantes (moyenne, médiane) et gestion des outliers. | [Section "4) Prétraitement et préparation des données"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
 | **Analyse temporelle** | *Non applicable* (pas de séries temporelles dans P12). | - | - |
-| **Analyse univariée/multivariée** | Analyse des **distributions** (histogrammes, boxplots) et **corrélations** entre features. | [Section "4. Analyse Exploratoire (EDA)"](#4.-Analyse-Exploratoire-(EDA)) | [Notebook](#4.-Analyse-Exploratoire-(EDA)) |
+| **Analyse univariée/multivariée** | Analyse des **distributions** (histogrammes, boxplots) et **corrélations** entre features. | [Section "3) Analyse exploratoire (EDA)"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
 
 ---
 ---
@@ -86,12 +86,12 @@ P12/
 
 | **Compétence RNCP** | **Ce que j’ai fait** | **Section du Notebook** | **Preuve** |
 |----------------------|-----------------------|-------------------------|------------|
-| **Solution de visualisation** | Création de **graphiques adaptés** (histogrammes, boxplots, matrice de corrélation) avec Matplotlib/Seaborn. | [Section "4. Analyse Exploratoire (EDA)"](#4.-Analyse-Exploratoire-(EDA)) | [Notebook](#4.-Analyse-Exploratoire-(EDA)) |
-| **Graphiques accessibles** | Respect des **bonnes pratiques** (titres, légendes, couleurs contrastées). | [Section "4. Analyse Exploratoire (EDA)"](#4.-Analyse-Exploratoire-(EDA)) | [Notebook](#4.-Analyse-Exploratoire-(EDA)) |
+| **Solution de visualisation** | Création de **graphiques adaptés** (histogrammes, boxplots, matrice de corrélation) avec Matplotlib/Seaborn. | [Section "3) Analyse exploratoire (EDA)"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
+| **Graphiques accessibles** | Respect des **bonnes pratiques** (titres, légendes, couleurs contrastées). | [Section "3) Analyse exploratoire (EDA)"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
 | **Créer un tableau de bord** | *Non applicable* (pas de tableau de bord interactif dans P12). | - | - |
-| **Reporting des tendances** | **Interprétation des graphiques** (ex: "La distribution des probabilités montre une séparation nette entre vrais et faux billets"). | [Section "5. Interprétation des Résultats"](#5.-Interprétation-des-Résultats) | [Notebook](#5.-Interprétation-des-Résultats) |
-| **Récit des résultats** | **Synthèse narrative** des résultats dans le notebook (cellules Markdown). | [Section "5. Interprétation des Résultats"](#5.-Interprétation-des-Résultats) | [Notebook](#5.-Interprétation-des-Résultats) |
-| **Présenter les résultats** | **Adaptation du contenu** pour un public technique (ONFM) et non-technique (slides séparés). | [Section "5. Interprétation des Résultats"](#5.-Interprétation-des-Résultats) | [Notebook](#5.-Interprétation-des-Résultats) + [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12) |
+| **Reporting des tendances** | **Interprétation des graphiques** (ex: "La distribution des probabilités montre une séparation nette entre vrais et faux billets"). | [Section "7.2 Distribution des probabilités prédites"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
+| **Récit des résultats** | **Synthèse narrative** des résultats dans le notebook (cellules Markdown). | [Section "7) Sélection du meilleur modèle"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
+| **Présenter les résultats** | **Adaptation du contenu** pour un public technique (ONFM) et non-technique (slides séparés). | [Section "7) Sélection du meilleur modèle"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) + [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12) |
 
 ---
 ---
@@ -101,14 +101,14 @@ P12/
 
 | **Compétence RNCP** | **Ce que j’ai fait** | **Section du Notebook** | **Preuve** |
 |----------------------|-----------------------|-------------------------|------------|
-| **Veille métier/technologique** | Recherche sur les **standards EMV** et benchmark des outils de classification (Scikit-learn vs PyTorch). | [Section "0. Contexte et Veille"](#0.-Contexte-et-Veille) | [Notebook](#0.-Contexte-et-Veille) |
-| **Expérimenter de nouvelles méthodes** | Comparaison de **plusieurs algorithmes** ; la **Logistic Regression** a été retenue après cross-validation. | [Section "6. Expérimentations"](#6.-Expérimentations) | [Notebook](#6.-Expérimentations) |
-| **Identifier le besoin métier** | **Traduction des besoins ONFM** en objectifs techniques (détection automatique, conformité EMV). | [Section "0. Contexte et Veille"](#0.-Contexte-et-Veille) | [Notebook](#0.-Contexte-et-Veille) |
-| **Formaliser le cahier des charges** | **Documentation complète** dans le notebook (objectifs, méthodologie, résultats). | [Section "0. Contexte et Objectifs"](#0.-Contexte-et-Objectifs) | [Notebook](#0.-Contexte-et-Objectifs) |
-| **Organiser un projet data** | **Structuration du notebook** en sections claires (EDA, Modélisation, Évaluation). | [Notebook complet](#) | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12) |
+| **Veille métier/technologique** | Recherche sur les **standards EMV** et benchmark des outils de classification (Scikit-learn vs PyTorch). | [Section "0. Contexte et Veille"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
+| **Expérimenter de nouvelles méthodes** | Comparaison de **plusieurs algorithmes** ; la **Logistic Regression** a été retenue après cross-validation. | [Section "6) Recherche d'hyperparamètres et cross-validation des modèles supervisés"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
+| **Identifier le besoin métier** | **Traduction des besoins ONFM** en objectifs techniques (détection automatique, conformité EMV). | [Section "0. Contexte et Veille"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
+| **Formaliser le cahier des charges** | **Documentation complète** dans le notebook (objectifs, méthodologie, résultats). | [Section "0. Contexte et Veille"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
+| **Organiser un projet data** | **Structuration du notebook** en sections claires (EDA, Modélisation, Évaluation). | [Notebook complet](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12) |
 | **Ateliers de formation** | *Non applicable* (pas d’atelier dans P12). | - | - |
-| **Gérer la documentation** | **Commentaires détaillés** dans le code et cellules Markdown explicatives. | [Notebook complet](#) | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12) |
-| **Adapter sa posture** | **Positionnement comme consultante** : explications claires pour l’ONFM. | [Section "5. Interprétation des Résultats"](#5.-Interprétation-des-Résultats) | [Notebook](#5.-Interprétation-des-Résultats) |
+| **Gérer la documentation** | **Commentaires détaillés** dans le code et cellules Markdown explicatives. | [Notebook complet](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12) |
+| **Adapter sa posture** | **Positionnement comme consultante** : explications claires pour l’ONFM. | [Section "7) Sélection du meilleur modèle"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
 
 ---
 ---
@@ -118,13 +118,13 @@ P12/
 
 | **Compétence RNCP** | **Ce que j’ai fait** | **Section du Notebook** | **Preuve** |
 |----------------------|-----------------------|-------------------------|------------|
-| **Analyses multivariées** | Étude des **corrélations entre features** (matrice de corrélation). | [Section "4. Analyse Exploratoire (EDA)"](#4.-Analyse-Exploratoire-(EDA)) | [Notebook](#4.-Analyse-Exploratoire-(EDA)) |
+| **Analyses multivariées** | Étude des **corrélations entre features** (matrice de corrélation). | [Section "3) Analyse exploratoire (EDA)"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
 | **Réduction de dimension** | *Non applicable* (pas de PCA ou t-SNE dans P12). | - | - |
-| **Tests statistiques** | **Validation croisée** et tests de robustesse (ex: test sur différents sous-ensembles). | [Section "7. Évaluation du Modèle"](#7.-Évaluation-du-Modèle) | [Notebook](#7.-Évaluation-du-Modèle) |
-| **Feature Engineering (non supervisé)** | Sélection des **variables pertinentes** (motifs, hologrammes) pour la classification. | [Section "3. Feature Engineering"](#3.-Feature-Engineering) | [Notebook](#3.-Feature-Engineering) |
-| **Entraîner un modèle** | **Classification binaire** avec Scikit-learn (Logistic Regression). | [Section "6. Modélisation"](#6.-Modélisation) | [Notebook](#6.-Modélisation) |
-| **Exploiter un modèle** | **Évaluation des performances** (matrice de confusion, métriques). | [Section "7. Évaluation du Modèle"](#7.-Évaluation-du-Modèle) | [Notebook](#7.-Évaluation-du-Modèle) |
-| **Choisir un modèle adapté** | Justification du choix de la **Logistic Regression** (simplicité, efficacité sur ce dataset). | [Section "6. Modélisation"](#6.-Modélisation) | [Notebook](#6.-Modélisation) |
+| **Tests statistiques** | **Validation croisée** et tests de robustesse (ex: test sur différents sous-ensembles). | [Section "6) Recherche d'hyperparamètres et cross-validation des modèles supervisés"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
+| **Feature Engineering (non supervisé)** | Sélection des **variables pertinentes** pour la classification. | [Section "4) Prétraitement et préparation des données"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
+| **Entraîner un modèle** | **Classification binaire** avec Scikit-learn (Logistic Regression). | [Section "5) Modélisation"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
+| **Exploiter un modèle** | **Évaluation des performances** (matrice de confusion, métriques). | [Section "7) Sélection du meilleur modèle"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
+| **Choisir un modèle adapté** | Justification du choix du modèle retenu après comparaison. | [Section "7) Sélection du meilleur modèle"](assets/notebook/p12_da_maj%2B%281%29.ipynb) | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) |
 | **Analyse de séries temporelles** | *Non applicable* (pas de séries temporelles dans P12). | - | - |
 
 ---
@@ -156,9 +156,9 @@ P12/
 > - **Précision** : 89%
 
 > **Visualisations** :
-> - **Matrice de confusion** : [Voir la visualisation dans le notebook](https://github.com/ferialzamoun-afk/P12/blob/main/notebooks/p12_da_maj%2B%281%29.ipynb)
+> - **Matrice de confusion** : [Voir la visualisation dans le notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb)
 >   *0 faux négatifs : tous les faux billets sont détectés.*
-> - **Graphique de distribution des probabilités** : [Voir la visualisation dans le notebook](https://github.com/ferialzamoun-afk/P12/blob/main/notebooks/p12_da_maj%2B%281%29.ipynb)
+> - **Graphique de distribution des probabilités** : [Voir la visualisation dans le notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb)
 >   *Séparation nette entre vrais (prob < 0.5) et faux billets (prob > 0.5).* 
 
 ---
@@ -168,7 +168,7 @@ P12/
 
 | **Type** | **Lien** | **Description** |
 |----------|----------|-----------------|
-| **Notebook Jupyter** | [Notebook](https://github.com/ferialzamoun-afk/P12/blob/main/notebooks/p12_da_maj%2B%281%29.ipynb) | Notebook complet avec **toutes les sections** (EDA, modélisation, évaluation). |
+| **Notebook Jupyter** | [Notebook](assets/notebook/p12_da_maj%2B%281%29.ipynb) | Notebook complet avec **toutes les sections** (EDA, modélisation, évaluation). |
 | **Dépôt GitHub** | [Dépôt P12](https://github.com/ferialzamoun-afk/P12) | Code source, README, et images (matrice de confusion, graphiques). |
 | **Slides de présentation** | [Dépôt GitHub](https://github.com/ferialzamoun-afk/P12) | Présentation des résultats pour l’ONFM (public non-technique). |
 | **Images** | [Dépôt P12](https://github.com/ferialzamoun-afk/P12) | Captures d’écran des visualisations (matrice de confusion, graphiques). |
