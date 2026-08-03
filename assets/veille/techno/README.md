@@ -138,6 +138,20 @@
 
 ---
 
+## 10.1 Mise a jour 2026 — Impact paiements carte sur les outils anti-fraude (P12)
+
+| Evolution 2026 (EMV / carte) | Impact outillage data/ML | Ajustement de methode recommande |
+|---|---|---|
+| Payment Tokenisation v2.4 | Les signaux PAN seuls deviennent insuffisants sur CNP. | Integrer des features token-centriques (age token, re-emission, coherence device-token-merchant). |
+| Contactless Kernel v2.12 | Changements d acceptance en presentiel, effets possibles sur taux de refus. | Segmenter les analyses avant/apres mise a jour kernel et recalibrer les seuils d alerte. |
+| Bulletins L3 + contraintes cryptographiques | Hausse des cas "techniques" qui peuvent ressembler a la fraude. | Separer dans les dashboards: declin technique, echec auth, suspicion fraude. |
+| Credentials verifiables (consultation EMVCo) | Authentification carte a distance plus contextuelle. | Basculer vers approche hybride: regles temps reel + score ML + step-up adaptatif. |
+
+Lien de reference detaille:
+- 📄 [Note P12: veille EMV et impact detection fraude](../../../projets/P12_faux_billets/assets/veille/recherche_standards_emv_detection_fraude.md)
+
+---
+
 ## 11. Abonnements Newsletters | Dernier Article
 
 | Newsletter | Auteur | Dernier Article |

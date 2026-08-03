@@ -96,6 +96,15 @@
 - 📄 [Rapport annuel BCE — contrefaçons 2023](https://www.ecb.europa.eu)
 - 📰 Europol — Economic Crime Report
 
+**Mise a jour veille 2026 (paiements carte) :**
+- Standard EMV Payment Tokenisation v2.4 : impact direct sur la fraude CNP (carte non presente) et la gestion du cycle de vie des tokens.
+- Contactless Kernel v2.12 (Books C-3 a C-7) : effet sur l interoperabilite terminal-carte et la fiabilite de l acceptance.
+- Evolutions L3 / cryptographie EMV : renforcement des exigences de conformite, avec effet operationnel sur les incidents techniques vs fraude reelle.
+- Consultation EMVCo sur les credentials verifiables pour l authentification card-based : trajectoire vers une authentification plus forte sur paiements carte a distance.
+
+**Preuve detaillee (P12) :**
+- 📄 [Note de veille EMV et impact outils fraude](../../../projets/P12_faux_billets/assets/veille/recherche_standards_emv_detection_fraude.md)
+
 ---
 
 ### 🍽️ Agroalimentaire & Export (P11)
@@ -153,6 +162,8 @@
 | [Data.gouv.fr](https://www.data.gouv.fr) | Données publiques françaises | Open Data |
 | [Ministère du Travail — Index Égalité](https://travail-emploi.gouv.fr) | Égalité F/H | Rapports annuels |
 | [BCE — Contrefaçons](https://www.ecb.europa.eu) | Fraude financière | Rapports annuels |
+| [EMVCo — Specifications](https://www.emvco.com/specifications/) | Paiements carte (standards) | Spécifications techniques |
+| [EMVCo — News](https://www.emvco.com/news/) | Paiements carte (évolutions) | News / communiqués |
 | OpenClassrooms (cours métier) | Formation | Vidéos, PDF |
 
 ---
