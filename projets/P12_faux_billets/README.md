@@ -55,6 +55,13 @@ P12/
 👉 **[Ouvrir le Notebook Jupyter complet](assets/notebook/p12_da_maj%2B%281%29.ipynb)**
 *(Le notebook est organisé en **sections claires**, chacune liée à un bloc RNCP. Voici le détail :)*
 
+Liens directs vers les ancres RNCP du notebook :
+- [RNCP BC01](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc01)
+- [RNCP BC02](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc02)
+- [RNCP BC03](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc03)
+- [RNCP BC04](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc04)
+- [RNCP BC05](assets/notebook/p12_da_maj%2B%281%29.ipynb#rncp-bc05)
+
 ---
 
 ### **🔹 [RNCP37837BC01] Structurer et gérer la base de données**
