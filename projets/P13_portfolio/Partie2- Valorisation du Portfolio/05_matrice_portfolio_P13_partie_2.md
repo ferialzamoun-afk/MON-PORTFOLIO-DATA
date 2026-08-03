@@ -63,17 +63,19 @@ Les resultats de veille sont integres dans la narration pour justifier les choix
 
 ## 4. Gabarit de README pour chaque projet
 
+Verification realisee sur les projets phares P14 a P8 (revue documentaire effectuee).
+
 | Section | Contenu attendu | Statut |
 |---|---|---|
-| Contexte | Situation metier, donnees, utilisateur cible. | [ ] |
-| Objectif | Question a resoudre ou decision a aider. | [ ] |
-| Donnees | Source, format, volume, qualite, limites. | [ ] |
-| Methodologie | Nettoyage, analyse, visualisation, modelisation si applicable. | [ ] |
-| Outils | Python, SQL, Power BI, Tableau, Excel, GitHub, etc. | [ ] |
-| Resultats | KPI, insights, graphiques, recommandations. | [ ] |
-| Competences | Competences du titre professionnel demontrees. | [ ] |
-| Limites | Biais, donnees manquantes, prudence d'interpretation. | [ ] |
-| Captures/liens | Images, notebook, dashboard, rapport, depot GitHub. | [ ] |
+| Contexte | Situation metier, donnees, utilisateur cible. | [x] |
+| Objectif | Question a resoudre ou decision a aider. | [x] |
+| Donnees | Source, format, volume, qualite, limites. | [x] |
+| Methodologie | Nettoyage, analyse, visualisation, modelisation si applicable. | [x] |
+| Outils | Python, SQL, Power BI, Tableau, Excel, GitHub, etc. | [x] |
+| Resultats | KPI, insights, graphiques, recommandations. | [x] |
+| Competences | Competences du titre professionnel demontrees. | [x] |
+| Limites | Biais, donnees manquantes, prudence d'interpretation. | [x] |
+| Captures/liens | Images, notebook, dashboard, rapport, depot GitHub. | [x] |
 
 ## 5. Matrice competences x projets
 
