@@ -1,4 +1,4 @@
-# PROJECT BRIEF - P12
+﻿# PROJECT BRIEF - P12
 
 ## 1) Contexte
 
@@ -36,7 +36,7 @@ Convention cible : `0` = vrai billet, `1` = faux billet.
 
 ## 6) Resultats
 
-- **Recall (faux billets)** : **100%** — aucun faux billet classe comme vrai.
+- **Recall (faux billets)** : **100%** â€” aucun faux billet classe comme vrai.
 - **F1-Score** : **0.91**.
 - **Modele retenu** : pipeline scikit-learn exporte dans `src/model_oncfm.joblib`.
 - **API** : 4 endpoints (GET /, GET /health, POST /predict, POST /predict/batch).
@@ -59,7 +59,7 @@ Convention cible : `0` = vrai billet, `1` = faux billet.
 
 ## 8) Livrables
 
-- `notebooks/p12_da_maj+(1).ipynb` : exploration, modelisation, selection du modele, evaluation finale.
+- `notebooks/p12_da_maj_1.ipynb` : exploration, modelisation, selection du modele, evaluation finale.
 - `src/model_oncfm.joblib` : pipeline scikit-learn serialise.
 - `api/` : application FastAPI (main.py, router.py, services/prediction.py, validation.py).
 - `tests/` : tests unitaires et tests API (pytest).
@@ -77,3 +77,4 @@ Convention cible : `0` = vrai billet, `1` = faux billet.
 - Dataset de taille limitee (environ 1500 billets) : resultats a confirmer sur des volumes plus larges.
 - Modele base uniquement sur des variables geometriques : toute alteration physique non representee dans les donnees d entrainement peut degrader les performances.
 - API non deployee en production : necessite une plateforme externe (Render, Docker) pour une URL publique.
+

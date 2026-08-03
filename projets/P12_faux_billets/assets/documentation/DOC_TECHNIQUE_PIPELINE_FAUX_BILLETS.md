@@ -20,7 +20,7 @@ Le projet couvre:
 
 | Fichier | Role |
 |---|---|
-| `notebooks/p12_da_maj+(1).ipynb` | Notebook de reference (EDA, modelisation, comparaison, export). |
+| `notebooks/p12_da_maj_1.ipynb` | Notebook de reference (EDA, modelisation, comparaison, export). |
 | `data/raw/billets.csv` | Jeu de donnees source (1500 billets). |
 | `data/processed/billets_cleaned.csv` | Donnees preprocesses exportees depuis notebook. |
 | `src/model_oncfm.joblib` | Modele final exporte avec preprocessing integre. |
@@ -218,3 +218,4 @@ Le projet est coherent de bout en bout:
 - API fonctionnelle basee sur le meme schema de features.
 
 La livraison est donc exploitable pour une demonstration et pour une premiere integration metier.
+
