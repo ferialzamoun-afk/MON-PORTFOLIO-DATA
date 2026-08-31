@@ -41,7 +41,8 @@
 Portfolio réalisé avec **Bundle** et **Jekyll**, puis publié via **GitHub Pages**.
 
 ### **👉 Recruteur / Client ?**
-- **[📊 Projets Phares](#projets-phares)** — Accès rapide aux 5 plus beaux projets
+- **[🏪 P14 — Stage Intermarché](projets/P14_stage/)** — Retail analytics en contexte professionnel
+- **[📊 Projets Phares](#projets-phares)** — Accès rapide aux 6 projets les plus représentatifs
 - **[🏆 Portfolio Phare P13](projets/P13_portfolio/)** — Gouvernance IA & P6 Bottleneck optimisé
 - **[📄 Synthèse Proof Points](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/assets/proof_points/PROOF_POINTS_SYNTHESE.md)** — Synthèse par projet avec 5 piliers (Contexte → Données → Démarche → Résultats → Limites)
 
@@ -149,6 +150,12 @@ MON-PORTFOLIO-DATA/
   </thead>
   <tbody>
     <tr style="background-color: #f4f7fb;">
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>P14</strong></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;">Stage Retail Analytics</td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;">Python, Power BI, Streamlit</td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="projets/P14_stage/">README</a></td>
+    </tr>
+    <tr>
       <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>P13 (Partie 1)</strong></td>
       <td style="padding: 9px 12px; border: 1px solid #ddd;">Gouvernance IA</td>
       <td style="padding: 9px 12px; border: 1px solid #ddd;">Python, Jupyter</td>
@@ -204,6 +211,13 @@ MON-PORTFOLIO-DATA/
   </thead>
   <tbody>
     <tr style="background-color: #f4f7fb; vertical-align: top;">
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>P14</strong><br/>Stage Intermarché</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Mission de stage en retail analytics pour fiabiliser les données d'assortiment et de disponibilité produit, puis alimenter le pilotage opérationnel.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Pipeline raw/processed, contrôles qualité, analyses de disponibilité et de performance assortiment, restitutions Power BI et Streamlit.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">BC02, BC03, BC04<br/>ETL, qualité, KPI retail, tableaux de bord, documentation.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="projets/P14_stage/">Synthèse P14</a><br/><a href="projets/P14_stage/PROOF_POINT.md">Proof point</a></td>
+    </tr>
+    <tr style="vertical-align: top;">
       <td style="padding: 10px; border: 1px solid #ddd;"><strong>P13</strong><br/>Portfolio & Gouvernance IA</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Passage d'une analyse exploratoire vers une version production-ready avec traçabilité IA, contrôles qualité et documentation RNCP.</td>
       <td style="padding: 10px; border: 1px solid #ddd;">-68% de cellules, -76% de temps d'exécution, 18 contrôles qualité, 26 prompts tracés, 143.7k EUR de CA analysé, 111 écarts documentés.</td>
