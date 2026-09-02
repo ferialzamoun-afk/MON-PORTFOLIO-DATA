@@ -21,22 +21,29 @@ Data Analyst passionnée par la transformation de données en insights actionnab
 
 ## 💼 Expériences Professionnelles
 
-**Avril 2026 · Stagiaire Data Analyst — Retail Intermarché**
-Projet de stage : 
-- Conception et mise à disposition d’un outil d’aide au pilotage permettant de suivre,
-- analyser et prioriser les alertes de ruptures de stock. 
-- Objectif : améliorer la réactivité opérationnelle, la lisibilité des signaux d’alerte et la qualité du service rendu pour la Direction du Point de vente et du magasin. De la note de cadrage à la livraison d'un POC sous Streamlit jusqu'à la conception et la réalisation du Dashboard final avec deux itérations d’amélioration du POC et la livraison finale du projet ; DataViz, StoryTelling et gestion de projet Data.
- 
+**Depuis avril 2026 · Business Analyst / Data Analyst (Stage) — Retail Intermarché (SA Papangue, Veigné)**
+- Conception et déploiement d’un tableau de bord décisionnel Power BI pour le pilotage commercial et opérationnel du point de vente et du magasin
+- Analyse de données pour optimiser les stocks et réduire les ruptures d’approvisionnement (automatisation du reporting : 5h → 15 min)
+- De la note de cadrage à la livraison d'un POC sous Streamlit jusqu'au Dashboard final multi-pages, DataViz et storytelling
 
-**2010 – 2021 · Test & Recette MOA Santé — GIE CHOREGIE (Le Kremlin-Bicêtre, 25 pers., Télétravail, Cycle en V)**
-- Référente homologation des flux CNAM
-- Analyse d’anomalies, indicateurs qualité, reporting
-- Préparation de données, tests, planification
+**2024 – 2025 (4 mois) · Testeuse Senior / Business Analyst (Réversibilité) — Armée de Terre (Projet SIRH « s'engager.fr »)**
+-- Relecture des cas de tests au regard des évolutions de la backlog, suivi des anomalies, exécution des tests sur les fonctionnalités de l'incrément 4
+- Participation aux instances de gouvernance projet : COPIL, COPROJ et COSUI
 
-**2000 – 2010 · Ingénieur Études & Développement — MFPServices (Paris, 5 pers.)**
-- Développement, déploiement de solutions techniques
-- Suivi client, amélioration continue
-- Migration technique Domino, portabilisation WCM
+**2021 – 2024 (3 ans) · PMO et Chargée de Recette — MGEN Technologies (Département PPP)**
+- PMO pour la direction Santé sur l’outillage et la qualité de la donnée
+- Entretien des référentiels, clôtures budgétaires mensuelles avec le contrôle de gestion
+- Rédaction de modes opératoires (MODOP), formation à l'outil Sciforma, assistance fonctionnelle aux chefs de projets
+
+**2014 – 2021 (7 ans) · Recetteur en AMOA Santé — MGEN Technologies / ex GIE CHOREGIE (Programme ORION, Le Kremlin-Bicêtre)**
+- Recette du moteur de liquidation automatique RO+RC (prestations santé MGEN, LMDE, MFPS)
+- Conception des exigences et cas de tests dans ALM (4 campagnes majeures de 4 itérations)
+- Référente homologation des flux entrants CNAM, analyse d’anomalies et reporting qualité
+
+**2000 – 2012 (12 ans) · Ingénieur Études & Développement — MFP Services (Paris)**
+- Développement MOE sur Lotus Domino et WebSphere Portal, conception de contenus WCM et services SOA
+- Migration technique WebSphere 5 → 6 (architecture LDAP), démonstrateurs Domino et Sametime
+- Suivi client, amélioration continue et portabilisation
 
 ---
 
@@ -64,9 +71,6 @@ Projet de stage :
   -  **Requêtes SQL** : Extraction et analyse de données via SQL: Méthodologie, modèles et création de base de données robuste, analyse de requêtage SQL
  - **Base immobilière SQL** : Création et analyse d’une base immobilière en SQL, du dictionnaire de données à la création de requêtes simples et complexes 
  - ** Amélioration continue** : Veille technologique, amélioration continue des compétences et des pratiques professionnelles, portfolio de démonstration de compétences et de projets réalisés
-
-
-
 
 
 ---
