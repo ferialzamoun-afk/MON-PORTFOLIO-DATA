@@ -9,13 +9,13 @@
 
 ---
 
-## 📋 Table of Contents
+## 📋 Sommaire
 - [À Propos](#-à-propos)
-- [🚀 Quick Start](#-quick-start---commencer-ici)
+- [🚀 Démarrage Rapide](#-démarrage-rapide)
 - [Projets Phares](#projets-phares)
 - [🎓 Couverture RNCP 37837](#-couverture-rncp-37837)
 - [📚 Veille & Ressources](#-veille--ressources)
-- [🔒 Sécurité & Monitoring](#-sécurité--monitoring)
+- [🔒 Sécurité & Suivi](#-sécurité--suivi)
 - [Liens Utiles](#-liens-utiles)
 
 ---
@@ -35,21 +35,21 @@
 
 ---
 
-## **🚀 Quick Start - Commencer Ici**
+## **🚀 Démarrage Rapide**
 
 ### **Réalisation technique**
 Portfolio réalisé avec **Bundle** et **Jekyll**, puis publié via **GitHub Pages**.
 
 ### **👉 Recruteur / Client ?**
-- **[🏪 P14 — Stage Intermarché](projets/P14_stage/)** — Retail analytics en contexte professionnel
+- **[🏪 P14 — Stage Intermarché](projets/P14_stage/)** — Analyse retail en contexte professionnel
 - **[📊 Projets Phares](#projets-phares)** — Accès rapide aux 6 projets les plus représentatifs
 - **[🏆 Portfolio Phare P13](projets/P13_portfolio/)** — Gouvernance IA & P6 Bottleneck optimisé
-- **[📄 Synthèse Proof Points](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/assets/proof_points/PROOF_POINTS_SYNTHESE.md)** — Synthèse par projet avec 5 piliers (Contexte → Données → Démarche → Résultats → Limites)
+- **[📄 Synthèse des Preuves de Compétences](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/assets/proof_points/PROOF_POINTS_SYNTHESE.md)** — Synthèse par projet avec 5 piliers (Contexte → Données → Démarche → Résultats → Limites)
 
 ### **👉 Développeur / Contributeur ?**
-- **[📚 Veille Technologique](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/assets/veille/techno/README.md)** — Trends data/IA/DevOps avec newsletters actuelles
-- **[🔧 Veille Métier](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/assets/veille/métier/README.md)** — Tendances sectorielles & use cases
-- **[🏗️ Architecture Portfolio](#-structure-du-portfolio)** — Organisation & structure
+- **[📚 Veille Technologique](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/assets/veille/techno/README.md)** — Tendances data/IA/DevOps avec lettres d'information actuelles
+- **[🔧 Veille Métier](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/assets/veille/métier/README.md)** — Tendances sectorielles & cas d'usage
+- **[🏗️ Architecture du Portfolio](#-structure-du-portfolio)** — Organisation & structure
 
 ---
 
@@ -61,7 +61,7 @@ Portfolio réalisé avec **Bundle** et **Jekyll**, puis publié via **GitHub Pag
       <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Bloc</strong></th>
       <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Compétence</strong></th>
       <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Projets</strong></th>
-      <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Status</strong></th>
+      <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Statut</strong></th>
     </tr>
   </thead>
   <tbody>
@@ -406,7 +406,7 @@ MON-PORTFOLIO-DATA/
 - `src/` : Modules Python réutilisables.
 - `output/` : Graphiques et exports générés.
 ---
-## **📅 Roadmap et Prochaines Étapes**
+## **📅 Feuille de Route et Prochaines Étapes**
 
 <table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); font-size: 0.95em;">
   <thead>
@@ -420,7 +420,7 @@ MON-PORTFOLIO-DATA/
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>P6 (Bottleneck)</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ Finalisé</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;">Production Streamlit + monitoring</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Mise en production Streamlit + suivi opérationnel</td>
     </tr>
     <tr>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>P8 (OpenClassrooms)</strong></td>
@@ -430,27 +430,37 @@ MON-PORTFOLIO-DATA/
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>P9 (Lapage)</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ Finalisé</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;">Optimisation UX dashboard</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Optimisation de l'ergonomie du tableau de bord</td>
     </tr>
     <tr>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>P10 (Eau)</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ Finalisé</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;">Données temps réel</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Intégration de données en temps réel</td>
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>P11 (Étude Marché)</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ Finalisé</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;">Benchmark clustering tools</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Comparatif des algorithmes de clustering</td>
     </tr>
     <tr>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>P12 (Faux Billets)</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ Finalisé</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;">Test Deep Learning models</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Tests de modèles de Deep Learning</td>
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>P13 (Portfolio)</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ Finalisé</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;">Projets supplémentaires</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Intégration de projets complémentaires</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>P14 (Stage Intermarché)</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ Finalisé</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Capitalisation des bonnes pratiques retail</td>
+    </tr>
+    <tr style="background-color: #f4f7fb;">
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>P15 (Observatoire Emploi)</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ Finalisé</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Automatisation des collectes d'offres récurrentes</td>
     </tr>
   </tbody>
 </table>
@@ -472,13 +482,13 @@ MON-PORTFOLIO-DATA/
 
 ---
 
-## **🔒 Sécurité & Monitoring**
+## **🔒 Sécurité & Suivi**
 
 <table style="border-collapse: collapse; width: 100%; margin: 1.5em 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); font-size: 0.95em;">
   <thead>
     <tr style="background-color: #155799; color: white;">
       <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Outil</strong></th>
-      <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Status</strong></th>
+      <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Statut</strong></th>
       <th style="padding: 12px 12px; text-align: left; border: 1px solid #ddd; font-weight: 600;"><strong>Description</strong></th>
     </tr>
   </thead>
@@ -486,22 +496,22 @@ MON-PORTFOLIO-DATA/
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>🛡️ Aikido SAST</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">🔄 En cours</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;">Scanning SAST/SCA/secrets detection sur tous les repos</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Analyse de sécurité du code (SAST/SCA) et détection de secrets sur tous les dépôts</td>
     </tr>
     <tr>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>📊 Monitoring</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>📊 Suivi & Veille</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">🔄 En cours</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;">Dashboards & alertes dépendances vulnérables</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Tableaux de bord & alertes sur les dépendances vulnérables</td>
     </tr>
     <tr style="background-color: #f4f7fb;">
-      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>🚨 Alerts</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>🚨 Alertes</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ Configuré</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;">Notifications git push violations</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Notifications lors des infractions de règles Git</td>
     </tr>
     <tr>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>📋 Code Review</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>📋 Revue de Code</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ Activé</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;">GitHub branch protection & PR reviews</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Protection des branches principales & revues de code (PR)</td>
     </tr>
   </tbody>
 </table>
@@ -544,10 +554,15 @@ MON-PORTFOLIO-DATA/
     <tr>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>LinkedIn</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://www.linkedin.com/in/f%C3%A9rialzamoun/">💼 Profil</a></td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;">Expérience professionnel</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Expérience professionnelle</td>
     </tr>
     <tr style="background-color: #f4f7fb;">
-      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Github page</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>GitHub Pages</strong></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/">🌐 Site Web Portfolio</a></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">Restitution interactive en ligne</td>
+    </tr>
+  </tbody>
+</table>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/">🌐 Github pages</a></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Application interactive</td>
     </tr>
