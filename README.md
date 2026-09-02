@@ -21,7 +21,7 @@
 ---
 ## **👤 À Propos**
 **👩‍💻 Qui suis-je ?**
-- **Data Analyst en reconversion vers l’IA** (Certification **RNCP 37837** en cours – GRETA OpenClassrooms).
+- **Data Analyst en reconversion vers l’IA** (Certification **RNCP 37837**  – GRETA OpenClassrooms).
 - **25 ans d’expérience en IT** (ESN, Banque, Assurance) : Développement, AMOA Tests et recette, Assistante Pilotage.
 - **Expertise** : **Analyse exploratoire**, **Machine Learning**, **Visualisation**, **Pilotage de projets data**.
 
@@ -68,25 +68,25 @@ Portfolio réalisé avec **Bundle** et **Jekyll**, puis publié via **GitHub Pag
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC01</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Acquérir, nettoyer & gérer données</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;">P6, P8, P13</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">P6, P8, P13, P15 (DuckDB/Parquet)</td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ Validé</td>
     </tr>
     <tr>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC02</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Collecter & analyser données</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;">P9, P10, P11, P12</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">P9, P10, P11, P12, P15 (APIs FT/BMO)</td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ Validé</td>
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC03</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Visualiser & raconter stories data</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;">P9 (Streamlit), P10 (Power BI), P6 (Dashboard)</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">P9 (Streamlit), P10 (Power BI), P6 (Dashboard), P15 (Streamlit/PBI)</td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ Validé</td>
     </tr>
     <tr>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC04</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Piloter projets data & IA</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;">P13 (Gouvernance), P14 (Stage Intermarché)</td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;">P13 (Gouvernance), P14 (Stage Intermarché), P15 (Cadrage BA)</td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">✅ Validé</td>
     </tr>
     <tr style="background-color: #f4f7fb;">
@@ -150,6 +150,12 @@ MON-PORTFOLIO-DATA/
   </thead>
   <tbody>
     <tr style="background-color: #f4f7fb;">
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>P15</strong></td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;">Projet Perso / Observatoire Emploi Data</td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;">DuckDB, Parquet, Power BI, Streamlit</td>
+      <td style="padding: 9px 12px; border: 1px solid #ddd;"><a href="projets/P15_observatoire_emploi_data/">README</a> · <a href="https://8i4kbcfrhfrty7p8ivapeu.streamlit.app/">App Live</a></td>
+    </tr>
+    <tr>
       <td style="padding: 9px 12px; border: 1px solid #ddd;"><strong>P14</strong></td>
       <td style="padding: 9px 12px; border: 1px solid #ddd;">Stage Retail Analytics</td>
       <td style="padding: 9px 12px; border: 1px solid #ddd;">Python, Power BI, Streamlit</td>
@@ -211,6 +217,13 @@ MON-PORTFOLIO-DATA/
   </thead>
   <tbody>
     <tr style="background-color: #f4f7fb; vertical-align: top;">
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>P15</strong><br/>Observatoire Emploi Data & IA</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Projet personnel d'observatoire territorial pour cartographier le marché de l'emploi Data & IA, confronter les offres aux besoins BMO 2026 et auditer la couverture des certifications RNCP.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">1 047 offres unifiées, 119 ROME, socle OLAP DuckDB (43 marts Parquet), détection des faux positifs ROME (G1302/M1423), app Streamlit publique 5 pages et dashboard Power BI.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">BC01, BC02, BC03, BC04<br/>DuckDB OLAP, Parquet, Bridges N:N, Power BI, Streamlit Cloud.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="projets/P15_observatoire_emploi_data/">Synthèse P15</a><br/><a href="https://8i4kbcfrhfrty7p8ivapeu.streamlit.app/">App Streamlit Live</a><br/><a href="https://github.com/ferialzamoun-afk/P15">Dépôt GitHub</a></td>
+    </tr>
+    <tr style="vertical-align: top;">
       <td style="padding: 10px; border: 1px solid #ddd;"><strong>P14</strong><br/>Stage Intermarché</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Mission de stage en retail analytics pour fiabiliser les données d'assortiment et de disponibilité produit, puis alimenter le pilotage opérationnel.</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Pipeline raw/processed, contrôles qualité, analyses de disponibilité et de performance assortiment, restitutions Power BI et Streamlit.</td>
