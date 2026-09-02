@@ -27,7 +27,7 @@ Data Analyst passionnée par la transformation de données en insights actionnab
 - De la note de cadrage à la livraison d'un POC sous Streamlit jusqu'au Dashboard final multi-pages, DataViz et storytelling
 
 **2024 – 2025 (4 mois) · Testeuse Senior / Business Analyst (Réversibilité) — Armée de Terre (Projet SIRH « s'engager.fr »)**
--- Relecture des cas de tests au regard des évolutions de la backlog, suivi des anomalies, exécution des tests sur les fonctionnalités de l'incrément 4
+- Relecture des cas de tests au regard des évolutions de la backlog, suivi des anomalies, exécution des tests sur les fonctionnalités de l'incrément 4
 - Participation aux instances de gouvernance projet : COPIL, COPROJ et COSUI
 
 **2021 – 2024 (3 ans) · PMO et Chargée de Recette — MGEN Technologies (Département PPP)**
