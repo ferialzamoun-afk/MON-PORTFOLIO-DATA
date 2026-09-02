@@ -1,4 +1,4 @@
-﻿# 📊 Data Analyst – Ferial Zamoun ![RNCP](https://img.shields.io/badge/RNCP-37837-blue?style=flat-square) ![Python](https://img.shields.io/badge/Python-ML%20%26%20Data-green?style=flat-square) ![GitHub followers](https://img.shields.io/github/followers/ferialzamoun-afk?style=social) ![Repos](https://img.shields.io/badge/Repos-9-blue) ![Projects](https://img.shields.io/badge/Projects-14-success) ![Jupyter](https://img.shields.io/badge/Notebooks%20Jupyter-15%2B-orange)
+﻿# 📊 Data Analyst – Ferial Zamoun ![RNCP](https://img.shields.io/badge/RNCP-37837-blue?style=flat-square) ![Python](https://img.shields.io/badge/Python-ML%20%26%20Data-green?style=flat-square) ![GitHub followers](https://img.shields.io/github/followers/ferialzamoun-afk?style=social) ![Repos](https://img.shields.io/badge/Repos-10-blue) ![Projects](https://img.shields.io/badge/Projects-15-success) ![Jupyter](https://img.shields.io/badge/Notebooks%20Jupyter-15%2B-orange)
 
 **Transformation de données dispersées en **décisions fiables**, indicateurs actionnables et restitutions partageables.**
 
