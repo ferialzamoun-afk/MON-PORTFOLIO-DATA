@@ -10,13 +10,13 @@
 ---
 
 ## 📋 Sommaire
-- [À Propos](#-à-propos)
+- [👤 À Propos](#-à-propos)
 - [🚀 Démarrage Rapide](#-démarrage-rapide)
-- [Projets Phares](#projets-phares)
+- [🌟 Projets Phares](#projets-phares)
 - [🎓 Couverture RNCP 37837](#-couverture-rncp-37837)
 - [📚 Veille & Ressources](#-veille--ressources)
 - [🔒 Sécurité & Suivi](#-sécurité--suivi)
-- [Liens Utiles](#-liens-utiles)
+- [📌 Liens Utiles](#-liens-utiles)
 
 ---
 ## **👤 À Propos**
