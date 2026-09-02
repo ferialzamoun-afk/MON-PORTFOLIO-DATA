@@ -561,11 +561,6 @@ MON-PORTFOLIO-DATA/
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/">🌐 Site Web Portfolio</a></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Restitution interactive en ligne</td>
     </tr>
-  </tbody>
-</table>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://ferialzamoun-afk.github.io/MON-PORTFOLIO-DATA/">🌐 Github pages</a></td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;">Application interactive</td>
-    </tr>
     <tr>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>Email</strong></td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="mailto:ferial.zamoun@gmail.com">📧 Contact</a></td>
