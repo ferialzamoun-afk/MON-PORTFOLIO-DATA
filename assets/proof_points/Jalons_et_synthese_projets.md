@@ -1,4 +1,4 @@
-# 📋 Proof Points Synthétiques — Projets importants
+# 📋 Projets jalons de la formation 
 
 **Format condensé** pour recruteurs/clients : 1 page par projet avec les 5 piliers essentiels.
 
