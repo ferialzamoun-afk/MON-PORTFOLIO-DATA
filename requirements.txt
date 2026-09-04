@@ -1,0 +1,43 @@
+# Portfolio Data Science - Dépendances Python
+# Installation: python -m pip install -r requirements.txt
+
+# --- Core data stack ---
+numpy>=1.26
+pandas>=2.2
+scipy>=1.13
+
+# --- Visualisation ---
+matplotlib>=3.9
+seaborn>=0.13
+plotly>=5.24
+
+# --- Machine Learning ---
+scikit-learn>=1.5
+imbalanced-learn>=0.12
+xgboost>=2.1
+
+# --- Notebooks / exploration ---
+jupyter>=1.1
+notebook>=7.2
+ipykernel>=6.29
+
+# --- Apps / reporting ---
+streamlit>=1.38
+
+# --- Web scraping / veille ---
+requests>=2.32
+beautifulsoup4>=4.12
+lxml>=5.3
+
+# --- Fichiers / utilitaires ---
+openpyxl>=3.1
+python-dateutil>=2.9
+
+# --- Qualité de code (optionnel mais recommandé) ---
+black>=24.8
+ruff>=0.6
+
+# --- dotenv  ---
+python-dotenv>=1.0
+
+# --- Note : pour la partie Ruby/Bundler, les dépendances restent dans Gemfile (séparé de requirements.txt). ---
