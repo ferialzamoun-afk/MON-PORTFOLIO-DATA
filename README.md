@@ -226,7 +226,7 @@ MON-PORTFOLIO-DATA/
     <tr style="vertical-align: top;">
       <td style="padding: 10px; border: 1px solid #ddd;"><strong>P14</strong><br/>Stage Intermarché</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Mission de stage en retail analytics pour fiabiliser les données d'assortiment et de disponibilité produit, puis alimenter le pilotage opérationnel.</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Pipeline raw/processed, contrôles qualité, analyses de disponibilité et de performance assortiment, restitutions Power BI et Streamlit.</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Lecture des alertes réduite de <strong>3 h à 15 min</strong> : <strong>-91,7 %</strong> de temps, soit <strong>2 h 45 min économisées</strong> et un traitement divisé par 12. KPI : couverture assortiment, disponibilité jour J et ventes/m². Restitutions Power BI et Streamlit.</td>
       <td style="padding: 10px; border: 1px solid #ddd;">BC02, BC03, BC04<br/>ETL, qualité, KPI retail, tableaux de bord, documentation.</td>
       <td style="padding: 10px; border: 1px solid #ddd;"><a href="projets/P14_stage/">Synthèse P14</a><br/><a href="projets/P14_stage/PROOF_POINT.md">Proof point</a></td>
     </tr>
