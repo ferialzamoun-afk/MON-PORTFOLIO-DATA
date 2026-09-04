@@ -1,4 +1,4 @@
-# 🎯 Proof Point : P14 — Stage Intermarché
+# 🎯 Point de preuve : P14 — Stage Intermarché
 
 ## 1️⃣ Contexte
 Le stage vise à documenter des livrables retail autour de la disponibilité produit, de l’assortiment et de la performance opérationnelle.

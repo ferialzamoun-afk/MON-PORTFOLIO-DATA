@@ -116,7 +116,7 @@ Preuve dédiée : [Mission 2 - Réalisation du portfolio](Partie2-%20Valorisatio
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Présenter les résultats</td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Documentation claire à destination des recruteurs et des évaluateurs.</td>
       <td style="padding: 10px 12px; border: 1px solid #ddd;">Partie 2</td>
-      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/assets/proof_points/Jalons_et_synthese_projets.md">README</a></td>
+      <td style="padding: 10px 12px; border: 1px solid #ddd;"><a href="https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/assets/Jalons_Projets/Jalons_et_synthese_projets.md">README</a></td>
     </tr>
     <tr style="background-color: #f4f7fb;">
       <td style="padding: 10px 12px; border: 1px solid #ddd;"><strong>BC04</strong></td>
@@ -175,7 +175,7 @@ L'objectif de la Partie 2 est de **mettre en valeur les projets et les compéten
 ```text
 P13_portfolio/
 ├── README.md
-├── PROOF_POINT.md
+├── POINT_DE_PREUVE.md
 ├── Partie1-Amélioration_P6_IA/
 │   ├── 01_veille_metier_technologique.md
 │   ├── 02_cahier_des_charges_fonctionnel.md

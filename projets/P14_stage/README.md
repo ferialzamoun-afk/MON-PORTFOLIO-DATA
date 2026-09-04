@@ -127,7 +127,7 @@ P14/
 ## 🔗 Points d'entrée utiles
 
 - [Résumé réflexif](resume_bilan_reflexif.md) : retour d'expérience de stage
-- [Proof point stage](PROOF_POINT.md) : synthèse courte du stage
+- [Point de preuve du stage](POINT_DE_PREUVE.md) : synthèse courte du stage
 - [README du stage](README.md) : vue d'ensemble du contexte, de la démarche et des livrables
 
 ---

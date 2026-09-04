@@ -44,7 +44,7 @@ Portfolio réalisé avec **Bundle** et **Jekyll**, puis publié via **GitHub Pag
 - **[🏪 P14 — Stage Intermarché](projets/P14_stage/)** — Analyse retail en contexte professionnel
 - **[📊 Projets Phares](#projets-phares)** — Accès rapide aux 6 projets les plus représentatifs
 - **[🏆 Portfolio Phare P13](projets/P13_portfolio/)** — Gouvernance IA & P6 Bottleneck optimisé
-- **[📄 Jalons et synthèse des projets](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/assets/proof_points/Jalons_et_synthese_projets.md)** — Synthèse par projet avec 5 piliers (Contexte → Données → Démarche → Résultats → Limites)
+- **[📄 Jalons et synthèse des projets](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/assets/Jalons_Projets/Jalons_et_synthese_projets.md)** — Synthèse par projet avec 5 piliers (Contexte → Données → Démarche → Résultats → Limites)
 
 ### **👉 Développeur / Contributeur ?**
 - **[📚 Veille Technologique](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/assets/veille/techno/README.md)** — Tendances data/IA/DevOps avec lettres d'information actuelles
@@ -107,7 +107,7 @@ Portfolio réalisé avec **Bundle** et **Jekyll**, puis publié via **GitHub Pag
 MON-PORTFOLIO-DATA/
 ├── README.md                               # Cette page - Hub principal du portfolio
 ├── _config.yml                             # Configuration Jekyll (GitHub Pages)
-├── assets/                                 # Proof points, synthèse, ressources de navigation
+├── assets/                                 # Points de preuve, synthèse, ressources de navigation
 ├── data/                                   # Données portfolio et exports
 ├── images/                                 # Visuels et captures du hub
 ├── projets/
@@ -228,7 +228,7 @@ MON-PORTFOLIO-DATA/
       <td style="padding: 10px; border: 1px solid #ddd;">Mission de stage en retail analytics pour fiabiliser les données d'assortiment et de disponibilité produit, puis alimenter le pilotage opérationnel.</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Lecture des alertes réduite de <strong>3 h à 15 min</strong> : <strong>-91,7 %</strong> de temps, soit <strong>2 h 45 min économisées</strong> et un traitement divisé par 12. KPI : couverture assortiment, disponibilité jour J et ventes/m². Restitutions Power BI et Streamlit.</td>
       <td style="padding: 10px; border: 1px solid #ddd;">BC02, BC03, BC04<br/>ETL, qualité, KPI retail, tableaux de bord, documentation.</td>
-      <td style="padding: 10px; border: 1px solid #ddd;"><a href="projets/P14_stage/">Synthèse P14</a><br/><a href="projets/P14_stage/PROOF_POINT.md">Proof point</a></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><a href="projets/P14_stage/">Synthèse P14</a><br/><a href="projets/P14_stage/POINT_DE_PREUVE.md">Point de preuve</a></td>
     </tr>
     <tr style="vertical-align: top;">
       <td style="padding: 10px; border: 1px solid #ddd;"><strong>P13</strong><br/>Portfolio & Gouvernance IA</td>

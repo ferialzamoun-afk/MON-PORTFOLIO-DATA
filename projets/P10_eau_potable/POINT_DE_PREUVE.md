@@ -1,4 +1,4 @@
-# 🎯 Proof Point : P10 — Eau potable
+# 🎯 Point de preuve : P10 — Eau potable
 
 ## 1️⃣ Contexte
 Le projet vise à produire un support décisionnel sur l’accès à l’eau potable, la stabilité politique et la mortalité WASH.

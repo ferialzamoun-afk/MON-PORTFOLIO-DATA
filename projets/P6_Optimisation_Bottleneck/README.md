@@ -14,7 +14,7 @@ Ce projet vise à optimiser la gestion des données d’une boutique en croisant
 - Préparer les données pour des analyses avancées (corrélations, Pareto, marges…)
 
 ---
-## 📋 Proof Point : Vue Client/Recruteur
+## 📋 Point de preuve : Vue Client/Recruteur
 
 | Pilier | Résumé |
 |--------|--------|

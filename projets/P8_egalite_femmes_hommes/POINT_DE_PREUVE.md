@@ -1,4 +1,4 @@
-# 🎯 Proof Point : P8 — Égalité Femmes-Hommes
+# 🎯 Point de preuve : P8 — Égalité Femmes-Hommes
 
 ## 1️⃣ Contexte
 Le projet vise à comparer la représentation des étudiants OpenClassrooms à celle de l’INSEE pour identifier des écarts de recrutement et d’inclusion.

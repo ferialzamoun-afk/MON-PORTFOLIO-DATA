@@ -1,4 +1,4 @@
-# 🎯 Proof Point : P12 — Détection de Faux Billets
+# 🎯 Point de preuve : P12 — Détection de Faux Billets
 
 ## 1️⃣ Contexte
 Le projet répond à un besoin ONFM de détection rapide de faux billets pour réduire les faux négatifs et automatiser le tri.

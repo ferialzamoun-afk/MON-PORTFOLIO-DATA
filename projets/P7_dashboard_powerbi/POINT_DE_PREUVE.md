@@ -1,4 +1,4 @@
-# 🎯 Proof Point : P7 — Dashboard Power BI Gouvernance Projets
+# 🎯 Point de preuve : P7 — Dashboard Power BI Gouvernance Projets
 
 ## 1️⃣ Contexte
 SANITORAL avait besoin d’un reporting consolidé pour trois profils décisionnels afin d’arbitrer plus vite les projets et suivre coûts, délais et avancement.

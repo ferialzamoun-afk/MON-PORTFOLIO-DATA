@@ -1,4 +1,4 @@
-# 🎯 Proof Point : P11 — Étude de Marché
+# 🎯 Point de preuve : P11 — Étude de Marché
 
 ## 1️⃣ Contexte
 La mission consistait à prioriser des pays d’export pour des poulets biologiques afin d’orienter la stratégie commerciale.

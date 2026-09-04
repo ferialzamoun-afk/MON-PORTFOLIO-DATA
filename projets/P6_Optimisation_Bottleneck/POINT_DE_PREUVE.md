@@ -1,4 +1,4 @@
-# 🎯 Proof Point : P6 — Optimisation Bottleneck
+# 🎯 Point de preuve : P6 — Optimisation Bottleneck
 
 ## 1️⃣ Contexte
 Bottleneck devait réconcilier trois sources de données (ERP, Web, Liaison) afin de fournir une vue exploitable au CODIR. L’enjeu était de fiabiliser les données et de transformer un livrable exploratoire en support décisionnel.

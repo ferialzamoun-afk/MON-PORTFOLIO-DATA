@@ -1,4 +1,4 @@
-# 🎯 Proof Point : P9 — Librairie Lapage
+# 🎯 Point de preuve : P9 — Librairie Lapage
 
 ## 1️⃣ Contexte
 Lapage devait mieux piloter sa performance commerciale, ses comportements clients et ses livrables de reporting pour le CODIR.

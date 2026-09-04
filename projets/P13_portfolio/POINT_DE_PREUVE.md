@@ -1,4 +1,4 @@
-# 🎯 Proof Point : P13 — Portfolio
+# 🎯 Point de preuve : P13 — Portfolio
 
 ## 1️⃣ Contexte
 Le projet P13 sert à centraliser les preuves de compétences RNCP et à rendre le parcours lisible pour recruteurs et jurys.
