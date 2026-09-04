@@ -44,7 +44,7 @@ Portfolio réalisé avec **Bundle** et **Jekyll**, puis publié via **GitHub Pag
 - **[🏪 P14 — Stage Intermarché](projets/P14_stage/)** — Analyse retail en contexte professionnel
 - **[📊 Projets Phares](#projets-phares)** — Accès rapide aux 6 projets les plus représentatifs
 - **[🏆 Portfolio Phare P13](projets/P13_portfolio/)** — Gouvernance IA & P6 Bottleneck optimisé
-- **[📄 Synthèse des Preuves de Compétences](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/assets/proof_points/PROOF_POINTS_SYNTHESE.md)** — Synthèse par projet avec 5 piliers (Contexte → Données → Démarche → Résultats → Limites)
+- **[📄 Jalons et synthèse des projets](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/assets/proof_points/Jalons_et_synthese_projets.md)** — Synthèse par projet avec 5 piliers (Contexte → Données → Démarche → Résultats → Limites)
 
 ### **👉 Développeur / Contributeur ?**
 - **[📚 Veille Technologique](https://github.com/ferialzamoun-afk/MON-PORTFOLIO-DATA/blob/main/assets/veille/techno/README.md)** — Tendances data/IA/DevOps avec lettres d'information actuelles
